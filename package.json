@@ -1,6 +1,6 @@
 {
   "name": "tcubesa-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM module that provides access to the Track and Trace API",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
