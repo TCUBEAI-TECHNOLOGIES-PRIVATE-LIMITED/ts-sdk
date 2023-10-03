@@ -1,6 +1,6 @@
 import { Packaging, PackagingPaginationResp, PackagingsList, PackagingsSerialsList, PackagingsServiceAddSerialsRequest, PackagingsServiceCreateRequest, PackagingsServiceFilterReq, PackagingsServicePaginationReq, PackagingsServiceSearchAllReq } from "./packagings_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
-import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, URLResponse } from "./base_pb.js";
+import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 /**
  *
  * Describes the methods applicable on each packaging
@@ -154,6 +154,17 @@ export declare const PackagingsService: {
             readonly name: "ViewAsURI";
             readonly I: typeof Identifier;
             readonly O: typeof URLResponse;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View the string that can be used to render the QR code on POS machines
+         *
+         * @generated from rpc tcube.PackagingsService.ViewPrintableString
+         */
+        readonly viewPrintableString: {
+            readonly name: "ViewPrintableString";
+            readonly I: typeof Identifier;
+            readonly O: typeof StringResponse;
             readonly kind: MethodKind.Unary;
         };
         /**

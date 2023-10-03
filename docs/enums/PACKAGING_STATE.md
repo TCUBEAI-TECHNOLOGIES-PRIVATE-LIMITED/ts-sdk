@@ -30,7 +30,7 @@ from enum value: PACKAGING_STATE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/packagings_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L23)
+[src/packagings_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L23)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PACKAGING_STATE_CLOSED = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L37)
+[src/packagings_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L37)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PACKAGING_STATE_OPEN = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L30)
+[src/packagings_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L30)

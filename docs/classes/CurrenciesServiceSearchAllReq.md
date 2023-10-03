@@ -67,7 +67,7 @@ Message&lt;CurrenciesServiceSearchAllReq\&gt;.constructor
 
 #### Defined in
 
-[src/currencies_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L596)
+[src/currencies_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L596)
 
 ## Properties
 
@@ -83,7 +83,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/currencies_pb.ts:566](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L566)
+[src/currencies_pb.ts:566](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L566)
 
 ___
 
@@ -99,7 +99,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/currencies_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L559)
+[src/currencies_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L559)
 
 ___
 
@@ -115,7 +115,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/currencies_pb.ts:573](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L573)
+[src/currencies_pb.ts:573](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L573)
 
 ___
 
@@ -131,7 +131,7 @@ from field: string search_key = 11;
 
 #### Defined in
 
-[src/currencies_pb.ts:594](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L594)
+[src/currencies_pb.ts:594](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L594)
 
 ___
 
@@ -147,7 +147,7 @@ from field: tcube.CURRENCY_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/currencies_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L587)
+[src/currencies_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L587)
 
 ___
 
@@ -163,7 +163,7 @@ from field: tcube.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/currencies_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L580)
+[src/currencies_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L580)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L603)
+[src/currencies_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L603)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:601](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L601)
+[src/currencies_pb.ts:601](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L601)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:602](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L602)
+[src/currencies_pb.ts:602](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L602)
 
 ## Methods
 
@@ -480,7 +480,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:624](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L624)
+[src/currencies_pb.ts:624](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L624)
 
 ___
 
@@ -501,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:612](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L612)
+[src/currencies_pb.ts:612](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L612)
 
 ___
 
@@ -522,7 +522,7 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:616](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L616)
+[src/currencies_pb.ts:616](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L616)
 
 ___
 
@@ -543,4 +543,4 @@ ___
 
 #### Defined in
 
-[src/currencies_pb.ts:620](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/currencies_pb.ts#L620)
+[src/currencies_pb.ts:620](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_pb.ts#L620)

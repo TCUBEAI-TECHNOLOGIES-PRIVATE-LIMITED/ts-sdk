@@ -320,6 +320,34 @@ export declare class ActiveInLocationRequest extends Message<ActiveInLocationReq
 }
 /**
  *
+ * Describes the status of the records returned to a request specific to a product
+ *
+ * @generated from message tcube.ActiveForProductRequest
+ */
+export declare class ActiveForProductRequest extends Message<ActiveForProductRequest> {
+    /**
+     * Denotes if only active records need to be returned
+     *
+     * @generated from field: bool is_active = 1;
+     */
+    isActive: boolean;
+    /**
+     * Stores the product UUID and limits the query to the appropriate product
+     *
+     * @generated from field: string product_uuid = 2;
+     */
+    productUuid: string;
+    constructor(data?: PartialMessage<ActiveForProductRequest>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "tcube.ActiveForProductRequest";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveForProductRequest;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveForProductRequest;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): ActiveForProductRequest;
+    static equals(a: ActiveForProductRequest | PlainMessage<ActiveForProductRequest> | undefined, b: ActiveForProductRequest | PlainMessage<ActiveForProductRequest> | undefined): boolean;
+}
+/**
+ *
  * Describes the payload for a request to determine the count of records
  *
  * @generated from message tcube.CountRequest
@@ -398,6 +426,34 @@ export declare class CountInLocationRequest extends Message<CountInLocationReque
 }
 /**
  *
+ * Describes the payload for a request to determine the count of records within a specific product
+ *
+ * @generated from message tcube.CountForProductRequest
+ */
+export declare class CountForProductRequest extends Message<CountForProductRequest> {
+    /**
+     * Denotes if only active records need to be returned
+     *
+     * @generated from field: bool is_active = 1;
+     */
+    isActive: boolean;
+    /**
+     * Stores the product UUID and limits the query to the appropriate product
+     *
+     * @generated from field: string product_uuid = 2;
+     */
+    productUuid: string;
+    constructor(data?: PartialMessage<CountForProductRequest>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "tcube.CountForProductRequest";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountForProductRequest;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountForProductRequest;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): CountForProductRequest;
+    static equals(a: CountForProductRequest | PlainMessage<CountForProductRequest> | undefined, b: CountForProductRequest | PlainMessage<CountForProductRequest> | undefined): boolean;
+}
+/**
+ *
  * Describes the count response
  *
  * @generated from message tcube.CountResponse
@@ -417,6 +473,28 @@ export declare class CountResponse extends Message<CountResponse> {
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountResponse;
     static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): CountResponse;
     static equals(a: CountResponse | PlainMessage<CountResponse> | undefined, b: CountResponse | PlainMessage<CountResponse> | undefined): boolean;
+}
+/**
+ *
+ * Describes a string response
+ *
+ * @generated from message tcube.StringResponse
+ */
+export declare class StringResponse extends Message<StringResponse> {
+    /**
+     * Stores the message
+     *
+     * @generated from field: string value = 1;
+     */
+    value: string;
+    constructor(data?: PartialMessage<StringResponse>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "tcube.StringResponse";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): StringResponse;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): StringResponse;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): StringResponse;
+    static equals(a: StringResponse | PlainMessage<StringResponse> | undefined, b: StringResponse | PlainMessage<StringResponse> | undefined): boolean;
 }
 /**
  *

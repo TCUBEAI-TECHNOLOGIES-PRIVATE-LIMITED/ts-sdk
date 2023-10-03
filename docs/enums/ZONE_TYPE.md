@@ -31,7 +31,7 @@ from enum value: ZONE_TYPE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/zones_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L22)
+[src/zones_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L22)
 
 ___
 
@@ -47,7 +47,7 @@ from enum value: ZONE_TYPE_MANUFACTURING = 1;
 
 #### Defined in
 
-[src/zones_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L29)
+[src/zones_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L29)
 
 ___
 
@@ -63,7 +63,7 @@ from enum value: ZONE_TYPE_PACKAGING = 2;
 
 #### Defined in
 
-[src/zones_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L36)
+[src/zones_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L36)
 
 ___
 
@@ -79,4 +79,4 @@ from enum value: ZONE_TYPE_SHIPPING = 3;
 
 #### Defined in
 
-[src/zones_pb.ts:43](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L43)
+[src/zones_pb.ts:43](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L43)

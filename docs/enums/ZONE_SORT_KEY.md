@@ -32,7 +32,7 @@ from enum value: ZONE_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/zones_pb.ts:93](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L93)
+[src/zones_pb.ts:93](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L93)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: ZONE_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/zones_pb.ts:72](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L72)
+[src/zones_pb.ts:72](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L72)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: ZONE_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/zones_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L65)
+[src/zones_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L65)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: ZONE_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/zones_pb.ts:79](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L79)
+[src/zones_pb.ts:79](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L79)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: ZONE_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/zones_pb.ts:86](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L86)
+[src/zones_pb.ts:86](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L86)

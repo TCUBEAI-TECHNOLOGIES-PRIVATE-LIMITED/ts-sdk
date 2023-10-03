@@ -66,7 +66,7 @@ Message&lt;RolesServiceCreateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/roles_pb.ts:393](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L393)
+[src/roles_pb.ts:393](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L393)
 
 ## Properties
 
@@ -82,7 +82,7 @@ from field: repeated tcube.RolesServiceAccessCreateAndUpdateRequest access_list 
 
 #### Defined in
 
-[src/roles_pb.ts:391](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L391)
+[src/roles_pb.ts:391](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L391)
 
 ___
 
@@ -98,7 +98,7 @@ from field: string code = 11;
 
 #### Defined in
 
-[src/roles_pb.ts:377](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L377)
+[src/roles_pb.ts:377](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L377)
 
 ___
 
@@ -114,7 +114,7 @@ from field: string description = 12;
 
 #### Defined in
 
-[src/roles_pb.ts:384](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L384)
+[src/roles_pb.ts:384](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L384)
 
 ___
 
@@ -130,7 +130,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/roles_pb.ts:370](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L370)
+[src/roles_pb.ts:370](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L370)
 
 ___
 
@@ -146,7 +146,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/roles_pb.ts:363](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L363)
+[src/roles_pb.ts:363](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L363)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:400](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L400)
+[src/roles_pb.ts:400](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L400)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:398](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L398)
+[src/roles_pb.ts:398](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L398)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:399](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L399)
+[src/roles_pb.ts:399](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L399)
 
 ## Methods
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:420](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L420)
+[src/roles_pb.ts:420](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L420)
 
 ___
 
@@ -484,7 +484,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:408](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L408)
+[src/roles_pb.ts:408](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L408)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:412](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L412)
+[src/roles_pb.ts:412](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L412)
 
 ___
 
@@ -526,4 +526,4 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:416](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/roles_pb.ts#L416)
+[src/roles_pb.ts:416](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_pb.ts#L416)

@@ -62,7 +62,7 @@ Message&lt;ZonesList\&gt;.constructor
 
 #### Defined in
 
-[src/zones_pb.ts:380](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L380)
+[src/zones_pb.ts:380](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L380)
 
 ## Properties
 
@@ -78,7 +78,7 @@ from field: repeated tcube.Zone list = 1;
 
 #### Defined in
 
-[src/zones_pb.ts:378](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L378)
+[src/zones_pb.ts:378](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L378)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:387](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L387)
+[src/zones_pb.ts:387](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L387)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:385](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L385)
+[src/zones_pb.ts:385](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L385)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:386](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L386)
+[src/zones_pb.ts:386](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L386)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:403](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L403)
+[src/zones_pb.ts:403](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L403)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:391](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L391)
+[src/zones_pb.ts:391](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L391)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:395](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L395)
+[src/zones_pb.ts:395](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L395)
 
 ___
 
@@ -458,4 +458,4 @@ ___
 
 #### Defined in
 
-[src/zones_pb.ts:399](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/zones_pb.ts#L399)
+[src/zones_pb.ts:399](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_pb.ts#L399)

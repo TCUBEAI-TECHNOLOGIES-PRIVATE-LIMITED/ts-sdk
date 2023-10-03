@@ -30,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_ALL = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:72](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L72)
+[src/packagings_pb.ts:72](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L72)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/packagings_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L58)
+[src/packagings_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L58)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_URI = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/packagings_pb.ts#L65)
+[src/packagings_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_pb.ts#L65)

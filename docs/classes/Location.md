@@ -66,7 +66,7 @@ Message&lt;Location\&gt;.constructor
 
 #### Defined in
 
-[src/locations_pb.ts:251](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L251)
+[src/locations_pb.ts:251](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L251)
 
 ## Properties
 
@@ -82,7 +82,7 @@ from field: string code = 11;
 
 #### Defined in
 
-[src/locations_pb.ts:242](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L242)
+[src/locations_pb.ts:242](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L242)
 
 ___
 
@@ -98,7 +98,7 @@ from field: string description = 12;
 
 #### Defined in
 
-[src/locations_pb.ts:249](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L249)
+[src/locations_pb.ts:249](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L249)
 
 ___
 
@@ -114,7 +114,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/locations_pb.ts:228](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L228)
+[src/locations_pb.ts:228](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L228)
 
 ___
 
@@ -130,7 +130,7 @@ from field: tcube.Metadata metadata = 1;
 
 #### Defined in
 
-[src/locations_pb.ts:221](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L221)
+[src/locations_pb.ts:221](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L221)
 
 ___
 
@@ -146,7 +146,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/locations_pb.ts:235](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L235)
+[src/locations_pb.ts:235](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L235)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:258](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L258)
+[src/locations_pb.ts:258](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L258)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:256](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L256)
+[src/locations_pb.ts:256](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L256)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:257](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L257)
+[src/locations_pb.ts:257](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L257)
 
 ## Methods
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:278](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L278)
+[src/locations_pb.ts:278](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L278)
 
 ___
 
@@ -484,7 +484,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:266](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L266)
+[src/locations_pb.ts:266](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L266)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:270](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L270)
+[src/locations_pb.ts:270](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L270)
 
 ___
 
@@ -526,4 +526,4 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:274](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/locations_pb.ts#L274)
+[src/locations_pb.ts:274](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_pb.ts#L274)

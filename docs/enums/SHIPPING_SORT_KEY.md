@@ -32,7 +32,7 @@ from enum value: SHIPPING_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/shippings_pb.ts:120](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L120)
+[src/shippings_pb.ts:120](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L120)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: SHIPPING_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:99](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L99)
+[src/shippings_pb.ts:99](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L99)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: SHIPPING_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:92](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L92)
+[src/shippings_pb.ts:92](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L92)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: SHIPPING_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:106](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L106)
+[src/shippings_pb.ts:106](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L106)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: SHIPPING_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/shippings_pb.ts:113](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L113)
+[src/shippings_pb.ts:113](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L113)

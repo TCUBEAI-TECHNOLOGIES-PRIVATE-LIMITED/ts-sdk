@@ -1,0 +1,125 @@
+import { Printer, PrinterPaginationResp, PrintersList, PrintersServiceCreateRequest, PrintersServiceFilterReq, PrintersServicePaginationReq, PrintersServiceSearchAllReq, PrintersServiceUpdateRequest } from "./printers_pb.js";
+import { MethodKind } from "@bufbuild/protobuf";
+import { ActiveInEntityRequest, CountInLocationRequest, CountResponse, Identifier, IdentifierWithUserComment } from "./base_pb.js";
+/**
+ *
+ * Describes the methods applicable on each printer
+ *
+ * @generated from service tcube.PrintersService
+ */
+export declare const PrintersService: {
+    readonly typeName: "tcube.PrintersService";
+    readonly methods: {
+        /**
+         * Create a printer
+         *
+         * @generated from rpc tcube.PrintersService.Create
+         */
+        readonly create: {
+            readonly name: "Create";
+            readonly I: typeof PrintersServiceCreateRequest;
+            readonly O: typeof Printer;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * Update a printer
+         *
+         * @generated from rpc tcube.PrintersService.Update
+         */
+        readonly update: {
+            readonly name: "Update";
+            readonly I: typeof PrintersServiceUpdateRequest;
+            readonly O: typeof Printer;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * Archive the printer
+         *
+         * @generated from rpc tcube.PrintersService.Archive
+         */
+        readonly archive: {
+            readonly name: "Archive";
+            readonly I: typeof IdentifierWithUserComment;
+            readonly O: typeof Identifier;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * Restore the printer
+         *
+         * @generated from rpc tcube.PrintersService.Restore
+         */
+        readonly restore: {
+            readonly name: "Restore";
+            readonly I: typeof IdentifierWithUserComment;
+            readonly O: typeof Identifier;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View by UUID
+         *
+         * @generated from rpc tcube.PrintersService.ViewByUUID
+         */
+        readonly viewByUUID: {
+            readonly name: "ViewByUUID";
+            readonly I: typeof Identifier;
+            readonly O: typeof Printer;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View all printers
+         *
+         * @generated from rpc tcube.PrintersService.ViewAll
+         */
+        readonly viewAll: {
+            readonly name: "ViewAll";
+            readonly I: typeof ActiveInEntityRequest;
+            readonly O: typeof PrintersList;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View printers with pagination
+         *
+         * @generated from rpc tcube.PrintersService.ViewWithPagination
+         */
+        readonly viewWithPagination: {
+            readonly name: "ViewWithPagination";
+            readonly I: typeof PrintersServicePaginationReq;
+            readonly O: typeof PrinterPaginationResp;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View all that match the given search key
+         *
+         * @generated from rpc tcube.PrintersService.SearchAll
+         */
+        readonly searchAll: {
+            readonly name: "SearchAll";
+            readonly I: typeof PrintersServiceSearchAllReq;
+            readonly O: typeof PrintersList;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * View all that match the given filter criteria
+         *
+         * @generated from rpc tcube.PrintersService.Filter
+         */
+        readonly filter: {
+            readonly name: "Filter";
+            readonly I: typeof PrintersServiceFilterReq;
+            readonly O: typeof PrintersList;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
+         * Count
+         *
+         * @generated from rpc tcube.PrintersService.Count
+         */
+        readonly count: {
+            readonly name: "Count";
+            readonly I: typeof CountInLocationRequest;
+            readonly O: typeof CountResponse;
+            readonly kind: MethodKind.Unary;
+        };
+    };
+};
+//# sourceMappingURL=printers_connect.d.ts.map

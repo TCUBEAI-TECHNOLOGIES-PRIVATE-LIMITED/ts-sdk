@@ -22,6 +22,7 @@ from message tcube.ShippingPackaging
 
 ### Properties
 
+- [customerUuid](ShippingPackaging.md#customeruuid)
 - [entityUuid](ShippingPackaging.md#entityuuid)
 - [latitude](ShippingPackaging.md#latitude)
 - [locationUuid](ShippingPackaging.md#locationuuid)
@@ -69,9 +70,25 @@ Message&lt;ShippingPackaging\&gt;.constructor
 
 #### Defined in
 
-[src/shippings_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L596)
+[src/shippings_pb.ts:619](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L619)
 
 ## Properties
+
+### customerUuid
+
+• **customerUuid**: `string` = `""`
+
+UUID of the customer
+
+**`Generated`**
+
+from field: string customer_uuid = 7;
+
+#### Defined in
+
+[src/shippings_pb.ts:575](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L575)
+
+___
 
 ### entityUuid
 
@@ -85,7 +102,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:552](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L552)
+[src/shippings_pb.ts:568](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L568)
 
 ___
 
@@ -101,7 +118,7 @@ from field: double latitude = 12;
 
 #### Defined in
 
-[src/shippings_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L587)
+[src/shippings_pb.ts:610](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L610)
 
 ___
 
@@ -117,7 +134,7 @@ from field: string location_uuid = 8;
 
 #### Defined in
 
-[src/shippings_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L559)
+[src/shippings_pb.ts:582](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L582)
 
 ___
 
@@ -133,7 +150,7 @@ from field: double longitude = 13;
 
 #### Defined in
 
-[src/shippings_pb.ts:594](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L594)
+[src/shippings_pb.ts:617](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L617)
 
 ___
 
@@ -149,7 +166,7 @@ from field: tcube.Metadata metadata = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:545](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L545)
+[src/shippings_pb.ts:561](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L561)
 
 ___
 
@@ -165,7 +182,7 @@ from field: string packaging_uuid = 11;
 
 #### Defined in
 
-[src/shippings_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L580)
+[src/shippings_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L603)
 
 ___
 
@@ -181,7 +198,7 @@ from field: string shipping_uuid = 10;
 
 #### Defined in
 
-[src/shippings_pb.ts:573](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L573)
+[src/shippings_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L596)
 
 ___
 
@@ -197,7 +214,7 @@ from field: string zone_uuid = 9;
 
 #### Defined in
 
-[src/shippings_pb.ts:566](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L566)
+[src/shippings_pb.ts:589](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L589)
 
 ___
 
@@ -207,7 +224,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L603)
+[src/shippings_pb.ts:626](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L626)
 
 ___
 
@@ -217,7 +234,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:601](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L601)
+[src/shippings_pb.ts:624](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L624)
 
 ___
 
@@ -227,7 +244,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:602](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L602)
+[src/shippings_pb.ts:625](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L625)
 
 ## Methods
 
@@ -514,7 +531,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:626](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L626)
+[src/shippings_pb.ts:650](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L650)
 
 ___
 
@@ -535,7 +552,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:614](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L614)
+[src/shippings_pb.ts:638](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L638)
 
 ___
 
@@ -556,7 +573,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:618](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L618)
+[src/shippings_pb.ts:642](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L642)
 
 ___
 
@@ -577,4 +594,4 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:622](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L622)
+[src/shippings_pb.ts:646](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L646)

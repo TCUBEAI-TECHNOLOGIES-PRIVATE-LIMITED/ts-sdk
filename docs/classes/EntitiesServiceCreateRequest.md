@@ -75,7 +75,7 @@ Message&lt;EntitiesServiceCreateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/entities_pb.ts:172](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L172)
+[src/entities_pb.ts:172](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L172)
 
 ## Properties
 
@@ -91,7 +91,7 @@ from field: string address = 17;
 
 #### Defined in
 
-[src/entities_pb.ts:115](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L115)
+[src/entities_pb.ts:115](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L115)
 
 ___
 
@@ -107,7 +107,7 @@ from field: string city = 18;
 
 #### Defined in
 
-[src/entities_pb.ts:122](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L122)
+[src/entities_pb.ts:122](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L122)
 
 ___
 
@@ -123,7 +123,7 @@ from field: string description = 14;
 
 #### Defined in
 
-[src/entities_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L94)
+[src/entities_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L94)
 
 ___
 
@@ -139,7 +139,7 @@ from field: string domain = 21;
 
 #### Defined in
 
-[src/entities_pb.ts:143](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L143)
+[src/entities_pb.ts:143](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L143)
 
 ___
 
@@ -155,7 +155,7 @@ from field: string email = 15;
 
 #### Defined in
 
-[src/entities_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L101)
+[src/entities_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L101)
 
 ___
 
@@ -171,7 +171,7 @@ from field: string first_name = 30;
 
 #### Defined in
 
-[src/entities_pb.ts:150](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L150)
+[src/entities_pb.ts:150](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L150)
 
 ___
 
@@ -187,7 +187,7 @@ from field: string global_identifier = 11;
 
 #### Defined in
 
-[src/entities_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L87)
+[src/entities_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L87)
 
 ___
 
@@ -209,7 +209,7 @@ from field: string last_name = 31;
 
 #### Defined in
 
-[src/entities_pb.ts:163](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L163)
+[src/entities_pb.ts:163](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L163)
 
 ___
 
@@ -225,7 +225,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/entities_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L80)
+[src/entities_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L80)
 
 ___
 
@@ -241,7 +241,7 @@ from field: string phone = 16;
 
 #### Defined in
 
-[src/entities_pb.ts:108](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L108)
+[src/entities_pb.ts:108](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L108)
 
 ___
 
@@ -257,7 +257,7 @@ from field: string role_uuid = 40;
 
 #### Defined in
 
-[src/entities_pb.ts:170](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L170)
+[src/entities_pb.ts:170](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L170)
 
 ___
 
@@ -273,7 +273,7 @@ from field: string state = 19;
 
 #### Defined in
 
-[src/entities_pb.ts:129](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L129)
+[src/entities_pb.ts:129](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L129)
 
 ___
 
@@ -289,7 +289,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/entities_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L73)
+[src/entities_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L73)
 
 ___
 
@@ -305,7 +305,7 @@ from field: string zip_code = 20;
 
 #### Defined in
 
-[src/entities_pb.ts:136](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L136)
+[src/entities_pb.ts:136](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L136)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:179](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L179)
+[src/entities_pb.ts:179](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L179)
 
 ___
 
@@ -325,7 +325,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:177](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L177)
+[src/entities_pb.ts:177](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L177)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:178](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L178)
+[src/entities_pb.ts:178](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L178)
 
 ## Methods
 
@@ -622,7 +622,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:208](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L208)
+[src/entities_pb.ts:208](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L208)
 
 ___
 
@@ -643,7 +643,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:196](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L196)
+[src/entities_pb.ts:196](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L196)
 
 ___
 
@@ -664,7 +664,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:200](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L200)
+[src/entities_pb.ts:200](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L200)
 
 ___
 
@@ -685,4 +685,4 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:204](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/entities_pb.ts#L204)
+[src/entities_pb.ts:204](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_pb.ts#L204)

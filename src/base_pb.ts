@@ -547,6 +547,56 @@ export class ActiveInLocationRequest extends Message<ActiveInLocationRequest> {
 
 /**
  *
+ * Describes the status of the records returned to a request specific to a product
+ *
+ * @generated from message tcube.ActiveForProductRequest
+ */
+export class ActiveForProductRequest extends Message<ActiveForProductRequest> {
+  /**
+   * Denotes if only active records need to be returned
+   *
+   * @generated from field: bool is_active = 1;
+   */
+  isActive = false;
+
+  /**
+   * Stores the product UUID and limits the query to the appropriate product
+   *
+   * @generated from field: string product_uuid = 2;
+   */
+  productUuid = "";
+
+  constructor(data?: PartialMessage<ActiveForProductRequest>) {
+    super();
+    proto3.util.initPartial(data, this);
+  }
+
+  static readonly runtime: typeof proto3 = proto3;
+  static readonly typeName = "tcube.ActiveForProductRequest";
+  static readonly fields: FieldList = proto3.util.newFieldList(() => [
+    { no: 1, name: "is_active", kind: "scalar", T: 8 /* ScalarType.BOOL */ },
+    { no: 2, name: "product_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+  ]);
+
+  static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveForProductRequest {
+    return new ActiveForProductRequest().fromBinary(bytes, options);
+  }
+
+  static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveForProductRequest {
+    return new ActiveForProductRequest().fromJson(jsonValue, options);
+  }
+
+  static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): ActiveForProductRequest {
+    return new ActiveForProductRequest().fromJsonString(jsonString, options);
+  }
+
+  static equals(a: ActiveForProductRequest | PlainMessage<ActiveForProductRequest> | undefined, b: ActiveForProductRequest | PlainMessage<ActiveForProductRequest> | undefined): boolean {
+    return proto3.util.equals(ActiveForProductRequest, a, b);
+  }
+}
+
+/**
+ *
  * Describes the payload for a request to determine the count of records
  *
  * @generated from message tcube.CountRequest
@@ -689,6 +739,56 @@ export class CountInLocationRequest extends Message<CountInLocationRequest> {
 
 /**
  *
+ * Describes the payload for a request to determine the count of records within a specific product
+ *
+ * @generated from message tcube.CountForProductRequest
+ */
+export class CountForProductRequest extends Message<CountForProductRequest> {
+  /**
+   * Denotes if only active records need to be returned
+   *
+   * @generated from field: bool is_active = 1;
+   */
+  isActive = false;
+
+  /**
+   * Stores the product UUID and limits the query to the appropriate product
+   *
+   * @generated from field: string product_uuid = 2;
+   */
+  productUuid = "";
+
+  constructor(data?: PartialMessage<CountForProductRequest>) {
+    super();
+    proto3.util.initPartial(data, this);
+  }
+
+  static readonly runtime: typeof proto3 = proto3;
+  static readonly typeName = "tcube.CountForProductRequest";
+  static readonly fields: FieldList = proto3.util.newFieldList(() => [
+    { no: 1, name: "is_active", kind: "scalar", T: 8 /* ScalarType.BOOL */ },
+    { no: 2, name: "product_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+  ]);
+
+  static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountForProductRequest {
+    return new CountForProductRequest().fromBinary(bytes, options);
+  }
+
+  static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountForProductRequest {
+    return new CountForProductRequest().fromJson(jsonValue, options);
+  }
+
+  static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): CountForProductRequest {
+    return new CountForProductRequest().fromJsonString(jsonString, options);
+  }
+
+  static equals(a: CountForProductRequest | PlainMessage<CountForProductRequest> | undefined, b: CountForProductRequest | PlainMessage<CountForProductRequest> | undefined): boolean {
+    return proto3.util.equals(CountForProductRequest, a, b);
+  }
+}
+
+/**
+ *
  * Describes the count response
  *
  * @generated from message tcube.CountResponse
@@ -726,6 +826,48 @@ export class CountResponse extends Message<CountResponse> {
 
   static equals(a: CountResponse | PlainMessage<CountResponse> | undefined, b: CountResponse | PlainMessage<CountResponse> | undefined): boolean {
     return proto3.util.equals(CountResponse, a, b);
+  }
+}
+
+/**
+ *
+ * Describes a string response
+ *
+ * @generated from message tcube.StringResponse
+ */
+export class StringResponse extends Message<StringResponse> {
+  /**
+   * Stores the message
+   *
+   * @generated from field: string value = 1;
+   */
+  value = "";
+
+  constructor(data?: PartialMessage<StringResponse>) {
+    super();
+    proto3.util.initPartial(data, this);
+  }
+
+  static readonly runtime: typeof proto3 = proto3;
+  static readonly typeName = "tcube.StringResponse";
+  static readonly fields: FieldList = proto3.util.newFieldList(() => [
+    { no: 1, name: "value", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+  ]);
+
+  static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): StringResponse {
+    return new StringResponse().fromBinary(bytes, options);
+  }
+
+  static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): StringResponse {
+    return new StringResponse().fromJson(jsonValue, options);
+  }
+
+  static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): StringResponse {
+    return new StringResponse().fromJsonString(jsonString, options);
+  }
+
+  static equals(a: StringResponse | PlainMessage<StringResponse> | undefined, b: StringResponse | PlainMessage<StringResponse> | undefined): boolean {
+    return proto3.util.equals(StringResponse, a, b);
   }
 }
 

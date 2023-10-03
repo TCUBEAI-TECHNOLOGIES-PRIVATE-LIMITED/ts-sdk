@@ -4,7 +4,7 @@
 // @ts-nocheck
 
 import { Serial, SerialActivitiesList, SerialPaginationResp, SerialsList, SerialsServiceAnalyticsGroupByStateRequest, SerialsServiceCommissionBulkRequest, SerialsServiceFilterReq, SerialsServicePaginationReq, SerialsServiceRegisterActivityRequest, SerialsServiceSearchAllReq, SerialsServiceStateAndCountMessageList, ViewSerialActivitiesRequest } from "./serials_pb.js";
-import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, URLResponse } from "./base_pb.js";
+import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 
 /**
@@ -195,6 +195,17 @@ export const SerialsService = {
       name: "ViewAsURI",
       I: Identifier,
       O: URLResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * View the string that can be used to render the QR code on POS machines
+     *
+     * @generated from rpc tcube.SerialsService.ViewPrintableString
+     */
+    viewPrintableString: {
+      name: "ViewPrintableString",
+      I: Identifier,
+      O: StringResponse,
       kind: MethodKind.Unary,
     },
     /**

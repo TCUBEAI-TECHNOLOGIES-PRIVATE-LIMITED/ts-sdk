@@ -29,7 +29,7 @@ from enum value: INFERRED_FROM_IP_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/scans_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/scans_pb.ts#L22)
+[src/scans_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/scans_pb.ts#L22)
 
 ___
 
@@ -45,4 +45,4 @@ from enum value: INFERRED_FROM_USER = 1;
 
 #### Defined in
 
-[src/scans_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/scans_pb.ts#L29)
+[src/scans_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/scans_pb.ts#L29)

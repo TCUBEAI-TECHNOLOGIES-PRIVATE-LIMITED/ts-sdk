@@ -39,7 +39,13 @@ export declare enum PRINT_ENCODING_TYPE_FOR_PRODUCT {
      *
      * @generated from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI = 1;
      */
-    PRINT_ENCODING_TYPE_FOR_PRODUCT_URI = 1
+    PRINT_ENCODING_TYPE_FOR_PRODUCT_URI = 1,
+    /**
+     * Generate the code as a short URI
+     *
+     * @generated from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI_SHORT = 2;
+     */
+    PRINT_ENCODING_TYPE_FOR_PRODUCT_URI_SHORT = 2
 }
 /**
  *
@@ -53,7 +59,19 @@ export declare enum PRINT_PAPER_SIZE {
      *
      * @generated from enum value: A4_UNSPECIFIED = 0;
      */
-    A4_UNSPECIFIED = 0
+    A4_UNSPECIFIED = 0,
+    /**
+     * Print the batch on an 80mm wide thermal printer
+     *
+     * @generated from enum value: WIDTH_80MM = 1;
+     */
+    WIDTH_80MM = 1,
+    /**
+     * Print the batch on a 58mm wide thermal printer
+     *
+     * @generated from enum value: WIDTH_58MM = 2;
+     */
+    WIDTH_58MM = 2
 }
 /**
  *

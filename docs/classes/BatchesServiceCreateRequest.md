@@ -68,7 +68,7 @@ Message&lt;BatchesServiceCreateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/batches_pb.ts:128](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L128)
+[src/batches_pb.ts:128](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L128)
 
 ## Properties
 
@@ -84,7 +84,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/batches_pb.ts:89](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L89)
+[src/batches_pb.ts:89](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L89)
 
 ___
 
@@ -100,7 +100,7 @@ from field: string internal_code = 13;
 
 #### Defined in
 
-[src/batches_pb.ts:126](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L126)
+[src/batches_pb.ts:126](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L126)
 
 ___
 
@@ -116,7 +116,7 @@ from field: string location_uuid = 8;
 
 #### Defined in
 
-[src/batches_pb.ts:96](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L96)
+[src/batches_pb.ts:96](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L96)
 
 ___
 
@@ -132,7 +132,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/batches_pb.ts:110](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L110)
+[src/batches_pb.ts:110](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L110)
 
 ___
 
@@ -148,7 +148,7 @@ from field: string product_uuid = 9;
 
 #### Defined in
 
-[src/batches_pb.ts:103](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L103)
+[src/batches_pb.ts:103](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L103)
 
 ___
 
@@ -166,7 +166,7 @@ from field: int64 quantity = 12;
 
 #### Defined in
 
-[src/batches_pb.ts:119](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L119)
+[src/batches_pb.ts:119](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L119)
 
 ___
 
@@ -182,7 +182,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/batches_pb.ts:82](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L82)
+[src/batches_pb.ts:82](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L82)
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:135](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L135)
+[src/batches_pb.ts:135](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L135)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:133](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L133)
+[src/batches_pb.ts:133](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L133)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:134](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L134)
+[src/batches_pb.ts:134](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L134)
 
 ## Methods
 
@@ -499,7 +499,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:157](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L157)
+[src/batches_pb.ts:157](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L157)
 
 ___
 
@@ -520,7 +520,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:145](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L145)
+[src/batches_pb.ts:145](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L145)
 
 ___
 
@@ -541,7 +541,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:149](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L149)
+[src/batches_pb.ts:149](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L149)
 
 ___
 
@@ -562,4 +562,4 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:153](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/batches_pb.ts#L153)
+[src/batches_pb.ts:153](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_pb.ts#L153)

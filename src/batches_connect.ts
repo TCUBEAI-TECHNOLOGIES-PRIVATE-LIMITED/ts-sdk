@@ -152,6 +152,17 @@ export const BatchesService = {
       kind: MethodKind.Unary,
     },
     /**
+     * Download all the serials (in the given state) within the batch as a single image
+     *
+     * @generated from rpc tcube.BatchesService.DownloadSerialsAsImage
+     */
+    downloadSerialsAsImage: {
+      name: "DownloadSerialsAsImage",
+      I: BatchIdentifierWithSerialState,
+      O: FileResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
      * View all that match the given search key
      *
      * @generated from rpc tcube.BatchesService.SearchAll

@@ -150,6 +150,13 @@ export class ShippingsServiceCreateRequest extends Message<ShippingsServiceCreat
   entityUuid = "";
 
   /**
+   * UUID of the customer
+   *
+   * @generated from field: string customer_uuid = 7;
+   */
+  customerUuid = "";
+
+  /**
    * UUID of the location
    *
    * @generated from field: string location_uuid = 8;
@@ -215,6 +222,7 @@ export class ShippingsServiceCreateRequest extends Message<ShippingsServiceCreat
   static readonly fields: FieldList = proto3.util.newFieldList(() => [
     { no: 1, name: "user_comment", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 2, name: "entity_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+    { no: 7, name: "customer_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 8, name: "location_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 9, name: "zone_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 10, name: "name", kind: "scalar", T: 9 /* ScalarType.STRING */ },
@@ -262,6 +270,13 @@ export class Shipping extends Message<Shipping> {
    * @generated from field: string entity_uuid = 2;
    */
   entityUuid = "";
+
+  /**
+   * UUID of the customer
+   *
+   * @generated from field: string customer_uuid = 7;
+   */
+  customerUuid = "";
 
   /**
    * UUID of the location
@@ -343,6 +358,7 @@ export class Shipping extends Message<Shipping> {
   static readonly fields: FieldList = proto3.util.newFieldList(() => [
     { no: 1, name: "metadata", kind: "message", T: Metadata },
     { no: 2, name: "entity_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+    { no: 7, name: "customer_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 8, name: "location_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 9, name: "zone_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 10, name: "name", kind: "scalar", T: 9 /* ScalarType.STRING */ },
@@ -552,6 +568,13 @@ export class ShippingPackaging extends Message<ShippingPackaging> {
   entityUuid = "";
 
   /**
+   * UUID of the customer
+   *
+   * @generated from field: string customer_uuid = 7;
+   */
+  customerUuid = "";
+
+  /**
    * UUID of the location
    *
    * @generated from field: string location_uuid = 8;
@@ -603,6 +626,7 @@ export class ShippingPackaging extends Message<ShippingPackaging> {
   static readonly fields: FieldList = proto3.util.newFieldList(() => [
     { no: 1, name: "metadata", kind: "message", T: Metadata },
     { no: 2, name: "entity_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+    { no: 7, name: "customer_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 8, name: "location_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 9, name: "zone_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 10, name: "shipping_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
@@ -888,6 +912,13 @@ export class ShippingsServiceFilterReq extends Message<ShippingsServiceFilterReq
   zoneUuid = "";
 
   /**
+   * UUID of the customer
+   *
+   * @generated from field: string customer_uuid = 11;
+   */
+  customerUuid = "";
+
+  /**
    * The name of the shipping
    *
    * @generated from field: string name = 20;
@@ -926,6 +957,7 @@ export class ShippingsServiceFilterReq extends Message<ShippingsServiceFilterReq
     { no: 8, name: "entity_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 9, name: "location_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 10, name: "zone_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+    { no: 11, name: "customer_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 20, name: "name", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 21, name: "code", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 30, name: "state", kind: "enum", T: proto3.getEnumType(SHIPPING_STATE) },
@@ -1012,6 +1044,13 @@ export class ShippingsServiceSearchAllReq extends Message<ShippingsServiceSearch
   zoneUuid = "";
 
   /**
+   * UUID of the customer
+   *
+   * @generated from field: string customer_uuid = 9;
+   */
+  customerUuid = "";
+
+  /**
    * Describes the key with which the search operation needs to be performed
    *
    * @generated from field: string search_key = 11;
@@ -1034,6 +1073,7 @@ export class ShippingsServiceSearchAllReq extends Message<ShippingsServiceSearch
     { no: 6, name: "entity_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 7, name: "location_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 8, name: "zone_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
+    { no: 9, name: "customer_uuid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 11, name: "search_key", kind: "scalar", T: 9 /* ScalarType.STRING */ },
   ]);
 

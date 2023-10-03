@@ -30,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_ALL = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L71)
+[src/shippings_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L71)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L57)
+[src/shippings_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L57)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_URI = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/shippings_pb.ts#L64)
+[src/shippings_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L64)

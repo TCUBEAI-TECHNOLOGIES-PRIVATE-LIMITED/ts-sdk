@@ -32,7 +32,7 @@ from enum value: SERIAL_ACTIVITY_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/serials_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L73)
+[src/serials_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L73)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: SERIAL_ACTIVITY_COMMISSIONED = 2;
 
 #### Defined in
 
-[src/serials_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L87)
+[src/serials_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L87)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: SERIAL_ACTIVITY_DECOMMISSIONED = 3;
 
 #### Defined in
 
-[src/serials_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L94)
+[src/serials_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L94)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: SERIAL_ACTIVITY_RECALLED = 4;
 
 #### Defined in
 
-[src/serials_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L101)
+[src/serials_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L101)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: SERIAL_ACTIVITY_VERIFIED = 1;
 
 #### Defined in
 
-[src/serials_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L80)
+[src/serials_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L80)

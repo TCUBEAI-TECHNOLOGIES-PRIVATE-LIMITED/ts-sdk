@@ -65,7 +65,7 @@ Message&lt;UsersServiceRegisterUserDeviceRequest\&gt;.constructor
 
 #### Defined in
 
-[src/users_pb.ts:438](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L438)
+[src/users_pb.ts:438](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L438)
 
 ## Properties
 
@@ -81,7 +81,7 @@ from field: string device_id = 11;
 
 #### Defined in
 
-[src/users_pb.ts:436](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L436)
+[src/users_pb.ts:436](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L436)
 
 ___
 
@@ -97,7 +97,7 @@ from field: tcube.DEVICE_TYPE device_type = 10;
 
 #### Defined in
 
-[src/users_pb.ts:429](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L429)
+[src/users_pb.ts:429](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L429)
 
 ___
 
@@ -113,7 +113,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/users_pb.ts:415](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L415)
+[src/users_pb.ts:415](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L415)
 
 ___
 
@@ -129,7 +129,7 @@ from field: string uuid = 2;
 
 #### Defined in
 
-[src/users_pb.ts:422](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L422)
+[src/users_pb.ts:422](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L422)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:445](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L445)
+[src/users_pb.ts:445](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L445)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L443)
+[src/users_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L443)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:444](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L444)
+[src/users_pb.ts:444](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L444)
 
 ## Methods
 
@@ -446,7 +446,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:464](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L464)
+[src/users_pb.ts:464](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L464)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:452](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L452)
+[src/users_pb.ts:452](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L452)
 
 ___
 
@@ -488,7 +488,7 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:456](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L456)
+[src/users_pb.ts:456](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L456)
 
 ___
 
@@ -509,4 +509,4 @@ ___
 
 #### Defined in
 
-[src/users_pb.ts:460](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/users_pb.ts#L460)
+[src/users_pb.ts:460](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_pb.ts#L460)

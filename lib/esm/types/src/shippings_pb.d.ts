@@ -111,6 +111,12 @@ export declare class ShippingsServiceCreateRequest extends Message<ShippingsServ
      */
     entityUuid: string;
     /**
+     * UUID of the customer
+     *
+     * @generated from field: string customer_uuid = 7;
+     */
+    customerUuid: string;
+    /**
      * UUID of the location
      *
      * @generated from field: string location_uuid = 8;
@@ -186,6 +192,12 @@ export declare class Shipping extends Message<Shipping> {
      * @generated from field: string entity_uuid = 2;
      */
     entityUuid: string;
+    /**
+     * UUID of the customer
+     *
+     * @generated from field: string customer_uuid = 7;
+     */
+    customerUuid: string;
     /**
      * UUID of the location
      *
@@ -364,6 +376,12 @@ export declare class ShippingPackaging extends Message<ShippingPackaging> {
      * @generated from field: string entity_uuid = 2;
      */
     entityUuid: string;
+    /**
+     * UUID of the customer
+     *
+     * @generated from field: string customer_uuid = 7;
+     */
+    customerUuid: string;
     /**
      * UUID of the location
      *
@@ -585,6 +603,12 @@ export declare class ShippingsServiceFilterReq extends Message<ShippingsServiceF
      */
     zoneUuid: string;
     /**
+     * UUID of the customer
+     *
+     * @generated from field: string customer_uuid = 11;
+     */
+    customerUuid: string;
+    /**
      * The name of the shipping
      *
      * @generated from field: string name = 20;
@@ -666,6 +690,12 @@ export declare class ShippingsServiceSearchAllReq extends Message<ShippingsServi
      * @generated from field: string zone_uuid = 8;
      */
     zoneUuid: string;
+    /**
+     * UUID of the customer
+     *
+     * @generated from field: string customer_uuid = 9;
+     */
+    customerUuid: string;
     /**
      * Describes the key with which the search operation needs to be performed
      *

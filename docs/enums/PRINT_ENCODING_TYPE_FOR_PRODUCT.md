@@ -14,6 +14,7 @@ from enum tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT
 
 - [PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT\_HRI\_UNSPECIFIED](PRINT_ENCODING_TYPE_FOR_PRODUCT.md#print_encoding_type_for_product_hri_unspecified)
 - [PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT\_URI](PRINT_ENCODING_TYPE_FOR_PRODUCT.md#print_encoding_type_for_product_uri)
+- [PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT\_URI\_SHORT](PRINT_ENCODING_TYPE_FOR_PRODUCT.md#print_encoding_type_for_product_uri_short)
 
 ## Enumeration Members
 
@@ -29,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/products_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/products_pb.ts#L49)
+[src/products_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L49)
 
 ___
 
@@ -45,4 +46,20 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI = 1;
 
 #### Defined in
 
-[src/products_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/products_pb.ts#L56)
+[src/products_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L56)
+
+___
+
+### PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT\_URI\_SHORT
+
+• **PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT\_URI\_SHORT** = ``2``
+
+Generate the code as a short URI
+
+**`Generated`**
+
+from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI_SHORT = 2;
+
+#### Defined in
+
+[src/products_pb.ts:63](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L63)

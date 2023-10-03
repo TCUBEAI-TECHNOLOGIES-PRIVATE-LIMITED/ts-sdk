@@ -33,7 +33,7 @@ from enum value: SERIAL_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/serials_pb.ts:147](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L147)
+[src/serials_pb.ts:147](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L147)
 
 ___
 
@@ -49,7 +49,7 @@ from enum value: SERIAL_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/serials_pb.ts:131](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L131)
+[src/serials_pb.ts:131](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L131)
 
 ___
 
@@ -65,7 +65,7 @@ from enum value: SERIAL_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/serials_pb.ts:124](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L124)
+[src/serials_pb.ts:124](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L124)
 
 ___
 
@@ -81,4 +81,4 @@ from enum value: SERIAL_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/serials_pb.ts:138](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/b410bb1/src/serials_pb.ts#L138)
+[src/serials_pb.ts:138](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_pb.ts#L138)

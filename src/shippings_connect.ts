@@ -5,7 +5,7 @@
 
 import { Shipping, ShippingPaginationResp, ShippingsList, ShippingsPackagingsList, ShippingsServiceAddPackagingsRequest, ShippingsServiceCreateRequest, ShippingsServiceFilterReq, ShippingsServicePaginationReq, ShippingsServiceSearchAllReq } from "./shippings_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
-import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, URLResponse } from "./base_pb.js";
+import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 
 /**
  *
@@ -160,6 +160,17 @@ export const ShippingsService = {
       name: "ViewAsURI",
       I: Identifier,
       O: URLResponse,
+      kind: MethodKind.Unary,
+    },
+    /**
+     * View the string that can be used to render the QR code on POS machines
+     *
+     * @generated from rpc tcube.ShippingsService.ViewPrintableString
+     */
+    viewPrintableString: {
+      name: "ViewPrintableString",
+      I: Identifier,
+      O: StringResponse,
       kind: MethodKind.Unary,
     },
     /**
