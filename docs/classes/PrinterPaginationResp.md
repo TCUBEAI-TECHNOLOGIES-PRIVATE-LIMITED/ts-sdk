@@ -64,7 +64,7 @@ Message&lt;PrinterPaginationResp\&gt;.constructor
 
 #### Defined in
 
-src/printers_pb.ts:558
+[src/printers_pb.ts:558](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L558)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: int64 count = 1;
 
 #### Defined in
 
-src/printers_pb.ts:542
+[src/printers_pb.ts:542](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L542)
 
 ___
 
@@ -96,7 +96,7 @@ from field: repeated tcube.Printer payload = 3;
 
 #### Defined in
 
-src/printers_pb.ts:556
+[src/printers_pb.ts:556](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L556)
 
 ___
 
@@ -112,7 +112,7 @@ from field: int64 total = 2;
 
 #### Defined in
 
-src/printers_pb.ts:549
+[src/printers_pb.ts:549](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L549)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:565
+[src/printers_pb.ts:565](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L565)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:563
+[src/printers_pb.ts:563](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L563)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:564
+[src/printers_pb.ts:564](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L564)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:583
+[src/printers_pb.ts:583](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L583)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:571
+[src/printers_pb.ts:571](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L571)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:575
+[src/printers_pb.ts:575](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L575)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:579
+[src/printers_pb.ts:579](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L579)

@@ -30,7 +30,7 @@ from enum value: ENTITY_USER_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/entities_users_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_users_pb.ts#L29)
+[src/entities_users_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L29)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: ENTITY_USER_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/entities_users_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_users_pb.ts#L22)
+[src/entities_users_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L22)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: ENTITY_USER_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/entities_users_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_users_pb.ts#L36)
+[src/entities_users_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L36)

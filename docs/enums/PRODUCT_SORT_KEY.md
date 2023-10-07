@@ -32,7 +32,7 @@ from enum value: PRODUCT_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/products_pb.ts:147](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L147)
+[src/products_pb.ts:147](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L147)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: PRODUCT_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/products_pb.ts:126](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L126)
+[src/products_pb.ts:126](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L126)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: PRODUCT_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/products_pb.ts:119](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L119)
+[src/products_pb.ts:119](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L119)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: PRODUCT_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/products_pb.ts:133](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L133)
+[src/products_pb.ts:133](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L133)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: PRODUCT_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/products_pb.ts:140](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L140)
+[src/products_pb.ts:140](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L140)

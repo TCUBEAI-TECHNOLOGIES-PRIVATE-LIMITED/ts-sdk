@@ -30,7 +30,7 @@ from enum value: SHIPPING_STATE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L22)
+[src/shippings_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L22)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: SHIPPING_STATE_CLOSED = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L36)
+[src/shippings_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L36)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: SHIPPING_STATE_OPEN = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_pb.ts#L29)
+[src/shippings_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L29)

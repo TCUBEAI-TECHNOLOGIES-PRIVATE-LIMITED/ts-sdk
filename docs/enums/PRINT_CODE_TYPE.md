@@ -29,7 +29,7 @@ from enum value: DATAMATRIX = 1;
 
 #### Defined in
 
-[src/products_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L29)
+[src/products_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L29)
 
 ___
 
@@ -45,4 +45,4 @@ from enum value: QR_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/products_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L22)
+[src/products_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L22)

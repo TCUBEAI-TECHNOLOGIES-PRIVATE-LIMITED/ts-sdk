@@ -67,7 +67,7 @@ Message&lt;PrintersServicePaginationReq\&gt;.constructor
 
 #### Defined in
 
-src/printers_pb.ts:497
+[src/printers_pb.ts:497](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L497)
 
 ## Properties
 
@@ -83,7 +83,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-src/printers_pb.ts:467
+[src/printers_pb.ts:467](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L467)
 
 ___
 
@@ -99,7 +99,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-src/printers_pb.ts:460
+[src/printers_pb.ts:460](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L460)
 
 ___
 
@@ -115,7 +115,7 @@ from field: string location_uuid = 6;
 
 #### Defined in
 
-src/printers_pb.ts:495
+[src/printers_pb.ts:495](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L495)
 
 ___
 
@@ -131,7 +131,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-src/printers_pb.ts:474
+[src/printers_pb.ts:474](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L474)
 
 ___
 
@@ -147,7 +147,7 @@ from field: tcube.PRINTER_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-src/printers_pb.ts:488
+[src/printers_pb.ts:488](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L488)
 
 ___
 
@@ -163,7 +163,7 @@ from field: tcube.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-src/printers_pb.ts:481
+[src/printers_pb.ts:481](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L481)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:504
+[src/printers_pb.ts:504](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L504)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:502
+[src/printers_pb.ts:502](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L502)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:503
+[src/printers_pb.ts:503](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L503)
 
 ## Methods
 
@@ -480,7 +480,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:525
+[src/printers_pb.ts:525](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L525)
 
 ___
 
@@ -501,7 +501,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:513
+[src/printers_pb.ts:513](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L513)
 
 ___
 
@@ -522,7 +522,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:517
+[src/printers_pb.ts:517](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L517)
 
 ___
 
@@ -543,4 +543,4 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:521
+[src/printers_pb.ts:521](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L521)

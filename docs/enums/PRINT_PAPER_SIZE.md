@@ -30,7 +30,7 @@ from enum value: A4_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/products_pb.ts:84](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L84)
+[src/products_pb.ts:84](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L84)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: WIDTH_58MM = 2;
 
 #### Defined in
 
-[src/products_pb.ts:98](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L98)
+[src/products_pb.ts:98](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L98)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: WIDTH_80MM = 1;
 
 #### Defined in
 
-[src/products_pb.ts:91](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_pb.ts#L91)
+[src/products_pb.ts:91](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L91)

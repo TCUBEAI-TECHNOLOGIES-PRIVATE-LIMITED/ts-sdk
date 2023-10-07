@@ -32,7 +32,7 @@ from enum value: PRINTER_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-src/printers_pb.ts:85
+[src/printers_pb.ts:85](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L85)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: PRINTER_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-src/printers_pb.ts:64
+[src/printers_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L64)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: PRINTER_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-src/printers_pb.ts:57
+[src/printers_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L57)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: PRINTER_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-src/printers_pb.ts:71
+[src/printers_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L71)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: PRINTER_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-src/printers_pb.ts:78
+[src/printers_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L78)

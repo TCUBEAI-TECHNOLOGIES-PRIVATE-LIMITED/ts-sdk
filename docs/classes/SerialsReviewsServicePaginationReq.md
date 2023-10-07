@@ -68,7 +68,7 @@ Message&lt;SerialsReviewsServicePaginationReq\&gt;.constructor
 
 #### Defined in
 
-src/serials_reviews_pb.ts:422
+[src/serials_reviews_pb.ts:422](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L422)
 
 ## Properties
 
@@ -84,7 +84,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:385
+[src/serials_reviews_pb.ts:385](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L385)
 
 ___
 
@@ -100,7 +100,7 @@ from field: string entity_uuid = 6;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:413
+[src/serials_reviews_pb.ts:413](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L413)
 
 ___
 
@@ -116,7 +116,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:378
+[src/serials_reviews_pb.ts:378](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L378)
 
 ___
 
@@ -132,7 +132,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:392
+[src/serials_reviews_pb.ts:392](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L392)
 
 ___
 
@@ -148,7 +148,7 @@ from field: string product_uuid = 7;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:420
+[src/serials_reviews_pb.ts:420](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L420)
 
 ___
 
@@ -164,7 +164,7 @@ from field: tcube.SERIAL_REVIEW_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:406
+[src/serials_reviews_pb.ts:406](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L406)
 
 ___
 
@@ -180,7 +180,7 @@ from field: tcube.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-src/serials_reviews_pb.ts:399
+[src/serials_reviews_pb.ts:399](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L399)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:429
+[src/serials_reviews_pb.ts:429](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L429)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:427
+[src/serials_reviews_pb.ts:427](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L427)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:428
+[src/serials_reviews_pb.ts:428](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L428)
 
 ## Methods
 
@@ -497,7 +497,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:451
+[src/serials_reviews_pb.ts:451](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L451)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:439
+[src/serials_reviews_pb.ts:439](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L439)
 
 ___
 
@@ -539,7 +539,7 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:443
+[src/serials_reviews_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L443)
 
 ___
 
@@ -560,4 +560,4 @@ ___
 
 #### Defined in
 
-src/serials_reviews_pb.ts:447
+[src/serials_reviews_pb.ts:447](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L447)

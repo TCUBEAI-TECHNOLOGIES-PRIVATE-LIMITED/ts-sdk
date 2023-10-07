@@ -32,7 +32,7 @@ from enum value: CUSTOMER_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-src/customers_pb.ts:50
+[src/customers_pb.ts:50](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L50)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: CUSTOMER_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-src/customers_pb.ts:29
+[src/customers_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L29)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: CUSTOMER_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-src/customers_pb.ts:22
+[src/customers_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L22)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: CUSTOMER_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-src/customers_pb.ts:36
+[src/customers_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L36)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: CUSTOMER_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-src/customers_pb.ts:43
+[src/customers_pb.ts:43](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L43)

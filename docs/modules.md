@@ -376,7 +376,7 @@ from service tcube.BatchesService
 
 #### Defined in
 
-[src/batches_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/batches_connect.ts#L16)
+[src/batches_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_connect.ts#L16)
 
 ___
 
@@ -449,7 +449,7 @@ from service tcube.CurrenciesService
 
 #### Defined in
 
-[src/currencies_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/currencies_connect.ts#L16)
+[src/currencies_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/currencies_connect.ts#L16)
 
 ___
 
@@ -522,7 +522,7 @@ from service tcube.CustomersService
 
 #### Defined in
 
-src/customers_connect.ts:16
+[src/customers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_connect.ts#L16)
 
 ___
 
@@ -615,7 +615,7 @@ from service tcube.EntitiesService
 
 #### Defined in
 
-[src/entities_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_connect.ts#L16)
+[src/entities_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_connect.ts#L16)
 
 ___
 
@@ -688,7 +688,7 @@ from service tcube.EntitiesUsersService
 
 #### Defined in
 
-[src/entities_users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/entities_users_connect.ts#L16)
+[src/entities_users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_connect.ts#L16)
 
 ___
 
@@ -771,7 +771,7 @@ from service tcube.LocationsService
 
 #### Defined in
 
-[src/locations_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/locations_connect.ts#L16)
+[src/locations_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_connect.ts#L16)
 
 ___
 
@@ -809,7 +809,7 @@ from service tcube.LoginService
 
 #### Defined in
 
-[src/logins_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/logins_connect.ts#L16)
+[src/logins_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_connect.ts#L16)
 
 ___
 
@@ -942,7 +942,7 @@ from service tcube.PackagingsService
 
 #### Defined in
 
-[src/packagings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/packagings_connect.ts#L16)
+[src/packagings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_connect.ts#L16)
 
 ___
 
@@ -1015,7 +1015,7 @@ from service tcube.PrintersService
 
 #### Defined in
 
-src/printers_connect.ts:16
+[src/printers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_connect.ts#L16)
 
 ___
 
@@ -1103,7 +1103,7 @@ from service tcube.ProductsService
 
 #### Defined in
 
-[src/products_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/products_connect.ts#L16)
+[src/products_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_connect.ts#L16)
 
 ___
 
@@ -1161,7 +1161,7 @@ from service tcube.RolesService
 
 #### Defined in
 
-[src/roles_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/roles_connect.ts#L16)
+[src/roles_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_connect.ts#L16)
 
 ___
 
@@ -1244,7 +1244,7 @@ from service tcube.ScansService
 
 #### Defined in
 
-[src/scans_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/scans_connect.ts#L16)
+[src/scans_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_connect.ts#L16)
 
 ___
 
@@ -1317,7 +1317,7 @@ from service tcube.SerialsReviewsService
 
 #### Defined in
 
-src/serials_reviews_connect.ts:16
+[src/serials_reviews_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_connect.ts#L16)
 
 ___
 
@@ -1455,7 +1455,7 @@ from service tcube.SerialsService
 
 #### Defined in
 
-[src/serials_connect.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/serials_connect.ts#L21)
+[src/serials_connect.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_connect.ts#L21)
 
 ___
 
@@ -1588,7 +1588,7 @@ from service tcube.ShippingsService
 
 #### Defined in
 
-[src/shippings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/shippings_connect.ts#L16)
+[src/shippings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_connect.ts#L16)
 
 ___
 
@@ -1661,7 +1661,7 @@ from service tcube.UnitsService
 
 #### Defined in
 
-[src/units_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/units_connect.ts#L16)
+[src/units_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_connect.ts#L16)
 
 ___
 
@@ -1764,7 +1764,7 @@ from service tcube.UsersService
 
 #### Defined in
 
-[src/users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/users_connect.ts#L16)
+[src/users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/users_connect.ts#L16)
 
 ___
 
@@ -1847,4 +1847,4 @@ from service tcube.ZonesService
 
 #### Defined in
 
-[src/zones_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/3c64799/src/zones_connect.ts#L16)
+[src/zones_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_connect.ts#L16)

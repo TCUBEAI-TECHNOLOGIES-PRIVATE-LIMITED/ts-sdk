@@ -62,7 +62,7 @@ Message&lt;PrintersList\&gt;.constructor
 
 #### Defined in
 
-src/printers_pb.ts:420
+[src/printers_pb.ts:420](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L420)
 
 ## Properties
 
@@ -78,7 +78,7 @@ from field: repeated tcube.Printer list = 1;
 
 #### Defined in
 
-src/printers_pb.ts:418
+[src/printers_pb.ts:418](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L418)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:427
+[src/printers_pb.ts:427](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L427)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:425
+[src/printers_pb.ts:425](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L425)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:426
+[src/printers_pb.ts:426](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L426)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:443
+[src/printers_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L443)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:431
+[src/printers_pb.ts:431](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L431)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:435
+[src/printers_pb.ts:435](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L435)
 
 ___
 
@@ -458,4 +458,4 @@ ___
 
 #### Defined in
 
-src/printers_pb.ts:439
+[src/printers_pb.ts:439](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L439)
