@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / Serial
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / Serial
 
 # Class: Serial
 
@@ -6,7 +6,7 @@ Describes the data structure of each serial on the platform
 
 **`Generated`**
 
-from message tcube.Serial
+from message scanswift.Serial
 
 ## Hierarchy
 
@@ -24,6 +24,7 @@ from message tcube.Serial
 
 - [batchUuid](Serial.md#batchuuid)
 - [code](Serial.md#code)
+- [commissionedAt](Serial.md#commissionedat)
 - [downloadCount](Serial.md#downloadcount)
 - [entityUuid](Serial.md#entityuuid)
 - [locationUuid](Serial.md#locationuuid)
@@ -69,7 +70,7 @@ Message&lt;Serial\&gt;.constructor
 
 #### Defined in
 
-[src/serials_pb.ts:518](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L518)
+[src/serials_pb.ts:528](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L528)
 
 ## Properties
 
@@ -85,7 +86,7 @@ from field: string batch_uuid = 11;
 
 #### Defined in
 
-[src/serials_pb.ts:495](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L495)
+[src/serials_pb.ts:498](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L498)
 
 ___
 
@@ -101,7 +102,23 @@ from field: string code = 12;
 
 #### Defined in
 
-[src/serials_pb.ts:502](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L502)
+[src/serials_pb.ts:505](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L505)
+
+___
+
+### commissionedAt
+
+• **commissionedAt**: `bigint` = `protoInt64.zero`
+
+Stores the timestamp of when the serial was commissioned
+
+**`Generated`**
+
+from field: int64 commissioned_at = 14;
+
+#### Defined in
+
+[src/serials_pb.ts:519](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L519)
 
 ___
 
@@ -117,7 +134,7 @@ from field: int64 download_count = 13;
 
 #### Defined in
 
-[src/serials_pb.ts:509](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L509)
+[src/serials_pb.ts:512](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L512)
 
 ___
 
@@ -133,7 +150,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/serials_pb.ts:474](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L474)
+[src/serials_pb.ts:477](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L477)
 
 ___
 
@@ -149,7 +166,7 @@ from field: string location_uuid = 9;
 
 #### Defined in
 
-[src/serials_pb.ts:481](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L481)
+[src/serials_pb.ts:484](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L484)
 
 ___
 
@@ -161,11 +178,11 @@ Stores the metadata of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/serials_pb.ts:467](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L467)
+[src/serials_pb.ts:470](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L470)
 
 ___
 
@@ -181,7 +198,7 @@ from field: string product_uuid = 10;
 
 #### Defined in
 
-[src/serials_pb.ts:488](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L488)
+[src/serials_pb.ts:491](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L491)
 
 ___
 
@@ -193,11 +210,11 @@ The state of the serial
 
 **`Generated`**
 
-from field: tcube.SERIAL_STATE state = 20;
+from field: scanswift.SERIAL_STATE state = 20;
 
 #### Defined in
 
-[src/serials_pb.ts:516](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L516)
+[src/serials_pb.ts:526](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L526)
 
 ___
 
@@ -207,7 +224,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:525](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L525)
+[src/serials_pb.ts:535](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L535)
 
 ___
 
@@ -217,17 +234,17 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:523](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L523)
+[src/serials_pb.ts:533](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L533)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.Serial"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.Serial"``
 
 #### Defined in
 
-[src/serials_pb.ts:524](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L524)
+[src/serials_pb.ts:534](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L534)
 
 ## Methods
 
@@ -514,7 +531,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:548](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L548)
+[src/serials_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L559)
 
 ___
 
@@ -535,7 +552,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:536](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L536)
+[src/serials_pb.ts:547](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L547)
 
 ___
 
@@ -556,7 +573,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:540](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L540)
+[src/serials_pb.ts:551](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L551)
 
 ___
 
@@ -577,4 +594,4 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:544](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L544)
+[src/serials_pb.ts:555](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L555)

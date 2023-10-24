@@ -5,15 +5,15 @@ import { Identifier } from "./base_pb.js";
  *
  * Describes the methods applicable on scans service
  *
- * @generated from service tcube.ScansService
+ * @generated from service scanswift.ScansService
  */
 export declare const ScansService: {
-    readonly typeName: "tcube.ScansService";
+    readonly typeName: "scanswift.ScansService";
     readonly methods: {
         /**
          * Create a serial scan
          *
-         * @generated from rpc tcube.ScansService.CreateSerialScan
+         * @generated from rpc scanswift.ScansService.CreateSerialScan
          */
         readonly createSerialScan: {
             readonly name: "CreateSerialScan";
@@ -24,7 +24,7 @@ export declare const ScansService: {
         /**
          * Create a serial scan from the given IP address
          *
-         * @generated from rpc tcube.ScansService.CreateSerialScanFromIP
+         * @generated from rpc scanswift.ScansService.CreateSerialScanFromIP
          */
         readonly createSerialScanFromIP: {
             readonly name: "CreateSerialScanFromIP";
@@ -35,7 +35,7 @@ export declare const ScansService: {
         /**
          * Update a serial scan
          *
-         * @generated from rpc tcube.ScansService.UpdateSerialScan
+         * @generated from rpc scanswift.ScansService.UpdateSerialScan
          */
         readonly updateSerialScan: {
             readonly name: "UpdateSerialScan";
@@ -46,7 +46,7 @@ export declare const ScansService: {
         /**
          * View all scans for serial
          *
-         * @generated from rpc tcube.ScansService.ViewBySerialUUID
+         * @generated from rpc scanswift.ScansService.ViewBySerialUUID
          */
         readonly viewBySerialUUID: {
             readonly name: "ViewBySerialUUID";
@@ -57,7 +57,7 @@ export declare const ScansService: {
         /**
          * Create a packaging scan
          *
-         * @generated from rpc tcube.ScansService.CreatePackagingScan
+         * @generated from rpc scanswift.ScansService.CreatePackagingScan
          */
         readonly createPackagingScan: {
             readonly name: "CreatePackagingScan";
@@ -68,7 +68,7 @@ export declare const ScansService: {
         /**
          * Create a packaging scan from the given IP address
          *
-         * @generated from rpc tcube.ScansService.CreatePackagingScanFromIP
+         * @generated from rpc scanswift.ScansService.CreatePackagingScanFromIP
          */
         readonly createPackagingScanFromIP: {
             readonly name: "CreatePackagingScanFromIP";
@@ -79,7 +79,7 @@ export declare const ScansService: {
         /**
          * Update a packaging scan
          *
-         * @generated from rpc tcube.ScansService.UpdatePackagingScan
+         * @generated from rpc scanswift.ScansService.UpdatePackagingScan
          */
         readonly updatePackagingScan: {
             readonly name: "UpdatePackagingScan";
@@ -90,7 +90,7 @@ export declare const ScansService: {
         /**
          * View all scans for packaging
          *
-         * @generated from rpc tcube.ScansService.ViewByPackagingUUID
+         * @generated from rpc scanswift.ScansService.ViewByPackagingUUID
          */
         readonly viewByPackagingUUID: {
             readonly name: "ViewByPackagingUUID";
@@ -101,7 +101,7 @@ export declare const ScansService: {
         /**
          * Create a shipping scan
          *
-         * @generated from rpc tcube.ScansService.CreateShippingScan
+         * @generated from rpc scanswift.ScansService.CreateShippingScan
          */
         readonly createShippingScan: {
             readonly name: "CreateShippingScan";
@@ -112,7 +112,7 @@ export declare const ScansService: {
         /**
          * Create a shipping scan from the given IP address
          *
-         * @generated from rpc tcube.ScansService.CreateShippingScanFromIP
+         * @generated from rpc scanswift.ScansService.CreateShippingScanFromIP
          */
         readonly createShippingScanFromIP: {
             readonly name: "CreateShippingScanFromIP";
@@ -123,7 +123,7 @@ export declare const ScansService: {
         /**
          * Update a shipping scan
          *
-         * @generated from rpc tcube.ScansService.UpdateShippingScan
+         * @generated from rpc scanswift.ScansService.UpdateShippingScan
          */
         readonly updateShippingScan: {
             readonly name: "UpdateShippingScan";
@@ -134,7 +134,7 @@ export declare const ScansService: {
         /**
          * View all scans for shipping
          *
-         * @generated from rpc tcube.ScansService.ViewByShippingUUID
+         * @generated from rpc scanswift.ScansService.ViewByShippingUUID
          */
         readonly viewByShippingUUID: {
             readonly name: "ViewByShippingUUID";

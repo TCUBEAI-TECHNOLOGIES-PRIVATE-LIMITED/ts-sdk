@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier,
  *
  * Describes the methods applicable on each zone
  *
- * @generated from service tcube.ZonesService
+ * @generated from service scanswift.ZonesService
  */
 export declare const ZonesService: {
-    readonly typeName: "tcube.ZonesService";
+    readonly typeName: "scanswift.ZonesService";
     readonly methods: {
         /**
          * Create a zone
          *
-         * @generated from rpc tcube.ZonesService.Create
+         * @generated from rpc scanswift.ZonesService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const ZonesService: {
         /**
          * Update a zone
          *
-         * @generated from rpc tcube.ZonesService.Update
+         * @generated from rpc scanswift.ZonesService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const ZonesService: {
         /**
          * Archive the zone
          *
-         * @generated from rpc tcube.ZonesService.Archive
+         * @generated from rpc scanswift.ZonesService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const ZonesService: {
         /**
          * Restore the zone
          *
-         * @generated from rpc tcube.ZonesService.Restore
+         * @generated from rpc scanswift.ZonesService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const ZonesService: {
         /**
          * Assign image
          *
-         * @generated from rpc tcube.ZonesService.AssignImage
+         * @generated from rpc scanswift.ZonesService.AssignImage
          */
         readonly assignImage: {
             readonly name: "AssignImage";
@@ -68,7 +68,7 @@ export declare const ZonesService: {
         /**
          * View assigned image
          *
-         * @generated from rpc tcube.ZonesService.ViewImage
+         * @generated from rpc scanswift.ZonesService.ViewImage
          */
         readonly viewImage: {
             readonly name: "ViewImage";
@@ -79,7 +79,7 @@ export declare const ZonesService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.ZonesService.ViewByUUID
+         * @generated from rpc scanswift.ZonesService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -90,7 +90,7 @@ export declare const ZonesService: {
         /**
          * View all zones
          *
-         * @generated from rpc tcube.ZonesService.ViewAll
+         * @generated from rpc scanswift.ZonesService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -101,7 +101,7 @@ export declare const ZonesService: {
         /**
          * View zones with pagination
          *
-         * @generated from rpc tcube.ZonesService.ViewWithPagination
+         * @generated from rpc scanswift.ZonesService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -112,7 +112,7 @@ export declare const ZonesService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.ZonesService.SearchAll
+         * @generated from rpc scanswift.ZonesService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -123,7 +123,7 @@ export declare const ZonesService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.ZonesService.Filter
+         * @generated from rpc scanswift.ZonesService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -134,7 +134,7 @@ export declare const ZonesService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.ZonesService.Count
+         * @generated from rpc scanswift.ZonesService.Count
          */
         readonly count: {
             readonly name: "Count";

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SERIAL\_REVIEW\_SORT\_KEY
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SERIAL\_REVIEW\_SORT\_KEY
 
 # Enumeration: SERIAL\_REVIEW\_SORT\_KEY
 
@@ -6,7 +6,7 @@ Describes the available sort keys for retrieving serials reviews
 
 **`Generated`**
 
-from enum tcube.SERIAL_REVIEW_SORT_KEY
+from enum scanswift.SERIAL_REVIEW_SORT_KEY
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ from enum value: SERIAL_REVIEW_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L30)
+[src/serials_reviews_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L30)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: SERIAL_REVIEW_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L23)
+[src/serials_reviews_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L23)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: SERIAL_REVIEW_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L37)
+[src/serials_reviews_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L37)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: SERIAL_REVIEW_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:44](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L44)
+[src/serials_reviews_pb.ts:44](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L44)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: SERIAL_REVIEW_SORT_KEY_RATING = 11;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:51](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L51)
+[src/serials_reviews_pb.ts:51](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L51)

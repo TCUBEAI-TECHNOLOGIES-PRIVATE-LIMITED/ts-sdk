@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / RolesList
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / RolesList
 
 # Class: RolesList
 
@@ -6,7 +6,7 @@ Describes the data structure that stores a list of roles
 
 **`Generated`**
 
-from message tcube.RolesList
+from message scanswift.RolesList
 
 ## Hierarchy
 
@@ -62,7 +62,7 @@ Message&lt;RolesList\&gt;.constructor
 
 #### Defined in
 
-[src/roles_pb.ts:215](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L215)
+[src/roles_pb.ts:215](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L215)
 
 ## Properties
 
@@ -74,11 +74,11 @@ List of roles
 
 **`Generated`**
 
-from field: repeated tcube.Role list = 1;
+from field: repeated scanswift.Role list = 1;
 
 #### Defined in
 
-[src/roles_pb.ts:213](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L213)
+[src/roles_pb.ts:213](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L213)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:222](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L222)
+[src/roles_pb.ts:222](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L222)
 
 ___
 
@@ -98,17 +98,17 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:220](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L220)
+[src/roles_pb.ts:220](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L220)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.RolesList"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.RolesList"``
 
 #### Defined in
 
-[src/roles_pb.ts:221](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L221)
+[src/roles_pb.ts:221](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L221)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:238](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L238)
+[src/roles_pb.ts:238](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L238)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:226](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L226)
+[src/roles_pb.ts:226](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L226)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:230](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L230)
+[src/roles_pb.ts:230](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L230)
 
 ___
 
@@ -458,4 +458,4 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:234](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L234)
+[src/roles_pb.ts:234](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L234)

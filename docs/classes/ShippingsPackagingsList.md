@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ShippingsPackagingsList
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ShippingsPackagingsList
 
 # Class: ShippingsPackagingsList
 
@@ -6,7 +6,7 @@ Describes the data structure that stores a list of shipping packagings
 
 **`Generated`**
 
-from message tcube.ShippingsPackagingsList
+from message scanswift.ShippingsPackagingsList
 
 ## Hierarchy
 
@@ -62,7 +62,7 @@ Message&lt;ShippingsPackagingsList\&gt;.constructor
 
 #### Defined in
 
-[src/shippings_pb.ts:669](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L669)
+[src/shippings_pb.ts:761](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L761)
 
 ## Properties
 
@@ -74,11 +74,11 @@ List of packagings that are associated with the shipping
 
 **`Generated`**
 
-from field: repeated tcube.ShippingPackaging list = 1;
+from field: repeated scanswift.ShippingPackaging list = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:667](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L667)
+[src/shippings_pb.ts:759](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L759)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:676](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L676)
+[src/shippings_pb.ts:768](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L768)
 
 ___
 
@@ -98,17 +98,17 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:674](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L674)
+[src/shippings_pb.ts:766](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L766)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ShippingsPackagingsList"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ShippingsPackagingsList"``
 
 #### Defined in
 
-[src/shippings_pb.ts:675](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L675)
+[src/shippings_pb.ts:767](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L767)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:692](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L692)
+[src/shippings_pb.ts:784](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L784)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:680](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L680)
+[src/shippings_pb.ts:772](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L772)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:684](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L684)
+[src/shippings_pb.ts:776](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L776)
 
 ___
 
@@ -458,4 +458,4 @@ ___
 
 #### Defined in
 
-[src/shippings_pb.ts:688](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L688)
+[src/shippings_pb.ts:780](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L780)

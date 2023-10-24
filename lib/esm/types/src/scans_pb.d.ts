@@ -5,7 +5,7 @@ import { Metadata } from "./base_pb.js";
  *
  * Stores the possible values for inferred from
  *
- * @generated from enum tcube.INFERRED_FROM
+ * @generated from enum scanswift.INFERRED_FROM
  */
 export declare enum INFERRED_FROM {
     /**
@@ -25,7 +25,7 @@ export declare enum INFERRED_FROM {
  *
  * Describes the data structure to perform the create scan operation using the given IP address for the serial/packaging/shipping denoted by resource_uuid
  *
- * @generated from message tcube.ScansServiceCreateScanFromIPRequest
+ * @generated from message scanswift.ScansServiceCreateScanFromIPRequest
  */
 export declare class ScansServiceCreateScanFromIPRequest extends Message<ScansServiceCreateScanFromIPRequest> {
     /**
@@ -42,7 +42,7 @@ export declare class ScansServiceCreateScanFromIPRequest extends Message<ScansSe
     ip: string;
     constructor(data?: PartialMessage<ScansServiceCreateScanFromIPRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceCreateScanFromIPRequest";
+    static readonly typeName = "scanswift.ScansServiceCreateScanFromIPRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceCreateScanFromIPRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceCreateScanFromIPRequest;
@@ -53,7 +53,7 @@ export declare class ScansServiceCreateScanFromIPRequest extends Message<ScansSe
  *
  * Describes the data structure to perform the create operation on a serial scan
  *
- * @generated from message tcube.ScansServiceSerialScanCreateRequest
+ * @generated from message scanswift.ScansServiceSerialScanCreateRequest
  */
 export declare class ScansServiceSerialScanCreateRequest extends Message<ScansServiceSerialScanCreateRequest> {
     /**
@@ -77,12 +77,12 @@ export declare class ScansServiceSerialScanCreateRequest extends Message<ScansSe
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceSerialScanCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceSerialScanCreateRequest";
+    static readonly typeName = "scanswift.ScansServiceSerialScanCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceSerialScanCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceSerialScanCreateRequest;
@@ -93,7 +93,7 @@ export declare class ScansServiceSerialScanCreateRequest extends Message<ScansSe
  *
  * Describes the data structure to perform the update operation on a serial scan
  *
- * @generated from message tcube.ScansServiceSerialScanUpdateRequest
+ * @generated from message scanswift.ScansServiceSerialScanUpdateRequest
  */
 export declare class ScansServiceSerialScanUpdateRequest extends Message<ScansServiceSerialScanUpdateRequest> {
     /**
@@ -117,12 +117,12 @@ export declare class ScansServiceSerialScanUpdateRequest extends Message<ScansSe
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceSerialScanUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceSerialScanUpdateRequest";
+    static readonly typeName = "scanswift.ScansServiceSerialScanUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceSerialScanUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceSerialScanUpdateRequest;
@@ -133,13 +133,13 @@ export declare class ScansServiceSerialScanUpdateRequest extends Message<ScansSe
  *
  * Describes the serial scan message
  *
- * @generated from message tcube.ScansServiceSerialScan
+ * @generated from message scanswift.ScansServiceSerialScan
  */
 export declare class ScansServiceSerialScan extends Message<ScansServiceSerialScan> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -163,12 +163,12 @@ export declare class ScansServiceSerialScan extends Message<ScansServiceSerialSc
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceSerialScan>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceSerialScan";
+    static readonly typeName = "scanswift.ScansServiceSerialScan";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceSerialScan;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceSerialScan;
@@ -179,18 +179,18 @@ export declare class ScansServiceSerialScan extends Message<ScansServiceSerialSc
  *
  * Describes the data structure that stores a list of serial scans
  *
- * @generated from message tcube.SerialsScansList
+ * @generated from message scanswift.SerialsScansList
  */
 export declare class SerialsScansList extends Message<SerialsScansList> {
     /**
      * List of serial scans
      *
-     * @generated from field: repeated tcube.ScansServiceSerialScan list = 1;
+     * @generated from field: repeated scanswift.ScansServiceSerialScan list = 1;
      */
     list: ScansServiceSerialScan[];
     constructor(data?: PartialMessage<SerialsScansList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsScansList";
+    static readonly typeName = "scanswift.SerialsScansList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsScansList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsScansList;
@@ -201,7 +201,7 @@ export declare class SerialsScansList extends Message<SerialsScansList> {
  *
  * Describes the data structure to perform the create operation on a packaging scan
  *
- * @generated from message tcube.ScansServicePackagingScanCreateRequest
+ * @generated from message scanswift.ScansServicePackagingScanCreateRequest
  */
 export declare class ScansServicePackagingScanCreateRequest extends Message<ScansServicePackagingScanCreateRequest> {
     /**
@@ -225,12 +225,12 @@ export declare class ScansServicePackagingScanCreateRequest extends Message<Scan
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServicePackagingScanCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServicePackagingScanCreateRequest";
+    static readonly typeName = "scanswift.ScansServicePackagingScanCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServicePackagingScanCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServicePackagingScanCreateRequest;
@@ -241,7 +241,7 @@ export declare class ScansServicePackagingScanCreateRequest extends Message<Scan
  *
  * Describes the data structure to perform the update operation on a packaging scan
  *
- * @generated from message tcube.ScansServicePackagingScanUpdateRequest
+ * @generated from message scanswift.ScansServicePackagingScanUpdateRequest
  */
 export declare class ScansServicePackagingScanUpdateRequest extends Message<ScansServicePackagingScanUpdateRequest> {
     /**
@@ -265,12 +265,12 @@ export declare class ScansServicePackagingScanUpdateRequest extends Message<Scan
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServicePackagingScanUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServicePackagingScanUpdateRequest";
+    static readonly typeName = "scanswift.ScansServicePackagingScanUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServicePackagingScanUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServicePackagingScanUpdateRequest;
@@ -281,13 +281,13 @@ export declare class ScansServicePackagingScanUpdateRequest extends Message<Scan
  *
  * Describes the packaging scan message
  *
- * @generated from message tcube.ScansServicePackagingScan
+ * @generated from message scanswift.ScansServicePackagingScan
  */
 export declare class ScansServicePackagingScan extends Message<ScansServicePackagingScan> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -311,12 +311,12 @@ export declare class ScansServicePackagingScan extends Message<ScansServicePacka
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServicePackagingScan>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServicePackagingScan";
+    static readonly typeName = "scanswift.ScansServicePackagingScan";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServicePackagingScan;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServicePackagingScan;
@@ -327,18 +327,18 @@ export declare class ScansServicePackagingScan extends Message<ScansServicePacka
  *
  * Describes the data structure that stores a list of packaging scans
  *
- * @generated from message tcube.PackagingsScansList
+ * @generated from message scanswift.PackagingsScansList
  */
 export declare class PackagingsScansList extends Message<PackagingsScansList> {
     /**
      * List of packaging scans
      *
-     * @generated from field: repeated tcube.ScansServicePackagingScan list = 1;
+     * @generated from field: repeated scanswift.ScansServicePackagingScan list = 1;
      */
     list: ScansServicePackagingScan[];
     constructor(data?: PartialMessage<PackagingsScansList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsScansList";
+    static readonly typeName = "scanswift.PackagingsScansList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsScansList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsScansList;
@@ -349,7 +349,7 @@ export declare class PackagingsScansList extends Message<PackagingsScansList> {
  *
  * Describes the data structure to perform the create operation on a shipping scan
  *
- * @generated from message tcube.ScansServiceShippingScanCreateRequest
+ * @generated from message scanswift.ScansServiceShippingScanCreateRequest
  */
 export declare class ScansServiceShippingScanCreateRequest extends Message<ScansServiceShippingScanCreateRequest> {
     /**
@@ -373,12 +373,12 @@ export declare class ScansServiceShippingScanCreateRequest extends Message<Scans
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceShippingScanCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceShippingScanCreateRequest";
+    static readonly typeName = "scanswift.ScansServiceShippingScanCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceShippingScanCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceShippingScanCreateRequest;
@@ -389,7 +389,7 @@ export declare class ScansServiceShippingScanCreateRequest extends Message<Scans
  *
  * Describes the data structure to perform the update operation on a shipping scan
  *
- * @generated from message tcube.ScansServiceShippingScanUpdateRequest
+ * @generated from message scanswift.ScansServiceShippingScanUpdateRequest
  */
 export declare class ScansServiceShippingScanUpdateRequest extends Message<ScansServiceShippingScanUpdateRequest> {
     /**
@@ -413,12 +413,12 @@ export declare class ScansServiceShippingScanUpdateRequest extends Message<Scans
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceShippingScanUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceShippingScanUpdateRequest";
+    static readonly typeName = "scanswift.ScansServiceShippingScanUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceShippingScanUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceShippingScanUpdateRequest;
@@ -429,13 +429,13 @@ export declare class ScansServiceShippingScanUpdateRequest extends Message<Scans
  *
  * Describes the shipping scan message
  *
- * @generated from message tcube.ScansServiceShippingScan
+ * @generated from message scanswift.ScansServiceShippingScan
  */
 export declare class ScansServiceShippingScan extends Message<ScansServiceShippingScan> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -459,12 +459,12 @@ export declare class ScansServiceShippingScan extends Message<ScansServiceShippi
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 13;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 13;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<ScansServiceShippingScan>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ScansServiceShippingScan";
+    static readonly typeName = "scanswift.ScansServiceShippingScan";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ScansServiceShippingScan;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ScansServiceShippingScan;
@@ -475,18 +475,18 @@ export declare class ScansServiceShippingScan extends Message<ScansServiceShippi
  *
  * Describes the data structure that stores a list of shipping scans
  *
- * @generated from message tcube.ShippingsScansList
+ * @generated from message scanswift.ShippingsScansList
  */
 export declare class ShippingsScansList extends Message<ShippingsScansList> {
     /**
      * List of shipping scans
      *
-     * @generated from field: repeated tcube.ScansServiceShippingScan list = 1;
+     * @generated from field: repeated scanswift.ScansServiceShippingScan list = 1;
      */
     list: ScansServiceShippingScan[];
     constructor(data?: PartialMessage<ShippingsScansList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ShippingsScansList";
+    static readonly typeName = "scanswift.ShippingsScansList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ShippingsScansList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ShippingsScansList;

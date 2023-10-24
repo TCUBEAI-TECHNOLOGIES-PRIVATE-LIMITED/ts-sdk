@@ -5,15 +5,15 @@ import { ActiveRequest, CountRequest, CountResponse, Identifier, IdentifierWithU
  *
  * Describes the methods applicable on each currency
  *
- * @generated from service tcube.CurrenciesService
+ * @generated from service scanswift.CurrenciesService
  */
 export declare const CurrenciesService: {
-    readonly typeName: "tcube.CurrenciesService";
+    readonly typeName: "scanswift.CurrenciesService";
     readonly methods: {
         /**
          * Create a currency
          *
-         * @generated from rpc tcube.CurrenciesService.Create
+         * @generated from rpc scanswift.CurrenciesService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const CurrenciesService: {
         /**
          * Update a currency
          *
-         * @generated from rpc tcube.CurrenciesService.Update
+         * @generated from rpc scanswift.CurrenciesService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const CurrenciesService: {
         /**
          * Archive the currency
          *
-         * @generated from rpc tcube.CurrenciesService.Archive
+         * @generated from rpc scanswift.CurrenciesService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const CurrenciesService: {
         /**
          * Restore the currency
          *
-         * @generated from rpc tcube.CurrenciesService.Restore
+         * @generated from rpc scanswift.CurrenciesService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const CurrenciesService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.CurrenciesService.ViewByUUID
+         * @generated from rpc scanswift.CurrenciesService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const CurrenciesService: {
         /**
          * View all currencies
          *
-         * @generated from rpc tcube.CurrenciesService.ViewAll
+         * @generated from rpc scanswift.CurrenciesService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const CurrenciesService: {
         /**
          * View currencies with pagination
          *
-         * @generated from rpc tcube.CurrenciesService.ViewWithPagination
+         * @generated from rpc scanswift.CurrenciesService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const CurrenciesService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.CurrenciesService.SearchAll
+         * @generated from rpc scanswift.CurrenciesService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const CurrenciesService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.CurrenciesService.Filter
+         * @generated from rpc scanswift.CurrenciesService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const CurrenciesService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.CurrenciesService.Count
+         * @generated from rpc scanswift.CurrenciesService.Count
          */
         readonly count: {
             readonly name: "Count";

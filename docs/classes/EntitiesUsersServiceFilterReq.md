@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceFilterReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceFilterReq
 
 # Class: EntitiesUsersServiceFilterReq
 
@@ -6,7 +6,7 @@ Describes the base request payload of a filter search
 
 **`Generated`**
 
-from message tcube.EntitiesUsersServiceFilterReq
+from message scanswift.EntitiesUsersServiceFilterReq
 
 ## Hierarchy
 
@@ -71,7 +71,7 @@ Message&lt;EntitiesUsersServiceFilterReq\&gt;.constructor
 
 #### Defined in
 
-[src/entities_users_pb.ts:494](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L494)
+[src/entities_users_pb.ts:494](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L494)
 
 ## Properties
 
@@ -87,7 +87,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/entities_users_pb.ts:436](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L436)
+[src/entities_users_pb.ts:436](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L436)
 
 ___
 
@@ -103,7 +103,7 @@ from field: int64 creation_timestamp_end = 7;
 
 #### Defined in
 
-[src/entities_users_pb.ts:471](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L471)
+[src/entities_users_pb.ts:471](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L471)
 
 ___
 
@@ -119,7 +119,7 @@ from field: int64 creation_timestamp_start = 6;
 
 #### Defined in
 
-[src/entities_users_pb.ts:464](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L464)
+[src/entities_users_pb.ts:464](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L464)
 
 ___
 
@@ -135,7 +135,7 @@ from field: string entity_uuid = 8;
 
 #### Defined in
 
-[src/entities_users_pb.ts:478](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L478)
+[src/entities_users_pb.ts:478](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L478)
 
 ___
 
@@ -151,7 +151,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/entities_users_pb.ts:429](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L429)
+[src/entities_users_pb.ts:429](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L429)
 
 ___
 
@@ -167,7 +167,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/entities_users_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L443)
+[src/entities_users_pb.ts:443](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L443)
 
 ___
 
@@ -183,7 +183,7 @@ from field: string role_uuid = 21;
 
 #### Defined in
 
-[src/entities_users_pb.ts:492](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L492)
+[src/entities_users_pb.ts:492](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L492)
 
 ___
 
@@ -195,11 +195,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.ENTITY_USER_SORT_KEY sort_key = 5;
+from field: scanswift.ENTITY_USER_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/entities_users_pb.ts:457](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L457)
+[src/entities_users_pb.ts:457](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L457)
 
 ___
 
@@ -211,11 +211,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/entities_users_pb.ts:450](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L450)
+[src/entities_users_pb.ts:450](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L450)
 
 ___
 
@@ -231,7 +231,7 @@ from field: string user_uuid = 20;
 
 #### Defined in
 
-[src/entities_users_pb.ts:485](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L485)
+[src/entities_users_pb.ts:485](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L485)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:501](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L501)
+[src/entities_users_pb.ts:501](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L501)
 
 ___
 
@@ -251,17 +251,17 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:499](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L499)
+[src/entities_users_pb.ts:499](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L499)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.EntitiesUsersServiceFilterReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.EntitiesUsersServiceFilterReq"``
 
 #### Defined in
 
-[src/entities_users_pb.ts:500](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L500)
+[src/entities_users_pb.ts:500](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L500)
 
 ## Methods
 
@@ -548,7 +548,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:526](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L526)
+[src/entities_users_pb.ts:526](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L526)
 
 ___
 
@@ -569,7 +569,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:514](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L514)
+[src/entities_users_pb.ts:514](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L514)
 
 ___
 
@@ -590,7 +590,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:518](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L518)
+[src/entities_users_pb.ts:518](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L518)
 
 ___
 
@@ -611,4 +611,4 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:522](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L522)
+[src/entities_users_pb.ts:522](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L522)

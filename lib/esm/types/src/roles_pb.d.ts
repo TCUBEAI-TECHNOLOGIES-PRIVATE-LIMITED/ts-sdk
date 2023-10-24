@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving roles
  *
- * @generated from enum tcube.ROLE_SORT_KEY
+ * @generated from enum scanswift.ROLE_SORT_KEY
  */
 export declare enum ROLE_SORT_KEY {
     /**
@@ -43,13 +43,13 @@ export declare enum ROLE_SORT_KEY {
  *
  * Describes the data structure of each role access on the platform
  *
- * @generated from message tcube.RoleAccess
+ * @generated from message scanswift.RoleAccess
  */
 export declare class RoleAccess extends Message<RoleAccess> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -72,7 +72,7 @@ export declare class RoleAccess extends Message<RoleAccess> {
     isAccessible: boolean;
     constructor(data?: PartialMessage<RoleAccess>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RoleAccess";
+    static readonly typeName = "scanswift.RoleAccess";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RoleAccess;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RoleAccess;
@@ -83,13 +83,13 @@ export declare class RoleAccess extends Message<RoleAccess> {
  *
  * Describes the data structure of each role on the platform
  *
- * @generated from message tcube.Role
+ * @generated from message scanswift.Role
  */
 export declare class Role extends Message<Role> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -113,12 +113,12 @@ export declare class Role extends Message<Role> {
     /**
      * List of role accesss accesses
      *
-     * @generated from field: repeated tcube.RoleAccess access_list = 13;
+     * @generated from field: repeated scanswift.RoleAccess access_list = 13;
      */
     accessList: RoleAccess[];
     constructor(data?: PartialMessage<Role>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Role";
+    static readonly typeName = "scanswift.Role";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Role;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Role;
@@ -129,18 +129,18 @@ export declare class Role extends Message<Role> {
  *
  * Describes the data structure that stores a list of roles
  *
- * @generated from message tcube.RolesList
+ * @generated from message scanswift.RolesList
  */
 export declare class RolesList extends Message<RolesList> {
     /**
      * List of roles
      *
-     * @generated from field: repeated tcube.Role list = 1;
+     * @generated from field: repeated scanswift.Role list = 1;
      */
     list: Role[];
     constructor(data?: PartialMessage<RolesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolesList";
+    static readonly typeName = "scanswift.RolesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolesList;
@@ -151,7 +151,7 @@ export declare class RolesList extends Message<RolesList> {
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.RolePaginationResp
+ * @generated from message scanswift.RolePaginationResp
  */
 export declare class RolePaginationResp extends Message<RolePaginationResp> {
     /**
@@ -169,12 +169,12 @@ export declare class RolePaginationResp extends Message<RolePaginationResp> {
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Role payload = 3;
+     * @generated from field: repeated scanswift.Role payload = 3;
      */
     payload: Role[];
     constructor(data?: PartialMessage<RolePaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolePaginationResp";
+    static readonly typeName = "scanswift.RolePaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolePaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolePaginationResp;
@@ -185,7 +185,7 @@ export declare class RolePaginationResp extends Message<RolePaginationResp> {
  *
  * Describes the necessary data structure during creation/updation of a role access
  *
- * @generated from message tcube.RolesServiceAccessCreateAndUpdateRequest
+ * @generated from message scanswift.RolesServiceAccessCreateAndUpdateRequest
  */
 export declare class RolesServiceAccessCreateAndUpdateRequest extends Message<RolesServiceAccessCreateAndUpdateRequest> {
     /**
@@ -202,7 +202,7 @@ export declare class RolesServiceAccessCreateAndUpdateRequest extends Message<Ro
     isAccessible: boolean;
     constructor(data?: PartialMessage<RolesServiceAccessCreateAndUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolesServiceAccessCreateAndUpdateRequest";
+    static readonly typeName = "scanswift.RolesServiceAccessCreateAndUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolesServiceAccessCreateAndUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolesServiceAccessCreateAndUpdateRequest;
@@ -213,7 +213,7 @@ export declare class RolesServiceAccessCreateAndUpdateRequest extends Message<Ro
  *
  * Describes the necessary data structure during creation of a role
  *
- * @generated from message tcube.RolesServiceCreateRequest
+ * @generated from message scanswift.RolesServiceCreateRequest
  */
 export declare class RolesServiceCreateRequest extends Message<RolesServiceCreateRequest> {
     /**
@@ -243,12 +243,12 @@ export declare class RolesServiceCreateRequest extends Message<RolesServiceCreat
     /**
      * The list of accessible menu UIDs
      *
-     * @generated from field: repeated tcube.RolesServiceAccessCreateAndUpdateRequest access_list = 13;
+     * @generated from field: repeated scanswift.RolesServiceAccessCreateAndUpdateRequest access_list = 13;
      */
     accessList: RolesServiceAccessCreateAndUpdateRequest[];
     constructor(data?: PartialMessage<RolesServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolesServiceCreateRequest";
+    static readonly typeName = "scanswift.RolesServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolesServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolesServiceCreateRequest;
@@ -259,7 +259,7 @@ export declare class RolesServiceCreateRequest extends Message<RolesServiceCreat
  *
  * Describes the data structure to perform the update (draft/revision) operation on a role
  *
- * @generated from message tcube.RolesServiceUpdateRequest
+ * @generated from message scanswift.RolesServiceUpdateRequest
  */
 export declare class RolesServiceUpdateRequest extends Message<RolesServiceUpdateRequest> {
     /**
@@ -295,12 +295,12 @@ export declare class RolesServiceUpdateRequest extends Message<RolesServiceUpdat
     /**
      * The list of accessible menu UIDs
      *
-     * @generated from field: repeated tcube.RolesServiceAccessCreateAndUpdateRequest access_list = 13;
+     * @generated from field: repeated scanswift.RolesServiceAccessCreateAndUpdateRequest access_list = 13;
      */
     accessList: RolesServiceAccessCreateAndUpdateRequest[];
     constructor(data?: PartialMessage<RolesServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolesServiceUpdateRequest";
+    static readonly typeName = "scanswift.RolesServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolesServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolesServiceUpdateRequest;
@@ -311,7 +311,7 @@ export declare class RolesServiceUpdateRequest extends Message<RolesServiceUpdat
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.RolesServicePaginationReq
+ * @generated from message scanswift.RolesServicePaginationReq
  */
 export declare class RolesServicePaginationReq extends Message<RolesServicePaginationReq> {
     /**
@@ -335,18 +335,18 @@ export declare class RolesServicePaginationReq extends Message<RolesServicePagin
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ROLE_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ROLE_SORT_KEY sort_key = 5;
      */
     sortKey: ROLE_SORT_KEY;
     constructor(data?: PartialMessage<RolesServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.RolesServicePaginationReq";
+    static readonly typeName = "scanswift.RolesServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): RolesServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): RolesServicePaginationReq;

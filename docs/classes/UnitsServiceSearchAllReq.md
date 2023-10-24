@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / UnitsServiceSearchAllReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / UnitsServiceSearchAllReq
 
 # Class: UnitsServiceSearchAllReq
 
@@ -6,7 +6,7 @@ Describes the request payload for performing a generic search operation on recor
 
 **`Generated`**
 
-from message tcube.UnitsServiceSearchAllReq
+from message scanswift.UnitsServiceSearchAllReq
 
 ## Hierarchy
 
@@ -67,7 +67,7 @@ Message&lt;UnitsServiceSearchAllReq\&gt;.constructor
 
 #### Defined in
 
-[src/units_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L596)
+[src/units_pb.ts:596](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L596)
 
 ## Properties
 
@@ -83,7 +83,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/units_pb.ts:566](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L566)
+[src/units_pb.ts:566](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L566)
 
 ___
 
@@ -99,7 +99,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/units_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L559)
+[src/units_pb.ts:559](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L559)
 
 ___
 
@@ -115,7 +115,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/units_pb.ts:573](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L573)
+[src/units_pb.ts:573](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L573)
 
 ___
 
@@ -131,7 +131,7 @@ from field: string search_key = 11;
 
 #### Defined in
 
-[src/units_pb.ts:594](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L594)
+[src/units_pb.ts:594](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L594)
 
 ___
 
@@ -143,11 +143,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.UNIT_SORT_KEY sort_key = 5;
+from field: scanswift.UNIT_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/units_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L587)
+[src/units_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L587)
 
 ___
 
@@ -159,11 +159,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/units_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L580)
+[src/units_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L580)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L603)
+[src/units_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L603)
 
 ___
 
@@ -183,17 +183,17 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:601](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L601)
+[src/units_pb.ts:601](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L601)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.UnitsServiceSearchAllReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.UnitsServiceSearchAllReq"``
 
 #### Defined in
 
-[src/units_pb.ts:602](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L602)
+[src/units_pb.ts:602](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L602)
 
 ## Methods
 
@@ -480,7 +480,7 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:624](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L624)
+[src/units_pb.ts:624](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L624)
 
 ___
 
@@ -501,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:612](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L612)
+[src/units_pb.ts:612](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L612)
 
 ___
 
@@ -522,7 +522,7 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:616](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L616)
+[src/units_pb.ts:616](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L616)
 
 ___
 
@@ -543,4 +543,4 @@ ___
 
 #### Defined in
 
-[src/units_pb.ts:620](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_pb.ts#L620)
+[src/units_pb.ts:620](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_pb.ts#L620)

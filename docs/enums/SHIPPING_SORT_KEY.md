@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SHIPPING\_SORT\_KEY
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SHIPPING\_SORT\_KEY
 
 # Enumeration: SHIPPING\_SORT\_KEY
 
@@ -6,7 +6,7 @@ Describes the available sort keys for retrieving shippings
 
 **`Generated`**
 
-from enum tcube.SHIPPING_SORT_KEY
+from enum scanswift.SHIPPING_SORT_KEY
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ from enum value: SHIPPING_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/shippings_pb.ts:120](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L120)
+[src/shippings_pb.ts:122](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L122)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: SHIPPING_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:99](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L99)
+[src/shippings_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L101)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: SHIPPING_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:92](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L92)
+[src/shippings_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L94)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: SHIPPING_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:106](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L106)
+[src/shippings_pb.ts:108](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L108)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: SHIPPING_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/shippings_pb.ts:113](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L113)
+[src/shippings_pb.ts:115](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L115)

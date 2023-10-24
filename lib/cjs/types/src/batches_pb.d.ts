@@ -1,12 +1,12 @@
 import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
 import { Message, proto3 } from "@bufbuild/protobuf";
-import { Metadata, SORT_ORDER } from "./base_pb.js";
+import { DOWNLOADED_STATUS, Metadata, SORT_ORDER } from "./base_pb.js";
 import { SERIAL_STATE } from "./serials_pb.js";
 /**
  *
  * Describes the available sort keys for retrieving batches
  *
- * @generated from enum tcube.BATCH_SORT_KEY
+ * @generated from enum scanswift.BATCH_SORT_KEY
  */
 export declare enum BATCH_SORT_KEY {
     /**
@@ -50,7 +50,7 @@ export declare enum BATCH_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a batch
  *
- * @generated from message tcube.BatchesServiceCreateRequest
+ * @generated from message scanswift.BatchesServiceCreateRequest
  */
 export declare class BatchesServiceCreateRequest extends Message<BatchesServiceCreateRequest> {
     /**
@@ -99,7 +99,7 @@ export declare class BatchesServiceCreateRequest extends Message<BatchesServiceC
     internalCode: string;
     constructor(data?: PartialMessage<BatchesServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesServiceCreateRequest";
+    static readonly typeName = "scanswift.BatchesServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesServiceCreateRequest;
@@ -110,13 +110,13 @@ export declare class BatchesServiceCreateRequest extends Message<BatchesServiceC
  *
  * Describes the data structure of each batch on the platform
  *
- * @generated from message tcube.Batch
+ * @generated from message scanswift.Batch
  */
 export declare class Batch extends Message<Batch> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -161,9 +161,21 @@ export declare class Batch extends Message<Batch> {
      * @generated from field: string internal_code = 13;
      */
     internalCode: string;
+    /**
+     * Stores if the batch has already been downloaded
+     *
+     * @generated from field: bool is_downloaded = 20;
+     */
+    isDownloaded: boolean;
+    /**
+     * Stores the number of times that this batch has already been downloaded
+     *
+     * @generated from field: int64 download_count = 21;
+     */
+    downloadCount: bigint;
     constructor(data?: PartialMessage<Batch>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Batch";
+    static readonly typeName = "scanswift.Batch";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Batch;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Batch;
@@ -174,18 +186,18 @@ export declare class Batch extends Message<Batch> {
  *
  * Describes the data structure that stores a list of batches
  *
- * @generated from message tcube.BatchesList
+ * @generated from message scanswift.BatchesList
  */
 export declare class BatchesList extends Message<BatchesList> {
     /**
      * List of batches
      *
-     * @generated from field: repeated tcube.Batch list = 1;
+     * @generated from field: repeated scanswift.Batch list = 1;
      */
     list: Batch[];
     constructor(data?: PartialMessage<BatchesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesList";
+    static readonly typeName = "scanswift.BatchesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesList;
@@ -196,7 +208,7 @@ export declare class BatchesList extends Message<BatchesList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.BatchesServicePaginationReq
+ * @generated from message scanswift.BatchesServicePaginationReq
  */
 export declare class BatchesServicePaginationReq extends Message<BatchesServicePaginationReq> {
     /**
@@ -220,13 +232,13 @@ export declare class BatchesServicePaginationReq extends Message<BatchesServiceP
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.BATCH_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.BATCH_SORT_KEY sort_key = 5;
      */
     sortKey: BATCH_SORT_KEY;
     /**
@@ -237,7 +249,7 @@ export declare class BatchesServicePaginationReq extends Message<BatchesServiceP
     entityUuid: string;
     constructor(data?: PartialMessage<BatchesServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesServicePaginationReq";
+    static readonly typeName = "scanswift.BatchesServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesServicePaginationReq;
@@ -248,7 +260,7 @@ export declare class BatchesServicePaginationReq extends Message<BatchesServiceP
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.BatchPaginationResp
+ * @generated from message scanswift.BatchPaginationResp
  */
 export declare class BatchPaginationResp extends Message<BatchPaginationResp> {
     /**
@@ -266,12 +278,12 @@ export declare class BatchPaginationResp extends Message<BatchPaginationResp> {
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Batch payload = 3;
+     * @generated from field: repeated scanswift.Batch payload = 3;
      */
     payload: Batch[];
     constructor(data?: PartialMessage<BatchPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchPaginationResp";
+    static readonly typeName = "scanswift.BatchPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchPaginationResp;
@@ -282,7 +294,7 @@ export declare class BatchPaginationResp extends Message<BatchPaginationResp> {
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.BatchesServiceFilterReq
+ * @generated from message scanswift.BatchesServiceFilterReq
  */
 export declare class BatchesServiceFilterReq extends Message<BatchesServiceFilterReq> {
     /**
@@ -306,13 +318,13 @@ export declare class BatchesServiceFilterReq extends Message<BatchesServiceFilte
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.BATCH_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.BATCH_SORT_KEY sort_key = 5;
      */
     sortKey: BATCH_SORT_KEY;
     /**
@@ -363,9 +375,15 @@ export declare class BatchesServiceFilterReq extends Message<BatchesServiceFilte
      * @generated from field: string internal_code = 22;
      */
     internalCode: string;
+    /**
+     * The downloaded status
+     *
+     * @generated from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+     */
+    isDownloaded: DOWNLOADED_STATUS;
     constructor(data?: PartialMessage<BatchesServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesServiceFilterReq";
+    static readonly typeName = "scanswift.BatchesServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesServiceFilterReq;
@@ -376,7 +394,7 @@ export declare class BatchesServiceFilterReq extends Message<BatchesServiceFilte
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.BatchesServiceSearchAllReq
+ * @generated from message scanswift.BatchesServiceSearchAllReq
  */
 export declare class BatchesServiceSearchAllReq extends Message<BatchesServiceSearchAllReq> {
     /**
@@ -400,13 +418,13 @@ export declare class BatchesServiceSearchAllReq extends Message<BatchesServiceSe
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.BATCH_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.BATCH_SORT_KEY sort_key = 5;
      */
     sortKey: BATCH_SORT_KEY;
     /**
@@ -433,9 +451,15 @@ export declare class BatchesServiceSearchAllReq extends Message<BatchesServiceSe
      * @generated from field: string search_key = 11;
      */
     searchKey: string;
+    /**
+     * The downloaded status
+     *
+     * @generated from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+     */
+    isDownloaded: DOWNLOADED_STATUS;
     constructor(data?: PartialMessage<BatchesServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesServiceSearchAllReq";
+    static readonly typeName = "scanswift.BatchesServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesServiceSearchAllReq;
@@ -446,7 +470,7 @@ export declare class BatchesServiceSearchAllReq extends Message<BatchesServiceSe
  *
  * Describes the payload that is used to decommission serials within a batch
  *
- * @generated from message tcube.BatchesServiceCommissioningRequest
+ * @generated from message scanswift.BatchesServiceCommissioningRequest
  */
 export declare class BatchesServiceCommissioningRequest extends Message<BatchesServiceCommissioningRequest> {
     /**
@@ -481,7 +505,7 @@ export declare class BatchesServiceCommissioningRequest extends Message<BatchesS
     longitude: number;
     constructor(data?: PartialMessage<BatchesServiceCommissioningRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchesServiceCommissioningRequest";
+    static readonly typeName = "scanswift.BatchesServiceCommissioningRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchesServiceCommissioningRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchesServiceCommissioningRequest;
@@ -492,7 +516,7 @@ export declare class BatchesServiceCommissioningRequest extends Message<BatchesS
  *
  * Describes the request payload that consists of the batch identifier along with the state of the serials
  *
- * @generated from message tcube.BatchIdentifierWithSerialState
+ * @generated from message scanswift.BatchIdentifierWithSerialState
  */
 export declare class BatchIdentifierWithSerialState extends Message<BatchIdentifierWithSerialState> {
     /**
@@ -504,12 +528,12 @@ export declare class BatchIdentifierWithSerialState extends Message<BatchIdentif
     /**
      * State of the serials
      *
-     * @generated from field: tcube.SERIAL_STATE serial_state = 2;
+     * @generated from field: scanswift.SERIAL_STATE serial_state = 2;
      */
     serialState: SERIAL_STATE;
     constructor(data?: PartialMessage<BatchIdentifierWithSerialState>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BatchIdentifierWithSerialState";
+    static readonly typeName = "scanswift.BatchIdentifierWithSerialState";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BatchIdentifierWithSerialState;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BatchIdentifierWithSerialState;

@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier,
  *
  * Describes the methods applicable on each product
  *
- * @generated from service tcube.ProductsService
+ * @generated from service scanswift.ProductsService
  */
 export declare const ProductsService: {
-    readonly typeName: "tcube.ProductsService";
+    readonly typeName: "scanswift.ProductsService";
     readonly methods: {
         /**
          * Create a product
          *
-         * @generated from rpc tcube.ProductsService.Create
+         * @generated from rpc scanswift.ProductsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const ProductsService: {
         /**
          * Update a product
          *
-         * @generated from rpc tcube.ProductsService.Update
+         * @generated from rpc scanswift.ProductsService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const ProductsService: {
         /**
          * Archive the product
          *
-         * @generated from rpc tcube.ProductsService.Archive
+         * @generated from rpc scanswift.ProductsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const ProductsService: {
         /**
          * Restore the product
          *
-         * @generated from rpc tcube.ProductsService.Restore
+         * @generated from rpc scanswift.ProductsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const ProductsService: {
         /**
          * Assign image
          *
-         * @generated from rpc tcube.ProductsService.AssignImage
+         * @generated from rpc scanswift.ProductsService.AssignImage
          */
         readonly assignImage: {
             readonly name: "AssignImage";
@@ -68,7 +68,7 @@ export declare const ProductsService: {
         /**
          * View assigned image
          *
-         * @generated from rpc tcube.ProductsService.ViewImage
+         * @generated from rpc scanswift.ProductsService.ViewImage
          */
         readonly viewImage: {
             readonly name: "ViewImage";
@@ -79,7 +79,7 @@ export declare const ProductsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.ProductsService.ViewByUUID
+         * @generated from rpc scanswift.ProductsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -90,7 +90,7 @@ export declare const ProductsService: {
         /**
          * View by Global Identifier
          *
-         * @generated from rpc tcube.ProductsService.ViewByGlobalIdentifier
+         * @generated from rpc scanswift.ProductsService.ViewByGlobalIdentifier
          */
         readonly viewByGlobalIdentifier: {
             readonly name: "ViewByGlobalIdentifier";
@@ -101,7 +101,7 @@ export declare const ProductsService: {
         /**
          * View all products
          *
-         * @generated from rpc tcube.ProductsService.ViewAll
+         * @generated from rpc scanswift.ProductsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -112,7 +112,7 @@ export declare const ProductsService: {
         /**
          * View products with pagination
          *
-         * @generated from rpc tcube.ProductsService.ViewWithPagination
+         * @generated from rpc scanswift.ProductsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -123,7 +123,7 @@ export declare const ProductsService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.ProductsService.SearchAll
+         * @generated from rpc scanswift.ProductsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -134,7 +134,7 @@ export declare const ProductsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.ProductsService.Filter
+         * @generated from rpc scanswift.ProductsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -145,7 +145,7 @@ export declare const ProductsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.ProductsService.Count
+         * @generated from rpc scanswift.ProductsService.Count
          */
         readonly count: {
             readonly name: "Count";

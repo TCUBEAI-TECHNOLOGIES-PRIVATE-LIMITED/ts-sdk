@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ViewSerialActivitiesRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ViewSerialActivitiesRequest
 
 # Class: ViewSerialActivitiesRequest
 
@@ -6,7 +6,7 @@ Describes the payload required to retrieve all the activities related to a seria
 
 **`Generated`**
 
-from message tcube.ViewSerialActivitiesRequest
+from message scanswift.ViewSerialActivitiesRequest
 
 ## Hierarchy
 
@@ -64,7 +64,7 @@ Message&lt;ViewSerialActivitiesRequest\&gt;.constructor
 
 #### Defined in
 
-[src/serials_pb.ts:763](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L763)
+[src/serials_pb.ts:872](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L872)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/serials_pb.ts:754](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L754)
+[src/serials_pb.ts:863](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L863)
 
 ___
 
@@ -96,7 +96,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/serials_pb.ts:747](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L747)
+[src/serials_pb.ts:856](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L856)
 
 ___
 
@@ -112,7 +112,7 @@ from field: string serial_uuid = 10;
 
 #### Defined in
 
-[src/serials_pb.ts:761](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L761)
+[src/serials_pb.ts:870](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L870)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:770](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L770)
+[src/serials_pb.ts:879](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L879)
 
 ___
 
@@ -132,17 +132,17 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:768](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L768)
+[src/serials_pb.ts:877](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L877)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ViewSerialActivitiesRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ViewSerialActivitiesRequest"``
 
 #### Defined in
 
-[src/serials_pb.ts:769](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L769)
+[src/serials_pb.ts:878](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L878)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:788](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L788)
+[src/serials_pb.ts:897](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L897)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:776](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L776)
+[src/serials_pb.ts:885](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L885)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:780](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L780)
+[src/serials_pb.ts:889](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L889)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-[src/serials_pb.ts:784](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L784)
+[src/serials_pb.ts:893](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L893)

@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Stores the possible values for the code type
  *
- * @generated from enum tcube.PRINT_CODE_TYPE
+ * @generated from enum scanswift.PRINT_CODE_TYPE
  */
 export declare enum PRINT_CODE_TYPE {
     /**
@@ -25,7 +25,7 @@ export declare enum PRINT_CODE_TYPE {
  *
  * Stores the possible values for encoding type
  *
- * @generated from enum tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT
+ * @generated from enum scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT
  */
 export declare enum PRINT_ENCODING_TYPE_FOR_PRODUCT {
     /**
@@ -49,35 +49,9 @@ export declare enum PRINT_ENCODING_TYPE_FOR_PRODUCT {
 }
 /**
  *
- * Stores the possible values of paper sizes
- *
- * @generated from enum tcube.PRINT_PAPER_SIZE
- */
-export declare enum PRINT_PAPER_SIZE {
-    /**
-     * Print the batch on an A4 sheet
-     *
-     * @generated from enum value: A4_UNSPECIFIED = 0;
-     */
-    A4_UNSPECIFIED = 0,
-    /**
-     * Print the batch on an 80mm wide thermal printer
-     *
-     * @generated from enum value: WIDTH_80MM = 1;
-     */
-    WIDTH_80MM = 1,
-    /**
-     * Print the batch on a 58mm wide thermal printer
-     *
-     * @generated from enum value: WIDTH_58MM = 2;
-     */
-    WIDTH_58MM = 2
-}
-/**
- *
  * Describes the available sort keys for retrieving products
  *
- * @generated from enum tcube.PRODUCT_SORT_KEY
+ * @generated from enum scanswift.PRODUCT_SORT_KEY
  */
 export declare enum PRODUCT_SORT_KEY {
     /**
@@ -115,7 +89,7 @@ export declare enum PRODUCT_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a product
  *
- * @generated from message tcube.ProductsServiceCreateRequest
+ * @generated from message scanswift.ProductsServiceCreateRequest
  */
 export declare class ProductsServiceCreateRequest extends Message<ProductsServiceCreateRequest> {
     /**
@@ -181,36 +155,24 @@ export declare class ProductsServiceCreateRequest extends Message<ProductsServic
     /**
      * The type of encoding
      *
-     * @generated from field: tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
+     * @generated from field: scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
      */
     printEncodingType: PRINT_ENCODING_TYPE_FOR_PRODUCT;
     /**
      * THe type of code that needs to be printed
      *
-     * @generated from field: tcube.PRINT_CODE_TYPE print_code_type = 30;
+     * @generated from field: scanswift.PRINT_CODE_TYPE print_code_type = 30;
      */
     printCodeType: PRINT_CODE_TYPE;
     /**
-     * The dimension of the code that needs to be printed (in mm)
+     * UUID of the associated template
      *
-     * @generated from field: double print_code_dimension_in_mm = 31;
+     * @generated from field: string template_uuid = 31;
      */
-    printCodeDimensionInMm: number;
-    /**
-     * The dimension of the margin in between codes within the print
-     *
-     * @generated from field: double print_margin_in_mm = 32;
-     */
-    printMarginInMm: number;
-    /**
-     * The size of the paper on which the codes are to be printed as a batch
-     *
-     * @generated from field: tcube.PRINT_PAPER_SIZE print_batch_paper_size = 33;
-     */
-    printBatchPaperSize: PRINT_PAPER_SIZE;
+    templateUuid: string;
     constructor(data?: PartialMessage<ProductsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsServiceCreateRequest";
+    static readonly typeName = "scanswift.ProductsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsServiceCreateRequest;
@@ -221,7 +183,7 @@ export declare class ProductsServiceCreateRequest extends Message<ProductsServic
  *
  * Describes the data structure to perform the update (draft/revision) operation on a product
  *
- * @generated from message tcube.ProductsServiceUpdateRequest
+ * @generated from message scanswift.ProductsServiceUpdateRequest
  */
 export declare class ProductsServiceUpdateRequest extends Message<ProductsServiceUpdateRequest> {
     /**
@@ -281,36 +243,24 @@ export declare class ProductsServiceUpdateRequest extends Message<ProductsServic
     /**
      * The type of encoding
      *
-     * @generated from field: tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
+     * @generated from field: scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
      */
     printEncodingType: PRINT_ENCODING_TYPE_FOR_PRODUCT;
     /**
      * THe type of code that needs to be printed
      *
-     * @generated from field: tcube.PRINT_CODE_TYPE print_code_type = 30;
+     * @generated from field: scanswift.PRINT_CODE_TYPE print_code_type = 30;
      */
     printCodeType: PRINT_CODE_TYPE;
     /**
-     * The dimension of the code that needs to be printed (in mm)
+     * UUID of the associated template
      *
-     * @generated from field: double print_code_dimension_in_mm = 31;
+     * @generated from field: string template_uuid = 31;
      */
-    printCodeDimensionInMm: number;
-    /**
-     * The dimension of the margin in between codes within the print
-     *
-     * @generated from field: double print_margin_in_mm = 32;
-     */
-    printMarginInMm: number;
-    /**
-     * The size of the paper on which the codes are to be printed as a batch
-     *
-     * @generated from field: tcube.PRINT_PAPER_SIZE print_batch_paper_size = 33;
-     */
-    printBatchPaperSize: PRINT_PAPER_SIZE;
+    templateUuid: string;
     constructor(data?: PartialMessage<ProductsServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsServiceUpdateRequest";
+    static readonly typeName = "scanswift.ProductsServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsServiceUpdateRequest;
@@ -321,13 +271,13 @@ export declare class ProductsServiceUpdateRequest extends Message<ProductsServic
  *
  * Describes the data structure of each product on the platform
  *
- * @generated from message tcube.Product
+ * @generated from message scanswift.Product
  */
 export declare class Product extends Message<Product> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -393,36 +343,24 @@ export declare class Product extends Message<Product> {
     /**
      * The type of encoding
      *
-     * @generated from field: tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
+     * @generated from field: scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
      */
     printEncodingType: PRINT_ENCODING_TYPE_FOR_PRODUCT;
     /**
      * THe type of code that needs to be printed
      *
-     * @generated from field: tcube.PRINT_CODE_TYPE print_code_type = 30;
+     * @generated from field: scanswift.PRINT_CODE_TYPE print_code_type = 30;
      */
     printCodeType: PRINT_CODE_TYPE;
     /**
-     * The dimension of the code that needs to be printed (in mm)
+     * UUID of the associated template
      *
-     * @generated from field: double print_code_dimension_in_mm = 31;
+     * @generated from field: string template_uuid = 31;
      */
-    printCodeDimensionInMm: number;
-    /**
-     * The dimension of the margin in between codes within the print
-     *
-     * @generated from field: double print_margin_in_mm = 32;
-     */
-    printMarginInMm: number;
-    /**
-     * The size of the paper on which the codes are to be printed as a batch
-     *
-     * @generated from field: tcube.PRINT_PAPER_SIZE print_batch_paper_size = 33;
-     */
-    printBatchPaperSize: PRINT_PAPER_SIZE;
+    templateUuid: string;
     constructor(data?: PartialMessage<Product>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Product";
+    static readonly typeName = "scanswift.Product";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Product;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Product;
@@ -433,18 +371,18 @@ export declare class Product extends Message<Product> {
  *
  * Describes the data structure that stores a list of products
  *
- * @generated from message tcube.ProductsList
+ * @generated from message scanswift.ProductsList
  */
 export declare class ProductsList extends Message<ProductsList> {
     /**
      * List of products
      *
-     * @generated from field: repeated tcube.Product list = 1;
+     * @generated from field: repeated scanswift.Product list = 1;
      */
     list: Product[];
     constructor(data?: PartialMessage<ProductsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsList";
+    static readonly typeName = "scanswift.ProductsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsList;
@@ -455,7 +393,7 @@ export declare class ProductsList extends Message<ProductsList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.ProductsServicePaginationReq
+ * @generated from message scanswift.ProductsServicePaginationReq
  */
 export declare class ProductsServicePaginationReq extends Message<ProductsServicePaginationReq> {
     /**
@@ -479,13 +417,13 @@ export declare class ProductsServicePaginationReq extends Message<ProductsServic
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRODUCT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRODUCT_SORT_KEY sort_key = 5;
      */
     sortKey: PRODUCT_SORT_KEY;
     /**
@@ -496,7 +434,7 @@ export declare class ProductsServicePaginationReq extends Message<ProductsServic
     entityUuid: string;
     constructor(data?: PartialMessage<ProductsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsServicePaginationReq";
+    static readonly typeName = "scanswift.ProductsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsServicePaginationReq;
@@ -507,7 +445,7 @@ export declare class ProductsServicePaginationReq extends Message<ProductsServic
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.ProductPaginationResp
+ * @generated from message scanswift.ProductPaginationResp
  */
 export declare class ProductPaginationResp extends Message<ProductPaginationResp> {
     /**
@@ -525,12 +463,12 @@ export declare class ProductPaginationResp extends Message<ProductPaginationResp
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Product payload = 3;
+     * @generated from field: repeated scanswift.Product payload = 3;
      */
     payload: Product[];
     constructor(data?: PartialMessage<ProductPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductPaginationResp";
+    static readonly typeName = "scanswift.ProductPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductPaginationResp;
@@ -541,7 +479,7 @@ export declare class ProductPaginationResp extends Message<ProductPaginationResp
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.ProductsServiceFilterReq
+ * @generated from message scanswift.ProductsServiceFilterReq
  */
 export declare class ProductsServiceFilterReq extends Message<ProductsServiceFilterReq> {
     /**
@@ -565,13 +503,13 @@ export declare class ProductsServiceFilterReq extends Message<ProductsServiceFil
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRODUCT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRODUCT_SORT_KEY sort_key = 5;
      */
     sortKey: PRODUCT_SORT_KEY;
     /**
@@ -612,7 +550,7 @@ export declare class ProductsServiceFilterReq extends Message<ProductsServiceFil
     globalIdentifier: string;
     constructor(data?: PartialMessage<ProductsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsServiceFilterReq";
+    static readonly typeName = "scanswift.ProductsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsServiceFilterReq;
@@ -623,7 +561,7 @@ export declare class ProductsServiceFilterReq extends Message<ProductsServiceFil
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.ProductsServiceSearchAllReq
+ * @generated from message scanswift.ProductsServiceSearchAllReq
  */
 export declare class ProductsServiceSearchAllReq extends Message<ProductsServiceSearchAllReq> {
     /**
@@ -647,13 +585,13 @@ export declare class ProductsServiceSearchAllReq extends Message<ProductsService
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRODUCT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRODUCT_SORT_KEY sort_key = 5;
      */
     sortKey: PRODUCT_SORT_KEY;
     /**
@@ -673,7 +611,7 @@ export declare class ProductsServiceSearchAllReq extends Message<ProductsService
     searchKey: string;
     constructor(data?: PartialMessage<ProductsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ProductsServiceSearchAllReq";
+    static readonly typeName = "scanswift.ProductsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ProductsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ProductsServiceSearchAllReq;

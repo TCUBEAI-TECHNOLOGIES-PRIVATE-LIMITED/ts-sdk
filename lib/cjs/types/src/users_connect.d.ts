@@ -5,15 +5,15 @@ import { ActiveRequest, CountRequest, CountResponse, Identifier, IdentifierUsern
  *
  * Describes the methods applicable on each user
  *
- * @generated from service tcube.UsersService
+ * @generated from service scanswift.UsersService
  */
 export declare const UsersService: {
-    readonly typeName: "tcube.UsersService";
+    readonly typeName: "scanswift.UsersService";
     readonly methods: {
         /**
          * Create a user
          *
-         * @generated from rpc tcube.UsersService.Create
+         * @generated from rpc scanswift.UsersService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const UsersService: {
         /**
          * Update a user
          *
-         * @generated from rpc tcube.UsersService.Update
+         * @generated from rpc scanswift.UsersService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const UsersService: {
         /**
          * Update a user's password
          *
-         * @generated from rpc tcube.UsersService.UpdatePassword
+         * @generated from rpc scanswift.UsersService.UpdatePassword
          */
         readonly updatePassword: {
             readonly name: "UpdatePassword";
@@ -46,7 +46,7 @@ export declare const UsersService: {
         /**
          * Reset a user's password. This operation sets a random password and sends the same to the user's email address
          *
-         * @generated from rpc tcube.UsersService.ResetPassword
+         * @generated from rpc scanswift.UsersService.ResetPassword
          */
         readonly resetPassword: {
             readonly name: "ResetPassword";
@@ -59,7 +59,7 @@ export declare const UsersService: {
          * All Identifier operations are listed below
          * Archive the user
          *
-         * @generated from rpc tcube.UsersService.Archive
+         * @generated from rpc scanswift.UsersService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -70,7 +70,7 @@ export declare const UsersService: {
         /**
          * Restore the user
          *
-         * @generated from rpc tcube.UsersService.Restore
+         * @generated from rpc scanswift.UsersService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -81,7 +81,7 @@ export declare const UsersService: {
         /**
          * Register user's device for push notifications
          *
-         * @generated from rpc tcube.UsersService.RegisterUserDevice
+         * @generated from rpc scanswift.UsersService.RegisterUserDevice
          */
         readonly registerUserDevice: {
             readonly name: "RegisterUserDevice";
@@ -92,7 +92,7 @@ export declare const UsersService: {
         /**
          * Assign image
          *
-         * @generated from rpc tcube.UsersService.AssignImage
+         * @generated from rpc scanswift.UsersService.AssignImage
          */
         readonly assignImage: {
             readonly name: "AssignImage";
@@ -103,7 +103,7 @@ export declare const UsersService: {
         /**
          * View assigned image
          *
-         * @generated from rpc tcube.UsersService.ViewImage
+         * @generated from rpc scanswift.UsersService.ViewImage
          */
         readonly viewImage: {
             readonly name: "ViewImage";
@@ -114,7 +114,7 @@ export declare const UsersService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.UsersService.ViewByUUID
+         * @generated from rpc scanswift.UsersService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -125,7 +125,7 @@ export declare const UsersService: {
         /**
          * View by Username
          *
-         * @generated from rpc tcube.UsersService.ViewByUsername
+         * @generated from rpc scanswift.UsersService.ViewByUsername
          */
         readonly viewByUsername: {
             readonly name: "ViewByUsername";
@@ -136,7 +136,7 @@ export declare const UsersService: {
         /**
          * View all users
          *
-         * @generated from rpc tcube.UsersService.ViewAll
+         * @generated from rpc scanswift.UsersService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -147,7 +147,7 @@ export declare const UsersService: {
         /**
          * View users with pagination
          *
-         * @generated from rpc tcube.UsersService.ViewWithPagination
+         * @generated from rpc scanswift.UsersService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -158,7 +158,7 @@ export declare const UsersService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.UsersService.SearchAll
+         * @generated from rpc scanswift.UsersService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -169,7 +169,7 @@ export declare const UsersService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.UsersService.Filter
+         * @generated from rpc scanswift.UsersService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -180,7 +180,7 @@ export declare const UsersService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.UsersService.Count
+         * @generated from rpc scanswift.UsersService.Count
          */
         readonly count: {
             readonly name: "Count";

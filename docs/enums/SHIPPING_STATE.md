@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SHIPPING\_STATE
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SHIPPING\_STATE
 
 # Enumeration: SHIPPING\_STATE
 
@@ -6,7 +6,7 @@ Describes the available states for a shipping
 
 **`Generated`**
 
-from enum tcube.SHIPPING_STATE
+from enum scanswift.SHIPPING_STATE
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: SHIPPING_STATE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L22)
+[src/shippings_pb.ts:24](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L24)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: SHIPPING_STATE_CLOSED = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L36)
+[src/shippings_pb.ts:38](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L38)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: SHIPPING_STATE_OPEN = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L29)
+[src/shippings_pb.ts:31](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L31)

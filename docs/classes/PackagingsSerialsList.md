@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PackagingsSerialsList
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PackagingsSerialsList
 
 # Class: PackagingsSerialsList
 
@@ -6,7 +6,7 @@ Describes the data structure that stores a list of packaging serials
 
 **`Generated`**
 
-from message tcube.PackagingsSerialsList
+from message scanswift.PackagingsSerialsList
 
 ## Hierarchy
 
@@ -62,7 +62,7 @@ Message&lt;PackagingsSerialsList\&gt;.constructor
 
 #### Defined in
 
-[src/packagings_pb.ts:644](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L644)
+[src/packagings_pb.ts:728](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L728)
 
 ## Properties
 
@@ -74,11 +74,11 @@ List of serials that are associated with the packaging
 
 **`Generated`**
 
-from field: repeated tcube.PackagingSerial list = 1;
+from field: repeated scanswift.PackagingSerial list = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:642](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L642)
+[src/packagings_pb.ts:726](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L726)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:651](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L651)
+[src/packagings_pb.ts:735](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L735)
 
 ___
 
@@ -98,17 +98,17 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:649](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L649)
+[src/packagings_pb.ts:733](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L733)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.PackagingsSerialsList"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.PackagingsSerialsList"``
 
 #### Defined in
 
-[src/packagings_pb.ts:650](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L650)
+[src/packagings_pb.ts:734](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L734)
 
 ## Methods
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:667](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L667)
+[src/packagings_pb.ts:751](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L751)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:655](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L655)
+[src/packagings_pb.ts:739](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L739)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:659](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L659)
+[src/packagings_pb.ts:743](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L743)
 
 ___
 
@@ -458,4 +458,4 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:663](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L663)
+[src/packagings_pb.ts:747](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L747)

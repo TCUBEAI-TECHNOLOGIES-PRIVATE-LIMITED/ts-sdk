@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving customers
  *
- * @generated from enum tcube.CUSTOMER_SORT_KEY
+ * @generated from enum scanswift.CUSTOMER_SORT_KEY
  */
 export declare enum CUSTOMER_SORT_KEY {
     /**
@@ -43,7 +43,7 @@ export declare enum CUSTOMER_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a customer
  *
- * @generated from message tcube.CustomersServiceCreateRequest
+ * @generated from message scanswift.CustomersServiceCreateRequest
  */
 export declare class CustomersServiceCreateRequest extends Message<CustomersServiceCreateRequest> {
     /**
@@ -72,7 +72,7 @@ export declare class CustomersServiceCreateRequest extends Message<CustomersServ
     description: string;
     constructor(data?: PartialMessage<CustomersServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersServiceCreateRequest";
+    static readonly typeName = "scanswift.CustomersServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersServiceCreateRequest;
@@ -83,7 +83,7 @@ export declare class CustomersServiceCreateRequest extends Message<CustomersServ
  *
  * Describes the data structure to perform the update (draft/revision) operation on a customer
  *
- * @generated from message tcube.CustomersServiceUpdateRequest
+ * @generated from message scanswift.CustomersServiceUpdateRequest
  */
 export declare class CustomersServiceUpdateRequest extends Message<CustomersServiceUpdateRequest> {
     /**
@@ -112,7 +112,7 @@ export declare class CustomersServiceUpdateRequest extends Message<CustomersServ
     description: string;
     constructor(data?: PartialMessage<CustomersServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersServiceUpdateRequest";
+    static readonly typeName = "scanswift.CustomersServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersServiceUpdateRequest;
@@ -123,13 +123,13 @@ export declare class CustomersServiceUpdateRequest extends Message<CustomersServ
  *
  * Describes the data structure of each customer on the platform
  *
- * @generated from message tcube.Customer
+ * @generated from message scanswift.Customer
  */
 export declare class Customer extends Message<Customer> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -158,7 +158,7 @@ export declare class Customer extends Message<Customer> {
     description: string;
     constructor(data?: PartialMessage<Customer>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Customer";
+    static readonly typeName = "scanswift.Customer";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Customer;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Customer;
@@ -169,18 +169,18 @@ export declare class Customer extends Message<Customer> {
  *
  * Describes the data structure that stores a list of customers
  *
- * @generated from message tcube.CustomersList
+ * @generated from message scanswift.CustomersList
  */
 export declare class CustomersList extends Message<CustomersList> {
     /**
      * List of customers
      *
-     * @generated from field: repeated tcube.Customer list = 1;
+     * @generated from field: repeated scanswift.Customer list = 1;
      */
     list: Customer[];
     constructor(data?: PartialMessage<CustomersList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersList";
+    static readonly typeName = "scanswift.CustomersList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersList;
@@ -191,7 +191,7 @@ export declare class CustomersList extends Message<CustomersList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.CustomersServicePaginationReq
+ * @generated from message scanswift.CustomersServicePaginationReq
  */
 export declare class CustomersServicePaginationReq extends Message<CustomersServicePaginationReq> {
     /**
@@ -215,13 +215,13 @@ export declare class CustomersServicePaginationReq extends Message<CustomersServ
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CUSTOMER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CUSTOMER_SORT_KEY sort_key = 5;
      */
     sortKey: CUSTOMER_SORT_KEY;
     /**
@@ -232,7 +232,7 @@ export declare class CustomersServicePaginationReq extends Message<CustomersServ
     entityUuid: string;
     constructor(data?: PartialMessage<CustomersServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersServicePaginationReq";
+    static readonly typeName = "scanswift.CustomersServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersServicePaginationReq;
@@ -243,7 +243,7 @@ export declare class CustomersServicePaginationReq extends Message<CustomersServ
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.CustomerPaginationResp
+ * @generated from message scanswift.CustomerPaginationResp
  */
 export declare class CustomerPaginationResp extends Message<CustomerPaginationResp> {
     /**
@@ -261,12 +261,12 @@ export declare class CustomerPaginationResp extends Message<CustomerPaginationRe
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Customer payload = 3;
+     * @generated from field: repeated scanswift.Customer payload = 3;
      */
     payload: Customer[];
     constructor(data?: PartialMessage<CustomerPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomerPaginationResp";
+    static readonly typeName = "scanswift.CustomerPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomerPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomerPaginationResp;
@@ -277,7 +277,7 @@ export declare class CustomerPaginationResp extends Message<CustomerPaginationRe
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.CustomersServiceFilterReq
+ * @generated from message scanswift.CustomersServiceFilterReq
  */
 export declare class CustomersServiceFilterReq extends Message<CustomersServiceFilterReq> {
     /**
@@ -301,13 +301,13 @@ export declare class CustomersServiceFilterReq extends Message<CustomersServiceF
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CUSTOMER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CUSTOMER_SORT_KEY sort_key = 5;
      */
     sortKey: CUSTOMER_SORT_KEY;
     /**
@@ -342,7 +342,7 @@ export declare class CustomersServiceFilterReq extends Message<CustomersServiceF
     code: string;
     constructor(data?: PartialMessage<CustomersServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersServiceFilterReq";
+    static readonly typeName = "scanswift.CustomersServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersServiceFilterReq;
@@ -353,7 +353,7 @@ export declare class CustomersServiceFilterReq extends Message<CustomersServiceF
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.CustomersServiceSearchAllReq
+ * @generated from message scanswift.CustomersServiceSearchAllReq
  */
 export declare class CustomersServiceSearchAllReq extends Message<CustomersServiceSearchAllReq> {
     /**
@@ -377,13 +377,13 @@ export declare class CustomersServiceSearchAllReq extends Message<CustomersServi
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CUSTOMER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CUSTOMER_SORT_KEY sort_key = 5;
      */
     sortKey: CUSTOMER_SORT_KEY;
     /**
@@ -400,7 +400,7 @@ export declare class CustomersServiceSearchAllReq extends Message<CustomersServi
     searchKey: string;
     constructor(data?: PartialMessage<CustomersServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CustomersServiceSearchAllReq";
+    static readonly typeName = "scanswift.CustomersServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CustomersServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CustomersServiceSearchAllReq;

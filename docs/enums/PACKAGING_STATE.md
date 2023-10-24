@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PACKAGING\_STATE
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PACKAGING\_STATE
 
 # Enumeration: PACKAGING\_STATE
 
@@ -6,7 +6,7 @@ Describes the available states for a packaging
 
 **`Generated`**
 
-from enum tcube.PACKAGING_STATE
+from enum scanswift.PACKAGING_STATE
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: PACKAGING_STATE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/packagings_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L23)
+[src/packagings_pb.ts:25](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L25)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PACKAGING_STATE_CLOSED = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L37)
+[src/packagings_pb.ts:39](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L39)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PACKAGING_STATE_OPEN = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L30)
+[src/packagings_pb.ts:32](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L32)

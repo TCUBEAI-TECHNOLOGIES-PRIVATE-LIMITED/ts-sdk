@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ScansServiceShippingScan
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ScansServiceShippingScan
 
 # Class: ScansServiceShippingScan
 
@@ -6,7 +6,7 @@ Describes the shipping scan message
 
 **`Generated`**
 
-from message tcube.ScansServiceShippingScan
+from message scanswift.ScansServiceShippingScan
 
 ## Hierarchy
 
@@ -66,7 +66,7 @@ Message&lt;ScansServiceShippingScan\&gt;.constructor
 
 #### Defined in
 
-[src/scans_pb.ts:757](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L757)
+[src/scans_pb.ts:757](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L757)
 
 ## Properties
 
@@ -78,11 +78,11 @@ Stores if the location has been inferred from IP or from user provided geocoordi
 
 **`Generated`**
 
-from field: tcube.INFERRED_FROM inferred_from = 13;
+from field: scanswift.INFERRED_FROM inferred_from = 13;
 
 #### Defined in
 
-[src/scans_pb.ts:755](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L755)
+[src/scans_pb.ts:755](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L755)
 
 ___
 
@@ -98,7 +98,7 @@ from field: double latitude = 11;
 
 #### Defined in
 
-[src/scans_pb.ts:741](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L741)
+[src/scans_pb.ts:741](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L741)
 
 ___
 
@@ -114,7 +114,7 @@ from field: double longitude = 12;
 
 #### Defined in
 
-[src/scans_pb.ts:748](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L748)
+[src/scans_pb.ts:748](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L748)
 
 ___
 
@@ -126,11 +126,11 @@ Stores the metadata of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/scans_pb.ts:727](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L727)
+[src/scans_pb.ts:727](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L727)
 
 ___
 
@@ -146,7 +146,7 @@ from field: string shipping_uuid = 10;
 
 #### Defined in
 
-[src/scans_pb.ts:734](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L734)
+[src/scans_pb.ts:734](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L734)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:764](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L764)
+[src/scans_pb.ts:764](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L764)
 
 ___
 
@@ -166,17 +166,17 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:762](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L762)
+[src/scans_pb.ts:762](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L762)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ScansServiceShippingScan"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ScansServiceShippingScan"``
 
 #### Defined in
 
-[src/scans_pb.ts:763](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L763)
+[src/scans_pb.ts:763](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L763)
 
 ## Methods
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:784](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L784)
+[src/scans_pb.ts:784](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L784)
 
 ___
 
@@ -484,7 +484,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:772](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L772)
+[src/scans_pb.ts:772](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L772)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:776](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L776)
+[src/scans_pb.ts:776](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L776)
 
 ___
 
@@ -526,4 +526,4 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:780](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L780)
+[src/scans_pb.ts:780](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L780)

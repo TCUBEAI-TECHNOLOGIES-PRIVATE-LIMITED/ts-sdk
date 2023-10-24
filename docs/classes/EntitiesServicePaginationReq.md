@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / EntitiesServicePaginationReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / EntitiesServicePaginationReq
 
 # Class: EntitiesServicePaginationReq
 
@@ -6,7 +6,7 @@ Describes a pagination request to retrieve records
 
 **`Generated`**
 
-from message tcube.EntitiesServicePaginationReq
+from message scanswift.EntitiesServicePaginationReq
 
 ## Hierarchy
 
@@ -66,7 +66,7 @@ Message&lt;EntitiesServicePaginationReq\&gt;.constructor
 
 #### Defined in
 
-[src/entities_pb.ts:565](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L565)
+[src/entities_pb.ts:565](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L565)
 
 ## Properties
 
@@ -82,7 +82,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/entities_pb.ts:542](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L542)
+[src/entities_pb.ts:542](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L542)
 
 ___
 
@@ -98,7 +98,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/entities_pb.ts:535](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L535)
+[src/entities_pb.ts:535](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L535)
 
 ___
 
@@ -114,7 +114,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/entities_pb.ts:549](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L549)
+[src/entities_pb.ts:549](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L549)
 
 ___
 
@@ -126,11 +126,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.ENTITY_SORT_KEY sort_key = 5;
+from field: scanswift.ENTITY_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/entities_pb.ts:563](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L563)
+[src/entities_pb.ts:563](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L563)
 
 ___
 
@@ -142,11 +142,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/entities_pb.ts:556](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L556)
+[src/entities_pb.ts:556](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L556)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:572](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L572)
+[src/entities_pb.ts:572](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L572)
 
 ___
 
@@ -166,17 +166,17 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:570](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L570)
+[src/entities_pb.ts:570](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L570)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.EntitiesServicePaginationReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.EntitiesServicePaginationReq"``
 
 #### Defined in
 
-[src/entities_pb.ts:571](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L571)
+[src/entities_pb.ts:571](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L571)
 
 ## Methods
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:592](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L592)
+[src/entities_pb.ts:592](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L592)
 
 ___
 
@@ -484,7 +484,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L580)
+[src/entities_pb.ts:580](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L580)
 
 ___
 
@@ -505,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:584](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L584)
+[src/entities_pb.ts:584](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L584)
 
 ___
 
@@ -526,4 +526,4 @@ ___
 
 #### Defined in
 
-[src/entities_pb.ts:588](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_pb.ts#L588)
+[src/entities_pb.ts:588](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_pb.ts#L588)

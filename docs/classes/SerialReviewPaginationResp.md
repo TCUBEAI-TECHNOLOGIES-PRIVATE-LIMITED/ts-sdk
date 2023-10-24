@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SerialReviewPaginationResp
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SerialReviewPaginationResp
 
 # Class: SerialReviewPaginationResp
 
@@ -6,7 +6,7 @@ Describes the data structure that responds to a pagination request
 
 **`Generated`**
 
-from message tcube.SerialReviewPaginationResp
+from message scanswift.SerialReviewPaginationResp
 
 ## Hierarchy
 
@@ -64,7 +64,7 @@ Message&lt;SerialReviewPaginationResp\&gt;.constructor
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:484](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L484)
+[src/serials_reviews_pb.ts:484](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L484)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: int64 count = 1;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:468](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L468)
+[src/serials_reviews_pb.ts:468](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L468)
 
 ___
 
@@ -92,11 +92,11 @@ The list of records
 
 **`Generated`**
 
-from field: repeated tcube.SerialReview payload = 3;
+from field: repeated scanswift.SerialReview payload = 3;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:482](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L482)
+[src/serials_reviews_pb.ts:482](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L482)
 
 ___
 
@@ -112,7 +112,7 @@ from field: int64 total = 2;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:475](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L475)
+[src/serials_reviews_pb.ts:475](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L475)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:491](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L491)
+[src/serials_reviews_pb.ts:491](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L491)
 
 ___
 
@@ -132,17 +132,17 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:489](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L489)
+[src/serials_reviews_pb.ts:489](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L489)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.SerialReviewPaginationResp"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.SerialReviewPaginationResp"``
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:490](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L490)
+[src/serials_reviews_pb.ts:490](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L490)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:509](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L509)
+[src/serials_reviews_pb.ts:509](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L509)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:497](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L497)
+[src/serials_reviews_pb.ts:497](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L497)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:501](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L501)
+[src/serials_reviews_pb.ts:501](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L501)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:505](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L505)
+[src/serials_reviews_pb.ts:505](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L505)

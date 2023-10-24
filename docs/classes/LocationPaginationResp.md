@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / LocationPaginationResp
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / LocationPaginationResp
 
 # Class: LocationPaginationResp
 
@@ -6,7 +6,7 @@ Describes the data structure that responds to a pagination request
 
 **`Generated`**
 
-from message tcube.LocationPaginationResp
+from message scanswift.LocationPaginationResp
 
 ## Hierarchy
 
@@ -64,7 +64,7 @@ Message&lt;LocationPaginationResp\&gt;.constructor
 
 #### Defined in
 
-[src/locations_pb.ts:435](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L435)
+[src/locations_pb.ts:435](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L435)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: int64 count = 1;
 
 #### Defined in
 
-[src/locations_pb.ts:419](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L419)
+[src/locations_pb.ts:419](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L419)
 
 ___
 
@@ -92,11 +92,11 @@ The list of records
 
 **`Generated`**
 
-from field: repeated tcube.Location payload = 3;
+from field: repeated scanswift.Location payload = 3;
 
 #### Defined in
 
-[src/locations_pb.ts:433](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L433)
+[src/locations_pb.ts:433](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L433)
 
 ___
 
@@ -112,7 +112,7 @@ from field: int64 total = 2;
 
 #### Defined in
 
-[src/locations_pb.ts:426](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L426)
+[src/locations_pb.ts:426](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L426)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:442](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L442)
+[src/locations_pb.ts:442](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L442)
 
 ___
 
@@ -132,17 +132,17 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:440](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L440)
+[src/locations_pb.ts:440](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L440)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.LocationPaginationResp"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.LocationPaginationResp"``
 
 #### Defined in
 
-[src/locations_pb.ts:441](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L441)
+[src/locations_pb.ts:441](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L441)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:460](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L460)
+[src/locations_pb.ts:460](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L460)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:448](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L448)
+[src/locations_pb.ts:448](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L448)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:452](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L452)
+[src/locations_pb.ts:452](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L452)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-[src/locations_pb.ts:456](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_pb.ts#L456)
+[src/locations_pb.ts:456](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_pb.ts#L456)

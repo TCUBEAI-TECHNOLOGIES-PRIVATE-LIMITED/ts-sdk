@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / FloatRules
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / FloatRules
 
 # Class: FloatRules
 
@@ -69,7 +69,7 @@ Message&lt;FloatRules\&gt;.constructor
 
 #### Defined in
 
-[src/validate_pb.ts:312](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L312)
+[src/validate_pb.ts:312](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L312)
 
 ## Properties
 
@@ -85,7 +85,7 @@ from field: optional float const = 1;
 
 #### Defined in
 
-[src/validate_pb.ts:252](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L252)
+[src/validate_pb.ts:252](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L252)
 
 ___
 
@@ -103,7 +103,7 @@ from field: optional float gt = 4;
 
 #### Defined in
 
-[src/validate_pb.ts:277](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L277)
+[src/validate_pb.ts:277](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L277)
 
 ___
 
@@ -121,7 +121,7 @@ from field: optional float gte = 5;
 
 #### Defined in
 
-[src/validate_pb.ts:286](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L286)
+[src/validate_pb.ts:286](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L286)
 
 ___
 
@@ -138,7 +138,7 @@ from field: optional bool ignore_empty = 8;
 
 #### Defined in
 
-[src/validate_pb.ts:310](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L310)
+[src/validate_pb.ts:310](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L310)
 
 ___
 
@@ -155,7 +155,7 @@ from field: repeated float in = 6;
 
 #### Defined in
 
-[src/validate_pb.ts:294](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L294)
+[src/validate_pb.ts:294](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L294)
 
 ___
 
@@ -172,7 +172,7 @@ from field: optional float lt = 2;
 
 #### Defined in
 
-[src/validate_pb.ts:260](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L260)
+[src/validate_pb.ts:260](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L260)
 
 ___
 
@@ -189,7 +189,7 @@ from field: optional float lte = 3;
 
 #### Defined in
 
-[src/validate_pb.ts:268](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L268)
+[src/validate_pb.ts:268](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L268)
 
 ___
 
@@ -206,7 +206,7 @@ from field: repeated float not_in = 7;
 
 #### Defined in
 
-[src/validate_pb.ts:302](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L302)
+[src/validate_pb.ts:302](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L302)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:319](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L319)
+[src/validate_pb.ts:319](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L319)
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:317](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L317)
+[src/validate_pb.ts:317](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L317)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:318](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L318)
+[src/validate_pb.ts:318](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L318)
 
 ## Methods
 
@@ -523,7 +523,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:342](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L342)
+[src/validate_pb.ts:342](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L342)
 
 ___
 
@@ -544,7 +544,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:330](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L330)
+[src/validate_pb.ts:330](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L330)
 
 ___
 
@@ -565,7 +565,7 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:334](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L334)
+[src/validate_pb.ts:334](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L334)
 
 ___
 
@@ -586,4 +586,4 @@ ___
 
 #### Defined in
 
-[src/validate_pb.ts:338](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L338)
+[src/validate_pb.ts:338](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L338)

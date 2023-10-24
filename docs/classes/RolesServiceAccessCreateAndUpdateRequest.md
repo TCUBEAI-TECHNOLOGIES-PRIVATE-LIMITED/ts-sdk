@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / RolesServiceAccessCreateAndUpdateRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / RolesServiceAccessCreateAndUpdateRequest
 
 # Class: RolesServiceAccessCreateAndUpdateRequest
 
@@ -6,7 +6,7 @@ Describes the necessary data structure during creation/updation of a role access
 
 **`Generated`**
 
-from message tcube.RolesServiceAccessCreateAndUpdateRequest
+from message scanswift.RolesServiceAccessCreateAndUpdateRequest
 
 ## Hierarchy
 
@@ -63,7 +63,7 @@ Message&lt;RolesServiceAccessCreateAndUpdateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/roles_pb.ts:322](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L322)
+[src/roles_pb.ts:322](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L322)
 
 ## Properties
 
@@ -79,7 +79,7 @@ from field: bool is_accessible = 12;
 
 #### Defined in
 
-[src/roles_pb.ts:320](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L320)
+[src/roles_pb.ts:320](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L320)
 
 ___
 
@@ -95,7 +95,7 @@ from field: string menu_uid = 11;
 
 #### Defined in
 
-[src/roles_pb.ts:313](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L313)
+[src/roles_pb.ts:313](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L313)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:329](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L329)
+[src/roles_pb.ts:329](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L329)
 
 ___
 
@@ -115,17 +115,17 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:327](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L327)
+[src/roles_pb.ts:327](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L327)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.RolesServiceAccessCreateAndUpdateRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.RolesServiceAccessCreateAndUpdateRequest"``
 
 #### Defined in
 
-[src/roles_pb.ts:328](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L328)
+[src/roles_pb.ts:328](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L328)
 
 ## Methods
 
@@ -412,7 +412,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:346](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L346)
+[src/roles_pb.ts:346](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L346)
 
 ___
 
@@ -433,7 +433,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:334](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L334)
+[src/roles_pb.ts:334](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L334)
 
 ___
 
@@ -454,7 +454,7 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:338](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L338)
+[src/roles_pb.ts:338](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L338)
 
 ___
 
@@ -475,4 +475,4 @@ ___
 
 #### Defined in
 
-[src/roles_pb.ts:342](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_pb.ts#L342)
+[src/roles_pb.ts:342](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_pb.ts#L342)

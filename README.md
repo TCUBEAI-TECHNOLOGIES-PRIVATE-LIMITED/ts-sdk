@@ -1,11 +1,11 @@
 Installation
 ============
 ```bash
-npm install tcubesa-sdk
+npm install scanswift-sdk
 ```
 
 ```bash
-yarn add tcubesa-sdk
+yarn add scanswift-sdk
 ```
 
 
@@ -15,22 +15,23 @@ Usage
 #### NodeJS Imports
 
 ```typescript
-import { Interceptor, StreamResponse, UnaryResponse, createPromiseClient } from "@bufbuild/connect";
-import { createConnectTransport } from "@bufbuild/connect-node";
+import { Interceptor, StreamResponse, UnaryResponse, createPromiseClient } from "@connectrpc/connect";
+import { createConnectTransport } from "@connectrpc/connect-node";
 ```
 
 #### Web Imports
 
 ```typescript
-import { createPromiseClient, createConnectTransport, Interceptor, StreamResponse, UnaryResponse } from "@bufbuild/connect-web";
+import { Interceptor, StreamResponse, UnaryResponse, createPromiseClient } from "@connectrpc/connect";
+import { createConnectTransport } from "@connectrpc/connect-web";
 ```
 
-#### Import necessary services from `tcubesa-sdk`
+#### Import necessary services from `scanswift-sdk`
 
 ```typescript
 import { 
     LoginService
-} from "tcubesa-sdk";
+} from "scanswift-sdk";
 ```
 
 #### Execution

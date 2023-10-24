@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceUpdateRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceUpdateRequest
 
 # Class: EntitiesUsersServiceUpdateRequest
 
@@ -6,7 +6,7 @@ Describes the data structure to perform the update (draft/revision) operation on
 
 **`Generated`**
 
-from message tcube.EntitiesUsersServiceUpdateRequest
+from message scanswift.EntitiesUsersServiceUpdateRequest
 
 ## Hierarchy
 
@@ -64,7 +64,7 @@ Message&lt;EntitiesUsersServiceUpdateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/entities_users_pb.ts:139](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L139)
+[src/entities_users_pb.ts:139](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L139)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: string role_uuid = 11;
 
 #### Defined in
 
-[src/entities_users_pb.ts:137](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L137)
+[src/entities_users_pb.ts:137](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L137)
 
 ___
 
@@ -96,7 +96,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/entities_users_pb.ts:123](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L123)
+[src/entities_users_pb.ts:123](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L123)
 
 ___
 
@@ -112,7 +112,7 @@ from field: string uuid = 2;
 
 #### Defined in
 
-[src/entities_users_pb.ts:130](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L130)
+[src/entities_users_pb.ts:130](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L130)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:146](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L146)
+[src/entities_users_pb.ts:146](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L146)
 
 ___
 
@@ -132,17 +132,17 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:144](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L144)
+[src/entities_users_pb.ts:144](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L144)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.EntitiesUsersServiceUpdateRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.EntitiesUsersServiceUpdateRequest"``
 
 #### Defined in
 
-[src/entities_users_pb.ts:145](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L145)
+[src/entities_users_pb.ts:145](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L145)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:164](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L164)
+[src/entities_users_pb.ts:164](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L164)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:152](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L152)
+[src/entities_users_pb.ts:152](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L152)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:156](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L156)
+[src/entities_users_pb.ts:156](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L156)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:160](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L160)
+[src/entities_users_pb.ts:160](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L160)

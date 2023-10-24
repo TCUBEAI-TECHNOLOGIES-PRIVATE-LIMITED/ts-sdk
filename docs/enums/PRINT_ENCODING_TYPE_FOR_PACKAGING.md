@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_PACKAGING
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_PACKAGING
 
 # Enumeration: PRINT\_ENCODING\_TYPE\_FOR\_PACKAGING
 
@@ -6,7 +6,7 @@ Stores the possible values for encoding type
 
 **`Generated`**
 
-from enum tcube.PRINT_ENCODING_TYPE_FOR_PACKAGING
+from enum scanswift.PRINT_ENCODING_TYPE_FOR_PACKAGING
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_ALL = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:72](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L72)
+[src/packagings_pb.ts:74](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L74)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/packagings_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L58)
+[src/packagings_pb.ts:60](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L60)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PACKAGING_URI = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L65)
+[src/packagings_pb.ts:67](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L67)

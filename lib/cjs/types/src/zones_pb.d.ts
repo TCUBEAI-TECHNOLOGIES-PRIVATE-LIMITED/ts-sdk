@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available zone types
  *
- * @generated from enum tcube.ZONE_TYPE
+ * @generated from enum scanswift.ZONE_TYPE
  */
 export declare enum ZONE_TYPE {
     /**
@@ -37,7 +37,7 @@ export declare enum ZONE_TYPE {
  *
  * Describes the available sort keys for retrieving zones
  *
- * @generated from enum tcube.ZONE_SORT_KEY
+ * @generated from enum scanswift.ZONE_SORT_KEY
  */
 export declare enum ZONE_SORT_KEY {
     /**
@@ -75,7 +75,7 @@ export declare enum ZONE_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a zone
  *
- * @generated from message tcube.ZonesServiceCreateRequest
+ * @generated from message scanswift.ZonesServiceCreateRequest
  */
 export declare class ZonesServiceCreateRequest extends Message<ZonesServiceCreateRequest> {
     /**
@@ -117,12 +117,12 @@ export declare class ZonesServiceCreateRequest extends Message<ZonesServiceCreat
     /**
      * The type of the zone
      *
-     * @generated from field: tcube.ZONE_TYPE type = 13;
+     * @generated from field: scanswift.ZONE_TYPE type = 13;
      */
     type: ZONE_TYPE;
     constructor(data?: PartialMessage<ZonesServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesServiceCreateRequest";
+    static readonly typeName = "scanswift.ZonesServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesServiceCreateRequest;
@@ -133,7 +133,7 @@ export declare class ZonesServiceCreateRequest extends Message<ZonesServiceCreat
  *
  * Describes the data structure to perform the update (draft/revision) operation on a zone
  *
- * @generated from message tcube.ZonesServiceUpdateRequest
+ * @generated from message scanswift.ZonesServiceUpdateRequest
  */
 export declare class ZonesServiceUpdateRequest extends Message<ZonesServiceUpdateRequest> {
     /**
@@ -169,12 +169,12 @@ export declare class ZonesServiceUpdateRequest extends Message<ZonesServiceUpdat
     /**
      * The type of the zone
      *
-     * @generated from field: tcube.ZONE_TYPE type = 13;
+     * @generated from field: scanswift.ZONE_TYPE type = 13;
      */
     type: ZONE_TYPE;
     constructor(data?: PartialMessage<ZonesServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesServiceUpdateRequest";
+    static readonly typeName = "scanswift.ZonesServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesServiceUpdateRequest;
@@ -185,13 +185,13 @@ export declare class ZonesServiceUpdateRequest extends Message<ZonesServiceUpdat
  *
  * Describes the data structure of each zone on the platform
  *
- * @generated from message tcube.Zone
+ * @generated from message scanswift.Zone
  */
 export declare class Zone extends Message<Zone> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -227,12 +227,12 @@ export declare class Zone extends Message<Zone> {
     /**
      * The type of the zone
      *
-     * @generated from field: tcube.ZONE_TYPE type = 13;
+     * @generated from field: scanswift.ZONE_TYPE type = 13;
      */
     type: ZONE_TYPE;
     constructor(data?: PartialMessage<Zone>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Zone";
+    static readonly typeName = "scanswift.Zone";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Zone;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Zone;
@@ -243,18 +243,18 @@ export declare class Zone extends Message<Zone> {
  *
  * Describes the data structure that stores a list of zones
  *
- * @generated from message tcube.ZonesList
+ * @generated from message scanswift.ZonesList
  */
 export declare class ZonesList extends Message<ZonesList> {
     /**
      * List of zones
      *
-     * @generated from field: repeated tcube.Zone list = 1;
+     * @generated from field: repeated scanswift.Zone list = 1;
      */
     list: Zone[];
     constructor(data?: PartialMessage<ZonesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesList";
+    static readonly typeName = "scanswift.ZonesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesList;
@@ -265,7 +265,7 @@ export declare class ZonesList extends Message<ZonesList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.ZonesServicePaginationReq
+ * @generated from message scanswift.ZonesServicePaginationReq
  */
 export declare class ZonesServicePaginationReq extends Message<ZonesServicePaginationReq> {
     /**
@@ -289,13 +289,13 @@ export declare class ZonesServicePaginationReq extends Message<ZonesServicePagin
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ZONE_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ZONE_SORT_KEY sort_key = 5;
      */
     sortKey: ZONE_SORT_KEY;
     /**
@@ -306,7 +306,7 @@ export declare class ZonesServicePaginationReq extends Message<ZonesServicePagin
     entityUuid: string;
     constructor(data?: PartialMessage<ZonesServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesServicePaginationReq";
+    static readonly typeName = "scanswift.ZonesServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesServicePaginationReq;
@@ -317,7 +317,7 @@ export declare class ZonesServicePaginationReq extends Message<ZonesServicePagin
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.ZonePaginationResp
+ * @generated from message scanswift.ZonePaginationResp
  */
 export declare class ZonePaginationResp extends Message<ZonePaginationResp> {
     /**
@@ -335,12 +335,12 @@ export declare class ZonePaginationResp extends Message<ZonePaginationResp> {
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Zone payload = 3;
+     * @generated from field: repeated scanswift.Zone payload = 3;
      */
     payload: Zone[];
     constructor(data?: PartialMessage<ZonePaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonePaginationResp";
+    static readonly typeName = "scanswift.ZonePaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonePaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonePaginationResp;
@@ -351,7 +351,7 @@ export declare class ZonePaginationResp extends Message<ZonePaginationResp> {
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.ZonesServiceFilterReq
+ * @generated from message scanswift.ZonesServiceFilterReq
  */
 export declare class ZonesServiceFilterReq extends Message<ZonesServiceFilterReq> {
     /**
@@ -375,13 +375,13 @@ export declare class ZonesServiceFilterReq extends Message<ZonesServiceFilterReq
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ZONE_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ZONE_SORT_KEY sort_key = 5;
      */
     sortKey: ZONE_SORT_KEY;
     /**
@@ -423,12 +423,12 @@ export declare class ZonesServiceFilterReq extends Message<ZonesServiceFilterReq
     /**
      * The type of the zone
      *
-     * @generated from field: tcube.ZONE_TYPE type = 22;
+     * @generated from field: scanswift.ZONE_TYPE type = 22;
      */
     type: ZONE_TYPE;
     constructor(data?: PartialMessage<ZonesServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesServiceFilterReq";
+    static readonly typeName = "scanswift.ZonesServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesServiceFilterReq;
@@ -439,7 +439,7 @@ export declare class ZonesServiceFilterReq extends Message<ZonesServiceFilterReq
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.ZonesServiceSearchAllReq
+ * @generated from message scanswift.ZonesServiceSearchAllReq
  */
 export declare class ZonesServiceSearchAllReq extends Message<ZonesServiceSearchAllReq> {
     /**
@@ -463,13 +463,13 @@ export declare class ZonesServiceSearchAllReq extends Message<ZonesServiceSearch
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ZONE_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ZONE_SORT_KEY sort_key = 5;
      */
     sortKey: ZONE_SORT_KEY;
     /**
@@ -493,12 +493,12 @@ export declare class ZonesServiceSearchAllReq extends Message<ZonesServiceSearch
     /**
      * The type of the zone
      *
-     * @generated from field: tcube.ZONE_TYPE type = 22;
+     * @generated from field: scanswift.ZONE_TYPE type = 22;
      */
     type: ZONE_TYPE;
     constructor(data?: PartialMessage<ZonesServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ZonesServiceSearchAllReq";
+    static readonly typeName = "scanswift.ZonesServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ZonesServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ZonesServiceSearchAllReq;

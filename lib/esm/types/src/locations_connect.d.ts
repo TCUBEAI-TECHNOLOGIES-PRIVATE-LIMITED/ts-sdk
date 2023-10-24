@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier,
  *
  * Describes the methods applicable on each location
  *
- * @generated from service tcube.LocationsService
+ * @generated from service scanswift.LocationsService
  */
 export declare const LocationsService: {
-    readonly typeName: "tcube.LocationsService";
+    readonly typeName: "scanswift.LocationsService";
     readonly methods: {
         /**
          * Create a location
          *
-         * @generated from rpc tcube.LocationsService.Create
+         * @generated from rpc scanswift.LocationsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const LocationsService: {
         /**
          * Update a location
          *
-         * @generated from rpc tcube.LocationsService.Update
+         * @generated from rpc scanswift.LocationsService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const LocationsService: {
         /**
          * Archive the location
          *
-         * @generated from rpc tcube.LocationsService.Archive
+         * @generated from rpc scanswift.LocationsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const LocationsService: {
         /**
          * Restore the location
          *
-         * @generated from rpc tcube.LocationsService.Restore
+         * @generated from rpc scanswift.LocationsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const LocationsService: {
         /**
          * Assign image
          *
-         * @generated from rpc tcube.LocationsService.AssignImage
+         * @generated from rpc scanswift.LocationsService.AssignImage
          */
         readonly assignImage: {
             readonly name: "AssignImage";
@@ -68,7 +68,7 @@ export declare const LocationsService: {
         /**
          * View assigned image
          *
-         * @generated from rpc tcube.LocationsService.ViewImage
+         * @generated from rpc scanswift.LocationsService.ViewImage
          */
         readonly viewImage: {
             readonly name: "ViewImage";
@@ -79,7 +79,7 @@ export declare const LocationsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.LocationsService.ViewByUUID
+         * @generated from rpc scanswift.LocationsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -90,7 +90,7 @@ export declare const LocationsService: {
         /**
          * View all locations
          *
-         * @generated from rpc tcube.LocationsService.ViewAll
+         * @generated from rpc scanswift.LocationsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -101,7 +101,7 @@ export declare const LocationsService: {
         /**
          * View locations with pagination
          *
-         * @generated from rpc tcube.LocationsService.ViewWithPagination
+         * @generated from rpc scanswift.LocationsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -112,7 +112,7 @@ export declare const LocationsService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.LocationsService.SearchAll
+         * @generated from rpc scanswift.LocationsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -123,7 +123,7 @@ export declare const LocationsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.LocationsService.Filter
+         * @generated from rpc scanswift.LocationsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -134,7 +134,7 @@ export declare const LocationsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.LocationsService.Count
+         * @generated from rpc scanswift.LocationsService.Count
          */
         readonly count: {
             readonly name: "Count";

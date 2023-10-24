@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving currencies
  *
- * @generated from enum tcube.CURRENCY_SORT_KEY
+ * @generated from enum scanswift.CURRENCY_SORT_KEY
  */
 export declare enum CURRENCY_SORT_KEY {
     /**
@@ -43,7 +43,7 @@ export declare enum CURRENCY_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a currency
  *
- * @generated from message tcube.CurrenciesServiceCreateRequest
+ * @generated from message scanswift.CurrenciesServiceCreateRequest
  */
 export declare class CurrenciesServiceCreateRequest extends Message<CurrenciesServiceCreateRequest> {
     /**
@@ -72,7 +72,7 @@ export declare class CurrenciesServiceCreateRequest extends Message<CurrenciesSe
     description: string;
     constructor(data?: PartialMessage<CurrenciesServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesServiceCreateRequest";
+    static readonly typeName = "scanswift.CurrenciesServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesServiceCreateRequest;
@@ -83,7 +83,7 @@ export declare class CurrenciesServiceCreateRequest extends Message<CurrenciesSe
  *
  * Describes the data structure to perform the update (draft/revision) operation on a currency
  *
- * @generated from message tcube.CurrenciesServiceUpdateRequest
+ * @generated from message scanswift.CurrenciesServiceUpdateRequest
  */
 export declare class CurrenciesServiceUpdateRequest extends Message<CurrenciesServiceUpdateRequest> {
     /**
@@ -118,7 +118,7 @@ export declare class CurrenciesServiceUpdateRequest extends Message<CurrenciesSe
     description: string;
     constructor(data?: PartialMessage<CurrenciesServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesServiceUpdateRequest";
+    static readonly typeName = "scanswift.CurrenciesServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesServiceUpdateRequest;
@@ -129,13 +129,13 @@ export declare class CurrenciesServiceUpdateRequest extends Message<CurrenciesSe
  *
  * Describes the data structure of each currency on the platform
  *
- * @generated from message tcube.Currency
+ * @generated from message scanswift.Currency
  */
 export declare class Currency extends Message<Currency> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -158,7 +158,7 @@ export declare class Currency extends Message<Currency> {
     description: string;
     constructor(data?: PartialMessage<Currency>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Currency";
+    static readonly typeName = "scanswift.Currency";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Currency;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Currency;
@@ -169,18 +169,18 @@ export declare class Currency extends Message<Currency> {
  *
  * Describes the data structure that stores a list of currencies
  *
- * @generated from message tcube.CurrenciesList
+ * @generated from message scanswift.CurrenciesList
  */
 export declare class CurrenciesList extends Message<CurrenciesList> {
     /**
      * List of currencies
      *
-     * @generated from field: repeated tcube.Currency list = 1;
+     * @generated from field: repeated scanswift.Currency list = 1;
      */
     list: Currency[];
     constructor(data?: PartialMessage<CurrenciesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesList";
+    static readonly typeName = "scanswift.CurrenciesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesList;
@@ -191,7 +191,7 @@ export declare class CurrenciesList extends Message<CurrenciesList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.CurrenciesServicePaginationReq
+ * @generated from message scanswift.CurrenciesServicePaginationReq
  */
 export declare class CurrenciesServicePaginationReq extends Message<CurrenciesServicePaginationReq> {
     /**
@@ -215,18 +215,18 @@ export declare class CurrenciesServicePaginationReq extends Message<CurrenciesSe
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CURRENCY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CURRENCY_SORT_KEY sort_key = 5;
      */
     sortKey: CURRENCY_SORT_KEY;
     constructor(data?: PartialMessage<CurrenciesServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesServicePaginationReq";
+    static readonly typeName = "scanswift.CurrenciesServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesServicePaginationReq;
@@ -237,7 +237,7 @@ export declare class CurrenciesServicePaginationReq extends Message<CurrenciesSe
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.CurrencyPaginationResp
+ * @generated from message scanswift.CurrencyPaginationResp
  */
 export declare class CurrencyPaginationResp extends Message<CurrencyPaginationResp> {
     /**
@@ -255,12 +255,12 @@ export declare class CurrencyPaginationResp extends Message<CurrencyPaginationRe
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Currency payload = 3;
+     * @generated from field: repeated scanswift.Currency payload = 3;
      */
     payload: Currency[];
     constructor(data?: PartialMessage<CurrencyPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrencyPaginationResp";
+    static readonly typeName = "scanswift.CurrencyPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrencyPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrencyPaginationResp;
@@ -271,7 +271,7 @@ export declare class CurrencyPaginationResp extends Message<CurrencyPaginationRe
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.CurrenciesServiceFilterReq
+ * @generated from message scanswift.CurrenciesServiceFilterReq
  */
 export declare class CurrenciesServiceFilterReq extends Message<CurrenciesServiceFilterReq> {
     /**
@@ -295,13 +295,13 @@ export declare class CurrenciesServiceFilterReq extends Message<CurrenciesServic
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CURRENCY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CURRENCY_SORT_KEY sort_key = 5;
      */
     sortKey: CURRENCY_SORT_KEY;
     /**
@@ -330,7 +330,7 @@ export declare class CurrenciesServiceFilterReq extends Message<CurrenciesServic
     code: string;
     constructor(data?: PartialMessage<CurrenciesServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesServiceFilterReq";
+    static readonly typeName = "scanswift.CurrenciesServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesServiceFilterReq;
@@ -341,7 +341,7 @@ export declare class CurrenciesServiceFilterReq extends Message<CurrenciesServic
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.CurrenciesServiceSearchAllReq
+ * @generated from message scanswift.CurrenciesServiceSearchAllReq
  */
 export declare class CurrenciesServiceSearchAllReq extends Message<CurrenciesServiceSearchAllReq> {
     /**
@@ -365,13 +365,13 @@ export declare class CurrenciesServiceSearchAllReq extends Message<CurrenciesSer
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.CURRENCY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.CURRENCY_SORT_KEY sort_key = 5;
      */
     sortKey: CURRENCY_SORT_KEY;
     /**
@@ -382,7 +382,7 @@ export declare class CurrenciesServiceSearchAllReq extends Message<CurrenciesSer
     searchKey: string;
     constructor(data?: PartialMessage<CurrenciesServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CurrenciesServiceSearchAllReq";
+    static readonly typeName = "scanswift.CurrenciesServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CurrenciesServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CurrenciesServiceSearchAllReq;

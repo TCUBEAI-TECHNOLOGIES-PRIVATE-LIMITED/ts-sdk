@@ -5,15 +5,15 @@ import { BooleanResponse } from "./base_pb.js";
  *
  * Describes the methods applicable on the login service
  *
- * @generated from service tcube.LoginService
+ * @generated from service scanswift.LoginService
  */
 export declare const LoginService: {
-    readonly typeName: "tcube.LoginService";
+    readonly typeName: "scanswift.LoginService";
     readonly methods: {
         /**
          * Login using credentials belonging to a user
          *
-         * @generated from rpc tcube.LoginService.UserLogin
+         * @generated from rpc scanswift.LoginService.UserLogin
          */
         readonly userLogin: {
             readonly name: "UserLogin";
@@ -24,7 +24,7 @@ export declare const LoginService: {
         /**
          * Check if the auth token is still valid
          *
-         * @generated from rpc tcube.LoginService.IsAuthTokenValid
+         * @generated from rpc scanswift.LoginService.IsAuthTokenValid
          */
         readonly isAuthTokenValid: {
             readonly name: "IsAuthTokenValid";
@@ -35,7 +35,7 @@ export declare const LoginService: {
         /**
          * Logout
          *
-         * @generated from rpc tcube.LoginService.Logout
+         * @generated from rpc scanswift.LoginService.Logout
          */
         readonly logout: {
             readonly name: "Logout";

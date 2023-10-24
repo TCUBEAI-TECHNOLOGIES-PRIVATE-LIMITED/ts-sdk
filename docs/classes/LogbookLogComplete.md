@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / LogbookLogComplete
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / LogbookLogComplete
 
 # Class: LogbookLogComplete
 
@@ -6,7 +6,7 @@ Describes each parameter that's part of the logbook (includes historical data of
 
 **`Generated`**
 
-from message tcube.LogbookLogComplete
+from message scanswift.LogbookLogComplete
 
 ## Hierarchy
 
@@ -68,7 +68,7 @@ Message&lt;LogbookLogComplete\&gt;.constructor
 
 #### Defined in
 
-[src/base_pb.ts:1312](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1312)
+[src/base_pb.ts:1389](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1389)
 
 ## Properties
 
@@ -84,7 +84,7 @@ from field: string added_by_user_uuid = 12;
 
 #### Defined in
 
-[src/base_pb.ts:1289](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1289)
+[src/base_pb.ts:1366](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1366)
 
 ___
 
@@ -100,7 +100,7 @@ from field: string app_comment = 13;
 
 #### Defined in
 
-[src/base_pb.ts:1296](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1296)
+[src/base_pb.ts:1373](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1373)
 
 ___
 
@@ -112,11 +112,11 @@ Stores the metada of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/base_pb.ts:1268](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1268)
+[src/base_pb.ts:1345](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1345)
 
 ___
 
@@ -128,11 +128,11 @@ The operation that was performed
 
 **`Generated`**
 
-from field: tcube.LOGBOOK_OPERATION operation = 11;
+from field: scanswift.LOGBOOK_OPERATION operation = 11;
 
 #### Defined in
 
-[src/base_pb.ts:1282](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1282)
+[src/base_pb.ts:1359](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1359)
 
 ___
 
@@ -148,7 +148,7 @@ from field: bytes previous_data = 15;
 
 #### Defined in
 
-[src/base_pb.ts:1310](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1310)
+[src/base_pb.ts:1387](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1387)
 
 ___
 
@@ -164,7 +164,7 @@ from field: string ref_uuid = 10;
 
 #### Defined in
 
-[src/base_pb.ts:1275](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1275)
+[src/base_pb.ts:1352](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1352)
 
 ___
 
@@ -180,7 +180,7 @@ from field: string user_comment = 14;
 
 #### Defined in
 
-[src/base_pb.ts:1303](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1303)
+[src/base_pb.ts:1380](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1380)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1319](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1319)
+[src/base_pb.ts:1396](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1396)
 
 ___
 
@@ -200,17 +200,17 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1317](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1317)
+[src/base_pb.ts:1394](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1394)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.LogbookLogComplete"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.LogbookLogComplete"``
 
 #### Defined in
 
-[src/base_pb.ts:1318](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1318)
+[src/base_pb.ts:1395](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1395)
 
 ## Methods
 
@@ -497,7 +497,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1341](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1341)
+[src/base_pb.ts:1418](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1418)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1329](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1329)
+[src/base_pb.ts:1406](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1406)
 
 ___
 
@@ -539,7 +539,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1333](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1333)
+[src/base_pb.ts:1410](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1410)
 
 ___
 
@@ -560,4 +560,4 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:1337](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L1337)
+[src/base_pb.ts:1414](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1414)

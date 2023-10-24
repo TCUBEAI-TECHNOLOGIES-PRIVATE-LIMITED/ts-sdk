@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving entities
  *
- * @generated from enum tcube.ENTITY_SORT_KEY
+ * @generated from enum scanswift.ENTITY_SORT_KEY
  */
 export declare enum ENTITY_SORT_KEY {
     /**
@@ -43,7 +43,7 @@ export declare enum ENTITY_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a entity
  *
- * @generated from message tcube.EntitiesServiceCreateRequest
+ * @generated from message scanswift.EntitiesServiceCreateRequest
  */
 export declare class EntitiesServiceCreateRequest extends Message<EntitiesServiceCreateRequest> {
     /**
@@ -138,7 +138,7 @@ export declare class EntitiesServiceCreateRequest extends Message<EntitiesServic
     roleUuid: string;
     constructor(data?: PartialMessage<EntitiesServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesServiceCreateRequest";
+    static readonly typeName = "scanswift.EntitiesServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesServiceCreateRequest;
@@ -149,7 +149,7 @@ export declare class EntitiesServiceCreateRequest extends Message<EntitiesServic
  *
  * Describes the data structure to perform the update (draft/revision) operation on a entity
  *
- * @generated from message tcube.EntitiesServiceUpdateRequest
+ * @generated from message scanswift.EntitiesServiceUpdateRequest
  */
 export declare class EntitiesServiceUpdateRequest extends Message<EntitiesServiceUpdateRequest> {
     /**
@@ -226,7 +226,7 @@ export declare class EntitiesServiceUpdateRequest extends Message<EntitiesServic
     domain: string;
     constructor(data?: PartialMessage<EntitiesServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesServiceUpdateRequest";
+    static readonly typeName = "scanswift.EntitiesServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesServiceUpdateRequest;
@@ -237,13 +237,13 @@ export declare class EntitiesServiceUpdateRequest extends Message<EntitiesServic
  *
  * Describes the data structure of each entity on the platform
  *
- * @generated from message tcube.Entity
+ * @generated from message scanswift.Entity
  */
 export declare class Entity extends Message<Entity> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -320,7 +320,7 @@ export declare class Entity extends Message<Entity> {
     domain: string;
     constructor(data?: PartialMessage<Entity>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Entity";
+    static readonly typeName = "scanswift.Entity";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Entity;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Entity;
@@ -331,18 +331,18 @@ export declare class Entity extends Message<Entity> {
  *
  * Describes the data structure that stores a list of entities
  *
- * @generated from message tcube.EntitiesList
+ * @generated from message scanswift.EntitiesList
  */
 export declare class EntitiesList extends Message<EntitiesList> {
     /**
      * List of entities
      *
-     * @generated from field: repeated tcube.Entity list = 1;
+     * @generated from field: repeated scanswift.Entity list = 1;
      */
     list: Entity[];
     constructor(data?: PartialMessage<EntitiesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesList";
+    static readonly typeName = "scanswift.EntitiesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesList;
@@ -353,7 +353,7 @@ export declare class EntitiesList extends Message<EntitiesList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.EntitiesServicePaginationReq
+ * @generated from message scanswift.EntitiesServicePaginationReq
  */
 export declare class EntitiesServicePaginationReq extends Message<EntitiesServicePaginationReq> {
     /**
@@ -377,18 +377,18 @@ export declare class EntitiesServicePaginationReq extends Message<EntitiesServic
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ENTITY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ENTITY_SORT_KEY sort_key = 5;
      */
     sortKey: ENTITY_SORT_KEY;
     constructor(data?: PartialMessage<EntitiesServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesServicePaginationReq";
+    static readonly typeName = "scanswift.EntitiesServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesServicePaginationReq;
@@ -399,7 +399,7 @@ export declare class EntitiesServicePaginationReq extends Message<EntitiesServic
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.EntityPaginationResp
+ * @generated from message scanswift.EntityPaginationResp
  */
 export declare class EntityPaginationResp extends Message<EntityPaginationResp> {
     /**
@@ -417,12 +417,12 @@ export declare class EntityPaginationResp extends Message<EntityPaginationResp> 
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Entity payload = 3;
+     * @generated from field: repeated scanswift.Entity payload = 3;
      */
     payload: Entity[];
     constructor(data?: PartialMessage<EntityPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntityPaginationResp";
+    static readonly typeName = "scanswift.EntityPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntityPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntityPaginationResp;
@@ -433,7 +433,7 @@ export declare class EntityPaginationResp extends Message<EntityPaginationResp> 
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.EntitiesServiceFilterReq
+ * @generated from message scanswift.EntitiesServiceFilterReq
  */
 export declare class EntitiesServiceFilterReq extends Message<EntitiesServiceFilterReq> {
     /**
@@ -457,13 +457,13 @@ export declare class EntitiesServiceFilterReq extends Message<EntitiesServiceFil
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ENTITY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ENTITY_SORT_KEY sort_key = 5;
      */
     sortKey: ENTITY_SORT_KEY;
     /**
@@ -522,7 +522,7 @@ export declare class EntitiesServiceFilterReq extends Message<EntitiesServiceFil
     zipCode: string;
     constructor(data?: PartialMessage<EntitiesServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesServiceFilterReq";
+    static readonly typeName = "scanswift.EntitiesServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesServiceFilterReq;
@@ -533,7 +533,7 @@ export declare class EntitiesServiceFilterReq extends Message<EntitiesServiceFil
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.EntitiesServiceSearchAllReq
+ * @generated from message scanswift.EntitiesServiceSearchAllReq
  */
 export declare class EntitiesServiceSearchAllReq extends Message<EntitiesServiceSearchAllReq> {
     /**
@@ -557,13 +557,13 @@ export declare class EntitiesServiceSearchAllReq extends Message<EntitiesService
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.ENTITY_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.ENTITY_SORT_KEY sort_key = 5;
      */
     sortKey: ENTITY_SORT_KEY;
     /**
@@ -574,7 +574,7 @@ export declare class EntitiesServiceSearchAllReq extends Message<EntitiesService
     searchKey: string;
     constructor(data?: PartialMessage<EntitiesServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.EntitiesServiceSearchAllReq";
+    static readonly typeName = "scanswift.EntitiesServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): EntitiesServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): EntitiesServiceSearchAllReq;

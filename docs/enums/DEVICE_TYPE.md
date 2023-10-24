@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / DEVICE\_TYPE
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / DEVICE\_TYPE
 
 # Enumeration: DEVICE\_TYPE
 
@@ -6,7 +6,7 @@ Describes the supported device types
 
 **`Generated`**
 
-from enum tcube.DEVICE_TYPE
+from enum scanswift.DEVICE_TYPE
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: DESKTOP = 2;
 
 #### Defined in
 
-[src/base_pb.ts:62](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L62)
+[src/base_pb.ts:62](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L62)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: MOBILE = 1;
 
 #### Defined in
 
-[src/base_pb.ts:55](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L55)
+[src/base_pb.ts:55](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L55)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: WEB_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/base_pb.ts:48](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L48)
+[src/base_pb.ts:48](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L48)

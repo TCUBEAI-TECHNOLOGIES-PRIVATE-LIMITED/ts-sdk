@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_SHIPPING
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_SHIPPING
 
 # Enumeration: PRINT\_ENCODING\_TYPE\_FOR\_SHIPPING
 
@@ -6,7 +6,7 @@ Stores the possible values for encoding type
 
 **`Generated`**
 
-from enum tcube.PRINT_ENCODING_TYPE_FOR_SHIPPING
+from enum scanswift.PRINT_ENCODING_TYPE_FOR_SHIPPING
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_ALL = 2;
 
 #### Defined in
 
-[src/shippings_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L71)
+[src/shippings_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L73)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/shippings_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L57)
+[src/shippings_pb.ts:59](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L59)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PRINT_ENCODING_TYPE_FOR_SHIPPING_URI = 1;
 
 #### Defined in
 
-[src/shippings_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_pb.ts#L64)
+[src/shippings_pb.ts:66](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_pb.ts#L66)

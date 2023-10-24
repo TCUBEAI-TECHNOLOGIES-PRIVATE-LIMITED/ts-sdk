@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PACKAGING\_SORT\_KEY
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PACKAGING\_SORT\_KEY
 
 # Enumeration: PACKAGING\_SORT\_KEY
 
@@ -6,7 +6,7 @@ Describes the available sort keys for retrieving packagings
 
 **`Generated`**
 
-from enum tcube.PACKAGING_SORT_KEY
+from enum scanswift.PACKAGING_SORT_KEY
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ from enum value: PACKAGING_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/packagings_pb.ts:121](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L121)
+[src/packagings_pb.ts:123](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L123)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: PACKAGING_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:100](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L100)
+[src/packagings_pb.ts:102](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L102)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: PACKAGING_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/packagings_pb.ts:93](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L93)
+[src/packagings_pb.ts:95](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L95)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: PACKAGING_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:107](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L107)
+[src/packagings_pb.ts:109](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L109)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: PACKAGING_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/packagings_pb.ts:114](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L114)
+[src/packagings_pb.ts:116](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L116)

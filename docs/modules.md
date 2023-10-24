@@ -1,6 +1,6 @@
-[tcubesa-sdk](README.md) / Exports
+[scanswift-sdk](README.md) / Exports
 
-# tcubesa-sdk
+# scanswift-sdk
 
 ## Table of contents
 
@@ -10,9 +10,12 @@
 - [CURRENCY\_SORT\_KEY](enums/CURRENCY_SORT_KEY.md)
 - [CUSTOMER\_SORT\_KEY](enums/CUSTOMER_SORT_KEY.md)
 - [DEVICE\_TYPE](enums/DEVICE_TYPE.md)
+- [DOWNLOADED\_STATUS](enums/DOWNLOADED_STATUS.md)
 - [ENTITY\_SORT\_KEY](enums/ENTITY_SORT_KEY.md)
 - [ENTITY\_USER\_SORT\_KEY](enums/ENTITY_USER_SORT_KEY.md)
 - [INFERRED\_FROM](enums/INFERRED_FROM.md)
+- [INVOICE\_SORT\_KEY](enums/INVOICE_SORT_KEY.md)
+- [INVOICE\_STATUS](enums/INVOICE_STATUS.md)
 - [KnownRegex](enums/KnownRegex.md)
 - [LOCATION\_SORT\_KEY](enums/LOCATION_SORT_KEY.md)
 - [LOGBOOK\_OPERATION](enums/LOGBOOK_OPERATION.md)
@@ -24,7 +27,6 @@
 - [PRINT\_ENCODING\_TYPE\_FOR\_PACKAGING](enums/PRINT_ENCODING_TYPE_FOR_PACKAGING.md)
 - [PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT](enums/PRINT_ENCODING_TYPE_FOR_PRODUCT.md)
 - [PRINT\_ENCODING\_TYPE\_FOR\_SHIPPING](enums/PRINT_ENCODING_TYPE_FOR_SHIPPING.md)
-- [PRINT\_PAPER\_SIZE](enums/PRINT_PAPER_SIZE.md)
 - [PRODUCT\_SORT\_KEY](enums/PRODUCT_SORT_KEY.md)
 - [ROLE\_SORT\_KEY](enums/ROLE_SORT_KEY.md)
 - [SERIAL\_ACTIVITY](enums/SERIAL_ACTIVITY.md)
@@ -34,6 +36,8 @@
 - [SHIPPING\_SORT\_KEY](enums/SHIPPING_SORT_KEY.md)
 - [SHIPPING\_STATE](enums/SHIPPING_STATE.md)
 - [SORT\_ORDER](enums/SORT_ORDER.md)
+- [TEMPLATE\_SORT\_KEY](enums/TEMPLATE_SORT_KEY.md)
+- [TEMPLATE\_TYPE](enums/TEMPLATE_TYPE.md)
 - [UNIT\_SORT\_KEY](enums/UNIT_SORT_KEY.md)
 - [USER\_SORT\_KEY](enums/USER_SORT_KEY.md)
 - [ZONE\_SORT\_KEY](enums/ZONE_SORT_KEY.md)
@@ -102,6 +106,7 @@
 - [EnumRules](classes/EnumRules.md)
 - [FieldRules](classes/FieldRules.md)
 - [FileResponse](classes/FileResponse.md)
+- [FileResponseList](classes/FileResponseList.md)
 - [Fixed32Rules](classes/Fixed32Rules.md)
 - [Fixed64Rules](classes/Fixed64Rules.md)
 - [FloatRules](classes/FloatRules.md)
@@ -113,6 +118,15 @@
 - [ImageResponse](classes/ImageResponse.md)
 - [Int32Rules](classes/Int32Rules.md)
 - [Int64Rules](classes/Int64Rules.md)
+- [Invoice](classes/Invoice.md)
+- [InvoicePaginationResp](classes/InvoicePaginationResp.md)
+- [InvoicesList](classes/InvoicesList.md)
+- [InvoicesServiceCreateRequest](classes/InvoicesServiceCreateRequest.md)
+- [InvoicesServiceFilterReq](classes/InvoicesServiceFilterReq.md)
+- [InvoicesServicePaginationReq](classes/InvoicesServicePaginationReq.md)
+- [InvoicesServicePaymentRequest](classes/InvoicesServicePaymentRequest.md)
+- [InvoicesServiceSearchAllReq](classes/InvoicesServiceSearchAllReq.md)
+- [InvoicesServiceUpdateRequest](classes/InvoicesServiceUpdateRequest.md)
 - [Location](classes/Location.md)
 - [LocationPaginationResp](classes/LocationPaginationResp.md)
 - [LocationsList](classes/LocationsList.md)
@@ -131,6 +145,7 @@
 - [MessageRules](classes/MessageRules.md)
 - [Metadata](classes/Metadata.md)
 - [Packaging](classes/Packaging.md)
+- [PackagingMetadata](classes/PackagingMetadata.md)
 - [PackagingPaginationResp](classes/PackagingPaginationResp.md)
 - [PackagingSerial](classes/PackagingSerial.md)
 - [PackagingsList](classes/PackagingsList.md)
@@ -184,6 +199,7 @@
 - [Serial](classes/Serial.md)
 - [SerialActivitiesList](classes/SerialActivitiesList.md)
 - [SerialActivity](classes/SerialActivity.md)
+- [SerialMetadata](classes/SerialMetadata.md)
 - [SerialPaginationResp](classes/SerialPaginationResp.md)
 - [SerialReview](classes/SerialReview.md)
 - [SerialReviewPaginationResp](classes/SerialReviewPaginationResp.md)
@@ -206,6 +222,7 @@
 - [SerialsServiceStateAndCountMessage](classes/SerialsServiceStateAndCountMessage.md)
 - [SerialsServiceStateAndCountMessageList](classes/SerialsServiceStateAndCountMessageList.md)
 - [Shipping](classes/Shipping.md)
+- [ShippingMetadata](classes/ShippingMetadata.md)
 - [ShippingPackaging](classes/ShippingPackaging.md)
 - [ShippingPaginationResp](classes/ShippingPaginationResp.md)
 - [ShippingsList](classes/ShippingsList.md)
@@ -219,6 +236,14 @@
 - [ShippingsServiceSearchAllReq](classes/ShippingsServiceSearchAllReq.md)
 - [StringResponse](classes/StringResponse.md)
 - [StringRules](classes/StringRules.md)
+- [Template](classes/Template.md)
+- [TemplatePaginationResp](classes/TemplatePaginationResp.md)
+- [TemplatesList](classes/TemplatesList.md)
+- [TemplatesServiceCreateRequest](classes/TemplatesServiceCreateRequest.md)
+- [TemplatesServiceFilterReq](classes/TemplatesServiceFilterReq.md)
+- [TemplatesServicePaginationReq](classes/TemplatesServicePaginationReq.md)
+- [TemplatesServiceSearchAllReq](classes/TemplatesServiceSearchAllReq.md)
+- [TemplatesServiceUpdateRequest](classes/TemplatesServiceUpdateRequest.md)
 - [TimestampRules](classes/TimestampRules.md)
 - [UInt32Rules](classes/UInt32Rules.md)
 - [UInt64Rules](classes/UInt64Rules.md)
@@ -261,6 +286,7 @@
 - [CustomersService](modules.md#customersservice)
 - [EntitiesService](modules.md#entitiesservice)
 - [EntitiesUsersService](modules.md#entitiesusersservice)
+- [InvoicesService](modules.md#invoicesservice)
 - [LocationsService](modules.md#locationsservice)
 - [LoginService](modules.md#loginservice)
 - [PackagingsService](modules.md#packagingsservice)
@@ -271,6 +297,7 @@
 - [SerialsReviewsService](modules.md#serialsreviewsservice)
 - [SerialsService](modules.md#serialsservice)
 - [ShippingsService](modules.md#shippingsservice)
+- [TemplatesService](modules.md#templatesservice)
 - [UnitsService](modules.md#unitsservice)
 - [UsersService](modules.md#usersservice)
 - [ZonesService](modules.md#zonesservice)
@@ -285,13 +312,13 @@ Describes the methods applicable on each batch
 
 **`Generated`**
 
-from service tcube.BatchesService
+from service scanswift.BatchesService
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `commissionUnused`: { `I`: typeof [`BatchesServiceCommissioningRequest`](classes/BatchesServiceCommissioningRequest.md) = BatchesServiceCommissioningRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CommissionUnused"`` = "CommissionUnused" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `create`: { `I`: typeof [`BatchesServiceCreateRequest`](classes/BatchesServiceCreateRequest.md) = BatchesServiceCreateRequest; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `decommissionUnused`: { `I`: typeof [`BatchesServiceCommissioningRequest`](classes/BatchesServiceCommissioningRequest.md) = BatchesServiceCommissioningRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DecommissionUnused"`` = "DecommissionUnused" } ; `downloadSerialsAsCSV`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsCSV"`` = "DownloadSerialsAsCSV" } ; `downloadSerialsAsImage`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsImage"`` = "DownloadSerialsAsImage" } ; `downloadSerialsAsPDF`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsPDF"`` = "DownloadSerialsAsPDF" } ; `filter`: { `I`: typeof [`BatchesServiceFilterReq`](classes/BatchesServiceFilterReq.md) = BatchesServiceFilterReq; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`BatchesServiceSearchAllReq`](classes/BatchesServiceSearchAllReq.md) = BatchesServiceSearchAllReq; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewWithPagination`: { `I`: typeof [`BatchesServicePaginationReq`](classes/BatchesServicePaginationReq.md) = BatchesServicePaginationReq; `O`: typeof [`BatchPaginationResp`](classes/BatchPaginationResp.md) = BatchPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `commissionUnused`: { `I`: typeof [`BatchesServiceCommissioningRequest`](classes/BatchesServiceCommissioningRequest.md) = BatchesServiceCommissioningRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CommissionUnused"`` = "CommissionUnused" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `create`: { `I`: typeof [`BatchesServiceCreateRequest`](classes/BatchesServiceCreateRequest.md) = BatchesServiceCreateRequest; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `decommissionUnused`: { `I`: typeof [`BatchesServiceCommissioningRequest`](classes/BatchesServiceCommissioningRequest.md) = BatchesServiceCommissioningRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DecommissionUnused"`` = "DecommissionUnused" } ; `downloadSerialsAsCSV`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsCSV"`` = "DownloadSerialsAsCSV" } ; `downloadSerialsAsImage`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsImage"`` = "DownloadSerialsAsImage" } ; `downloadSerialsAsImagesWithDescriptions`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponseList`](classes/FileResponseList.md) = FileResponseList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsImagesWithDescriptions"`` = "DownloadSerialsAsImagesWithDescriptions" } ; `downloadSerialsAsPDF`: { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsPDF"`` = "DownloadSerialsAsPDF" } ; `filter`: { `I`: typeof [`BatchesServiceFilterReq`](classes/BatchesServiceFilterReq.md) = BatchesServiceFilterReq; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`BatchesServiceSearchAllReq`](classes/BatchesServiceSearchAllReq.md) = BatchesServiceSearchAllReq; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`BatchesList`](classes/BatchesList.md) = BatchesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Batch`](classes/Batch.md) = Batch; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewWithPagination`: { `I`: typeof [`BatchesServicePaginationReq`](classes/BatchesServicePaginationReq.md) = BatchesServicePaginationReq; `O`: typeof [`BatchPaginationResp`](classes/BatchPaginationResp.md) = BatchPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
 | `methods.archive` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } |
 | `methods.archive.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
 | `methods.archive.O` | typeof [`Identifier`](classes/Identifier.md) |
@@ -327,6 +354,11 @@ from service tcube.BatchesService
 | `methods.downloadSerialsAsImage.O` | typeof [`FileResponse`](classes/FileResponse.md) |
 | `methods.downloadSerialsAsImage.kind` | `Unary` |
 | `methods.downloadSerialsAsImage.name` | ``"DownloadSerialsAsImage"`` |
+| `methods.downloadSerialsAsImagesWithDescriptions` | { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponseList`](classes/FileResponseList.md) = FileResponseList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsImagesWithDescriptions"`` = "DownloadSerialsAsImagesWithDescriptions" } |
+| `methods.downloadSerialsAsImagesWithDescriptions.I` | typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) |
+| `methods.downloadSerialsAsImagesWithDescriptions.O` | typeof [`FileResponseList`](classes/FileResponseList.md) |
+| `methods.downloadSerialsAsImagesWithDescriptions.kind` | `Unary` |
+| `methods.downloadSerialsAsImagesWithDescriptions.name` | ``"DownloadSerialsAsImagesWithDescriptions"`` |
 | `methods.downloadSerialsAsPDF` | { `I`: typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) = BatchIdentifierWithSerialState; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadSerialsAsPDF"`` = "DownloadSerialsAsPDF" } |
 | `methods.downloadSerialsAsPDF.I` | typeof [`BatchIdentifierWithSerialState`](classes/BatchIdentifierWithSerialState.md) |
 | `methods.downloadSerialsAsPDF.O` | typeof [`FileResponse`](classes/FileResponse.md) |
@@ -372,11 +404,11 @@ from service tcube.BatchesService
 | `methods.viewWithPagination.O` | typeof [`BatchPaginationResp`](classes/BatchPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.BatchesService"`` |
+| `typeName` | ``"scanswift.BatchesService"`` |
 
 #### Defined in
 
-[src/batches_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_connect.ts#L16)
+[src/batches_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_connect.ts#L16)
 
 ___
 
@@ -388,7 +420,7 @@ Describes the methods applicable on each currency
 
 **`Generated`**
 
-from service tcube.CurrenciesService
+from service scanswift.CurrenciesService
 
 #### Type declaration
 
@@ -445,11 +477,11 @@ from service tcube.CurrenciesService
 | `methods.viewWithPagination.O` | typeof [`CurrencyPaginationResp`](classes/CurrencyPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.CurrenciesService"`` |
+| `typeName` | ``"scanswift.CurrenciesService"`` |
 
 #### Defined in
 
-[src/currencies_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/currencies_connect.ts#L16)
+[src/currencies_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/currencies_connect.ts#L16)
 
 ___
 
@@ -461,7 +493,7 @@ Describes the methods applicable on each customer
 
 **`Generated`**
 
-from service tcube.CustomersService
+from service scanswift.CustomersService
 
 #### Type declaration
 
@@ -518,11 +550,11 @@ from service tcube.CustomersService
 | `methods.viewWithPagination.O` | typeof [`CustomerPaginationResp`](classes/CustomerPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.CustomersService"`` |
+| `typeName` | ``"scanswift.CustomersService"`` |
 
 #### Defined in
 
-[src/customers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_connect.ts#L16)
+[src/customers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_connect.ts#L16)
 
 ___
 
@@ -534,7 +566,7 @@ Describes the methods applicable on each entity
 
 **`Generated`**
 
-from service tcube.EntitiesService
+from service scanswift.EntitiesService
 
 #### Type declaration
 
@@ -611,11 +643,11 @@ from service tcube.EntitiesService
 | `methods.viewWithPagination.O` | typeof [`EntityPaginationResp`](classes/EntityPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.EntitiesService"`` |
+| `typeName` | ``"scanswift.EntitiesService"`` |
 
 #### Defined in
 
-[src/entities_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_connect.ts#L16)
+[src/entities_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_connect.ts#L16)
 
 ___
 
@@ -627,7 +659,7 @@ Describes the methods applicable on each entity user
 
 **`Generated`**
 
-from service tcube.EntitiesUsersService
+from service scanswift.EntitiesUsersService
 
 #### Type declaration
 
@@ -684,11 +716,114 @@ from service tcube.EntitiesUsersService
 | `methods.viewWithPagination.O` | typeof [`EntityUserPaginationResp`](classes/EntityUserPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.EntitiesUsersService"`` |
+| `typeName` | ``"scanswift.EntitiesUsersService"`` |
 
 #### Defined in
 
-[src/entities_users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_connect.ts#L16)
+[src/entities_users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_connect.ts#L16)
+
+___
+
+### InvoicesService
+
+• `Const` **InvoicesService**: `Object`
+
+Describes the methods applicable on each invoice
+
+**`Generated`**
+
+from service scanswift.InvoicesService
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `cancel`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Cancel"`` = "Cancel" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `create`: { `I`: typeof [`InvoicesServiceCreateRequest`](classes/InvoicesServiceCreateRequest.md) = InvoicesServiceCreateRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `downloadAsPDF`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } ; `filter`: { `I`: typeof [`InvoicesServiceFilterReq`](classes/InvoicesServiceFilterReq.md) = InvoicesServiceFilterReq; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `paymentFailure`: { `I`: typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) = InvoicesServicePaymentRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"PaymentFailure"`` = "PaymentFailure" } ; `paymentSuccess`: { `I`: typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) = InvoicesServicePaymentRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"PaymentSuccess"`` = "PaymentSuccess" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`InvoicesServiceSearchAllReq`](classes/InvoicesServiceSearchAllReq.md) = InvoicesServiceSearchAllReq; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `update`: { `I`: typeof [`InvoicesServiceUpdateRequest`](classes/InvoicesServiceUpdateRequest.md) = InvoicesServiceUpdateRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Update"`` = "Update" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewPaymentLink`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPaymentLink"`` = "ViewPaymentLink" } ; `viewWithPagination`: { `I`: typeof [`InvoicesServicePaginationReq`](classes/InvoicesServicePaginationReq.md) = InvoicesServicePaginationReq; `O`: typeof [`InvoicePaginationResp`](classes/InvoicePaginationResp.md) = InvoicePaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods.archive` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } |
+| `methods.archive.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
+| `methods.archive.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.archive.kind` | `Unary` |
+| `methods.archive.name` | ``"Archive"`` |
+| `methods.cancel` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Cancel"`` = "Cancel" } |
+| `methods.cancel.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
+| `methods.cancel.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.cancel.kind` | `Unary` |
+| `methods.cancel.name` | ``"Cancel"`` |
+| `methods.count` | { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } |
+| `methods.count.I` | typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) |
+| `methods.count.O` | typeof [`CountResponse`](classes/CountResponse.md) |
+| `methods.count.kind` | `Unary` |
+| `methods.count.name` | ``"Count"`` |
+| `methods.create` | { `I`: typeof [`InvoicesServiceCreateRequest`](classes/InvoicesServiceCreateRequest.md) = InvoicesServiceCreateRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } |
+| `methods.create.I` | typeof [`InvoicesServiceCreateRequest`](classes/InvoicesServiceCreateRequest.md) |
+| `methods.create.O` | typeof [`Invoice`](classes/Invoice.md) |
+| `methods.create.kind` | `Unary` |
+| `methods.create.name` | ``"Create"`` |
+| `methods.downloadAsPDF` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } |
+| `methods.downloadAsPDF.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.downloadAsPDF.O` | typeof [`FileResponse`](classes/FileResponse.md) |
+| `methods.downloadAsPDF.kind` | `Unary` |
+| `methods.downloadAsPDF.name` | ``"DownloadAsPDF"`` |
+| `methods.filter` | { `I`: typeof [`InvoicesServiceFilterReq`](classes/InvoicesServiceFilterReq.md) = InvoicesServiceFilterReq; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } |
+| `methods.filter.I` | typeof [`InvoicesServiceFilterReq`](classes/InvoicesServiceFilterReq.md) |
+| `methods.filter.O` | typeof [`InvoicesList`](classes/InvoicesList.md) |
+| `methods.filter.kind` | `Unary` |
+| `methods.filter.name` | ``"Filter"`` |
+| `methods.paymentFailure` | { `I`: typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) = InvoicesServicePaymentRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"PaymentFailure"`` = "PaymentFailure" } |
+| `methods.paymentFailure.I` | typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) |
+| `methods.paymentFailure.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.paymentFailure.kind` | `Unary` |
+| `methods.paymentFailure.name` | ``"PaymentFailure"`` |
+| `methods.paymentSuccess` | { `I`: typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) = InvoicesServicePaymentRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"PaymentSuccess"`` = "PaymentSuccess" } |
+| `methods.paymentSuccess.I` | typeof [`InvoicesServicePaymentRequest`](classes/InvoicesServicePaymentRequest.md) |
+| `methods.paymentSuccess.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.paymentSuccess.kind` | `Unary` |
+| `methods.paymentSuccess.name` | ``"PaymentSuccess"`` |
+| `methods.restore` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } |
+| `methods.restore.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
+| `methods.restore.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.restore.kind` | `Unary` |
+| `methods.restore.name` | ``"Restore"`` |
+| `methods.searchAll` | { `I`: typeof [`InvoicesServiceSearchAllReq`](classes/InvoicesServiceSearchAllReq.md) = InvoicesServiceSearchAllReq; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } |
+| `methods.searchAll.I` | typeof [`InvoicesServiceSearchAllReq`](classes/InvoicesServiceSearchAllReq.md) |
+| `methods.searchAll.O` | typeof [`InvoicesList`](classes/InvoicesList.md) |
+| `methods.searchAll.kind` | `Unary` |
+| `methods.searchAll.name` | ``"SearchAll"`` |
+| `methods.update` | { `I`: typeof [`InvoicesServiceUpdateRequest`](classes/InvoicesServiceUpdateRequest.md) = InvoicesServiceUpdateRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Update"`` = "Update" } |
+| `methods.update.I` | typeof [`InvoicesServiceUpdateRequest`](classes/InvoicesServiceUpdateRequest.md) |
+| `methods.update.O` | typeof [`Invoice`](classes/Invoice.md) |
+| `methods.update.kind` | `Unary` |
+| `methods.update.name` | ``"Update"`` |
+| `methods.viewAll` | { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`InvoicesList`](classes/InvoicesList.md) = InvoicesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } |
+| `methods.viewAll.I` | typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) |
+| `methods.viewAll.O` | typeof [`InvoicesList`](classes/InvoicesList.md) |
+| `methods.viewAll.kind` | `Unary` |
+| `methods.viewAll.name` | ``"ViewAll"`` |
+| `methods.viewByCode` | { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } |
+| `methods.viewByCode.I` | typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) |
+| `methods.viewByCode.O` | typeof [`Invoice`](classes/Invoice.md) |
+| `methods.viewByCode.kind` | `Unary` |
+| `methods.viewByCode.name` | ``"ViewByCode"`` |
+| `methods.viewByUUID` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Invoice`](classes/Invoice.md) = Invoice; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } |
+| `methods.viewByUUID.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.viewByUUID.O` | typeof [`Invoice`](classes/Invoice.md) |
+| `methods.viewByUUID.kind` | `Unary` |
+| `methods.viewByUUID.name` | ``"ViewByUUID"`` |
+| `methods.viewPaymentLink` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPaymentLink"`` = "ViewPaymentLink" } |
+| `methods.viewPaymentLink.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.viewPaymentLink.O` | typeof [`URLResponse`](classes/URLResponse.md) |
+| `methods.viewPaymentLink.kind` | `Unary` |
+| `methods.viewPaymentLink.name` | ``"ViewPaymentLink"`` |
+| `methods.viewWithPagination` | { `I`: typeof [`InvoicesServicePaginationReq`](classes/InvoicesServicePaginationReq.md) = InvoicesServicePaginationReq; `O`: typeof [`InvoicePaginationResp`](classes/InvoicePaginationResp.md) = InvoicePaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" } |
+| `methods.viewWithPagination.I` | typeof [`InvoicesServicePaginationReq`](classes/InvoicesServicePaginationReq.md) |
+| `methods.viewWithPagination.O` | typeof [`InvoicePaginationResp`](classes/InvoicePaginationResp.md) |
+| `methods.viewWithPagination.kind` | `Unary` |
+| `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
+| `typeName` | ``"scanswift.InvoicesService"`` |
+
+#### Defined in
+
+src/invoices_connect.ts:16
 
 ___
 
@@ -700,7 +835,7 @@ Describes the methods applicable on each location
 
 **`Generated`**
 
-from service tcube.LocationsService
+from service scanswift.LocationsService
 
 #### Type declaration
 
@@ -767,11 +902,11 @@ from service tcube.LocationsService
 | `methods.viewWithPagination.O` | typeof [`LocationPaginationResp`](classes/LocationPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.LocationsService"`` |
+| `typeName` | ``"scanswift.LocationsService"`` |
 
 #### Defined in
 
-[src/locations_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/locations_connect.ts#L16)
+[src/locations_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/locations_connect.ts#L16)
 
 ___
 
@@ -783,7 +918,7 @@ Describes the methods applicable on the login service
 
 **`Generated`**
 
-from service tcube.LoginService
+from service scanswift.LoginService
 
 #### Type declaration
 
@@ -805,11 +940,11 @@ from service tcube.LoginService
 | `methods.userLogin.O` | typeof [`UserLoginResponse`](classes/UserLoginResponse.md) |
 | `methods.userLogin.kind` | `Unary` |
 | `methods.userLogin.name` | ``"UserLogin"`` |
-| `typeName` | ``"tcube.LoginService"`` |
+| `typeName` | ``"scanswift.LoginService"`` |
 
 #### Defined in
 
-[src/logins_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_connect.ts#L16)
+[src/logins_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_connect.ts#L16)
 
 ___
 
@@ -821,13 +956,13 @@ Describes the methods applicable on each packaging
 
 **`Generated`**
 
-from service tcube.PackagingsService
+from service scanswift.PackagingsService
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `methods` | { `addSerials`: { `I`: typeof [`PackagingsServiceAddSerialsRequest`](classes/PackagingsServiceAddSerialsRequest.md) = PackagingsServiceAddSerialsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddSerials"`` = "AddSerials" } ; `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `close`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Close"`` = "Close" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countSerials`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountSerials"`` = "CountSerials" } ; `create`: { `I`: typeof [`PackagingsServiceCreateRequest`](classes/PackagingsServiceCreateRequest.md) = PackagingsServiceCreateRequest; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `downloadAsPDF`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } ; `filter`: { `I`: typeof [`PackagingsServiceFilterReq`](classes/PackagingsServiceFilterReq.md) = PackagingsServiceFilterReq; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `removeSerial`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"RemoveSerial"`` = "RemoveSerial" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`PackagingsServiceSearchAllReq`](classes/PackagingsServiceSearchAllReq.md) = PackagingsServiceSearchAllReq; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewSerials`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`PackagingsSerialsList`](classes/PackagingsSerialsList.md) = PackagingsSerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewSerials"`` = "ViewSerials" } ; `viewWithPagination`: { `I`: typeof [`PackagingsServicePaginationReq`](classes/PackagingsServicePaginationReq.md) = PackagingsServicePaginationReq; `O`: typeof [`PackagingPaginationResp`](classes/PackagingPaginationResp.md) = PackagingPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods` | { `addSerials`: { `I`: typeof [`PackagingsServiceAddSerialsRequest`](classes/PackagingsServiceAddSerialsRequest.md) = PackagingsServiceAddSerialsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddSerials"`` = "AddSerials" } ; `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `close`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Close"`` = "Close" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countSerials`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountSerials"`` = "CountSerials" } ; `create`: { `I`: typeof [`PackagingsServiceCreateRequest`](classes/PackagingsServiceCreateRequest.md) = PackagingsServiceCreateRequest; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `downloadAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsImage"`` = "DownloadAsImage" } ; `downloadAsPDF`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } ; `filter`: { `I`: typeof [`PackagingsServiceFilterReq`](classes/PackagingsServiceFilterReq.md) = PackagingsServiceFilterReq; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `removeSerial`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"RemoveSerial"`` = "RemoveSerial" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`PackagingsServiceSearchAllReq`](classes/PackagingsServiceSearchAllReq.md) = PackagingsServiceSearchAllReq; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`PackagingsList`](classes/PackagingsList.md) = PackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Packaging`](classes/Packaging.md) = Packaging; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewMetadataByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`PackagingMetadata`](classes/PackagingMetadata.md) = PackagingMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewSerials`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`PackagingsSerialsList`](classes/PackagingsSerialsList.md) = PackagingsSerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewSerials"`` = "ViewSerials" } ; `viewWithPagination`: { `I`: typeof [`PackagingsServicePaginationReq`](classes/PackagingsServicePaginationReq.md) = PackagingsServicePaginationReq; `O`: typeof [`PackagingPaginationResp`](classes/PackagingPaginationResp.md) = PackagingPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
 | `methods.addSerials` | { `I`: typeof [`PackagingsServiceAddSerialsRequest`](classes/PackagingsServiceAddSerialsRequest.md) = PackagingsServiceAddSerialsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddSerials"`` = "AddSerials" } |
 | `methods.addSerials.I` | typeof [`PackagingsServiceAddSerialsRequest`](classes/PackagingsServiceAddSerialsRequest.md) |
 | `methods.addSerials.O` | typeof [`Identifier`](classes/Identifier.md) |
@@ -858,6 +993,11 @@ from service tcube.PackagingsService
 | `methods.create.O` | typeof [`Packaging`](classes/Packaging.md) |
 | `methods.create.kind` | `Unary` |
 | `methods.create.name` | ``"Create"`` |
+| `methods.downloadAsImage` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsImage"`` = "DownloadAsImage" } |
+| `methods.downloadAsImage.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.downloadAsImage.O` | typeof [`FileResponse`](classes/FileResponse.md) |
+| `methods.downloadAsImage.kind` | `Unary` |
+| `methods.downloadAsImage.name` | ``"DownloadAsImage"`` |
 | `methods.downloadAsPDF` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } |
 | `methods.downloadAsPDF.I` | typeof [`Identifier`](classes/Identifier.md) |
 | `methods.downloadAsPDF.O` | typeof [`FileResponse`](classes/FileResponse.md) |
@@ -923,6 +1063,11 @@ from service tcube.PackagingsService
 | `methods.viewByUUID.O` | typeof [`Packaging`](classes/Packaging.md) |
 | `methods.viewByUUID.kind` | `Unary` |
 | `methods.viewByUUID.name` | ``"ViewByUUID"`` |
+| `methods.viewMetadataByCode` | { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`PackagingMetadata`](classes/PackagingMetadata.md) = PackagingMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } |
+| `methods.viewMetadataByCode.I` | typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) |
+| `methods.viewMetadataByCode.O` | typeof [`PackagingMetadata`](classes/PackagingMetadata.md) |
+| `methods.viewMetadataByCode.kind` | `Unary` |
+| `methods.viewMetadataByCode.name` | ``"ViewMetadataByCode"`` |
 | `methods.viewPrintableString` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } |
 | `methods.viewPrintableString.I` | typeof [`Identifier`](classes/Identifier.md) |
 | `methods.viewPrintableString.O` | typeof [`StringResponse`](classes/StringResponse.md) |
@@ -938,11 +1083,11 @@ from service tcube.PackagingsService
 | `methods.viewWithPagination.O` | typeof [`PackagingPaginationResp`](classes/PackagingPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.PackagingsService"`` |
+| `typeName` | ``"scanswift.PackagingsService"`` |
 
 #### Defined in
 
-[src/packagings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_connect.ts#L16)
+[src/packagings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_connect.ts#L16)
 
 ___
 
@@ -954,7 +1099,7 @@ Describes the methods applicable on each printer
 
 **`Generated`**
 
-from service tcube.PrintersService
+from service scanswift.PrintersService
 
 #### Type declaration
 
@@ -1011,11 +1156,11 @@ from service tcube.PrintersService
 | `methods.viewWithPagination.O` | typeof [`PrinterPaginationResp`](classes/PrinterPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.PrintersService"`` |
+| `typeName` | ``"scanswift.PrintersService"`` |
 
 #### Defined in
 
-[src/printers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_connect.ts#L16)
+[src/printers_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_connect.ts#L16)
 
 ___
 
@@ -1027,7 +1172,7 @@ Describes the methods applicable on each product
 
 **`Generated`**
 
-from service tcube.ProductsService
+from service scanswift.ProductsService
 
 #### Type declaration
 
@@ -1099,11 +1244,11 @@ from service tcube.ProductsService
 | `methods.viewWithPagination.O` | typeof [`ProductPaginationResp`](classes/ProductPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.ProductsService"`` |
+| `typeName` | ``"scanswift.ProductsService"`` |
 
 #### Defined in
 
-[src/products_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_connect.ts#L16)
+[src/products_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_connect.ts#L16)
 
 ___
 
@@ -1115,7 +1260,7 @@ Describes the methods applicable on each role
 
 **`Generated`**
 
-from service tcube.RolesService
+from service scanswift.RolesService
 
 #### Type declaration
 
@@ -1157,11 +1302,11 @@ from service tcube.RolesService
 | `methods.viewWithPagination.O` | typeof [`RolePaginationResp`](classes/RolePaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.RolesService"`` |
+| `typeName` | ``"scanswift.RolesService"`` |
 
 #### Defined in
 
-[src/roles_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/roles_connect.ts#L16)
+[src/roles_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/roles_connect.ts#L16)
 
 ___
 
@@ -1173,7 +1318,7 @@ Describes the methods applicable on scans service
 
 **`Generated`**
 
-from service tcube.ScansService
+from service scanswift.ScansService
 
 #### Type declaration
 
@@ -1240,11 +1385,11 @@ from service tcube.ScansService
 | `methods.viewByShippingUUID.O` | typeof [`ShippingsScansList`](classes/ShippingsScansList.md) |
 | `methods.viewByShippingUUID.kind` | `Unary` |
 | `methods.viewByShippingUUID.name` | ``"ViewByShippingUUID"`` |
-| `typeName` | ``"tcube.ScansService"`` |
+| `typeName` | ``"scanswift.ScansService"`` |
 
 #### Defined in
 
-[src/scans_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_connect.ts#L16)
+[src/scans_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_connect.ts#L16)
 
 ___
 
@@ -1256,7 +1401,7 @@ Describes the methods applicable on each serial review
 
 **`Generated`**
 
-from service tcube.SerialsReviewsService
+from service scanswift.SerialsReviewsService
 
 #### Type declaration
 
@@ -1313,11 +1458,11 @@ from service tcube.SerialsReviewsService
 | `methods.viewWithPagination.O` | typeof [`SerialReviewPaginationResp`](classes/SerialReviewPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.SerialsReviewsService"`` |
+| `typeName` | ``"scanswift.SerialsReviewsService"`` |
 
 #### Defined in
 
-[src/serials_reviews_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_connect.ts#L16)
+[src/serials_reviews_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_connect.ts#L16)
 
 ___
 
@@ -1334,13 +1479,13 @@ rpc Update (SerialsServiceUpdateRequest) returns (Serial);
 
 **`Generated`**
 
-from service tcube.SerialsService
+from service scanswift.SerialsService
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `commission`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Commission"`` = "Commission" } ; `commissionBulk`: { `I`: typeof [`SerialsServiceCommissionBulkRequest`](classes/SerialsServiceCommissionBulkRequest.md) = SerialsServiceCommissionBulkRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CommissionBulk"`` = "CommissionBulk" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countsInStates`: { `I`: typeof [`SerialsServiceAnalyticsGroupByStateRequest`](classes/SerialsServiceAnalyticsGroupByStateRequest.md) = SerialsServiceAnalyticsGroupByStateRequest; `O`: typeof [`SerialsServiceStateAndCountMessageList`](classes/SerialsServiceStateAndCountMessageList.md) = SerialsServiceStateAndCountMessageList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountsInStates"`` = "CountsInStates" } ; `decommission`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Decommission"`` = "Decommission" } ; `decommissionBulk`: { `I`: typeof [`SerialsServiceCommissionBulkRequest`](classes/SerialsServiceCommissionBulkRequest.md) = SerialsServiceCommissionBulkRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DecommissionBulk"`` = "DecommissionBulk" } ; `filter`: { `I`: typeof [`SerialsServiceFilterReq`](classes/SerialsServiceFilterReq.md) = SerialsServiceFilterReq; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`SerialsServiceSearchAllReq`](classes/SerialsServiceSearchAllReq.md) = SerialsServiceSearchAllReq; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `verify`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Verify"`` = "Verify" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Serial`](classes/Serial.md) = Serial; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Serial`](classes/Serial.md) = Serial; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewSerialActivities`: { `I`: typeof [`ViewSerialActivitiesRequest`](classes/ViewSerialActivitiesRequest.md) = ViewSerialActivitiesRequest; `O`: typeof [`SerialActivitiesList`](classes/SerialActivitiesList.md) = SerialActivitiesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewSerialActivities"`` = "ViewSerialActivities" } ; `viewWithPagination`: { `I`: typeof [`SerialsServicePaginationReq`](classes/SerialsServicePaginationReq.md) = SerialsServicePaginationReq; `O`: typeof [`SerialPaginationResp`](classes/SerialPaginationResp.md) = SerialPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `commission`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Commission"`` = "Commission" } ; `commissionBulk`: { `I`: typeof [`SerialsServiceCommissionBulkRequest`](classes/SerialsServiceCommissionBulkRequest.md) = SerialsServiceCommissionBulkRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CommissionBulk"`` = "CommissionBulk" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countsInStates`: { `I`: typeof [`SerialsServiceAnalyticsGroupByStateRequest`](classes/SerialsServiceAnalyticsGroupByStateRequest.md) = SerialsServiceAnalyticsGroupByStateRequest; `O`: typeof [`SerialsServiceStateAndCountMessageList`](classes/SerialsServiceStateAndCountMessageList.md) = SerialsServiceStateAndCountMessageList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountsInStates"`` = "CountsInStates" } ; `decommission`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Decommission"`` = "Decommission" } ; `decommissionBulk`: { `I`: typeof [`SerialsServiceCommissionBulkRequest`](classes/SerialsServiceCommissionBulkRequest.md) = SerialsServiceCommissionBulkRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DecommissionBulk"`` = "DecommissionBulk" } ; `filter`: { `I`: typeof [`SerialsServiceFilterReq`](classes/SerialsServiceFilterReq.md) = SerialsServiceFilterReq; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`SerialsServiceSearchAllReq`](classes/SerialsServiceSearchAllReq.md) = SerialsServiceSearchAllReq; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `verify`: { `I`: typeof [`SerialsServiceRegisterActivityRequest`](classes/SerialsServiceRegisterActivityRequest.md) = SerialsServiceRegisterActivityRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Verify"`` = "Verify" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`SerialsList`](classes/SerialsList.md) = SerialsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Serial`](classes/Serial.md) = Serial; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Serial`](classes/Serial.md) = Serial; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewMetadataByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`SerialMetadata`](classes/SerialMetadata.md) = SerialMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewSerialActivities`: { `I`: typeof [`ViewSerialActivitiesRequest`](classes/ViewSerialActivitiesRequest.md) = ViewSerialActivitiesRequest; `O`: typeof [`SerialActivitiesList`](classes/SerialActivitiesList.md) = SerialActivitiesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewSerialActivities"`` = "ViewSerialActivities" } ; `viewWithPagination`: { `I`: typeof [`SerialsServicePaginationReq`](classes/SerialsServicePaginationReq.md) = SerialsServicePaginationReq; `O`: typeof [`SerialPaginationResp`](classes/SerialPaginationResp.md) = SerialPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
 | `methods.archive` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } |
 | `methods.archive.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
 | `methods.archive.O` | typeof [`Identifier`](classes/Identifier.md) |
@@ -1436,6 +1581,11 @@ from service tcube.SerialsService
 | `methods.viewByUUID.O` | typeof [`Serial`](classes/Serial.md) |
 | `methods.viewByUUID.kind` | `Unary` |
 | `methods.viewByUUID.name` | ``"ViewByUUID"`` |
+| `methods.viewMetadataByCode` | { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`SerialMetadata`](classes/SerialMetadata.md) = SerialMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } |
+| `methods.viewMetadataByCode.I` | typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) |
+| `methods.viewMetadataByCode.O` | typeof [`SerialMetadata`](classes/SerialMetadata.md) |
+| `methods.viewMetadataByCode.kind` | `Unary` |
+| `methods.viewMetadataByCode.name` | ``"ViewMetadataByCode"`` |
 | `methods.viewPrintableString` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } |
 | `methods.viewPrintableString.I` | typeof [`Identifier`](classes/Identifier.md) |
 | `methods.viewPrintableString.O` | typeof [`StringResponse`](classes/StringResponse.md) |
@@ -1451,11 +1601,11 @@ from service tcube.SerialsService
 | `methods.viewWithPagination.O` | typeof [`SerialPaginationResp`](classes/SerialPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.SerialsService"`` |
+| `typeName` | ``"scanswift.SerialsService"`` |
 
 #### Defined in
 
-[src/serials_connect.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_connect.ts#L21)
+[src/serials_connect.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_connect.ts#L21)
 
 ___
 
@@ -1467,13 +1617,13 @@ Describes the methods applicable on each shipping
 
 **`Generated`**
 
-from service tcube.ShippingsService
+from service scanswift.ShippingsService
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `methods` | { `addPackagings`: { `I`: typeof [`ShippingsServiceAddPackagingsRequest`](classes/ShippingsServiceAddPackagingsRequest.md) = ShippingsServiceAddPackagingsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddPackagings"`` = "AddPackagings" } ; `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `close`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Close"`` = "Close" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countPackagings`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountPackagings"`` = "CountPackagings" } ; `create`: { `I`: typeof [`ShippingsServiceCreateRequest`](classes/ShippingsServiceCreateRequest.md) = ShippingsServiceCreateRequest; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `downloadAsPDF`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } ; `filter`: { `I`: typeof [`ShippingsServiceFilterReq`](classes/ShippingsServiceFilterReq.md) = ShippingsServiceFilterReq; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `removePackaging`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"RemovePackaging"`` = "RemovePackaging" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`ShippingsServiceSearchAllReq`](classes/ShippingsServiceSearchAllReq.md) = ShippingsServiceSearchAllReq; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewPackagings`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ShippingsPackagingsList`](classes/ShippingsPackagingsList.md) = ShippingsPackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPackagings"`` = "ViewPackagings" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewWithPagination`: { `I`: typeof [`ShippingsServicePaginationReq`](classes/ShippingsServicePaginationReq.md) = ShippingsServicePaginationReq; `O`: typeof [`ShippingPaginationResp`](classes/ShippingPaginationResp.md) = ShippingPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods` | { `addPackagings`: { `I`: typeof [`ShippingsServiceAddPackagingsRequest`](classes/ShippingsServiceAddPackagingsRequest.md) = ShippingsServiceAddPackagingsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddPackagings"`` = "AddPackagings" } ; `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `close`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Close"`` = "Close" } ; `count`: { `I`: typeof [`CountInEntityRequest`](classes/CountInEntityRequest.md) = CountInEntityRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `countPackagings`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"CountPackagings"`` = "CountPackagings" } ; `create`: { `I`: typeof [`ShippingsServiceCreateRequest`](classes/ShippingsServiceCreateRequest.md) = ShippingsServiceCreateRequest; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `downloadAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsImage"`` = "DownloadAsImage" } ; `downloadAsPDF`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } ; `filter`: { `I`: typeof [`ShippingsServiceFilterReq`](classes/ShippingsServiceFilterReq.md) = ShippingsServiceFilterReq; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `recall`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Recall"`` = "Recall" } ; `removePackaging`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"RemovePackaging"`` = "RemovePackaging" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`ShippingsServiceSearchAllReq`](classes/ShippingsServiceSearchAllReq.md) = ShippingsServiceSearchAllReq; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `viewAll`: { `I`: typeof [`ActiveInEntityRequest`](classes/ActiveInEntityRequest.md) = ActiveInEntityRequest; `O`: typeof [`ShippingsList`](classes/ShippingsList.md) = ShippingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewAsDataMatrix`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsDataMatrix"`` = "ViewAsDataMatrix" } ; `viewAsImage`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsImage"`` = "ViewAsImage" } ; `viewAsQR`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ImageResponse`](classes/ImageResponse.md) = ImageResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsQR"`` = "ViewAsQR" } ; `viewAsURI`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`URLResponse`](classes/URLResponse.md) = URLResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAsURI"`` = "ViewAsURI" } ; `viewByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByCode"`` = "ViewByCode" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Shipping`](classes/Shipping.md) = Shipping; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewMetadataByCode`: { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`ShippingMetadata`](classes/ShippingMetadata.md) = ShippingMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } ; `viewPackagings`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ShippingsPackagingsList`](classes/ShippingsPackagingsList.md) = ShippingsPackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPackagings"`` = "ViewPackagings" } ; `viewPrintableString`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`StringResponse`](classes/StringResponse.md) = StringResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPrintableString"`` = "ViewPrintableString" } ; `viewWithPagination`: { `I`: typeof [`ShippingsServicePaginationReq`](classes/ShippingsServicePaginationReq.md) = ShippingsServicePaginationReq; `O`: typeof [`ShippingPaginationResp`](classes/ShippingPaginationResp.md) = ShippingPaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
 | `methods.addPackagings` | { `I`: typeof [`ShippingsServiceAddPackagingsRequest`](classes/ShippingsServiceAddPackagingsRequest.md) = ShippingsServiceAddPackagingsRequest; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"AddPackagings"`` = "AddPackagings" } |
 | `methods.addPackagings.I` | typeof [`ShippingsServiceAddPackagingsRequest`](classes/ShippingsServiceAddPackagingsRequest.md) |
 | `methods.addPackagings.O` | typeof [`Identifier`](classes/Identifier.md) |
@@ -1504,6 +1654,11 @@ from service tcube.ShippingsService
 | `methods.create.O` | typeof [`Shipping`](classes/Shipping.md) |
 | `methods.create.kind` | `Unary` |
 | `methods.create.name` | ``"Create"`` |
+| `methods.downloadAsImage` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsImage"`` = "DownloadAsImage" } |
+| `methods.downloadAsImage.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.downloadAsImage.O` | typeof [`FileResponse`](classes/FileResponse.md) |
+| `methods.downloadAsImage.kind` | `Unary` |
+| `methods.downloadAsImage.name` | ``"DownloadAsImage"`` |
 | `methods.downloadAsPDF` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`FileResponse`](classes/FileResponse.md) = FileResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"DownloadAsPDF"`` = "DownloadAsPDF" } |
 | `methods.downloadAsPDF.I` | typeof [`Identifier`](classes/Identifier.md) |
 | `methods.downloadAsPDF.O` | typeof [`FileResponse`](classes/FileResponse.md) |
@@ -1569,6 +1724,11 @@ from service tcube.ShippingsService
 | `methods.viewByUUID.O` | typeof [`Shipping`](classes/Shipping.md) |
 | `methods.viewByUUID.kind` | `Unary` |
 | `methods.viewByUUID.name` | ``"ViewByUUID"`` |
+| `methods.viewMetadataByCode` | { `I`: typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) = SearchKeyRequest; `O`: typeof [`ShippingMetadata`](classes/ShippingMetadata.md) = ShippingMetadata; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewMetadataByCode"`` = "ViewMetadataByCode" } |
+| `methods.viewMetadataByCode.I` | typeof [`SearchKeyRequest`](classes/SearchKeyRequest.md) |
+| `methods.viewMetadataByCode.O` | typeof [`ShippingMetadata`](classes/ShippingMetadata.md) |
+| `methods.viewMetadataByCode.kind` | `Unary` |
+| `methods.viewMetadataByCode.name` | ``"ViewMetadataByCode"`` |
 | `methods.viewPackagings` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`ShippingsPackagingsList`](classes/ShippingsPackagingsList.md) = ShippingsPackagingsList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewPackagings"`` = "ViewPackagings" } |
 | `methods.viewPackagings.I` | typeof [`Identifier`](classes/Identifier.md) |
 | `methods.viewPackagings.O` | typeof [`ShippingsPackagingsList`](classes/ShippingsPackagingsList.md) |
@@ -1584,11 +1744,84 @@ from service tcube.ShippingsService
 | `methods.viewWithPagination.O` | typeof [`ShippingPaginationResp`](classes/ShippingPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.ShippingsService"`` |
+| `typeName` | ``"scanswift.ShippingsService"`` |
 
 #### Defined in
 
-[src/shippings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/shippings_connect.ts#L16)
+[src/shippings_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/shippings_connect.ts#L16)
+
+___
+
+### TemplatesService
+
+• `Const` **TemplatesService**: `Object`
+
+Describes the methods applicable on each template
+
+**`Generated`**
+
+from service scanswift.TemplatesService
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `methods` | { `archive`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } ; `count`: { `I`: typeof [`CountRequest`](classes/CountRequest.md) = CountRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } ; `create`: { `I`: typeof [`TemplatesServiceCreateRequest`](classes/TemplatesServiceCreateRequest.md) = TemplatesServiceCreateRequest; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } ; `filter`: { `I`: typeof [`TemplatesServiceFilterReq`](classes/TemplatesServiceFilterReq.md) = TemplatesServiceFilterReq; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } ; `restore`: { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } ; `searchAll`: { `I`: typeof [`TemplatesServiceSearchAllReq`](classes/TemplatesServiceSearchAllReq.md) = TemplatesServiceSearchAllReq; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } ; `update`: { `I`: typeof [`TemplatesServiceUpdateRequest`](classes/TemplatesServiceUpdateRequest.md) = TemplatesServiceUpdateRequest; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Update"`` = "Update" } ; `viewAll`: { `I`: typeof [`ActiveRequest`](classes/ActiveRequest.md) = ActiveRequest; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } ; `viewByUUID`: { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } ; `viewWithPagination`: { `I`: typeof [`TemplatesServicePaginationReq`](classes/TemplatesServicePaginationReq.md) = TemplatesServicePaginationReq; `O`: typeof [`TemplatePaginationResp`](classes/TemplatePaginationResp.md) = TemplatePaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" }  } |
+| `methods.archive` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Archive"`` = "Archive" } |
+| `methods.archive.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
+| `methods.archive.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.archive.kind` | `Unary` |
+| `methods.archive.name` | ``"Archive"`` |
+| `methods.count` | { `I`: typeof [`CountRequest`](classes/CountRequest.md) = CountRequest; `O`: typeof [`CountResponse`](classes/CountResponse.md) = CountResponse; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Count"`` = "Count" } |
+| `methods.count.I` | typeof [`CountRequest`](classes/CountRequest.md) |
+| `methods.count.O` | typeof [`CountResponse`](classes/CountResponse.md) |
+| `methods.count.kind` | `Unary` |
+| `methods.count.name` | ``"Count"`` |
+| `methods.create` | { `I`: typeof [`TemplatesServiceCreateRequest`](classes/TemplatesServiceCreateRequest.md) = TemplatesServiceCreateRequest; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Create"`` = "Create" } |
+| `methods.create.I` | typeof [`TemplatesServiceCreateRequest`](classes/TemplatesServiceCreateRequest.md) |
+| `methods.create.O` | typeof [`Template`](classes/Template.md) |
+| `methods.create.kind` | `Unary` |
+| `methods.create.name` | ``"Create"`` |
+| `methods.filter` | { `I`: typeof [`TemplatesServiceFilterReq`](classes/TemplatesServiceFilterReq.md) = TemplatesServiceFilterReq; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Filter"`` = "Filter" } |
+| `methods.filter.I` | typeof [`TemplatesServiceFilterReq`](classes/TemplatesServiceFilterReq.md) |
+| `methods.filter.O` | typeof [`TemplatesList`](classes/TemplatesList.md) |
+| `methods.filter.kind` | `Unary` |
+| `methods.filter.name` | ``"Filter"`` |
+| `methods.restore` | { `I`: typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) = IdentifierWithUserComment; `O`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Restore"`` = "Restore" } |
+| `methods.restore.I` | typeof [`IdentifierWithUserComment`](classes/IdentifierWithUserComment.md) |
+| `methods.restore.O` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.restore.kind` | `Unary` |
+| `methods.restore.name` | ``"Restore"`` |
+| `methods.searchAll` | { `I`: typeof [`TemplatesServiceSearchAllReq`](classes/TemplatesServiceSearchAllReq.md) = TemplatesServiceSearchAllReq; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"SearchAll"`` = "SearchAll" } |
+| `methods.searchAll.I` | typeof [`TemplatesServiceSearchAllReq`](classes/TemplatesServiceSearchAllReq.md) |
+| `methods.searchAll.O` | typeof [`TemplatesList`](classes/TemplatesList.md) |
+| `methods.searchAll.kind` | `Unary` |
+| `methods.searchAll.name` | ``"SearchAll"`` |
+| `methods.update` | { `I`: typeof [`TemplatesServiceUpdateRequest`](classes/TemplatesServiceUpdateRequest.md) = TemplatesServiceUpdateRequest; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"Update"`` = "Update" } |
+| `methods.update.I` | typeof [`TemplatesServiceUpdateRequest`](classes/TemplatesServiceUpdateRequest.md) |
+| `methods.update.O` | typeof [`Template`](classes/Template.md) |
+| `methods.update.kind` | `Unary` |
+| `methods.update.name` | ``"Update"`` |
+| `methods.viewAll` | { `I`: typeof [`ActiveRequest`](classes/ActiveRequest.md) = ActiveRequest; `O`: typeof [`TemplatesList`](classes/TemplatesList.md) = TemplatesList; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewAll"`` = "ViewAll" } |
+| `methods.viewAll.I` | typeof [`ActiveRequest`](classes/ActiveRequest.md) |
+| `methods.viewAll.O` | typeof [`TemplatesList`](classes/TemplatesList.md) |
+| `methods.viewAll.kind` | `Unary` |
+| `methods.viewAll.name` | ``"ViewAll"`` |
+| `methods.viewByUUID` | { `I`: typeof [`Identifier`](classes/Identifier.md) = Identifier; `O`: typeof [`Template`](classes/Template.md) = Template; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewByUUID"`` = "ViewByUUID" } |
+| `methods.viewByUUID.I` | typeof [`Identifier`](classes/Identifier.md) |
+| `methods.viewByUUID.O` | typeof [`Template`](classes/Template.md) |
+| `methods.viewByUUID.kind` | `Unary` |
+| `methods.viewByUUID.name` | ``"ViewByUUID"`` |
+| `methods.viewWithPagination` | { `I`: typeof [`TemplatesServicePaginationReq`](classes/TemplatesServicePaginationReq.md) = TemplatesServicePaginationReq; `O`: typeof [`TemplatePaginationResp`](classes/TemplatePaginationResp.md) = TemplatePaginationResp; `kind`: `Unary` = MethodKind.Unary; `name`: ``"ViewWithPagination"`` = "ViewWithPagination" } |
+| `methods.viewWithPagination.I` | typeof [`TemplatesServicePaginationReq`](classes/TemplatesServicePaginationReq.md) |
+| `methods.viewWithPagination.O` | typeof [`TemplatePaginationResp`](classes/TemplatePaginationResp.md) |
+| `methods.viewWithPagination.kind` | `Unary` |
+| `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
+| `typeName` | ``"scanswift.TemplatesService"`` |
+
+#### Defined in
+
+src/templates_connect.ts:16
 
 ___
 
@@ -1600,7 +1833,7 @@ Describes the methods applicable on each unit
 
 **`Generated`**
 
-from service tcube.UnitsService
+from service scanswift.UnitsService
 
 #### Type declaration
 
@@ -1657,11 +1890,11 @@ from service tcube.UnitsService
 | `methods.viewWithPagination.O` | typeof [`UnitPaginationResp`](classes/UnitPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.UnitsService"`` |
+| `typeName` | ``"scanswift.UnitsService"`` |
 
 #### Defined in
 
-[src/units_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/units_connect.ts#L16)
+[src/units_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/units_connect.ts#L16)
 
 ___
 
@@ -1673,7 +1906,7 @@ Describes the methods applicable on each user
 
 **`Generated`**
 
-from service tcube.UsersService
+from service scanswift.UsersService
 
 #### Type declaration
 
@@ -1760,11 +1993,11 @@ from service tcube.UsersService
 | `methods.viewWithPagination.O` | typeof [`UserPaginationResp`](classes/UserPaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.UsersService"`` |
+| `typeName` | ``"scanswift.UsersService"`` |
 
 #### Defined in
 
-[src/users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/users_connect.ts#L16)
+[src/users_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/users_connect.ts#L16)
 
 ___
 
@@ -1776,7 +2009,7 @@ Describes the methods applicable on each zone
 
 **`Generated`**
 
-from service tcube.ZonesService
+from service scanswift.ZonesService
 
 #### Type declaration
 
@@ -1843,8 +2076,8 @@ from service tcube.ZonesService
 | `methods.viewWithPagination.O` | typeof [`ZonePaginationResp`](classes/ZonePaginationResp.md) |
 | `methods.viewWithPagination.kind` | `Unary` |
 | `methods.viewWithPagination.name` | ``"ViewWithPagination"`` |
-| `typeName` | ``"tcube.ZonesService"`` |
+| `typeName` | ``"scanswift.ZonesService"`` |
 
 #### Defined in
 
-[src/zones_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_connect.ts#L16)
+[src/zones_connect.ts:16](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/zones_connect.ts#L16)

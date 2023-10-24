@@ -1,11 +1,14 @@
 import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
 import { Message, proto3 } from "@bufbuild/protobuf";
 import { Metadata, SORT_ORDER } from "./base_pb.js";
+import { Product } from "./products_pb.js";
+import { Location } from "./locations_pb.js";
+import { Entity } from "./entities_pb.js";
 /**
  *
  * Describes the possible states that a serial can be in
  *
- * @generated from enum tcube.SERIAL_STATE
+ * @generated from enum scanswift.SERIAL_STATE
  */
 export declare enum SERIAL_STATE {
     /**
@@ -43,7 +46,7 @@ export declare enum SERIAL_STATE {
  *
  * Describes the possible values of activity for a specific serial
  *
- * @generated from enum tcube.SERIAL_ACTIVITY
+ * @generated from enum scanswift.SERIAL_ACTIVITY
  */
 export declare enum SERIAL_ACTIVITY {
     /**
@@ -81,7 +84,7 @@ export declare enum SERIAL_ACTIVITY {
  *
  * Describes the available sort keys for retrieving serials
  *
- * @generated from enum tcube.SERIAL_SORT_KEY
+ * @generated from enum scanswift.SERIAL_SORT_KEY
  */
 export declare enum SERIAL_SORT_KEY {
     /**
@@ -115,7 +118,7 @@ export declare enum SERIAL_SORT_KEY {
  *
  * Describes the payload that is used to either commission, decommission or verify a serial
  *
- * @generated from message tcube.SerialsServiceRegisterActivityRequest
+ * @generated from message scanswift.SerialsServiceRegisterActivityRequest
  */
 export declare class SerialsServiceRegisterActivityRequest extends Message<SerialsServiceRegisterActivityRequest> {
     /**
@@ -162,7 +165,7 @@ export declare class SerialsServiceRegisterActivityRequest extends Message<Seria
     longitude: number;
     constructor(data?: PartialMessage<SerialsServiceRegisterActivityRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceRegisterActivityRequest";
+    static readonly typeName = "scanswift.SerialsServiceRegisterActivityRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceRegisterActivityRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceRegisterActivityRequest;
@@ -170,7 +173,7 @@ export declare class SerialsServiceRegisterActivityRequest extends Message<Seria
     static equals(a: SerialsServiceRegisterActivityRequest | PlainMessage<SerialsServiceRegisterActivityRequest> | undefined, b: SerialsServiceRegisterActivityRequest | PlainMessage<SerialsServiceRegisterActivityRequest> | undefined): boolean;
 }
 /**
- * @generated from message tcube.SerialsServiceCommissionBulkRequest
+ * @generated from message scanswift.SerialsServiceCommissionBulkRequest
  */
 export declare class SerialsServiceCommissionBulkRequest extends Message<SerialsServiceCommissionBulkRequest> {
     /**
@@ -212,12 +215,12 @@ export declare class SerialsServiceCommissionBulkRequest extends Message<Serials
     /**
      * List of serial codes
      *
-     * @generated from field: repeated tcube.SerialsServiceSerialCodes list = 20;
+     * @generated from field: repeated scanswift.SerialsServiceSerialCodes list = 20;
      */
     list: SerialsServiceSerialCodes[];
     constructor(data?: PartialMessage<SerialsServiceCommissionBulkRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceCommissionBulkRequest";
+    static readonly typeName = "scanswift.SerialsServiceCommissionBulkRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceCommissionBulkRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceCommissionBulkRequest;
@@ -225,7 +228,7 @@ export declare class SerialsServiceCommissionBulkRequest extends Message<Serials
     static equals(a: SerialsServiceCommissionBulkRequest | PlainMessage<SerialsServiceCommissionBulkRequest> | undefined, b: SerialsServiceCommissionBulkRequest | PlainMessage<SerialsServiceCommissionBulkRequest> | undefined): boolean;
 }
 /**
- * @generated from message tcube.SerialsServiceSerialCodes
+ * @generated from message scanswift.SerialsServiceSerialCodes
  */
 export declare class SerialsServiceSerialCodes extends Message<SerialsServiceSerialCodes> {
     /**
@@ -236,7 +239,7 @@ export declare class SerialsServiceSerialCodes extends Message<SerialsServiceSer
     serialCode: string;
     constructor(data?: PartialMessage<SerialsServiceSerialCodes>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceSerialCodes";
+    static readonly typeName = "scanswift.SerialsServiceSerialCodes";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceSerialCodes;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceSerialCodes;
@@ -247,7 +250,7 @@ export declare class SerialsServiceSerialCodes extends Message<SerialsServiceSer
  *
  * Describes the necessary data structure during creation of a serial
  *
- * @generated from message tcube.SerialsServiceCreateRequest
+ * @generated from message scanswift.SerialsServiceCreateRequest
  */
 export declare class SerialsServiceCreateRequest extends Message<SerialsServiceCreateRequest> {
     /**
@@ -288,7 +291,7 @@ export declare class SerialsServiceCreateRequest extends Message<SerialsServiceC
     quantity: bigint;
     constructor(data?: PartialMessage<SerialsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceCreateRequest";
+    static readonly typeName = "scanswift.SerialsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceCreateRequest;
@@ -299,13 +302,13 @@ export declare class SerialsServiceCreateRequest extends Message<SerialsServiceC
  *
  * Describes the data structure of each serial on the platform
  *
- * @generated from message tcube.Serial
+ * @generated from message scanswift.Serial
  */
 export declare class Serial extends Message<Serial> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -345,14 +348,20 @@ export declare class Serial extends Message<Serial> {
      */
     downloadCount: bigint;
     /**
+     * Stores the timestamp of when the serial was commissioned
+     *
+     * @generated from field: int64 commissioned_at = 14;
+     */
+    commissionedAt: bigint;
+    /**
      * The state of the serial
      *
-     * @generated from field: tcube.SERIAL_STATE state = 20;
+     * @generated from field: scanswift.SERIAL_STATE state = 20;
      */
     state: SERIAL_STATE;
     constructor(data?: PartialMessage<Serial>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Serial";
+    static readonly typeName = "scanswift.Serial";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Serial;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Serial;
@@ -361,20 +370,84 @@ export declare class Serial extends Message<Serial> {
 }
 /**
  *
+ * Describes the data structure of each serial with its relevant metadata
+ *
+ * @generated from message scanswift.SerialMetadata
+ */
+export declare class SerialMetadata extends Message<SerialMetadata> {
+    /**
+     * Stores the serial info
+     *
+     * @generated from field: scanswift.Serial serial = 1;
+     */
+    serial?: Serial;
+    /**
+     * Stores the expiry timestamp of the serial
+     *
+     * @generated from field: int64 expiry_timestamp = 2;
+     */
+    expiryTimestamp: bigint;
+    /**
+     * Stores the string that will be used to generate the QR code
+     *
+     * @generated from field: string qr_string = 3;
+     */
+    qrString: string;
+    /**
+     * Stores the product info
+     *
+     * @generated from field: scanswift.Product product = 10;
+     */
+    product?: Product;
+    /**
+     * Stores the batch name
+     *
+     * @generated from field: string batch_name = 20;
+     */
+    batchName: string;
+    /**
+     * Stores the batch code
+     *
+     * @generated from field: string batch_code = 21;
+     */
+    batchCode: string;
+    /**
+     * Stores the location info
+     *
+     * @generated from field: scanswift.Location location = 30;
+     */
+    location?: Location;
+    /**
+     * Stores the entity info
+     *
+     * @generated from field: scanswift.Entity entity = 40;
+     */
+    entity?: Entity;
+    constructor(data?: PartialMessage<SerialMetadata>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "scanswift.SerialMetadata";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialMetadata;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialMetadata;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): SerialMetadata;
+    static equals(a: SerialMetadata | PlainMessage<SerialMetadata> | undefined, b: SerialMetadata | PlainMessage<SerialMetadata> | undefined): boolean;
+}
+/**
+ *
  * Describes the data structure that stores a list of serials
  *
- * @generated from message tcube.SerialsList
+ * @generated from message scanswift.SerialsList
  */
 export declare class SerialsList extends Message<SerialsList> {
     /**
      * List of serials
      *
-     * @generated from field: repeated tcube.Serial list = 1;
+     * @generated from field: repeated scanswift.Serial list = 1;
      */
     list: Serial[];
     constructor(data?: PartialMessage<SerialsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsList";
+    static readonly typeName = "scanswift.SerialsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsList;
@@ -385,13 +458,13 @@ export declare class SerialsList extends Message<SerialsList> {
  *
  * Describes the data structure of each serial activity
  *
- * @generated from message tcube.SerialActivity
+ * @generated from message scanswift.SerialActivity
  */
 export declare class SerialActivity extends Message<SerialActivity> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -421,7 +494,7 @@ export declare class SerialActivity extends Message<SerialActivity> {
     /**
      * The registered activity
      *
-     * @generated from field: tcube.SERIAL_ACTIVITY activity = 12;
+     * @generated from field: scanswift.SERIAL_ACTIVITY activity = 12;
      */
     activity: SERIAL_ACTIVITY;
     /**
@@ -438,7 +511,7 @@ export declare class SerialActivity extends Message<SerialActivity> {
     longitude: number;
     constructor(data?: PartialMessage<SerialActivity>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialActivity";
+    static readonly typeName = "scanswift.SerialActivity";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialActivity;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialActivity;
@@ -449,18 +522,18 @@ export declare class SerialActivity extends Message<SerialActivity> {
  *
  * Describes the data structure that stores a list of serial activities
  *
- * @generated from message tcube.SerialActivitiesList
+ * @generated from message scanswift.SerialActivitiesList
  */
 export declare class SerialActivitiesList extends Message<SerialActivitiesList> {
     /**
      * List of serial activities
      *
-     * @generated from field: repeated tcube.SerialActivity list = 1;
+     * @generated from field: repeated scanswift.SerialActivity list = 1;
      */
     list: SerialActivity[];
     constructor(data?: PartialMessage<SerialActivitiesList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialActivitiesList";
+    static readonly typeName = "scanswift.SerialActivitiesList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialActivitiesList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialActivitiesList;
@@ -471,7 +544,7 @@ export declare class SerialActivitiesList extends Message<SerialActivitiesList> 
  *
  * Describes the payload required to retrieve all the activities related to a serial
  *
- * @generated from message tcube.ViewSerialActivitiesRequest
+ * @generated from message scanswift.ViewSerialActivitiesRequest
  */
 export declare class ViewSerialActivitiesRequest extends Message<ViewSerialActivitiesRequest> {
     /**
@@ -494,7 +567,7 @@ export declare class ViewSerialActivitiesRequest extends Message<ViewSerialActiv
     serialUuid: string;
     constructor(data?: PartialMessage<ViewSerialActivitiesRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ViewSerialActivitiesRequest";
+    static readonly typeName = "scanswift.ViewSerialActivitiesRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ViewSerialActivitiesRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ViewSerialActivitiesRequest;
@@ -505,7 +578,7 @@ export declare class ViewSerialActivitiesRequest extends Message<ViewSerialActiv
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.SerialsServicePaginationReq
+ * @generated from message scanswift.SerialsServicePaginationReq
  */
 export declare class SerialsServicePaginationReq extends Message<SerialsServicePaginationReq> {
     /**
@@ -529,13 +602,13 @@ export declare class SerialsServicePaginationReq extends Message<SerialsServiceP
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_SORT_KEY;
     /**
@@ -546,7 +619,7 @@ export declare class SerialsServicePaginationReq extends Message<SerialsServiceP
     entityUuid: string;
     constructor(data?: PartialMessage<SerialsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServicePaginationReq";
+    static readonly typeName = "scanswift.SerialsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServicePaginationReq;
@@ -557,7 +630,7 @@ export declare class SerialsServicePaginationReq extends Message<SerialsServiceP
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.SerialPaginationResp
+ * @generated from message scanswift.SerialPaginationResp
  */
 export declare class SerialPaginationResp extends Message<SerialPaginationResp> {
     /**
@@ -575,12 +648,12 @@ export declare class SerialPaginationResp extends Message<SerialPaginationResp> 
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Serial payload = 3;
+     * @generated from field: repeated scanswift.Serial payload = 3;
      */
     payload: Serial[];
     constructor(data?: PartialMessage<SerialPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialPaginationResp";
+    static readonly typeName = "scanswift.SerialPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialPaginationResp;
@@ -591,7 +664,7 @@ export declare class SerialPaginationResp extends Message<SerialPaginationResp> 
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.SerialsServiceFilterReq
+ * @generated from message scanswift.SerialsServiceFilterReq
  */
 export declare class SerialsServiceFilterReq extends Message<SerialsServiceFilterReq> {
     /**
@@ -615,13 +688,13 @@ export declare class SerialsServiceFilterReq extends Message<SerialsServiceFilte
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_SORT_KEY;
     /**
@@ -669,12 +742,12 @@ export declare class SerialsServiceFilterReq extends Message<SerialsServiceFilte
     /**
      * The state of the serial
      *
-     * @generated from field: tcube.SERIAL_STATE state = 30;
+     * @generated from field: scanswift.SERIAL_STATE state = 30;
      */
     state: SERIAL_STATE;
     constructor(data?: PartialMessage<SerialsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceFilterReq";
+    static readonly typeName = "scanswift.SerialsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceFilterReq;
@@ -685,7 +758,7 @@ export declare class SerialsServiceFilterReq extends Message<SerialsServiceFilte
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.SerialsServiceSearchAllReq
+ * @generated from message scanswift.SerialsServiceSearchAllReq
  */
 export declare class SerialsServiceSearchAllReq extends Message<SerialsServiceSearchAllReq> {
     /**
@@ -709,13 +782,13 @@ export declare class SerialsServiceSearchAllReq extends Message<SerialsServiceSe
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_SORT_KEY;
     /**
@@ -751,12 +824,12 @@ export declare class SerialsServiceSearchAllReq extends Message<SerialsServiceSe
     /**
      * The state of the serial
      *
-     * @generated from field: tcube.SERIAL_STATE state = 30;
+     * @generated from field: scanswift.SERIAL_STATE state = 30;
      */
     state: SERIAL_STATE;
     constructor(data?: PartialMessage<SerialsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceSearchAllReq";
+    static readonly typeName = "scanswift.SerialsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceSearchAllReq;
@@ -767,7 +840,7 @@ export declare class SerialsServiceSearchAllReq extends Message<SerialsServiceSe
  *
  * Describes the request payload for retrieving counts of serials in various states
  *
- * @generated from message tcube.SerialsServiceAnalyticsGroupByStateRequest
+ * @generated from message scanswift.SerialsServiceAnalyticsGroupByStateRequest
  */
 export declare class SerialsServiceAnalyticsGroupByStateRequest extends Message<SerialsServiceAnalyticsGroupByStateRequest> {
     /**
@@ -802,7 +875,7 @@ export declare class SerialsServiceAnalyticsGroupByStateRequest extends Message<
     batchUuid: string;
     constructor(data?: PartialMessage<SerialsServiceAnalyticsGroupByStateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceAnalyticsGroupByStateRequest";
+    static readonly typeName = "scanswift.SerialsServiceAnalyticsGroupByStateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceAnalyticsGroupByStateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceAnalyticsGroupByStateRequest;
@@ -813,18 +886,18 @@ export declare class SerialsServiceAnalyticsGroupByStateRequest extends Message<
  *
  * Describes the response that consists of the list of all the states and the counts of serials in the respective states
  *
- * @generated from message tcube.SerialsServiceStateAndCountMessageList
+ * @generated from message scanswift.SerialsServiceStateAndCountMessageList
  */
 export declare class SerialsServiceStateAndCountMessageList extends Message<SerialsServiceStateAndCountMessageList> {
     /**
      * The list of states and the counts
      *
-     * @generated from field: repeated tcube.SerialsServiceStateAndCountMessage list = 1;
+     * @generated from field: repeated scanswift.SerialsServiceStateAndCountMessage list = 1;
      */
     list: SerialsServiceStateAndCountMessage[];
     constructor(data?: PartialMessage<SerialsServiceStateAndCountMessageList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceStateAndCountMessageList";
+    static readonly typeName = "scanswift.SerialsServiceStateAndCountMessageList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceStateAndCountMessageList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceStateAndCountMessageList;
@@ -835,13 +908,13 @@ export declare class SerialsServiceStateAndCountMessageList extends Message<Seri
  *
  * Describes the response that consists of a state and the count of serials within that state
  *
- * @generated from message tcube.SerialsServiceStateAndCountMessage
+ * @generated from message scanswift.SerialsServiceStateAndCountMessage
  */
 export declare class SerialsServiceStateAndCountMessage extends Message<SerialsServiceStateAndCountMessage> {
     /**
      * The state of the serial
      *
-     * @generated from field: tcube.SERIAL_STATE state = 10;
+     * @generated from field: scanswift.SERIAL_STATE state = 10;
      */
     state: SERIAL_STATE;
     /**
@@ -852,7 +925,7 @@ export declare class SerialsServiceStateAndCountMessage extends Message<SerialsS
     count: bigint;
     constructor(data?: PartialMessage<SerialsServiceStateAndCountMessage>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsServiceStateAndCountMessage";
+    static readonly typeName = "scanswift.SerialsServiceStateAndCountMessage";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsServiceStateAndCountMessage;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsServiceStateAndCountMessage;

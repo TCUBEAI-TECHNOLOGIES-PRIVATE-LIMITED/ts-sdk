@@ -1,4 +1,4 @@
-import { Serial, SerialActivitiesList, SerialPaginationResp, SerialsList, SerialsServiceAnalyticsGroupByStateRequest, SerialsServiceCommissionBulkRequest, SerialsServiceFilterReq, SerialsServicePaginationReq, SerialsServiceRegisterActivityRequest, SerialsServiceSearchAllReq, SerialsServiceStateAndCountMessageList, ViewSerialActivitiesRequest } from "./serials_pb.js";
+import { Serial, SerialActivitiesList, SerialMetadata, SerialPaginationResp, SerialsList, SerialsServiceAnalyticsGroupByStateRequest, SerialsServiceCommissionBulkRequest, SerialsServiceFilterReq, SerialsServicePaginationReq, SerialsServiceRegisterActivityRequest, SerialsServiceSearchAllReq, SerialsServiceStateAndCountMessageList, ViewSerialActivitiesRequest } from "./serials_pb.js";
 import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 /**
@@ -10,15 +10,15 @@ import { MethodKind } from "@bufbuild/protobuf";
  * // Update a serial
  * rpc Update (SerialsServiceUpdateRequest) returns (Serial);
  *
- * @generated from service tcube.SerialsService
+ * @generated from service scanswift.SerialsService
  */
 export declare const SerialsService: {
-    readonly typeName: "tcube.SerialsService";
+    readonly typeName: "scanswift.SerialsService";
     readonly methods: {
         /**
          * Commission a serial
          *
-         * @generated from rpc tcube.SerialsService.Commission
+         * @generated from rpc scanswift.SerialsService.Commission
          */
         readonly commission: {
             readonly name: "Commission";
@@ -29,7 +29,7 @@ export declare const SerialsService: {
         /**
          * Decommission a serial
          *
-         * @generated from rpc tcube.SerialsService.Decommission
+         * @generated from rpc scanswift.SerialsService.Decommission
          */
         readonly decommission: {
             readonly name: "Decommission";
@@ -40,7 +40,7 @@ export declare const SerialsService: {
         /**
          * Commission serials in bulk and return the count of the all the commissioned serials
          *
-         * @generated from rpc tcube.SerialsService.CommissionBulk
+         * @generated from rpc scanswift.SerialsService.CommissionBulk
          */
         readonly commissionBulk: {
             readonly name: "CommissionBulk";
@@ -51,7 +51,7 @@ export declare const SerialsService: {
         /**
          * Decommission serials in bulk and return the count of the all the decommissioned serials
          *
-         * @generated from rpc tcube.SerialsService.DecommissionBulk
+         * @generated from rpc scanswift.SerialsService.DecommissionBulk
          */
         readonly decommissionBulk: {
             readonly name: "DecommissionBulk";
@@ -62,7 +62,7 @@ export declare const SerialsService: {
         /**
          * Verify a serial
          *
-         * @generated from rpc tcube.SerialsService.Verify
+         * @generated from rpc scanswift.SerialsService.Verify
          */
         readonly verify: {
             readonly name: "Verify";
@@ -73,7 +73,7 @@ export declare const SerialsService: {
         /**
          * Archive the serial
          *
-         * @generated from rpc tcube.SerialsService.Archive
+         * @generated from rpc scanswift.SerialsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -84,7 +84,7 @@ export declare const SerialsService: {
         /**
          * Restore the serial
          *
-         * @generated from rpc tcube.SerialsService.Restore
+         * @generated from rpc scanswift.SerialsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -95,7 +95,7 @@ export declare const SerialsService: {
         /**
          * Recall the serial
          *
-         * @generated from rpc tcube.SerialsService.Recall
+         * @generated from rpc scanswift.SerialsService.Recall
          */
         readonly recall: {
             readonly name: "Recall";
@@ -106,7 +106,7 @@ export declare const SerialsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.SerialsService.ViewByUUID
+         * @generated from rpc scanswift.SerialsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -117,7 +117,7 @@ export declare const SerialsService: {
         /**
          * View by Code
          *
-         * @generated from rpc tcube.SerialsService.ViewByCode
+         * @generated from rpc scanswift.SerialsService.ViewByCode
          */
         readonly viewByCode: {
             readonly name: "ViewByCode";
@@ -126,9 +126,20 @@ export declare const SerialsService: {
             readonly kind: MethodKind.Unary;
         };
         /**
+         * View the metadata using the serial code
+         *
+         * @generated from rpc scanswift.SerialsService.ViewMetadataByCode
+         */
+        readonly viewMetadataByCode: {
+            readonly name: "ViewMetadataByCode";
+            readonly I: typeof SearchKeyRequest;
+            readonly O: typeof SerialMetadata;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
          * View all serials
          *
-         * @generated from rpc tcube.SerialsService.ViewAll
+         * @generated from rpc scanswift.SerialsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -139,7 +150,7 @@ export declare const SerialsService: {
         /**
          * View serials with pagination
          *
-         * @generated from rpc tcube.SerialsService.ViewWithPagination
+         * @generated from rpc scanswift.SerialsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -150,7 +161,7 @@ export declare const SerialsService: {
         /**
          * View as QR code
          *
-         * @generated from rpc tcube.SerialsService.ViewAsQR
+         * @generated from rpc scanswift.SerialsService.ViewAsQR
          */
         readonly viewAsQR: {
             readonly name: "ViewAsQR";
@@ -161,7 +172,7 @@ export declare const SerialsService: {
         /**
          * View as DataMatrix
          *
-         * @generated from rpc tcube.SerialsService.ViewAsDataMatrix
+         * @generated from rpc scanswift.SerialsService.ViewAsDataMatrix
          */
         readonly viewAsDataMatrix: {
             readonly name: "ViewAsDataMatrix";
@@ -172,7 +183,7 @@ export declare const SerialsService: {
         /**
          * View as Image on the basis of the product's configuration
          *
-         * @generated from rpc tcube.SerialsService.ViewAsImage
+         * @generated from rpc scanswift.SerialsService.ViewAsImage
          */
         readonly viewAsImage: {
             readonly name: "ViewAsImage";
@@ -183,7 +194,7 @@ export declare const SerialsService: {
         /**
          * View the serial's URI
          *
-         * @generated from rpc tcube.SerialsService.ViewAsURI
+         * @generated from rpc scanswift.SerialsService.ViewAsURI
          */
         readonly viewAsURI: {
             readonly name: "ViewAsURI";
@@ -194,7 +205,7 @@ export declare const SerialsService: {
         /**
          * View the string that can be used to render the QR code on POS machines
          *
-         * @generated from rpc tcube.SerialsService.ViewPrintableString
+         * @generated from rpc scanswift.SerialsService.ViewPrintableString
          */
         readonly viewPrintableString: {
             readonly name: "ViewPrintableString";
@@ -205,7 +216,7 @@ export declare const SerialsService: {
         /**
          * View serial activities
          *
-         * @generated from rpc tcube.SerialsService.ViewSerialActivities
+         * @generated from rpc scanswift.SerialsService.ViewSerialActivities
          */
         readonly viewSerialActivities: {
             readonly name: "ViewSerialActivities";
@@ -216,7 +227,7 @@ export declare const SerialsService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.SerialsService.SearchAll
+         * @generated from rpc scanswift.SerialsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -227,7 +238,7 @@ export declare const SerialsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.SerialsService.Filter
+         * @generated from rpc scanswift.SerialsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -238,7 +249,7 @@ export declare const SerialsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.SerialsService.Count
+         * @generated from rpc scanswift.SerialsService.Count
          */
         readonly count: {
             readonly name: "Count";
@@ -249,7 +260,7 @@ export declare const SerialsService: {
         /**
          * View counts of serials in various states
          *
-         * @generated from rpc tcube.SerialsService.CountsInStates
+         * @generated from rpc scanswift.SerialsService.CountsInStates
          */
         readonly countsInStates: {
             readonly name: "CountsInStates";

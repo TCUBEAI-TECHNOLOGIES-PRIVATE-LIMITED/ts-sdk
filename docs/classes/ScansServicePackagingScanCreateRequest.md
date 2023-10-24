@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ScansServicePackagingScanCreateRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ScansServicePackagingScanCreateRequest
 
 # Class: ScansServicePackagingScanCreateRequest
 
@@ -6,7 +6,7 @@ Describes the data structure to perform the create operation on a packaging scan
 
 **`Generated`**
 
-from message tcube.ScansServicePackagingScanCreateRequest
+from message scanswift.ScansServicePackagingScanCreateRequest
 
 ## Hierarchy
 
@@ -65,7 +65,7 @@ Message&lt;ScansServicePackagingScanCreateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/scans_pb.ts:370](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L370)
+[src/scans_pb.ts:370](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L370)
 
 ## Properties
 
@@ -77,11 +77,11 @@ Stores if the location has been inferred from IP or from user provided geocoordi
 
 **`Generated`**
 
-from field: tcube.INFERRED_FROM inferred_from = 13;
+from field: scanswift.INFERRED_FROM inferred_from = 13;
 
 #### Defined in
 
-[src/scans_pb.ts:368](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L368)
+[src/scans_pb.ts:368](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L368)
 
 ___
 
@@ -97,7 +97,7 @@ from field: double latitude = 11;
 
 #### Defined in
 
-[src/scans_pb.ts:354](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L354)
+[src/scans_pb.ts:354](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L354)
 
 ___
 
@@ -113,7 +113,7 @@ from field: double longitude = 12;
 
 #### Defined in
 
-[src/scans_pb.ts:361](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L361)
+[src/scans_pb.ts:361](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L361)
 
 ___
 
@@ -129,7 +129,7 @@ from field: string packaging_uuid = 10;
 
 #### Defined in
 
-[src/scans_pb.ts:347](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L347)
+[src/scans_pb.ts:347](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L347)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:377](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L377)
+[src/scans_pb.ts:377](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L377)
 
 ___
 
@@ -149,17 +149,17 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:375](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L375)
+[src/scans_pb.ts:375](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L375)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ScansServicePackagingScanCreateRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ScansServicePackagingScanCreateRequest"``
 
 #### Defined in
 
-[src/scans_pb.ts:376](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L376)
+[src/scans_pb.ts:376](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L376)
 
 ## Methods
 
@@ -446,7 +446,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:396](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L396)
+[src/scans_pb.ts:396](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L396)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:384](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L384)
+[src/scans_pb.ts:384](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L384)
 
 ___
 
@@ -488,7 +488,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:388](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L388)
+[src/scans_pb.ts:388](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L388)
 
 ___
 
@@ -509,4 +509,4 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:392](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L392)
+[src/scans_pb.ts:392](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L392)

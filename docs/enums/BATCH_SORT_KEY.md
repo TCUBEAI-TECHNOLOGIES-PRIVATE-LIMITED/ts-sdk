@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / BATCH\_SORT\_KEY
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / BATCH\_SORT\_KEY
 
 # Enumeration: BATCH\_SORT\_KEY
 
@@ -6,7 +6,7 @@ Describes the available sort keys for retrieving batches
 
 **`Generated`**
 
-from enum tcube.BATCH_SORT_KEY
+from enum scanswift.BATCH_SORT_KEY
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ from enum value: BATCH_SORT_KEY_CODE = 11;
 
 #### Defined in
 
-[src/batches_pb.ts:51](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L51)
+[src/batches_pb.ts:51](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L51)
 
 ___
 
@@ -49,7 +49,7 @@ from enum value: BATCH_SORT_KEY_CREATED_AT = 1;
 
 #### Defined in
 
-[src/batches_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L30)
+[src/batches_pb.ts:30](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L30)
 
 ___
 
@@ -65,7 +65,7 @@ from enum value: BATCH_SORT_KEY_ID_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/batches_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L23)
+[src/batches_pb.ts:23](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L23)
 
 ___
 
@@ -81,7 +81,7 @@ from enum value: BATCH_SORT_KEY_INTERNAL_CODE = 12;
 
 #### Defined in
 
-[src/batches_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L58)
+[src/batches_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L58)
 
 ___
 
@@ -97,7 +97,7 @@ from enum value: BATCH_SORT_KEY_MODIFIED_AT = 2;
 
 #### Defined in
 
-[src/batches_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L37)
+[src/batches_pb.ts:37](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L37)
 
 ___
 
@@ -113,4 +113,4 @@ from enum value: BATCH_SORT_KEY_NAME = 10;
 
 #### Defined in
 
-[src/batches_pb.ts:44](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L44)
+[src/batches_pb.ts:44](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L44)

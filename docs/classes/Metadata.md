@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / Metadata
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / Metadata
 
 # Class: Metadata
 
@@ -6,7 +6,7 @@ Describes the metadata of each resource
 
 **`Generated`**
 
-from message tcube.Metadata
+from message scanswift.Metadata
 
 ## Hierarchy
 
@@ -67,7 +67,7 @@ Message&lt;Metadata\&gt;.constructor
 
 #### Defined in
 
-[src/base_pb.ts:923](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L923)
+[src/base_pb.ts:1000](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1000)
 
 ## Properties
 
@@ -83,7 +83,7 @@ from field: string added_by_user_uuid = 6;
 
 #### Defined in
 
-[src/base_pb.ts:900](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L900)
+[src/base_pb.ts:977](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L977)
 
 ___
 
@@ -99,7 +99,7 @@ from field: int64 created_at = 8;
 
 #### Defined in
 
-[src/base_pb.ts:914](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L914)
+[src/base_pb.ts:991](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L991)
 
 ___
 
@@ -115,7 +115,7 @@ from field: int64 id = 1;
 
 #### Defined in
 
-[src/base_pb.ts:886](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L886)
+[src/base_pb.ts:963](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L963)
 
 ___
 
@@ -131,7 +131,7 @@ from field: bool is_active = 7;
 
 #### Defined in
 
-[src/base_pb.ts:907](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L907)
+[src/base_pb.ts:984](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L984)
 
 ___
 
@@ -147,7 +147,7 @@ from field: int64 modified_at = 9;
 
 #### Defined in
 
-[src/base_pb.ts:921](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L921)
+[src/base_pb.ts:998](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L998)
 
 ___
 
@@ -163,7 +163,7 @@ from field: string uuid = 5;
 
 #### Defined in
 
-[src/base_pb.ts:893](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L893)
+[src/base_pb.ts:970](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L970)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:930](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L930)
+[src/base_pb.ts:1007](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1007)
 
 ___
 
@@ -183,17 +183,17 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:928](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L928)
+[src/base_pb.ts:1005](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1005)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.Metadata"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.Metadata"``
 
 #### Defined in
 
-[src/base_pb.ts:929](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L929)
+[src/base_pb.ts:1006](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1006)
 
 ## Methods
 
@@ -480,7 +480,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:951](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L951)
+[src/base_pb.ts:1028](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1028)
 
 ___
 
@@ -501,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:939](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L939)
+[src/base_pb.ts:1016](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1016)
 
 ___
 
@@ -522,7 +522,7 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:943](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L943)
+[src/base_pb.ts:1020](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1020)
 
 ___
 
@@ -543,4 +543,4 @@ ___
 
 #### Defined in
 
-[src/base_pb.ts:947](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L947)
+[src/base_pb.ts:1024](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L1024)

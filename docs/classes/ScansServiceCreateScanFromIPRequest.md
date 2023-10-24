@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ScansServiceCreateScanFromIPRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ScansServiceCreateScanFromIPRequest
 
 # Class: ScansServiceCreateScanFromIPRequest
 
@@ -6,7 +6,7 @@ Describes the data structure to perform the create scan operation using the give
 
 **`Generated`**
 
-from message tcube.ScansServiceCreateScanFromIPRequest
+from message scanswift.ScansServiceCreateScanFromIPRequest
 
 ## Hierarchy
 
@@ -63,7 +63,7 @@ Message&lt;ScansServiceCreateScanFromIPRequest\&gt;.constructor
 
 #### Defined in
 
-[src/scans_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L58)
+[src/scans_pb.ts:58](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L58)
 
 ## Properties
 
@@ -79,7 +79,7 @@ from field: string ip = 11;
 
 #### Defined in
 
-[src/scans_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L56)
+[src/scans_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L56)
 
 ___
 
@@ -95,7 +95,7 @@ from field: string resource_uuid = 10;
 
 #### Defined in
 
-[src/scans_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L49)
+[src/scans_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L49)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L65)
+[src/scans_pb.ts:65](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L65)
 
 ___
 
@@ -115,17 +115,17 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:63](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L63)
+[src/scans_pb.ts:63](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L63)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ScansServiceCreateScanFromIPRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ScansServiceCreateScanFromIPRequest"``
 
 #### Defined in
 
-[src/scans_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L64)
+[src/scans_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L64)
 
 ## Methods
 
@@ -412,7 +412,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:82](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L82)
+[src/scans_pb.ts:82](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L82)
 
 ___
 
@@ -433,7 +433,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:70](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L70)
+[src/scans_pb.ts:70](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L70)
 
 ___
 
@@ -454,7 +454,7 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:74](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L74)
+[src/scans_pb.ts:74](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L74)
 
 ___
 
@@ -475,4 +475,4 @@ ___
 
 #### Defined in
 
-[src/scans_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L78)
+[src/scans_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L78)

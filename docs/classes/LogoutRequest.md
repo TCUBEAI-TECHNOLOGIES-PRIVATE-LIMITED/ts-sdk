@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / LogoutRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / LogoutRequest
 
 # Class: LogoutRequest
 
@@ -6,7 +6,7 @@ Describes the data structure required to logout a user
 
 **`Generated`**
 
-from message tcube.LogoutRequest
+from message scanswift.LogoutRequest
 
 ## Hierarchy
 
@@ -61,7 +61,7 @@ Message&lt;LogoutRequest\&gt;.constructor
 
 #### Defined in
 
-[src/logins_pb.ts:166](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L166)
+[src/logins_pb.ts:166](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L166)
 
 ## Properties
 
@@ -71,7 +71,7 @@ Message&lt;LogoutRequest\&gt;.constructor
 
 #### Defined in
 
-[src/logins_pb.ts:173](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L173)
+[src/logins_pb.ts:173](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L173)
 
 ___
 
@@ -81,17 +81,17 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:171](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L171)
+[src/logins_pb.ts:171](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L171)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.LogoutRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.LogoutRequest"``
 
 #### Defined in
 
-[src/logins_pb.ts:172](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L172)
+[src/logins_pb.ts:172](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L172)
 
 ## Methods
 
@@ -378,7 +378,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L188)
+[src/logins_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L188)
 
 ___
 
@@ -399,7 +399,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:176](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L176)
+[src/logins_pb.ts:176](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L176)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:180](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L180)
+[src/logins_pb.ts:180](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L180)
 
 ___
 
@@ -441,4 +441,4 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:184](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L184)
+[src/logins_pb.ts:184](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L184)

@@ -5,7 +5,7 @@ import { DEVICE_TYPE, Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving users
  *
- * @generated from enum tcube.USER_SORT_KEY
+ * @generated from enum scanswift.USER_SORT_KEY
  */
 export declare enum USER_SORT_KEY {
     /**
@@ -49,7 +49,7 @@ export declare enum USER_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a user
  *
- * @generated from message tcube.UsersServiceCreateRequest
+ * @generated from message scanswift.UsersServiceCreateRequest
  */
 export declare class UsersServiceCreateRequest extends Message<UsersServiceCreateRequest> {
     /**
@@ -108,7 +108,7 @@ export declare class UsersServiceCreateRequest extends Message<UsersServiceCreat
     roleUuid: string;
     constructor(data?: PartialMessage<UsersServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceCreateRequest";
+    static readonly typeName = "scanswift.UsersServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceCreateRequest;
@@ -119,7 +119,7 @@ export declare class UsersServiceCreateRequest extends Message<UsersServiceCreat
  *
  * Describes the data structure to perform the update (draft/revision) operation on a user
  *
- * @generated from message tcube.UsersServiceUpdateRequest
+ * @generated from message scanswift.UsersServiceUpdateRequest
  */
 export declare class UsersServiceUpdateRequest extends Message<UsersServiceUpdateRequest> {
     /**
@@ -184,7 +184,7 @@ export declare class UsersServiceUpdateRequest extends Message<UsersServiceUpdat
     roleUuid: string;
     constructor(data?: PartialMessage<UsersServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceUpdateRequest";
+    static readonly typeName = "scanswift.UsersServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceUpdateRequest;
@@ -195,7 +195,7 @@ export declare class UsersServiceUpdateRequest extends Message<UsersServiceUpdat
  *
  * Describes the data structure to update a user's password
  *
- * @generated from message tcube.UsersServiceUpdatePasswordRequest
+ * @generated from message scanswift.UsersServiceUpdatePasswordRequest
  */
 export declare class UsersServiceUpdatePasswordRequest extends Message<UsersServiceUpdatePasswordRequest> {
     /**
@@ -224,7 +224,7 @@ export declare class UsersServiceUpdatePasswordRequest extends Message<UsersServ
     plainTextPassword: string;
     constructor(data?: PartialMessage<UsersServiceUpdatePasswordRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceUpdatePasswordRequest";
+    static readonly typeName = "scanswift.UsersServiceUpdatePasswordRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceUpdatePasswordRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceUpdatePasswordRequest;
@@ -235,7 +235,7 @@ export declare class UsersServiceUpdatePasswordRequest extends Message<UsersServ
  *
  * Describes the data structure to reset a user's password
  *
- * @generated from message tcube.UsersServiceResetPasswordRequest
+ * @generated from message scanswift.UsersServiceResetPasswordRequest
  */
 export declare class UsersServiceResetPasswordRequest extends Message<UsersServiceResetPasswordRequest> {
     /**
@@ -252,7 +252,7 @@ export declare class UsersServiceResetPasswordRequest extends Message<UsersServi
     username: string;
     constructor(data?: PartialMessage<UsersServiceResetPasswordRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceResetPasswordRequest";
+    static readonly typeName = "scanswift.UsersServiceResetPasswordRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceResetPasswordRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceResetPasswordRequest;
@@ -263,7 +263,7 @@ export declare class UsersServiceResetPasswordRequest extends Message<UsersServi
  *
  * Describes the data structure to register a device against a user to send push notifications
  *
- * @generated from message tcube.UsersServiceRegisterUserDeviceRequest
+ * @generated from message scanswift.UsersServiceRegisterUserDeviceRequest
  */
 export declare class UsersServiceRegisterUserDeviceRequest extends Message<UsersServiceRegisterUserDeviceRequest> {
     /**
@@ -281,7 +281,7 @@ export declare class UsersServiceRegisterUserDeviceRequest extends Message<Users
     /**
      * The device type
      *
-     * @generated from field: tcube.DEVICE_TYPE device_type = 10;
+     * @generated from field: scanswift.DEVICE_TYPE device_type = 10;
      */
     deviceType: DEVICE_TYPE;
     /**
@@ -292,7 +292,7 @@ export declare class UsersServiceRegisterUserDeviceRequest extends Message<Users
     deviceId: string;
     constructor(data?: PartialMessage<UsersServiceRegisterUserDeviceRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceRegisterUserDeviceRequest";
+    static readonly typeName = "scanswift.UsersServiceRegisterUserDeviceRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceRegisterUserDeviceRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceRegisterUserDeviceRequest;
@@ -303,13 +303,13 @@ export declare class UsersServiceRegisterUserDeviceRequest extends Message<Users
  *
  * Describes the data structure of each user on the platform
  *
- * @generated from message tcube.User
+ * @generated from message scanswift.User
  */
 export declare class User extends Message<User> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -350,7 +350,7 @@ export declare class User extends Message<User> {
     address: string;
     constructor(data?: PartialMessage<User>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.User";
+    static readonly typeName = "scanswift.User";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): User;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): User;
@@ -361,18 +361,18 @@ export declare class User extends Message<User> {
  *
  * Describes the data structure that stores a list of users
  *
- * @generated from message tcube.UsersList
+ * @generated from message scanswift.UsersList
  */
 export declare class UsersList extends Message<UsersList> {
     /**
      * List of users
      *
-     * @generated from field: repeated tcube.User list = 1;
+     * @generated from field: repeated scanswift.User list = 1;
      */
     list: User[];
     constructor(data?: PartialMessage<UsersList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersList";
+    static readonly typeName = "scanswift.UsersList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersList;
@@ -383,7 +383,7 @@ export declare class UsersList extends Message<UsersList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.UsersServicePaginationReq
+ * @generated from message scanswift.UsersServicePaginationReq
  */
 export declare class UsersServicePaginationReq extends Message<UsersServicePaginationReq> {
     /**
@@ -407,18 +407,18 @@ export declare class UsersServicePaginationReq extends Message<UsersServicePagin
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.USER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.USER_SORT_KEY sort_key = 5;
      */
     sortKey: USER_SORT_KEY;
     constructor(data?: PartialMessage<UsersServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServicePaginationReq";
+    static readonly typeName = "scanswift.UsersServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServicePaginationReq;
@@ -429,7 +429,7 @@ export declare class UsersServicePaginationReq extends Message<UsersServicePagin
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.UserPaginationResp
+ * @generated from message scanswift.UserPaginationResp
  */
 export declare class UserPaginationResp extends Message<UserPaginationResp> {
     /**
@@ -447,12 +447,12 @@ export declare class UserPaginationResp extends Message<UserPaginationResp> {
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.User payload = 3;
+     * @generated from field: repeated scanswift.User payload = 3;
      */
     payload: User[];
     constructor(data?: PartialMessage<UserPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UserPaginationResp";
+    static readonly typeName = "scanswift.UserPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UserPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UserPaginationResp;
@@ -463,7 +463,7 @@ export declare class UserPaginationResp extends Message<UserPaginationResp> {
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.UsersServiceFilterReq
+ * @generated from message scanswift.UsersServiceFilterReq
  */
 export declare class UsersServiceFilterReq extends Message<UsersServiceFilterReq> {
     /**
@@ -487,13 +487,13 @@ export declare class UsersServiceFilterReq extends Message<UsersServiceFilterReq
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.USER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.USER_SORT_KEY sort_key = 5;
      */
     sortKey: USER_SORT_KEY;
     /**
@@ -540,7 +540,7 @@ export declare class UsersServiceFilterReq extends Message<UsersServiceFilterReq
     phone: string;
     constructor(data?: PartialMessage<UsersServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceFilterReq";
+    static readonly typeName = "scanswift.UsersServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceFilterReq;
@@ -551,7 +551,7 @@ export declare class UsersServiceFilterReq extends Message<UsersServiceFilterReq
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.UsersServiceSearchAllReq
+ * @generated from message scanswift.UsersServiceSearchAllReq
  */
 export declare class UsersServiceSearchAllReq extends Message<UsersServiceSearchAllReq> {
     /**
@@ -575,13 +575,13 @@ export declare class UsersServiceSearchAllReq extends Message<UsersServiceSearch
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.USER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.USER_SORT_KEY sort_key = 5;
      */
     sortKey: USER_SORT_KEY;
     /**
@@ -592,7 +592,7 @@ export declare class UsersServiceSearchAllReq extends Message<UsersServiceSearch
     searchKey: string;
     constructor(data?: PartialMessage<UsersServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UsersServiceSearchAllReq";
+    static readonly typeName = "scanswift.UsersServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UsersServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UsersServiceSearchAllReq;

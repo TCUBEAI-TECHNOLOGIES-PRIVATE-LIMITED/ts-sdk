@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT
 
 # Enumeration: PRINT\_ENCODING\_TYPE\_FOR\_PRODUCT
 
@@ -6,7 +6,7 @@ Stores the possible values for encoding type
 
 **`Generated`**
 
-from enum tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT
+from enum scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_HRI_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/products_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L49)
+[src/products_pb.ts:49](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L49)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI = 1;
 
 #### Defined in
 
-[src/products_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L56)
+[src/products_pb.ts:56](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L56)
 
 ___
 
@@ -62,4 +62,4 @@ from enum value: PRINT_ENCODING_TYPE_FOR_PRODUCT_URI_SHORT = 2;
 
 #### Defined in
 
-[src/products_pb.ts:63](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L63)
+[src/products_pb.ts:63](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L63)

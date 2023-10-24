@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available printer types
  *
- * @generated from enum tcube.PRINTER_MODE
+ * @generated from enum scanswift.PRINTER_MODE
  */
 export declare enum PRINTER_MODE {
     /**
@@ -31,7 +31,7 @@ export declare enum PRINTER_MODE {
  *
  * Describes the available sort keys for retrieving printers
  *
- * @generated from enum tcube.PRINTER_SORT_KEY
+ * @generated from enum scanswift.PRINTER_SORT_KEY
  */
 export declare enum PRINTER_SORT_KEY {
     /**
@@ -69,7 +69,7 @@ export declare enum PRINTER_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a printer
  *
- * @generated from message tcube.PrintersServiceCreateRequest
+ * @generated from message scanswift.PrintersServiceCreateRequest
  */
 export declare class PrintersServiceCreateRequest extends Message<PrintersServiceCreateRequest> {
     /**
@@ -105,7 +105,7 @@ export declare class PrintersServiceCreateRequest extends Message<PrintersServic
     /**
      * The printer mode
      *
-     * @generated from field: tcube.PRINTER_MODE mode = 12;
+     * @generated from field: scanswift.PRINTER_MODE mode = 12;
      */
     mode: PRINTER_MODE;
     /**
@@ -128,7 +128,7 @@ export declare class PrintersServiceCreateRequest extends Message<PrintersServic
     description: string;
     constructor(data?: PartialMessage<PrintersServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersServiceCreateRequest";
+    static readonly typeName = "scanswift.PrintersServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersServiceCreateRequest;
@@ -139,7 +139,7 @@ export declare class PrintersServiceCreateRequest extends Message<PrintersServic
  *
  * Describes the data structure to perform the update (draft/revision) operation on a printer
  *
- * @generated from message tcube.PrintersServiceUpdateRequest
+ * @generated from message scanswift.PrintersServiceUpdateRequest
  */
 export declare class PrintersServiceUpdateRequest extends Message<PrintersServiceUpdateRequest> {
     /**
@@ -169,7 +169,7 @@ export declare class PrintersServiceUpdateRequest extends Message<PrintersServic
     /**
      * The printer mode
      *
-     * @generated from field: tcube.PRINTER_MODE mode = 12;
+     * @generated from field: scanswift.PRINTER_MODE mode = 12;
      */
     mode: PRINTER_MODE;
     /**
@@ -192,7 +192,7 @@ export declare class PrintersServiceUpdateRequest extends Message<PrintersServic
     description: string;
     constructor(data?: PartialMessage<PrintersServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersServiceUpdateRequest";
+    static readonly typeName = "scanswift.PrintersServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersServiceUpdateRequest;
@@ -203,13 +203,13 @@ export declare class PrintersServiceUpdateRequest extends Message<PrintersServic
  *
  * Describes the data structure of each printer on the platform
  *
- * @generated from message tcube.Printer
+ * @generated from message scanswift.Printer
  */
 export declare class Printer extends Message<Printer> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -239,7 +239,7 @@ export declare class Printer extends Message<Printer> {
     /**
      * The printer mode
      *
-     * @generated from field: tcube.PRINTER_MODE mode = 12;
+     * @generated from field: scanswift.PRINTER_MODE mode = 12;
      */
     mode: PRINTER_MODE;
     /**
@@ -262,7 +262,7 @@ export declare class Printer extends Message<Printer> {
     description: string;
     constructor(data?: PartialMessage<Printer>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Printer";
+    static readonly typeName = "scanswift.Printer";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Printer;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Printer;
@@ -273,18 +273,18 @@ export declare class Printer extends Message<Printer> {
  *
  * Describes the data structure that stores a list of printers
  *
- * @generated from message tcube.PrintersList
+ * @generated from message scanswift.PrintersList
  */
 export declare class PrintersList extends Message<PrintersList> {
     /**
      * List of printers
      *
-     * @generated from field: repeated tcube.Printer list = 1;
+     * @generated from field: repeated scanswift.Printer list = 1;
      */
     list: Printer[];
     constructor(data?: PartialMessage<PrintersList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersList";
+    static readonly typeName = "scanswift.PrintersList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersList;
@@ -295,7 +295,7 @@ export declare class PrintersList extends Message<PrintersList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.PrintersServicePaginationReq
+ * @generated from message scanswift.PrintersServicePaginationReq
  */
 export declare class PrintersServicePaginationReq extends Message<PrintersServicePaginationReq> {
     /**
@@ -319,13 +319,13 @@ export declare class PrintersServicePaginationReq extends Message<PrintersServic
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRINTER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRINTER_SORT_KEY sort_key = 5;
      */
     sortKey: PRINTER_SORT_KEY;
     /**
@@ -336,7 +336,7 @@ export declare class PrintersServicePaginationReq extends Message<PrintersServic
     locationUuid: string;
     constructor(data?: PartialMessage<PrintersServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersServicePaginationReq";
+    static readonly typeName = "scanswift.PrintersServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersServicePaginationReq;
@@ -347,7 +347,7 @@ export declare class PrintersServicePaginationReq extends Message<PrintersServic
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.PrinterPaginationResp
+ * @generated from message scanswift.PrinterPaginationResp
  */
 export declare class PrinterPaginationResp extends Message<PrinterPaginationResp> {
     /**
@@ -365,12 +365,12 @@ export declare class PrinterPaginationResp extends Message<PrinterPaginationResp
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Printer payload = 3;
+     * @generated from field: repeated scanswift.Printer payload = 3;
      */
     payload: Printer[];
     constructor(data?: PartialMessage<PrinterPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrinterPaginationResp";
+    static readonly typeName = "scanswift.PrinterPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrinterPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrinterPaginationResp;
@@ -381,7 +381,7 @@ export declare class PrinterPaginationResp extends Message<PrinterPaginationResp
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.PrintersServiceFilterReq
+ * @generated from message scanswift.PrintersServiceFilterReq
  */
 export declare class PrintersServiceFilterReq extends Message<PrintersServiceFilterReq> {
     /**
@@ -405,13 +405,13 @@ export declare class PrintersServiceFilterReq extends Message<PrintersServiceFil
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRINTER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRINTER_SORT_KEY sort_key = 5;
      */
     sortKey: PRINTER_SORT_KEY;
     /**
@@ -453,12 +453,12 @@ export declare class PrintersServiceFilterReq extends Message<PrintersServiceFil
     /**
      * The printer mode
      *
-     * @generated from field: tcube.PRINTER_MODE mode = 22;
+     * @generated from field: scanswift.PRINTER_MODE mode = 22;
      */
     mode: PRINTER_MODE;
     constructor(data?: PartialMessage<PrintersServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersServiceFilterReq";
+    static readonly typeName = "scanswift.PrintersServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersServiceFilterReq;
@@ -469,7 +469,7 @@ export declare class PrintersServiceFilterReq extends Message<PrintersServiceFil
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.PrintersServiceSearchAllReq
+ * @generated from message scanswift.PrintersServiceSearchAllReq
  */
 export declare class PrintersServiceSearchAllReq extends Message<PrintersServiceSearchAllReq> {
     /**
@@ -493,13 +493,13 @@ export declare class PrintersServiceSearchAllReq extends Message<PrintersService
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PRINTER_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PRINTER_SORT_KEY sort_key = 5;
      */
     sortKey: PRINTER_SORT_KEY;
     /**
@@ -523,12 +523,12 @@ export declare class PrintersServiceSearchAllReq extends Message<PrintersService
     /**
      * The printer mode
      *
-     * @generated from field: tcube.PRINTER_MODE mode = 22;
+     * @generated from field: scanswift.PRINTER_MODE mode = 22;
      */
     mode: PRINTER_MODE;
     constructor(data?: PartialMessage<PrintersServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PrintersServiceSearchAllReq";
+    static readonly typeName = "scanswift.PrintersServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PrintersServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PrintersServiceSearchAllReq;

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / KnownRegex
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / KnownRegex
 
 # Enumeration: KnownRegex
 
@@ -30,7 +30,7 @@ from enum value: HTTP_HEADER_NAME = 1;
 
 #### Defined in
 
-[src/validate_pb.ts:27](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L27)
+[src/validate_pb.ts:27](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L27)
 
 ___
 
@@ -46,7 +46,7 @@ from enum value: HTTP_HEADER_VALUE = 2;
 
 #### Defined in
 
-[src/validate_pb.ts:34](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L34)
+[src/validate_pb.ts:34](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L34)
 
 ___
 
@@ -60,4 +60,4 @@ from enum value: UNKNOWN = 0;
 
 #### Defined in
 
-[src/validate_pb.ts:20](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/validate_pb.ts#L20)
+[src/validate_pb.ts:20](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/validate_pb.ts#L20)

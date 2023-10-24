@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving units
  *
- * @generated from enum tcube.UNIT_SORT_KEY
+ * @generated from enum scanswift.UNIT_SORT_KEY
  */
 export declare enum UNIT_SORT_KEY {
     /**
@@ -43,7 +43,7 @@ export declare enum UNIT_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a unit
  *
- * @generated from message tcube.UnitsServiceCreateRequest
+ * @generated from message scanswift.UnitsServiceCreateRequest
  */
 export declare class UnitsServiceCreateRequest extends Message<UnitsServiceCreateRequest> {
     /**
@@ -72,7 +72,7 @@ export declare class UnitsServiceCreateRequest extends Message<UnitsServiceCreat
     description: string;
     constructor(data?: PartialMessage<UnitsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsServiceCreateRequest";
+    static readonly typeName = "scanswift.UnitsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsServiceCreateRequest;
@@ -83,7 +83,7 @@ export declare class UnitsServiceCreateRequest extends Message<UnitsServiceCreat
  *
  * Describes the data structure to perform the update (draft/revision) operation on a unit
  *
- * @generated from message tcube.UnitsServiceUpdateRequest
+ * @generated from message scanswift.UnitsServiceUpdateRequest
  */
 export declare class UnitsServiceUpdateRequest extends Message<UnitsServiceUpdateRequest> {
     /**
@@ -118,7 +118,7 @@ export declare class UnitsServiceUpdateRequest extends Message<UnitsServiceUpdat
     description: string;
     constructor(data?: PartialMessage<UnitsServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsServiceUpdateRequest";
+    static readonly typeName = "scanswift.UnitsServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsServiceUpdateRequest;
@@ -129,13 +129,13 @@ export declare class UnitsServiceUpdateRequest extends Message<UnitsServiceUpdat
  *
  * Describes the data structure of each unit on the platform
  *
- * @generated from message tcube.Unit
+ * @generated from message scanswift.Unit
  */
 export declare class Unit extends Message<Unit> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -158,7 +158,7 @@ export declare class Unit extends Message<Unit> {
     description: string;
     constructor(data?: PartialMessage<Unit>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Unit";
+    static readonly typeName = "scanswift.Unit";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Unit;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Unit;
@@ -169,18 +169,18 @@ export declare class Unit extends Message<Unit> {
  *
  * Describes the data structure that stores a list of units
  *
- * @generated from message tcube.UnitsList
+ * @generated from message scanswift.UnitsList
  */
 export declare class UnitsList extends Message<UnitsList> {
     /**
      * List of units
      *
-     * @generated from field: repeated tcube.Unit list = 1;
+     * @generated from field: repeated scanswift.Unit list = 1;
      */
     list: Unit[];
     constructor(data?: PartialMessage<UnitsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsList";
+    static readonly typeName = "scanswift.UnitsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsList;
@@ -191,7 +191,7 @@ export declare class UnitsList extends Message<UnitsList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.UnitsServicePaginationReq
+ * @generated from message scanswift.UnitsServicePaginationReq
  */
 export declare class UnitsServicePaginationReq extends Message<UnitsServicePaginationReq> {
     /**
@@ -215,18 +215,18 @@ export declare class UnitsServicePaginationReq extends Message<UnitsServicePagin
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.UNIT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.UNIT_SORT_KEY sort_key = 5;
      */
     sortKey: UNIT_SORT_KEY;
     constructor(data?: PartialMessage<UnitsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsServicePaginationReq";
+    static readonly typeName = "scanswift.UnitsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsServicePaginationReq;
@@ -237,7 +237,7 @@ export declare class UnitsServicePaginationReq extends Message<UnitsServicePagin
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.UnitPaginationResp
+ * @generated from message scanswift.UnitPaginationResp
  */
 export declare class UnitPaginationResp extends Message<UnitPaginationResp> {
     /**
@@ -255,12 +255,12 @@ export declare class UnitPaginationResp extends Message<UnitPaginationResp> {
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Unit payload = 3;
+     * @generated from field: repeated scanswift.Unit payload = 3;
      */
     payload: Unit[];
     constructor(data?: PartialMessage<UnitPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitPaginationResp";
+    static readonly typeName = "scanswift.UnitPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitPaginationResp;
@@ -271,7 +271,7 @@ export declare class UnitPaginationResp extends Message<UnitPaginationResp> {
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.UnitsServiceFilterReq
+ * @generated from message scanswift.UnitsServiceFilterReq
  */
 export declare class UnitsServiceFilterReq extends Message<UnitsServiceFilterReq> {
     /**
@@ -295,13 +295,13 @@ export declare class UnitsServiceFilterReq extends Message<UnitsServiceFilterReq
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.UNIT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.UNIT_SORT_KEY sort_key = 5;
      */
     sortKey: UNIT_SORT_KEY;
     /**
@@ -330,7 +330,7 @@ export declare class UnitsServiceFilterReq extends Message<UnitsServiceFilterReq
     code: string;
     constructor(data?: PartialMessage<UnitsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsServiceFilterReq";
+    static readonly typeName = "scanswift.UnitsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsServiceFilterReq;
@@ -341,7 +341,7 @@ export declare class UnitsServiceFilterReq extends Message<UnitsServiceFilterReq
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.UnitsServiceSearchAllReq
+ * @generated from message scanswift.UnitsServiceSearchAllReq
  */
 export declare class UnitsServiceSearchAllReq extends Message<UnitsServiceSearchAllReq> {
     /**
@@ -365,13 +365,13 @@ export declare class UnitsServiceSearchAllReq extends Message<UnitsServiceSearch
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.UNIT_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.UNIT_SORT_KEY sort_key = 5;
      */
     sortKey: UNIT_SORT_KEY;
     /**
@@ -382,7 +382,7 @@ export declare class UnitsServiceSearchAllReq extends Message<UnitsServiceSearch
     searchKey: string;
     constructor(data?: PartialMessage<UnitsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UnitsServiceSearchAllReq";
+    static readonly typeName = "scanswift.UnitsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UnitsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UnitsServiceSearchAllReq;

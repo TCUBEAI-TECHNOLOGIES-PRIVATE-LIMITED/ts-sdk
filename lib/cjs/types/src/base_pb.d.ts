@@ -4,7 +4,7 @@ import { Message, proto3 } from "@bufbuild/protobuf";
  *
  * Describes the order in which the records need to be returned
  *
- * @generated from enum tcube.SORT_ORDER
+ * @generated from enum scanswift.SORT_ORDER
  */
 export declare enum SORT_ORDER {
     /**
@@ -24,7 +24,7 @@ export declare enum SORT_ORDER {
  *
  * Describes the supported device types
  *
- * @generated from enum tcube.DEVICE_TYPE
+ * @generated from enum scanswift.DEVICE_TYPE
  */
 export declare enum DEVICE_TYPE {
     /**
@@ -50,7 +50,7 @@ export declare enum DEVICE_TYPE {
  *
  * Describes all the possible values within a logbook operation
  *
- * @generated from enum tcube.LOGBOOK_OPERATION
+ * @generated from enum scanswift.LOGBOOK_OPERATION
  */
 export declare enum LOGBOOK_OPERATION {
     /**
@@ -80,14 +80,40 @@ export declare enum LOGBOOK_OPERATION {
 }
 /**
  *
+ * Describes all the available download states for batches, packagings and shippings
+ *
+ * @generated from enum scanswift.DOWNLOADED_STATUS
+ */
+export declare enum DOWNLOADED_STATUS {
+    /**
+     * Record is any ?9useful for filter requests
+     *
+     * @generated from enum value: DOWNLOADED_STATUS_ANY_UNSPECIFIED = 0;
+     */
+    DOWNLOADED_STATUS_ANY_UNSPECIFIED = 0,
+    /**
+     * Record has been downloaded
+     *
+     * @generated from enum value: DOWNLOADED_STATUS_TRUE = 1;
+     */
+    DOWNLOADED_STATUS_TRUE = 1,
+    /**
+     * Record has not been downloaded
+     *
+     * @generated from enum value: DOWNLOADED_STATUS_FALSE = 2;
+     */
+    DOWNLOADED_STATUS_FALSE = 2
+}
+/**
+ *
  * Describes an empty object
  *
- * @generated from message tcube.Empty
+ * @generated from message scanswift.Empty
  */
 export declare class Empty extends Message<Empty> {
     constructor(data?: PartialMessage<Empty>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Empty";
+    static readonly typeName = "scanswift.Empty";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Empty;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Empty;
@@ -98,7 +124,7 @@ export declare class Empty extends Message<Empty> {
  *
  * Describes the boolean response
  *
- * @generated from message tcube.BooleanResponse
+ * @generated from message scanswift.BooleanResponse
  */
 export declare class BooleanResponse extends Message<BooleanResponse> {
     /**
@@ -109,7 +135,7 @@ export declare class BooleanResponse extends Message<BooleanResponse> {
     value: boolean;
     constructor(data?: PartialMessage<BooleanResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.BooleanResponse";
+    static readonly typeName = "scanswift.BooleanResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): BooleanResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): BooleanResponse;
@@ -120,7 +146,7 @@ export declare class BooleanResponse extends Message<BooleanResponse> {
  *
  * Describes the response that contains a URL endpoint
  *
- * @generated from message tcube.URLResponse
+ * @generated from message scanswift.URLResponse
  */
 export declare class URLResponse extends Message<URLResponse> {
     /**
@@ -131,7 +157,7 @@ export declare class URLResponse extends Message<URLResponse> {
     url: string;
     constructor(data?: PartialMessage<URLResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.URLResponse";
+    static readonly typeName = "scanswift.URLResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): URLResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): URLResponse;
@@ -142,7 +168,7 @@ export declare class URLResponse extends Message<URLResponse> {
  *
  * Describes the request payload for assigning an image to a record
  *
- * @generated from message tcube.ImageAssignRequest
+ * @generated from message scanswift.ImageAssignRequest
  */
 export declare class ImageAssignRequest extends Message<ImageAssignRequest> {
     /**
@@ -171,7 +197,7 @@ export declare class ImageAssignRequest extends Message<ImageAssignRequest> {
     mimeType: string;
     constructor(data?: PartialMessage<ImageAssignRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ImageAssignRequest";
+    static readonly typeName = "scanswift.ImageAssignRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ImageAssignRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ImageAssignRequest;
@@ -182,7 +208,7 @@ export declare class ImageAssignRequest extends Message<ImageAssignRequest> {
  *
  * Describes a generic response that consists of info of an image
  *
- * @generated from message tcube.ImageResponse
+ * @generated from message scanswift.ImageResponse
  */
 export declare class ImageResponse extends Message<ImageResponse> {
     /**
@@ -205,7 +231,7 @@ export declare class ImageResponse extends Message<ImageResponse> {
     timestamp: bigint;
     constructor(data?: PartialMessage<ImageResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ImageResponse";
+    static readonly typeName = "scanswift.ImageResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ImageResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ImageResponse;
@@ -216,7 +242,7 @@ export declare class ImageResponse extends Message<ImageResponse> {
  *
  * Describes the response payload that consists of a file
  *
- * @generated from message tcube.FileResponse
+ * @generated from message scanswift.FileResponse
  */
 export declare class FileResponse extends Message<FileResponse> {
     /**
@@ -233,7 +259,7 @@ export declare class FileResponse extends Message<FileResponse> {
     mimeType: string;
     constructor(data?: PartialMessage<FileResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.FileResponse";
+    static readonly typeName = "scanswift.FileResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): FileResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): FileResponse;
@@ -242,9 +268,31 @@ export declare class FileResponse extends Message<FileResponse> {
 }
 /**
  *
+ * Describes the response payload that consists of a file list
+ *
+ * @generated from message scanswift.FileResponseList
+ */
+export declare class FileResponseList extends Message<FileResponseList> {
+    /**
+     * List of files
+     *
+     * @generated from field: repeated scanswift.FileResponse list = 1;
+     */
+    list: FileResponse[];
+    constructor(data?: PartialMessage<FileResponseList>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "scanswift.FileResponseList";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): FileResponseList;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): FileResponseList;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): FileResponseList;
+    static equals(a: FileResponseList | PlainMessage<FileResponseList> | undefined, b: FileResponseList | PlainMessage<FileResponseList> | undefined): boolean;
+}
+/**
+ *
  * Describes the status of the records returned to a request
  *
- * @generated from message tcube.ActiveRequest
+ * @generated from message scanswift.ActiveRequest
  */
 export declare class ActiveRequest extends Message<ActiveRequest> {
     /**
@@ -255,7 +303,7 @@ export declare class ActiveRequest extends Message<ActiveRequest> {
     isActive: boolean;
     constructor(data?: PartialMessage<ActiveRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ActiveRequest";
+    static readonly typeName = "scanswift.ActiveRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveRequest;
@@ -266,7 +314,7 @@ export declare class ActiveRequest extends Message<ActiveRequest> {
  *
  * Describes the status of the records returned to a request specific to an entity
  *
- * @generated from message tcube.ActiveInEntityRequest
+ * @generated from message scanswift.ActiveInEntityRequest
  */
 export declare class ActiveInEntityRequest extends Message<ActiveInEntityRequest> {
     /**
@@ -283,7 +331,7 @@ export declare class ActiveInEntityRequest extends Message<ActiveInEntityRequest
     entityUuid: string;
     constructor(data?: PartialMessage<ActiveInEntityRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ActiveInEntityRequest";
+    static readonly typeName = "scanswift.ActiveInEntityRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveInEntityRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveInEntityRequest;
@@ -294,7 +342,7 @@ export declare class ActiveInEntityRequest extends Message<ActiveInEntityRequest
  *
  * Describes the status of the records returned to a request specific to a locaation
  *
- * @generated from message tcube.ActiveInLocationRequest
+ * @generated from message scanswift.ActiveInLocationRequest
  */
 export declare class ActiveInLocationRequest extends Message<ActiveInLocationRequest> {
     /**
@@ -311,7 +359,7 @@ export declare class ActiveInLocationRequest extends Message<ActiveInLocationReq
     locationUuid: string;
     constructor(data?: PartialMessage<ActiveInLocationRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ActiveInLocationRequest";
+    static readonly typeName = "scanswift.ActiveInLocationRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveInLocationRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveInLocationRequest;
@@ -322,7 +370,7 @@ export declare class ActiveInLocationRequest extends Message<ActiveInLocationReq
  *
  * Describes the status of the records returned to a request specific to a product
  *
- * @generated from message tcube.ActiveForProductRequest
+ * @generated from message scanswift.ActiveForProductRequest
  */
 export declare class ActiveForProductRequest extends Message<ActiveForProductRequest> {
     /**
@@ -339,7 +387,7 @@ export declare class ActiveForProductRequest extends Message<ActiveForProductReq
     productUuid: string;
     constructor(data?: PartialMessage<ActiveForProductRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.ActiveForProductRequest";
+    static readonly typeName = "scanswift.ActiveForProductRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): ActiveForProductRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): ActiveForProductRequest;
@@ -350,7 +398,7 @@ export declare class ActiveForProductRequest extends Message<ActiveForProductReq
  *
  * Describes the payload for a request to determine the count of records
  *
- * @generated from message tcube.CountRequest
+ * @generated from message scanswift.CountRequest
  */
 export declare class CountRequest extends Message<CountRequest> {
     /**
@@ -361,7 +409,7 @@ export declare class CountRequest extends Message<CountRequest> {
     isActive: boolean;
     constructor(data?: PartialMessage<CountRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CountRequest";
+    static readonly typeName = "scanswift.CountRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountRequest;
@@ -372,7 +420,7 @@ export declare class CountRequest extends Message<CountRequest> {
  *
  * Describes the payload for a request to determine the count of records within a specific entity
  *
- * @generated from message tcube.CountInEntityRequest
+ * @generated from message scanswift.CountInEntityRequest
  */
 export declare class CountInEntityRequest extends Message<CountInEntityRequest> {
     /**
@@ -389,7 +437,7 @@ export declare class CountInEntityRequest extends Message<CountInEntityRequest> 
     entityUuid: string;
     constructor(data?: PartialMessage<CountInEntityRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CountInEntityRequest";
+    static readonly typeName = "scanswift.CountInEntityRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountInEntityRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountInEntityRequest;
@@ -400,7 +448,7 @@ export declare class CountInEntityRequest extends Message<CountInEntityRequest> 
  *
  * Describes the payload for a request to determine the count of records within a specific entity's location
  *
- * @generated from message tcube.CountInLocationRequest
+ * @generated from message scanswift.CountInLocationRequest
  */
 export declare class CountInLocationRequest extends Message<CountInLocationRequest> {
     /**
@@ -417,7 +465,7 @@ export declare class CountInLocationRequest extends Message<CountInLocationReque
     locationUuid: string;
     constructor(data?: PartialMessage<CountInLocationRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CountInLocationRequest";
+    static readonly typeName = "scanswift.CountInLocationRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountInLocationRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountInLocationRequest;
@@ -428,7 +476,7 @@ export declare class CountInLocationRequest extends Message<CountInLocationReque
  *
  * Describes the payload for a request to determine the count of records within a specific product
  *
- * @generated from message tcube.CountForProductRequest
+ * @generated from message scanswift.CountForProductRequest
  */
 export declare class CountForProductRequest extends Message<CountForProductRequest> {
     /**
@@ -445,7 +493,7 @@ export declare class CountForProductRequest extends Message<CountForProductReque
     productUuid: string;
     constructor(data?: PartialMessage<CountForProductRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CountForProductRequest";
+    static readonly typeName = "scanswift.CountForProductRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountForProductRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountForProductRequest;
@@ -456,7 +504,7 @@ export declare class CountForProductRequest extends Message<CountForProductReque
  *
  * Describes the count response
  *
- * @generated from message tcube.CountResponse
+ * @generated from message scanswift.CountResponse
  */
 export declare class CountResponse extends Message<CountResponse> {
     /**
@@ -467,7 +515,7 @@ export declare class CountResponse extends Message<CountResponse> {
     count: bigint;
     constructor(data?: PartialMessage<CountResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.CountResponse";
+    static readonly typeName = "scanswift.CountResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): CountResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): CountResponse;
@@ -478,7 +526,7 @@ export declare class CountResponse extends Message<CountResponse> {
  *
  * Describes a string response
  *
- * @generated from message tcube.StringResponse
+ * @generated from message scanswift.StringResponse
  */
 export declare class StringResponse extends Message<StringResponse> {
     /**
@@ -489,7 +537,7 @@ export declare class StringResponse extends Message<StringResponse> {
     value: string;
     constructor(data?: PartialMessage<StringResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.StringResponse";
+    static readonly typeName = "scanswift.StringResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): StringResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): StringResponse;
@@ -500,7 +548,7 @@ export declare class StringResponse extends Message<StringResponse> {
  *
  * Describes the metadata of each resource
  *
- * @generated from message tcube.Metadata
+ * @generated from message scanswift.Metadata
  */
 export declare class Metadata extends Message<Metadata> {
     /**
@@ -541,7 +589,7 @@ export declare class Metadata extends Message<Metadata> {
     modifiedAt: bigint;
     constructor(data?: PartialMessage<Metadata>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Metadata";
+    static readonly typeName = "scanswift.Metadata";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Metadata;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Metadata;
@@ -552,7 +600,7 @@ export declare class Metadata extends Message<Metadata> {
  *
  * Describes the UUID identifier
  *
- * @generated from message tcube.Identifier
+ * @generated from message scanswift.Identifier
  */
 export declare class Identifier extends Message<Identifier> {
     /**
@@ -563,7 +611,7 @@ export declare class Identifier extends Message<Identifier> {
     uuid: string;
     constructor(data?: PartialMessage<Identifier>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Identifier";
+    static readonly typeName = "scanswift.Identifier";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Identifier;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Identifier;
@@ -574,18 +622,18 @@ export declare class Identifier extends Message<Identifier> {
  *
  * Describes the list of UUID identifiers
  *
- * @generated from message tcube.IdentifierList
+ * @generated from message scanswift.IdentifierList
  */
 export declare class IdentifierList extends Message<IdentifierList> {
     /**
      * List of UUIDs
      *
-     * @generated from field: repeated tcube.Identifier list = 1;
+     * @generated from field: repeated scanswift.Identifier list = 1;
      */
     list: Identifier[];
     constructor(data?: PartialMessage<IdentifierList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.IdentifierList";
+    static readonly typeName = "scanswift.IdentifierList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): IdentifierList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): IdentifierList;
@@ -596,7 +644,7 @@ export declare class IdentifierList extends Message<IdentifierList> {
  *
  * Describes a simple search key request
  *
- * @generated from message tcube.SearchKeyRequest
+ * @generated from message scanswift.SearchKeyRequest
  */
 export declare class SearchKeyRequest extends Message<SearchKeyRequest> {
     /**
@@ -607,7 +655,7 @@ export declare class SearchKeyRequest extends Message<SearchKeyRequest> {
     searchKey: string;
     constructor(data?: PartialMessage<SearchKeyRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SearchKeyRequest";
+    static readonly typeName = "scanswift.SearchKeyRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SearchKeyRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SearchKeyRequest;
@@ -618,7 +666,7 @@ export declare class SearchKeyRequest extends Message<SearchKeyRequest> {
  *
  * Describes the UUID identifier with a user comment. Useful when an operation needs to be performed, and a user comment needs to be recorded
  *
- * @generated from message tcube.IdentifierWithUserComment
+ * @generated from message scanswift.IdentifierWithUserComment
  */
 export declare class IdentifierWithUserComment extends Message<IdentifierWithUserComment> {
     /**
@@ -635,7 +683,7 @@ export declare class IdentifierWithUserComment extends Message<IdentifierWithUse
     userComment: string;
     constructor(data?: PartialMessage<IdentifierWithUserComment>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.IdentifierWithUserComment";
+    static readonly typeName = "scanswift.IdentifierWithUserComment";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): IdentifierWithUserComment;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): IdentifierWithUserComment;
@@ -646,7 +694,7 @@ export declare class IdentifierWithUserComment extends Message<IdentifierWithUse
  *
  * Describes the username that could be used as an identifier
  *
- * @generated from message tcube.IdentifierUsername
+ * @generated from message scanswift.IdentifierUsername
  */
 export declare class IdentifierUsername extends Message<IdentifierUsername> {
     /**
@@ -657,7 +705,7 @@ export declare class IdentifierUsername extends Message<IdentifierUsername> {
     username: string;
     constructor(data?: PartialMessage<IdentifierUsername>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.IdentifierUsername";
+    static readonly typeName = "scanswift.IdentifierUsername";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): IdentifierUsername;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): IdentifierUsername;
@@ -668,13 +716,13 @@ export declare class IdentifierUsername extends Message<IdentifierUsername> {
  *
  * Describes each parameter that's part of the logbook (does not include historical data of the object)
  *
- * @generated from message tcube.LogbookLogConcise
+ * @generated from message scanswift.LogbookLogConcise
  */
 export declare class LogbookLogConcise extends Message<LogbookLogConcise> {
     /**
      * Stores the metada of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -686,7 +734,7 @@ export declare class LogbookLogConcise extends Message<LogbookLogConcise> {
     /**
      * The operation that was performed
      *
-     * @generated from field: tcube.LOGBOOK_OPERATION operation = 11;
+     * @generated from field: scanswift.LOGBOOK_OPERATION operation = 11;
      */
     operation: LOGBOOK_OPERATION;
     /**
@@ -709,7 +757,7 @@ export declare class LogbookLogConcise extends Message<LogbookLogConcise> {
     userComment: string;
     constructor(data?: PartialMessage<LogbookLogConcise>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogbookLogConcise";
+    static readonly typeName = "scanswift.LogbookLogConcise";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogbookLogConcise;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogbookLogConcise;
@@ -720,13 +768,13 @@ export declare class LogbookLogConcise extends Message<LogbookLogConcise> {
  *
  * Describes each parameter that's part of the logbook (includes historical data of the object)
  *
- * @generated from message tcube.LogbookLogComplete
+ * @generated from message scanswift.LogbookLogComplete
  */
 export declare class LogbookLogComplete extends Message<LogbookLogComplete> {
     /**
      * Stores the metada of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -738,7 +786,7 @@ export declare class LogbookLogComplete extends Message<LogbookLogComplete> {
     /**
      * The operation that was performed
      *
-     * @generated from field: tcube.LOGBOOK_OPERATION operation = 11;
+     * @generated from field: scanswift.LOGBOOK_OPERATION operation = 11;
      */
     operation: LOGBOOK_OPERATION;
     /**
@@ -767,7 +815,7 @@ export declare class LogbookLogComplete extends Message<LogbookLogComplete> {
     previousData: Uint8Array;
     constructor(data?: PartialMessage<LogbookLogComplete>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogbookLogComplete";
+    static readonly typeName = "scanswift.LogbookLogComplete";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogbookLogComplete;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogbookLogComplete;
@@ -778,18 +826,18 @@ export declare class LogbookLogComplete extends Message<LogbookLogComplete> {
  *
  * Describes the list of logs from the logbook that's sent as a response to a logbook query
  *
- * @generated from message tcube.LogbookConcise
+ * @generated from message scanswift.LogbookConcise
  */
 export declare class LogbookConcise extends Message<LogbookConcise> {
     /**
      * List of logs
      *
-     * @generated from field: repeated tcube.LogbookLogConcise logs = 1;
+     * @generated from field: repeated scanswift.LogbookLogConcise logs = 1;
      */
     logs: LogbookLogConcise[];
     constructor(data?: PartialMessage<LogbookConcise>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogbookConcise";
+    static readonly typeName = "scanswift.LogbookConcise";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogbookConcise;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogbookConcise;
@@ -800,18 +848,18 @@ export declare class LogbookConcise extends Message<LogbookConcise> {
  *
  * Describes the complete list of logs from the logbook that's sent as a response to a logbook query
  *
- * @generated from message tcube.LogbookComplete
+ * @generated from message scanswift.LogbookComplete
  */
 export declare class LogbookComplete extends Message<LogbookComplete> {
     /**
      * List of logs
      *
-     * @generated from field: repeated tcube.LogbookLogComplete logs = 1;
+     * @generated from field: repeated scanswift.LogbookLogComplete logs = 1;
      */
     logs: LogbookLogComplete[];
     constructor(data?: PartialMessage<LogbookComplete>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogbookComplete";
+    static readonly typeName = "scanswift.LogbookComplete";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogbookComplete;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogbookComplete;

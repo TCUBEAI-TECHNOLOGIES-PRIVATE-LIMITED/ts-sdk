@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PrintersServiceFilterReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PrintersServiceFilterReq
 
 # Class: PrintersServiceFilterReq
 
@@ -6,7 +6,7 @@ Describes the base request payload of a filter search
 
 **`Generated`**
 
-from message tcube.PrintersServiceFilterReq
+from message scanswift.PrintersServiceFilterReq
 
 ## Hierarchy
 
@@ -73,7 +73,7 @@ Message&lt;PrintersServiceFilterReq\&gt;.constructor
 
 #### Defined in
 
-[src/printers_pb.ts:679](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L679)
+[src/printers_pb.ts:679](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L679)
 
 ## Properties
 
@@ -89,7 +89,7 @@ from field: string code = 21;
 
 #### Defined in
 
-[src/printers_pb.ts:670](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L670)
+[src/printers_pb.ts:670](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L670)
 
 ___
 
@@ -105,7 +105,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/printers_pb.ts:607](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L607)
+[src/printers_pb.ts:607](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L607)
 
 ___
 
@@ -121,7 +121,7 @@ from field: int64 creation_timestamp_end = 7;
 
 #### Defined in
 
-[src/printers_pb.ts:642](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L642)
+[src/printers_pb.ts:642](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L642)
 
 ___
 
@@ -137,7 +137,7 @@ from field: int64 creation_timestamp_start = 6;
 
 #### Defined in
 
-[src/printers_pb.ts:635](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L635)
+[src/printers_pb.ts:635](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L635)
 
 ___
 
@@ -153,7 +153,7 @@ from field: string entity_uuid = 8;
 
 #### Defined in
 
-[src/printers_pb.ts:649](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L649)
+[src/printers_pb.ts:649](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L649)
 
 ___
 
@@ -169,7 +169,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/printers_pb.ts:600](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L600)
+[src/printers_pb.ts:600](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L600)
 
 ___
 
@@ -185,7 +185,7 @@ from field: string location_uuid = 9;
 
 #### Defined in
 
-[src/printers_pb.ts:656](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L656)
+[src/printers_pb.ts:656](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L656)
 
 ___
 
@@ -197,11 +197,11 @@ The printer mode
 
 **`Generated`**
 
-from field: tcube.PRINTER_MODE mode = 22;
+from field: scanswift.PRINTER_MODE mode = 22;
 
 #### Defined in
 
-[src/printers_pb.ts:677](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L677)
+[src/printers_pb.ts:677](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L677)
 
 ___
 
@@ -217,7 +217,7 @@ from field: string name = 20;
 
 #### Defined in
 
-[src/printers_pb.ts:663](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L663)
+[src/printers_pb.ts:663](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L663)
 
 ___
 
@@ -233,7 +233,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/printers_pb.ts:614](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L614)
+[src/printers_pb.ts:614](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L614)
 
 ___
 
@@ -245,11 +245,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.PRINTER_SORT_KEY sort_key = 5;
+from field: scanswift.PRINTER_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/printers_pb.ts:628](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L628)
+[src/printers_pb.ts:628](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L628)
 
 ___
 
@@ -261,11 +261,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/printers_pb.ts:621](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L621)
+[src/printers_pb.ts:621](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L621)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:686](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L686)
+[src/printers_pb.ts:686](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L686)
 
 ___
 
@@ -285,17 +285,17 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:684](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L684)
+[src/printers_pb.ts:684](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L684)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.PrintersServiceFilterReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.PrintersServiceFilterReq"``
 
 #### Defined in
 
-[src/printers_pb.ts:685](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L685)
+[src/printers_pb.ts:685](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L685)
 
 ## Methods
 
@@ -582,7 +582,7 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:713](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L713)
+[src/printers_pb.ts:713](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L713)
 
 ___
 
@@ -603,7 +603,7 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:701](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L701)
+[src/printers_pb.ts:701](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L701)
 
 ___
 
@@ -624,7 +624,7 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:705](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L705)
+[src/printers_pb.ts:705](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L705)
 
 ___
 
@@ -645,4 +645,4 @@ ___
 
 #### Defined in
 
-[src/printers_pb.ts:709](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/printers_pb.ts#L709)
+[src/printers_pb.ts:709](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/printers_pb.ts#L709)

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / Product
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / Product
 
 # Class: Product
 
@@ -6,7 +6,7 @@ Describes the data structure of each product on the platform
 
 **`Generated`**
 
-from message tcube.Product
+from message scanswift.Product
 
 ## Hierarchy
 
@@ -29,13 +29,11 @@ from message tcube.Product
 - [globalIdentifier](Product.md#globalidentifier)
 - [metadata](Product.md#metadata)
 - [name](Product.md#name)
-- [printBatchPaperSize](Product.md#printbatchpapersize)
-- [printCodeDimensionInMm](Product.md#printcodedimensioninmm)
 - [printCodeType](Product.md#printcodetype)
 - [printEncodingType](Product.md#printencodingtype)
-- [printMarginInMm](Product.md#printmargininmm)
 - [serializationSchema](Product.md#serializationschema)
 - [shelfLifeDays](Product.md#shelflifedays)
+- [templateUuid](Product.md#templateuuid)
 - [unitPrice](Product.md#unitprice)
 - [unitUuid](Product.md#unituuid)
 - [fields](Product.md#fields)
@@ -77,7 +75,7 @@ Message&lt;Product\&gt;.constructor
 
 #### Defined in
 
-[src/products_pb.ts:577](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L577)
+[src/products_pb.ts:496](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L496)
 
 ## Properties
 
@@ -93,7 +91,7 @@ from field: string code = 11;
 
 #### Defined in
 
-[src/products_pb.ts:491](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L491)
+[src/products_pb.ts:424](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L424)
 
 ___
 
@@ -109,7 +107,7 @@ from field: string currency_uuid = 15;
 
 #### Defined in
 
-[src/products_pb.ts:519](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L519)
+[src/products_pb.ts:452](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L452)
 
 ___
 
@@ -125,7 +123,7 @@ from field: string description = 13;
 
 #### Defined in
 
-[src/products_pb.ts:505](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L505)
+[src/products_pb.ts:438](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L438)
 
 ___
 
@@ -141,7 +139,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/products_pb.ts:477](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L477)
+[src/products_pb.ts:410](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L410)
 
 ___
 
@@ -157,7 +155,7 @@ from field: string global_identifier = 12;
 
 #### Defined in
 
-[src/products_pb.ts:498](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L498)
+[src/products_pb.ts:431](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L431)
 
 ___
 
@@ -169,11 +167,11 @@ Stores the metadata of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/products_pb.ts:470](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L470)
+[src/products_pb.ts:403](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L403)
 
 ___
 
@@ -189,39 +187,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/products_pb.ts:484](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L484)
-
-___
-
-### printBatchPaperSize
-
-• **printBatchPaperSize**: [`PRINT_PAPER_SIZE`](../enums/PRINT_PAPER_SIZE.md) = `PRINT_PAPER_SIZE.A4_UNSPECIFIED`
-
-The size of the paper on which the codes are to be printed as a batch
-
-**`Generated`**
-
-from field: tcube.PRINT_PAPER_SIZE print_batch_paper_size = 33;
-
-#### Defined in
-
-[src/products_pb.ts:575](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L575)
-
-___
-
-### printCodeDimensionInMm
-
-• **printCodeDimensionInMm**: `number` = `0`
-
-The dimension of the code that needs to be printed (in mm)
-
-**`Generated`**
-
-from field: double print_code_dimension_in_mm = 31;
-
-#### Defined in
-
-[src/products_pb.ts:561](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L561)
+[src/products_pb.ts:417](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L417)
 
 ___
 
@@ -233,11 +199,11 @@ THe type of code that needs to be printed
 
 **`Generated`**
 
-from field: tcube.PRINT_CODE_TYPE print_code_type = 30;
+from field: scanswift.PRINT_CODE_TYPE print_code_type = 30;
 
 #### Defined in
 
-[src/products_pb.ts:554](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L554)
+[src/products_pb.ts:487](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L487)
 
 ___
 
@@ -249,27 +215,11 @@ The type of encoding
 
 **`Generated`**
 
-from field: tcube.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
+from field: scanswift.PRINT_ENCODING_TYPE_FOR_PRODUCT print_encoding_type = 21;
 
 #### Defined in
 
-[src/products_pb.ts:547](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L547)
-
-___
-
-### printMarginInMm
-
-• **printMarginInMm**: `number` = `0`
-
-The dimension of the margin in between codes within the print
-
-**`Generated`**
-
-from field: double print_margin_in_mm = 32;
-
-#### Defined in
-
-[src/products_pb.ts:568](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L568)
+[src/products_pb.ts:480](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L480)
 
 ___
 
@@ -285,7 +235,7 @@ from field: string serialization_schema = 20;
 
 #### Defined in
 
-[src/products_pb.ts:540](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L540)
+[src/products_pb.ts:473](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L473)
 
 ___
 
@@ -301,7 +251,23 @@ from field: int64 shelf_life_days = 17;
 
 #### Defined in
 
-[src/products_pb.ts:533](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L533)
+[src/products_pb.ts:466](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L466)
+
+___
+
+### templateUuid
+
+• **templateUuid**: `string` = `""`
+
+UUID of the associated template
+
+**`Generated`**
+
+from field: string template_uuid = 31;
+
+#### Defined in
+
+[src/products_pb.ts:494](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L494)
 
 ___
 
@@ -317,7 +283,7 @@ from field: int64 unit_price = 14;
 
 #### Defined in
 
-[src/products_pb.ts:512](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L512)
+[src/products_pb.ts:445](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L445)
 
 ___
 
@@ -333,7 +299,7 @@ from field: string unit_uuid = 16;
 
 #### Defined in
 
-[src/products_pb.ts:526](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L526)
+[src/products_pb.ts:459](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L459)
 
 ___
 
@@ -343,7 +309,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:584](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L584)
+[src/products_pb.ts:503](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L503)
 
 ___
 
@@ -353,17 +319,17 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:582](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L582)
+[src/products_pb.ts:501](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L501)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.Product"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.Product"``
 
 #### Defined in
 
-[src/products_pb.ts:583](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L583)
+[src/products_pb.ts:502](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L502)
 
 ## Methods
 
@@ -650,7 +616,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:615](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L615)
+[src/products_pb.ts:532](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L532)
 
 ___
 
@@ -671,7 +637,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:603](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L603)
+[src/products_pb.ts:520](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L520)
 
 ___
 
@@ -692,7 +658,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:607](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L607)
+[src/products_pb.ts:524](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L524)
 
 ___
 
@@ -713,4 +679,4 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:611](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L611)
+[src/products_pb.ts:528](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L528)

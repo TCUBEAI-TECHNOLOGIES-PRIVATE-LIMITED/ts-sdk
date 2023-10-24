@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / Batch
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / Batch
 
 # Class: Batch
 
@@ -6,7 +6,7 @@ Describes the data structure of each batch on the platform
 
 **`Generated`**
 
-from message tcube.Batch
+from message scanswift.Batch
 
 ## Hierarchy
 
@@ -23,8 +23,10 @@ from message tcube.Batch
 ### Properties
 
 - [code](Batch.md#code)
+- [downloadCount](Batch.md#downloadcount)
 - [entityUuid](Batch.md#entityuuid)
 - [internalCode](Batch.md#internalcode)
+- [isDownloaded](Batch.md#isdownloaded)
 - [locationUuid](Batch.md#locationuuid)
 - [metadata](Batch.md#metadata)
 - [name](Batch.md#name)
@@ -69,7 +71,7 @@ Message&lt;Batch\&gt;.constructor
 
 #### Defined in
 
-[src/batches_pb.ts:225](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L225)
+[src/batches_pb.ts:239](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L239)
 
 ## Properties
 
@@ -85,7 +87,23 @@ from field: string code = 11;
 
 #### Defined in
 
-[src/batches_pb.ts:209](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L209)
+[src/batches_pb.ts:209](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L209)
+
+___
+
+### downloadCount
+
+• **downloadCount**: `bigint` = `protoInt64.zero`
+
+Stores the number of times that this batch has already been downloaded
+
+**`Generated`**
+
+from field: int64 download_count = 21;
+
+#### Defined in
+
+[src/batches_pb.ts:237](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L237)
 
 ___
 
@@ -101,7 +119,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/batches_pb.ts:181](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L181)
+[src/batches_pb.ts:181](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L181)
 
 ___
 
@@ -117,7 +135,23 @@ from field: string internal_code = 13;
 
 #### Defined in
 
-[src/batches_pb.ts:223](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L223)
+[src/batches_pb.ts:223](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L223)
+
+___
+
+### isDownloaded
+
+• **isDownloaded**: `boolean` = `false`
+
+Stores if the batch has already been downloaded
+
+**`Generated`**
+
+from field: bool is_downloaded = 20;
+
+#### Defined in
+
+[src/batches_pb.ts:230](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L230)
 
 ___
 
@@ -133,7 +167,7 @@ from field: string location_uuid = 8;
 
 #### Defined in
 
-[src/batches_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L188)
+[src/batches_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L188)
 
 ___
 
@@ -145,11 +179,11 @@ Stores the metadata of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/batches_pb.ts:174](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L174)
+[src/batches_pb.ts:174](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L174)
 
 ___
 
@@ -165,7 +199,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/batches_pb.ts:202](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L202)
+[src/batches_pb.ts:202](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L202)
 
 ___
 
@@ -181,7 +215,7 @@ from field: string product_uuid = 9;
 
 #### Defined in
 
-[src/batches_pb.ts:195](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L195)
+[src/batches_pb.ts:195](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L195)
 
 ___
 
@@ -197,7 +231,7 @@ from field: int64 quantity = 12;
 
 #### Defined in
 
-[src/batches_pb.ts:216](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L216)
+[src/batches_pb.ts:216](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L216)
 
 ___
 
@@ -207,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:232](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L232)
+[src/batches_pb.ts:246](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L246)
 
 ___
 
@@ -217,17 +251,17 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:230](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L230)
+[src/batches_pb.ts:244](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L244)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.Batch"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.Batch"``
 
 #### Defined in
 
-[src/batches_pb.ts:231](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L231)
+[src/batches_pb.ts:245](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L245)
 
 ## Methods
 
@@ -514,7 +548,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:255](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L255)
+[src/batches_pb.ts:271](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L271)
 
 ___
 
@@ -535,7 +569,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:243](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L243)
+[src/batches_pb.ts:259](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L259)
 
 ___
 
@@ -556,7 +590,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:247](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L247)
+[src/batches_pb.ts:263](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L263)
 
 ___
 
@@ -577,4 +611,4 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:251](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L251)
+[src/batches_pb.ts:267](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L267)

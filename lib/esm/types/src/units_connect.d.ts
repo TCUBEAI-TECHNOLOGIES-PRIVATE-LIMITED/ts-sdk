@@ -5,15 +5,15 @@ import { ActiveRequest, CountRequest, CountResponse, Identifier, IdentifierWithU
  *
  * Describes the methods applicable on each unit
  *
- * @generated from service tcube.UnitsService
+ * @generated from service scanswift.UnitsService
  */
 export declare const UnitsService: {
-    readonly typeName: "tcube.UnitsService";
+    readonly typeName: "scanswift.UnitsService";
     readonly methods: {
         /**
          * Create a unit
          *
-         * @generated from rpc tcube.UnitsService.Create
+         * @generated from rpc scanswift.UnitsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const UnitsService: {
         /**
          * Update a unit
          *
-         * @generated from rpc tcube.UnitsService.Update
+         * @generated from rpc scanswift.UnitsService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const UnitsService: {
         /**
          * Archive the unit
          *
-         * @generated from rpc tcube.UnitsService.Archive
+         * @generated from rpc scanswift.UnitsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const UnitsService: {
         /**
          * Restore the unit
          *
-         * @generated from rpc tcube.UnitsService.Restore
+         * @generated from rpc scanswift.UnitsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const UnitsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.UnitsService.ViewByUUID
+         * @generated from rpc scanswift.UnitsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const UnitsService: {
         /**
          * View all units
          *
-         * @generated from rpc tcube.UnitsService.ViewAll
+         * @generated from rpc scanswift.UnitsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const UnitsService: {
         /**
          * View units with pagination
          *
-         * @generated from rpc tcube.UnitsService.ViewWithPagination
+         * @generated from rpc scanswift.UnitsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const UnitsService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.UnitsService.SearchAll
+         * @generated from rpc scanswift.UnitsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const UnitsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.UnitsService.Filter
+         * @generated from rpc scanswift.UnitsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const UnitsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.UnitsService.Count
+         * @generated from rpc scanswift.UnitsService.Count
          */
         readonly count: {
             readonly name: "Count";

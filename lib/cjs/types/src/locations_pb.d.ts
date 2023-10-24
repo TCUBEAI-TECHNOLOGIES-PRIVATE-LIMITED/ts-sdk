@@ -5,7 +5,7 @@ import { Metadata, SORT_ORDER } from "./base_pb.js";
  *
  * Describes the available sort keys for retrieving locations
  *
- * @generated from enum tcube.LOCATION_SORT_KEY
+ * @generated from enum scanswift.LOCATION_SORT_KEY
  */
 export declare enum LOCATION_SORT_KEY {
     /**
@@ -43,7 +43,7 @@ export declare enum LOCATION_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a location
  *
- * @generated from message tcube.LocationsServiceCreateRequest
+ * @generated from message scanswift.LocationsServiceCreateRequest
  */
 export declare class LocationsServiceCreateRequest extends Message<LocationsServiceCreateRequest> {
     /**
@@ -78,7 +78,7 @@ export declare class LocationsServiceCreateRequest extends Message<LocationsServ
     description: string;
     constructor(data?: PartialMessage<LocationsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsServiceCreateRequest";
+    static readonly typeName = "scanswift.LocationsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsServiceCreateRequest;
@@ -89,7 +89,7 @@ export declare class LocationsServiceCreateRequest extends Message<LocationsServ
  *
  * Describes the data structure to perform the update (draft/revision) operation on a location
  *
- * @generated from message tcube.LocationsServiceUpdateRequest
+ * @generated from message scanswift.LocationsServiceUpdateRequest
  */
 export declare class LocationsServiceUpdateRequest extends Message<LocationsServiceUpdateRequest> {
     /**
@@ -124,7 +124,7 @@ export declare class LocationsServiceUpdateRequest extends Message<LocationsServ
     description: string;
     constructor(data?: PartialMessage<LocationsServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsServiceUpdateRequest";
+    static readonly typeName = "scanswift.LocationsServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsServiceUpdateRequest;
@@ -135,13 +135,13 @@ export declare class LocationsServiceUpdateRequest extends Message<LocationsServ
  *
  * Describes the data structure of each location on the platform
  *
- * @generated from message tcube.Location
+ * @generated from message scanswift.Location
  */
 export declare class Location extends Message<Location> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -170,7 +170,7 @@ export declare class Location extends Message<Location> {
     description: string;
     constructor(data?: PartialMessage<Location>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Location";
+    static readonly typeName = "scanswift.Location";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Location;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Location;
@@ -181,18 +181,18 @@ export declare class Location extends Message<Location> {
  *
  * Describes the data structure that stores a list of locations
  *
- * @generated from message tcube.LocationsList
+ * @generated from message scanswift.LocationsList
  */
 export declare class LocationsList extends Message<LocationsList> {
     /**
      * List of locations
      *
-     * @generated from field: repeated tcube.Location list = 1;
+     * @generated from field: repeated scanswift.Location list = 1;
      */
     list: Location[];
     constructor(data?: PartialMessage<LocationsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsList";
+    static readonly typeName = "scanswift.LocationsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsList;
@@ -203,7 +203,7 @@ export declare class LocationsList extends Message<LocationsList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.LocationsServicePaginationReq
+ * @generated from message scanswift.LocationsServicePaginationReq
  */
 export declare class LocationsServicePaginationReq extends Message<LocationsServicePaginationReq> {
     /**
@@ -227,13 +227,13 @@ export declare class LocationsServicePaginationReq extends Message<LocationsServ
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.LOCATION_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.LOCATION_SORT_KEY sort_key = 5;
      */
     sortKey: LOCATION_SORT_KEY;
     /**
@@ -244,7 +244,7 @@ export declare class LocationsServicePaginationReq extends Message<LocationsServ
     entityUuid: string;
     constructor(data?: PartialMessage<LocationsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsServicePaginationReq";
+    static readonly typeName = "scanswift.LocationsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsServicePaginationReq;
@@ -255,7 +255,7 @@ export declare class LocationsServicePaginationReq extends Message<LocationsServ
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.LocationPaginationResp
+ * @generated from message scanswift.LocationPaginationResp
  */
 export declare class LocationPaginationResp extends Message<LocationPaginationResp> {
     /**
@@ -273,12 +273,12 @@ export declare class LocationPaginationResp extends Message<LocationPaginationRe
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Location payload = 3;
+     * @generated from field: repeated scanswift.Location payload = 3;
      */
     payload: Location[];
     constructor(data?: PartialMessage<LocationPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationPaginationResp";
+    static readonly typeName = "scanswift.LocationPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationPaginationResp;
@@ -289,7 +289,7 @@ export declare class LocationPaginationResp extends Message<LocationPaginationRe
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.LocationsServiceFilterReq
+ * @generated from message scanswift.LocationsServiceFilterReq
  */
 export declare class LocationsServiceFilterReq extends Message<LocationsServiceFilterReq> {
     /**
@@ -313,13 +313,13 @@ export declare class LocationsServiceFilterReq extends Message<LocationsServiceF
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.LOCATION_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.LOCATION_SORT_KEY sort_key = 5;
      */
     sortKey: LOCATION_SORT_KEY;
     /**
@@ -354,7 +354,7 @@ export declare class LocationsServiceFilterReq extends Message<LocationsServiceF
     code: string;
     constructor(data?: PartialMessage<LocationsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsServiceFilterReq";
+    static readonly typeName = "scanswift.LocationsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsServiceFilterReq;
@@ -365,7 +365,7 @@ export declare class LocationsServiceFilterReq extends Message<LocationsServiceF
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.LocationsServiceSearchAllReq
+ * @generated from message scanswift.LocationsServiceSearchAllReq
  */
 export declare class LocationsServiceSearchAllReq extends Message<LocationsServiceSearchAllReq> {
     /**
@@ -389,13 +389,13 @@ export declare class LocationsServiceSearchAllReq extends Message<LocationsServi
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.LOCATION_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.LOCATION_SORT_KEY sort_key = 5;
      */
     sortKey: LOCATION_SORT_KEY;
     /**
@@ -412,7 +412,7 @@ export declare class LocationsServiceSearchAllReq extends Message<LocationsServi
     searchKey: string;
     constructor(data?: PartialMessage<LocationsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LocationsServiceSearchAllReq";
+    static readonly typeName = "scanswift.LocationsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LocationsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LocationsServiceSearchAllReq;

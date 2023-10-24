@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / PackagingsServiceSearchAllReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / PackagingsServiceSearchAllReq
 
 # Class: PackagingsServiceSearchAllReq
 
@@ -6,7 +6,7 @@ Describes the request payload for performing a generic search operation on recor
 
 **`Generated`**
 
-from message tcube.PackagingsServiceSearchAllReq
+from message scanswift.PackagingsServiceSearchAllReq
 
 ## Hierarchy
 
@@ -26,6 +26,7 @@ from message tcube.PackagingsServiceSearchAllReq
 - [count](PackagingsServiceSearchAllReq.md#count)
 - [entityUuid](PackagingsServiceSearchAllReq.md#entityuuid)
 - [isActive](PackagingsServiceSearchAllReq.md#isactive)
+- [isDownloaded](PackagingsServiceSearchAllReq.md#isdownloaded)
 - [locationUuid](PackagingsServiceSearchAllReq.md#locationuuid)
 - [offset](PackagingsServiceSearchAllReq.md#offset)
 - [productUuid](PackagingsServiceSearchAllReq.md#productuuid)
@@ -72,7 +73,7 @@ Message&lt;PackagingsServiceSearchAllReq\&gt;.constructor
 
 #### Defined in
 
-[src/packagings_pb.ts:1050](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1050)
+[src/packagings_pb.ts:1149](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1149)
 
 ## Properties
 
@@ -88,7 +89,7 @@ from field: string batch_uuid = 10;
 
 #### Defined in
 
-[src/packagings_pb.ts:1041](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1041)
+[src/packagings_pb.ts:1133](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1133)
 
 ___
 
@@ -104,7 +105,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/packagings_pb.ts:985](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L985)
+[src/packagings_pb.ts:1077](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1077)
 
 ___
 
@@ -120,7 +121,7 @@ from field: string entity_uuid = 6;
 
 #### Defined in
 
-[src/packagings_pb.ts:1013](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1013)
+[src/packagings_pb.ts:1105](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1105)
 
 ___
 
@@ -136,7 +137,23 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/packagings_pb.ts:978](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L978)
+[src/packagings_pb.ts:1070](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1070)
+
+___
+
+### isDownloaded
+
+• **isDownloaded**: [`DOWNLOADED_STATUS`](../enums/DOWNLOADED_STATUS.md) = `DOWNLOADED_STATUS.DOWNLOADED_STATUS_ANY_UNSPECIFIED`
+
+The downloaded status
+
+**`Generated`**
+
+from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+
+#### Defined in
+
+[src/packagings_pb.ts:1147](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1147)
 
 ___
 
@@ -152,7 +169,7 @@ from field: string location_uuid = 7;
 
 #### Defined in
 
-[src/packagings_pb.ts:1020](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1020)
+[src/packagings_pb.ts:1112](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1112)
 
 ___
 
@@ -168,7 +185,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/packagings_pb.ts:992](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L992)
+[src/packagings_pb.ts:1084](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1084)
 
 ___
 
@@ -184,7 +201,7 @@ from field: string product_uuid = 9;
 
 #### Defined in
 
-[src/packagings_pb.ts:1034](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1034)
+[src/packagings_pb.ts:1126](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1126)
 
 ___
 
@@ -200,7 +217,7 @@ from field: string search_key = 11;
 
 #### Defined in
 
-[src/packagings_pb.ts:1048](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1048)
+[src/packagings_pb.ts:1140](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1140)
 
 ___
 
@@ -212,11 +229,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.PACKAGING_SORT_KEY sort_key = 5;
+from field: scanswift.PACKAGING_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/packagings_pb.ts:1006](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1006)
+[src/packagings_pb.ts:1098](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1098)
 
 ___
 
@@ -228,11 +245,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/packagings_pb.ts:999](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L999)
+[src/packagings_pb.ts:1091](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1091)
 
 ___
 
@@ -248,7 +265,7 @@ from field: string zone_uuid = 8;
 
 #### Defined in
 
-[src/packagings_pb.ts:1027](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1027)
+[src/packagings_pb.ts:1119](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1119)
 
 ___
 
@@ -258,7 +275,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1057](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1057)
+[src/packagings_pb.ts:1156](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1156)
 
 ___
 
@@ -268,17 +285,17 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1055](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1055)
+[src/packagings_pb.ts:1154](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1154)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.PackagingsServiceSearchAllReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.PackagingsServiceSearchAllReq"``
 
 #### Defined in
 
-[src/packagings_pb.ts:1056](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1056)
+[src/packagings_pb.ts:1155](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1155)
 
 ## Methods
 
@@ -565,7 +582,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1083](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1083)
+[src/packagings_pb.ts:1183](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1183)
 
 ___
 
@@ -586,7 +603,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1071](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1071)
+[src/packagings_pb.ts:1171](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1171)
 
 ___
 
@@ -607,7 +624,7 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1075](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1075)
+[src/packagings_pb.ts:1175](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1175)
 
 ___
 
@@ -628,4 +645,4 @@ ___
 
 #### Defined in
 
-[src/packagings_pb.ts:1079](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/packagings_pb.ts#L1079)
+[src/packagings_pb.ts:1179](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/packagings_pb.ts#L1179)

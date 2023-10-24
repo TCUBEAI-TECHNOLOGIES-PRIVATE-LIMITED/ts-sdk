@@ -4,7 +4,7 @@ import { Message, proto3 } from "@bufbuild/protobuf";
  *
  * Describes the data structure for a user to login
  *
- * @generated from message tcube.UserLoginRequest
+ * @generated from message scanswift.UserLoginRequest
  */
 export declare class UserLoginRequest extends Message<UserLoginRequest> {
     /**
@@ -21,7 +21,7 @@ export declare class UserLoginRequest extends Message<UserLoginRequest> {
     plainTextPassword: string;
     constructor(data?: PartialMessage<UserLoginRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UserLoginRequest";
+    static readonly typeName = "scanswift.UserLoginRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UserLoginRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UserLoginRequest;
@@ -32,7 +32,7 @@ export declare class UserLoginRequest extends Message<UserLoginRequest> {
  *
  * Describes the response to a user login request
  *
- * @generated from message tcube.UserLoginResponse
+ * @generated from message scanswift.UserLoginResponse
  */
 export declare class UserLoginResponse extends Message<UserLoginResponse> {
     /**
@@ -55,7 +55,7 @@ export declare class UserLoginResponse extends Message<UserLoginResponse> {
     expiresAt: bigint;
     constructor(data?: PartialMessage<UserLoginResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.UserLoginResponse";
+    static readonly typeName = "scanswift.UserLoginResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): UserLoginResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): UserLoginResponse;
@@ -66,7 +66,7 @@ export declare class UserLoginResponse extends Message<UserLoginResponse> {
  *
  * Describes the data structure required to check if the login is still valid
  *
- * @generated from message tcube.AuthTokenValidityRequest
+ * @generated from message scanswift.AuthTokenValidityRequest
  */
 export declare class AuthTokenValidityRequest extends Message<AuthTokenValidityRequest> {
     /**
@@ -77,7 +77,7 @@ export declare class AuthTokenValidityRequest extends Message<AuthTokenValidityR
     authToken: string;
     constructor(data?: PartialMessage<AuthTokenValidityRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.AuthTokenValidityRequest";
+    static readonly typeName = "scanswift.AuthTokenValidityRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): AuthTokenValidityRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): AuthTokenValidityRequest;
@@ -88,12 +88,12 @@ export declare class AuthTokenValidityRequest extends Message<AuthTokenValidityR
  *
  * Describes the data structure required to logout a user
  *
- * @generated from message tcube.LogoutRequest
+ * @generated from message scanswift.LogoutRequest
  */
 export declare class LogoutRequest extends Message<LogoutRequest> {
     constructor(data?: PartialMessage<LogoutRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogoutRequest";
+    static readonly typeName = "scanswift.LogoutRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogoutRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogoutRequest;
@@ -104,12 +104,12 @@ export declare class LogoutRequest extends Message<LogoutRequest> {
  *
  * Describes the response data structure to a logout request
  *
- * @generated from message tcube.LogoutResponse
+ * @generated from message scanswift.LogoutResponse
  */
 export declare class LogoutResponse extends Message<LogoutResponse> {
     constructor(data?: PartialMessage<LogoutResponse>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.LogoutResponse";
+    static readonly typeName = "scanswift.LogoutResponse";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): LogoutResponse;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): LogoutResponse;

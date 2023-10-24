@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / INFERRED\_FROM
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / INFERRED\_FROM
 
 # Enumeration: INFERRED\_FROM
 
@@ -6,7 +6,7 @@ Stores the possible values for inferred from
 
 **`Generated`**
 
-from enum tcube.INFERRED_FROM
+from enum scanswift.INFERRED_FROM
 
 ## Table of contents
 
@@ -29,7 +29,7 @@ from enum value: INFERRED_FROM_IP_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/scans_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L22)
+[src/scans_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L22)
 
 ___
 
@@ -45,4 +45,4 @@ from enum value: INFERRED_FROM_USER = 1;
 
 #### Defined in
 
-[src/scans_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/scans_pb.ts#L29)
+[src/scans_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/scans_pb.ts#L29)

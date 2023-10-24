@@ -1,12 +1,14 @@
 import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
 import { Message, proto3 } from "@bufbuild/protobuf";
-import { Metadata, SORT_ORDER } from "./base_pb.js";
+import { DOWNLOADED_STATUS, Metadata, SORT_ORDER } from "./base_pb.js";
+import { Location } from "./locations_pb.js";
+import { Entity } from "./entities_pb.js";
 import { SerialsServiceSerialCodes } from "./serials_pb.js";
 /**
  *
  * Describes the available states for a packaging
  *
- * @generated from enum tcube.PACKAGING_STATE
+ * @generated from enum scanswift.PACKAGING_STATE
  */
 export declare enum PACKAGING_STATE {
     /**
@@ -32,7 +34,7 @@ export declare enum PACKAGING_STATE {
  *
  * Stores the possible values for encoding type
  *
- * @generated from enum tcube.PRINT_ENCODING_TYPE_FOR_PACKAGING
+ * @generated from enum scanswift.PRINT_ENCODING_TYPE_FOR_PACKAGING
  */
 export declare enum PRINT_ENCODING_TYPE_FOR_PACKAGING {
     /**
@@ -58,7 +60,7 @@ export declare enum PRINT_ENCODING_TYPE_FOR_PACKAGING {
  *
  * Describes the available sort keys for retrieving packagings
  *
- * @generated from enum tcube.PACKAGING_SORT_KEY
+ * @generated from enum scanswift.PACKAGING_SORT_KEY
  */
 export declare enum PACKAGING_SORT_KEY {
     /**
@@ -96,7 +98,7 @@ export declare enum PACKAGING_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a packaging
  *
- * @generated from message tcube.PackagingsServiceCreateRequest
+ * @generated from message scanswift.PackagingsServiceCreateRequest
  */
 export declare class PackagingsServiceCreateRequest extends Message<PackagingsServiceCreateRequest> {
     /**
@@ -168,12 +170,12 @@ export declare class PackagingsServiceCreateRequest extends Message<PackagingsSe
     /**
      * The type of encoding
      *
-     * @generated from field: tcube.PRINT_ENCODING_TYPE_FOR_PACKAGING print_encoding_type = 18;
+     * @generated from field: scanswift.PRINT_ENCODING_TYPE_FOR_PACKAGING print_encoding_type = 18;
      */
     printEncodingType: PRINT_ENCODING_TYPE_FOR_PACKAGING;
     constructor(data?: PartialMessage<PackagingsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsServiceCreateRequest";
+    static readonly typeName = "scanswift.PackagingsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsServiceCreateRequest;
@@ -184,13 +186,13 @@ export declare class PackagingsServiceCreateRequest extends Message<PackagingsSe
  *
  * Describes the data structure of each packaging on the platform
  *
- * @generated from message tcube.Packaging
+ * @generated from message scanswift.Packaging
  */
 export declare class Packaging extends Message<Packaging> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -262,18 +264,30 @@ export declare class Packaging extends Message<Packaging> {
     /**
      * The type of encoding
      *
-     * @generated from field: tcube.PRINT_ENCODING_TYPE_FOR_PACKAGING print_encoding_type = 18;
+     * @generated from field: scanswift.PRINT_ENCODING_TYPE_FOR_PACKAGING print_encoding_type = 18;
      */
     printEncodingType: PRINT_ENCODING_TYPE_FOR_PACKAGING;
     /**
      * The state of the packaging
      *
-     * @generated from field: tcube.PACKAGING_STATE state = 20;
+     * @generated from field: scanswift.PACKAGING_STATE state = 20;
      */
     state: PACKAGING_STATE;
+    /**
+     * Stores if the packaging has already been downloaded
+     *
+     * @generated from field: bool is_downloaded = 30;
+     */
+    isDownloaded: boolean;
+    /**
+     * Stores the number of times that this packaging has already been downloaded
+     *
+     * @generated from field: int64 download_count = 31;
+     */
+    downloadCount: bigint;
     constructor(data?: PartialMessage<Packaging>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.Packaging";
+    static readonly typeName = "scanswift.Packaging";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): Packaging;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): Packaging;
@@ -282,20 +296,60 @@ export declare class Packaging extends Message<Packaging> {
 }
 /**
  *
+ * Describes the data structure of each packaging with its relevant metadata
+ *
+ * @generated from message scanswift.PackagingMetadata
+ */
+export declare class PackagingMetadata extends Message<PackagingMetadata> {
+    /**
+     * Stores the packaging info
+     *
+     * @generated from field: scanswift.Packaging packaging = 1;
+     */
+    packaging?: Packaging;
+    /**
+     * Stores the string that will be used to generate the QR code
+     *
+     * @generated from field: string qr_string = 3;
+     */
+    qrString: string;
+    /**
+     * Stores the location info
+     *
+     * @generated from field: scanswift.Location location = 30;
+     */
+    location?: Location;
+    /**
+     * Stores the entity info
+     *
+     * @generated from field: scanswift.Entity entity = 40;
+     */
+    entity?: Entity;
+    constructor(data?: PartialMessage<PackagingMetadata>);
+    static readonly runtime: typeof proto3;
+    static readonly typeName = "scanswift.PackagingMetadata";
+    static readonly fields: FieldList;
+    static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingMetadata;
+    static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingMetadata;
+    static fromJsonString(jsonString: string, options?: Partial<JsonReadOptions>): PackagingMetadata;
+    static equals(a: PackagingMetadata | PlainMessage<PackagingMetadata> | undefined, b: PackagingMetadata | PlainMessage<PackagingMetadata> | undefined): boolean;
+}
+/**
+ *
  * Describes the data structure that stores a list of packagings
  *
- * @generated from message tcube.PackagingsList
+ * @generated from message scanswift.PackagingsList
  */
 export declare class PackagingsList extends Message<PackagingsList> {
     /**
      * List of packagings
      *
-     * @generated from field: repeated tcube.Packaging list = 1;
+     * @generated from field: repeated scanswift.Packaging list = 1;
      */
     list: Packaging[];
     constructor(data?: PartialMessage<PackagingsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsList";
+    static readonly typeName = "scanswift.PackagingsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsList;
@@ -306,7 +360,7 @@ export declare class PackagingsList extends Message<PackagingsList> {
  *
  * Describes the necessary data structure during addition of multiple serials to a packaging
  *
- * @generated from message tcube.PackagingsServiceAddSerialsRequest
+ * @generated from message scanswift.PackagingsServiceAddSerialsRequest
  */
 export declare class PackagingsServiceAddSerialsRequest extends Message<PackagingsServiceAddSerialsRequest> {
     /**
@@ -342,12 +396,12 @@ export declare class PackagingsServiceAddSerialsRequest extends Message<Packagin
     /**
      * List of serial codes
      *
-     * @generated from field: repeated tcube.SerialsServiceSerialCodes list = 20;
+     * @generated from field: repeated scanswift.SerialsServiceSerialCodes list = 20;
      */
     list: SerialsServiceSerialCodes[];
     constructor(data?: PartialMessage<PackagingsServiceAddSerialsRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsServiceAddSerialsRequest";
+    static readonly typeName = "scanswift.PackagingsServiceAddSerialsRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsServiceAddSerialsRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsServiceAddSerialsRequest;
@@ -358,13 +412,13 @@ export declare class PackagingsServiceAddSerialsRequest extends Message<Packagin
  *
  * Describes the data structure of each packaging serial
  *
- * @generated from message tcube.PackagingSerial
+ * @generated from message scanswift.PackagingSerial
  */
 export declare class PackagingSerial extends Message<PackagingSerial> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -411,7 +465,7 @@ export declare class PackagingSerial extends Message<PackagingSerial> {
     longitude: number;
     constructor(data?: PartialMessage<PackagingSerial>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingSerial";
+    static readonly typeName = "scanswift.PackagingSerial";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingSerial;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingSerial;
@@ -422,18 +476,18 @@ export declare class PackagingSerial extends Message<PackagingSerial> {
  *
  * Describes the data structure that stores a list of packaging serials
  *
- * @generated from message tcube.PackagingsSerialsList
+ * @generated from message scanswift.PackagingsSerialsList
  */
 export declare class PackagingsSerialsList extends Message<PackagingsSerialsList> {
     /**
      * List of serials that are associated with the packaging
      *
-     * @generated from field: repeated tcube.PackagingSerial list = 1;
+     * @generated from field: repeated scanswift.PackagingSerial list = 1;
      */
     list: PackagingSerial[];
     constructor(data?: PartialMessage<PackagingsSerialsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsSerialsList";
+    static readonly typeName = "scanswift.PackagingsSerialsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsSerialsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsSerialsList;
@@ -444,7 +498,7 @@ export declare class PackagingsSerialsList extends Message<PackagingsSerialsList
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.PackagingsServicePaginationReq
+ * @generated from message scanswift.PackagingsServicePaginationReq
  */
 export declare class PackagingsServicePaginationReq extends Message<PackagingsServicePaginationReq> {
     /**
@@ -468,13 +522,13 @@ export declare class PackagingsServicePaginationReq extends Message<PackagingsSe
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PACKAGING_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PACKAGING_SORT_KEY sort_key = 5;
      */
     sortKey: PACKAGING_SORT_KEY;
     /**
@@ -485,7 +539,7 @@ export declare class PackagingsServicePaginationReq extends Message<PackagingsSe
     entityUuid: string;
     constructor(data?: PartialMessage<PackagingsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsServicePaginationReq";
+    static readonly typeName = "scanswift.PackagingsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsServicePaginationReq;
@@ -496,7 +550,7 @@ export declare class PackagingsServicePaginationReq extends Message<PackagingsSe
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.PackagingPaginationResp
+ * @generated from message scanswift.PackagingPaginationResp
  */
 export declare class PackagingPaginationResp extends Message<PackagingPaginationResp> {
     /**
@@ -514,12 +568,12 @@ export declare class PackagingPaginationResp extends Message<PackagingPagination
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.Packaging payload = 3;
+     * @generated from field: repeated scanswift.Packaging payload = 3;
      */
     payload: Packaging[];
     constructor(data?: PartialMessage<PackagingPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingPaginationResp";
+    static readonly typeName = "scanswift.PackagingPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingPaginationResp;
@@ -530,7 +584,7 @@ export declare class PackagingPaginationResp extends Message<PackagingPagination
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.PackagingsServiceFilterReq
+ * @generated from message scanswift.PackagingsServiceFilterReq
  */
 export declare class PackagingsServiceFilterReq extends Message<PackagingsServiceFilterReq> {
     /**
@@ -554,13 +608,13 @@ export declare class PackagingsServiceFilterReq extends Message<PackagingsServic
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PACKAGING_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PACKAGING_SORT_KEY sort_key = 5;
      */
     sortKey: PACKAGING_SORT_KEY;
     /**
@@ -620,12 +674,18 @@ export declare class PackagingsServiceFilterReq extends Message<PackagingsServic
     /**
      * The state of the packaging
      *
-     * @generated from field: tcube.PACKAGING_STATE state = 30;
+     * @generated from field: scanswift.PACKAGING_STATE state = 30;
      */
     state: PACKAGING_STATE;
+    /**
+     * The downloaded status
+     *
+     * @generated from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+     */
+    isDownloaded: DOWNLOADED_STATUS;
     constructor(data?: PartialMessage<PackagingsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsServiceFilterReq";
+    static readonly typeName = "scanswift.PackagingsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsServiceFilterReq;
@@ -636,7 +696,7 @@ export declare class PackagingsServiceFilterReq extends Message<PackagingsServic
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.PackagingsServiceSearchAllReq
+ * @generated from message scanswift.PackagingsServiceSearchAllReq
  */
 export declare class PackagingsServiceSearchAllReq extends Message<PackagingsServiceSearchAllReq> {
     /**
@@ -660,13 +720,13 @@ export declare class PackagingsServiceSearchAllReq extends Message<PackagingsSer
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.PACKAGING_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.PACKAGING_SORT_KEY sort_key = 5;
      */
     sortKey: PACKAGING_SORT_KEY;
     /**
@@ -705,9 +765,15 @@ export declare class PackagingsServiceSearchAllReq extends Message<PackagingsSer
      * @generated from field: string search_key = 11;
      */
     searchKey: string;
+    /**
+     * The downloaded status
+     *
+     * @generated from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+     */
+    isDownloaded: DOWNLOADED_STATUS;
     constructor(data?: PartialMessage<PackagingsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.PackagingsServiceSearchAllReq";
+    static readonly typeName = "scanswift.PackagingsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): PackagingsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): PackagingsServiceSearchAllReq;

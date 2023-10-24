@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / CustomersServiceUpdateRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / CustomersServiceUpdateRequest
 
 # Class: CustomersServiceUpdateRequest
 
@@ -6,7 +6,7 @@ Describes the data structure to perform the update (draft/revision) operation on
 
 **`Generated`**
 
-from message tcube.CustomersServiceUpdateRequest
+from message scanswift.CustomersServiceUpdateRequest
 
 ## Hierarchy
 
@@ -65,7 +65,7 @@ Message&lt;CustomersServiceUpdateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/customers_pb.ts:162](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L162)
+[src/customers_pb.ts:162](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L162)
 
 ## Properties
 
@@ -81,7 +81,7 @@ from field: string description = 12;
 
 #### Defined in
 
-[src/customers_pb.ts:160](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L160)
+[src/customers_pb.ts:160](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L160)
 
 ___
 
@@ -97,7 +97,7 @@ from field: string name = 10;
 
 #### Defined in
 
-[src/customers_pb.ts:153](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L153)
+[src/customers_pb.ts:153](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L153)
 
 ___
 
@@ -113,7 +113,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/customers_pb.ts:139](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L139)
+[src/customers_pb.ts:139](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L139)
 
 ___
 
@@ -129,7 +129,7 @@ from field: string uuid = 2;
 
 #### Defined in
 
-[src/customers_pb.ts:146](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L146)
+[src/customers_pb.ts:146](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L146)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:169](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L169)
+[src/customers_pb.ts:169](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L169)
 
 ___
 
@@ -149,17 +149,17 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:167](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L167)
+[src/customers_pb.ts:167](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L167)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.CustomersServiceUpdateRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.CustomersServiceUpdateRequest"``
 
 #### Defined in
 
-[src/customers_pb.ts:168](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L168)
+[src/customers_pb.ts:168](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L168)
 
 ## Methods
 
@@ -446,7 +446,7 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L188)
+[src/customers_pb.ts:188](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L188)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:176](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L176)
+[src/customers_pb.ts:176](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L176)
 
 ___
 
@@ -488,7 +488,7 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:180](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L180)
+[src/customers_pb.ts:180](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L180)
 
 ___
 
@@ -509,4 +509,4 @@ ___
 
 #### Defined in
 
-[src/customers_pb.ts:184](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/customers_pb.ts#L184)
+[src/customers_pb.ts:184](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/customers_pb.ts#L184)

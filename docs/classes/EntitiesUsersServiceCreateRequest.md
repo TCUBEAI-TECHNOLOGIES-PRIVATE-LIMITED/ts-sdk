@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceCreateRequest
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / EntitiesUsersServiceCreateRequest
 
 # Class: EntitiesUsersServiceCreateRequest
 
@@ -6,7 +6,7 @@ Describes the necessary data structure during creation of an entity user
 
 **`Generated`**
 
-from message tcube.EntitiesUsersServiceCreateRequest
+from message scanswift.EntitiesUsersServiceCreateRequest
 
 ## Hierarchy
 
@@ -65,7 +65,7 @@ Message&lt;EntitiesUsersServiceCreateRequest\&gt;.constructor
 
 #### Defined in
 
-[src/entities_users_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L80)
+[src/entities_users_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L80)
 
 ## Properties
 
@@ -81,7 +81,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/entities_users_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L64)
+[src/entities_users_pb.ts:64](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L64)
 
 ___
 
@@ -97,7 +97,7 @@ from field: string role_uuid = 11;
 
 #### Defined in
 
-[src/entities_users_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L78)
+[src/entities_users_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L78)
 
 ___
 
@@ -113,7 +113,7 @@ from field: string user_comment = 1;
 
 #### Defined in
 
-[src/entities_users_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L57)
+[src/entities_users_pb.ts:57](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L57)
 
 ___
 
@@ -129,7 +129,7 @@ from field: string user_uuid = 10;
 
 #### Defined in
 
-[src/entities_users_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L71)
+[src/entities_users_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L71)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L87)
+[src/entities_users_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L87)
 
 ___
 
@@ -149,17 +149,17 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:85](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L85)
+[src/entities_users_pb.ts:85](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L85)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.EntitiesUsersServiceCreateRequest"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.EntitiesUsersServiceCreateRequest"``
 
 #### Defined in
 
-[src/entities_users_pb.ts:86](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L86)
+[src/entities_users_pb.ts:86](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L86)
 
 ## Methods
 
@@ -446,7 +446,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:106](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L106)
+[src/entities_users_pb.ts:106](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L106)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L94)
+[src/entities_users_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L94)
 
 ___
 
@@ -488,7 +488,7 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:98](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L98)
+[src/entities_users_pb.ts:98](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L98)
 
 ___
 
@@ -509,4 +509,4 @@ ___
 
 #### Defined in
 
-[src/entities_users_pb.ts:102](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/entities_users_pb.ts#L102)
+[src/entities_users_pb.ts:102](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/entities_users_pb.ts#L102)

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / UserLoginResponse
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / UserLoginResponse
 
 # Class: UserLoginResponse
 
@@ -6,7 +6,7 @@ Describes the response to a user login request
 
 **`Generated`**
 
-from message tcube.UserLoginResponse
+from message scanswift.UserLoginResponse
 
 ## Hierarchy
 
@@ -64,7 +64,7 @@ Message&lt;UserLoginResponse\&gt;.constructor
 
 #### Defined in
 
-[src/logins_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L87)
+[src/logins_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L87)
 
 ## Properties
 
@@ -80,7 +80,7 @@ from field: string auth_token = 2;
 
 #### Defined in
 
-[src/logins_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L78)
+[src/logins_pb.ts:78](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L78)
 
 ___
 
@@ -96,7 +96,7 @@ from field: int64 expires_at = 3;
 
 #### Defined in
 
-[src/logins_pb.ts:85](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L85)
+[src/logins_pb.ts:85](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L85)
 
 ___
 
@@ -112,7 +112,7 @@ from field: string username = 1;
 
 #### Defined in
 
-[src/logins_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L71)
+[src/logins_pb.ts:71](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L71)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L94)
+[src/logins_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L94)
 
 ___
 
@@ -132,17 +132,17 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:92](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L92)
+[src/logins_pb.ts:92](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L92)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.UserLoginResponse"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.UserLoginResponse"``
 
 #### Defined in
 
-[src/logins_pb.ts:93](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L93)
+[src/logins_pb.ts:93](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L93)
 
 ## Methods
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:112](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L112)
+[src/logins_pb.ts:112](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L112)
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:100](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L100)
+[src/logins_pb.ts:100](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L100)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:104](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L104)
+[src/logins_pb.ts:104](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L104)
 
 ___
 
@@ -492,4 +492,4 @@ ___
 
 #### Defined in
 
-[src/logins_pb.ts:108](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/logins_pb.ts#L108)
+[src/logins_pb.ts:108](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/logins_pb.ts#L108)

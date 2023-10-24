@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SERIAL\_ACTIVITY
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SERIAL\_ACTIVITY
 
 # Enumeration: SERIAL\_ACTIVITY
 
@@ -6,7 +6,7 @@ Describes the possible values of activity for a specific serial
 
 **`Generated`**
 
-from enum tcube.SERIAL_ACTIVITY
+from enum scanswift.SERIAL_ACTIVITY
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ from enum value: SERIAL_ACTIVITY_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/serials_pb.ts:73](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L73)
+[src/serials_pb.ts:76](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L76)
 
 ___
 
@@ -48,7 +48,7 @@ from enum value: SERIAL_ACTIVITY_COMMISSIONED = 2;
 
 #### Defined in
 
-[src/serials_pb.ts:87](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L87)
+[src/serials_pb.ts:90](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L90)
 
 ___
 
@@ -64,7 +64,7 @@ from enum value: SERIAL_ACTIVITY_DECOMMISSIONED = 3;
 
 #### Defined in
 
-[src/serials_pb.ts:94](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L94)
+[src/serials_pb.ts:97](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L97)
 
 ___
 
@@ -80,7 +80,7 @@ from enum value: SERIAL_ACTIVITY_RECALLED = 4;
 
 #### Defined in
 
-[src/serials_pb.ts:101](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L101)
+[src/serials_pb.ts:104](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L104)
 
 ___
 
@@ -96,4 +96,4 @@ from enum value: SERIAL_ACTIVITY_VERIFIED = 1;
 
 #### Defined in
 
-[src/serials_pb.ts:80](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_pb.ts#L80)
+[src/serials_pb.ts:83](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_pb.ts#L83)

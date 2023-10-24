@@ -5,15 +5,15 @@ import { ActiveRequest, Identifier, IdentifierWithUserComment } from "./base_pb.
  *
  * Describes the methods applicable on each role
  *
- * @generated from service tcube.RolesService
+ * @generated from service scanswift.RolesService
  */
 export declare const RolesService: {
-    readonly typeName: "tcube.RolesService";
+    readonly typeName: "scanswift.RolesService";
     readonly methods: {
         /**
          * Create a role
          *
-         * @generated from rpc tcube.RolesService.Create
+         * @generated from rpc scanswift.RolesService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const RolesService: {
         /**
          * Update a role
          *
-         * @generated from rpc tcube.RolesService.Update
+         * @generated from rpc scanswift.RolesService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const RolesService: {
         /**
          * Archive the role
          *
-         * @generated from rpc tcube.RolesService.Archive
+         * @generated from rpc scanswift.RolesService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const RolesService: {
         /**
          * Restore the role
          *
-         * @generated from rpc tcube.RolesService.Restore
+         * @generated from rpc scanswift.RolesService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const RolesService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.RolesService.ViewByUUID
+         * @generated from rpc scanswift.RolesService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const RolesService: {
         /**
          * View all roles
          *
-         * @generated from rpc tcube.RolesService.ViewAll
+         * @generated from rpc scanswift.RolesService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const RolesService: {
         /**
          * View roles with pagination
          *
-         * @generated from rpc tcube.RolesService.ViewWithPagination
+         * @generated from rpc scanswift.RolesService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";

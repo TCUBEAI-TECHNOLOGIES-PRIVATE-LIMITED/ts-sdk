@@ -1,14 +1,14 @@
-import { Packaging, PackagingPaginationResp, PackagingsList, PackagingsSerialsList, PackagingsServiceAddSerialsRequest, PackagingsServiceCreateRequest, PackagingsServiceFilterReq, PackagingsServicePaginationReq, PackagingsServiceSearchAllReq } from "./packagings_pb.js";
+import { Packaging, PackagingMetadata, PackagingPaginationResp, PackagingsList, PackagingsSerialsList, PackagingsServiceAddSerialsRequest, PackagingsServiceCreateRequest, PackagingsServiceFilterReq, PackagingsServicePaginationReq, PackagingsServiceSearchAllReq } from "./packagings_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 /**
  *
  * Describes the methods applicable on each packaging
  *
- * @generated from service tcube.PackagingsService
+ * @generated from service scanswift.PackagingsService
  */
 export declare const PackagingsService: {
-    readonly typeName: "tcube.PackagingsService";
+    readonly typeName: "scanswift.PackagingsService";
     readonly methods: {
         /**
          * Create a packaging
@@ -16,7 +16,7 @@ export declare const PackagingsService: {
          * // Update a packaging
          * rpc Update (PackagingsServiceUpdateRequest) returns (Packaging);
          *
-         * @generated from rpc tcube.PackagingsService.Create
+         * @generated from rpc scanswift.PackagingsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -27,7 +27,7 @@ export declare const PackagingsService: {
         /**
          * Close the packaging
          *
-         * @generated from rpc tcube.PackagingsService.Close
+         * @generated from rpc scanswift.PackagingsService.Close
          */
         readonly close: {
             readonly name: "Close";
@@ -38,7 +38,7 @@ export declare const PackagingsService: {
         /**
          * Archive the packaging
          *
-         * @generated from rpc tcube.PackagingsService.Archive
+         * @generated from rpc scanswift.PackagingsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -49,7 +49,7 @@ export declare const PackagingsService: {
         /**
          * Restore the packaging
          *
-         * @generated from rpc tcube.PackagingsService.Restore
+         * @generated from rpc scanswift.PackagingsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -60,7 +60,7 @@ export declare const PackagingsService: {
         /**
          * Recall the packaging
          *
-         * @generated from rpc tcube.PackagingsService.Recall
+         * @generated from rpc scanswift.PackagingsService.Recall
          */
         readonly recall: {
             readonly name: "Recall";
@@ -71,7 +71,7 @@ export declare const PackagingsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.PackagingsService.ViewByUUID
+         * @generated from rpc scanswift.PackagingsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -82,7 +82,7 @@ export declare const PackagingsService: {
         /**
          * View by Code
          *
-         * @generated from rpc tcube.PackagingsService.ViewByCode
+         * @generated from rpc scanswift.PackagingsService.ViewByCode
          */
         readonly viewByCode: {
             readonly name: "ViewByCode";
@@ -91,9 +91,20 @@ export declare const PackagingsService: {
             readonly kind: MethodKind.Unary;
         };
         /**
+         * View the metadata using the packaging code
+         *
+         * @generated from rpc scanswift.PackagingsService.ViewMetadataByCode
+         */
+        readonly viewMetadataByCode: {
+            readonly name: "ViewMetadataByCode";
+            readonly I: typeof SearchKeyRequest;
+            readonly O: typeof PackagingMetadata;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
          * View all packagings
          *
-         * @generated from rpc tcube.PackagingsService.ViewAll
+         * @generated from rpc scanswift.PackagingsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -104,7 +115,7 @@ export declare const PackagingsService: {
         /**
          * View packagings with pagination
          *
-         * @generated from rpc tcube.PackagingsService.ViewWithPagination
+         * @generated from rpc scanswift.PackagingsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -115,7 +126,7 @@ export declare const PackagingsService: {
         /**
          * View as QR code
          *
-         * @generated from rpc tcube.PackagingsService.ViewAsQR
+         * @generated from rpc scanswift.PackagingsService.ViewAsQR
          */
         readonly viewAsQR: {
             readonly name: "ViewAsQR";
@@ -126,7 +137,7 @@ export declare const PackagingsService: {
         /**
          * View as DataMatrix
          *
-         * @generated from rpc tcube.PackagingsService.ViewAsDataMatrix
+         * @generated from rpc scanswift.PackagingsService.ViewAsDataMatrix
          */
         readonly viewAsDataMatrix: {
             readonly name: "ViewAsDataMatrix";
@@ -137,7 +148,7 @@ export declare const PackagingsService: {
         /**
          * View as Image on the basis of the product's configuration
          *
-         * @generated from rpc tcube.PackagingsService.ViewAsImage
+         * @generated from rpc scanswift.PackagingsService.ViewAsImage
          */
         readonly viewAsImage: {
             readonly name: "ViewAsImage";
@@ -148,7 +159,7 @@ export declare const PackagingsService: {
         /**
          * View the packaging's URI
          *
-         * @generated from rpc tcube.PackagingsService.ViewAsURI
+         * @generated from rpc scanswift.PackagingsService.ViewAsURI
          */
         readonly viewAsURI: {
             readonly name: "ViewAsURI";
@@ -159,7 +170,7 @@ export declare const PackagingsService: {
         /**
          * View the string that can be used to render the QR code on POS machines
          *
-         * @generated from rpc tcube.PackagingsService.ViewPrintableString
+         * @generated from rpc scanswift.PackagingsService.ViewPrintableString
          */
         readonly viewPrintableString: {
             readonly name: "ViewPrintableString";
@@ -170,7 +181,7 @@ export declare const PackagingsService: {
         /**
          * Download the packaging as a PDF
          *
-         * @generated from rpc tcube.PackagingsService.DownloadAsPDF
+         * @generated from rpc scanswift.PackagingsService.DownloadAsPDF
          */
         readonly downloadAsPDF: {
             readonly name: "DownloadAsPDF";
@@ -179,9 +190,20 @@ export declare const PackagingsService: {
             readonly kind: MethodKind.Unary;
         };
         /**
+         * Download the packaging as an image
+         *
+         * @generated from rpc scanswift.PackagingsService.DownloadAsImage
+         */
+        readonly downloadAsImage: {
+            readonly name: "DownloadAsImage";
+            readonly I: typeof Identifier;
+            readonly O: typeof FileResponse;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.PackagingsService.SearchAll
+         * @generated from rpc scanswift.PackagingsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -192,7 +214,7 @@ export declare const PackagingsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.PackagingsService.Filter
+         * @generated from rpc scanswift.PackagingsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -203,7 +225,7 @@ export declare const PackagingsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.PackagingsService.Count
+         * @generated from rpc scanswift.PackagingsService.Count
          */
         readonly count: {
             readonly name: "Count";
@@ -214,7 +236,7 @@ export declare const PackagingsService: {
         /**
          * Add list of serials to a packaging
          *
-         * @generated from rpc tcube.PackagingsService.AddSerials
+         * @generated from rpc scanswift.PackagingsService.AddSerials
          */
         readonly addSerials: {
             readonly name: "AddSerials";
@@ -225,7 +247,7 @@ export declare const PackagingsService: {
         /**
          * Remove serial (represented by the UUID of the associated packaging serial) from packaging and return the removed identifier
          *
-         * @generated from rpc tcube.PackagingsService.RemoveSerial
+         * @generated from rpc scanswift.PackagingsService.RemoveSerial
          */
         readonly removeSerial: {
             readonly name: "RemoveSerial";
@@ -236,7 +258,7 @@ export declare const PackagingsService: {
         /**
          * View all serials associated with the packaging represented by the Identifier
          *
-         * @generated from rpc tcube.PackagingsService.ViewSerials
+         * @generated from rpc scanswift.PackagingsService.ViewSerials
          */
         readonly viewSerials: {
             readonly name: "ViewSerials";
@@ -247,7 +269,7 @@ export declare const PackagingsService: {
         /**
          * Count all serials within a packaging
          *
-         * @generated from rpc tcube.PackagingsService.CountSerials
+         * @generated from rpc scanswift.PackagingsService.CountSerials
          */
         readonly countSerials: {
             readonly name: "CountSerials";

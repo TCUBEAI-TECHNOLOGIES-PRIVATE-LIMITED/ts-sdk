@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier,
  *
  * Describes the methods applicable on each entity user
  *
- * @generated from service tcube.EntitiesUsersService
+ * @generated from service scanswift.EntitiesUsersService
  */
 export declare const EntitiesUsersService: {
-    readonly typeName: "tcube.EntitiesUsersService";
+    readonly typeName: "scanswift.EntitiesUsersService";
     readonly methods: {
         /**
          * Create an entity user
          *
-         * @generated from rpc tcube.EntitiesUsersService.Create
+         * @generated from rpc scanswift.EntitiesUsersService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const EntitiesUsersService: {
         /**
          * Update an entity user
          *
-         * @generated from rpc tcube.EntitiesUsersService.Update
+         * @generated from rpc scanswift.EntitiesUsersService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const EntitiesUsersService: {
         /**
          * Archive the entity user
          *
-         * @generated from rpc tcube.EntitiesUsersService.Archive
+         * @generated from rpc scanswift.EntitiesUsersService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const EntitiesUsersService: {
         /**
          * Restore the entity user
          *
-         * @generated from rpc tcube.EntitiesUsersService.Restore
+         * @generated from rpc scanswift.EntitiesUsersService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const EntitiesUsersService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.EntitiesUsersService.ViewByUUID
+         * @generated from rpc scanswift.EntitiesUsersService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const EntitiesUsersService: {
         /**
          * View all entities users
          *
-         * @generated from rpc tcube.EntitiesUsersService.ViewAll
+         * @generated from rpc scanswift.EntitiesUsersService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const EntitiesUsersService: {
         /**
          * View entities users with pagination
          *
-         * @generated from rpc tcube.EntitiesUsersService.ViewWithPagination
+         * @generated from rpc scanswift.EntitiesUsersService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const EntitiesUsersService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.EntitiesUsersService.SearchAll
+         * @generated from rpc scanswift.EntitiesUsersService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const EntitiesUsersService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.EntitiesUsersService.Filter
+         * @generated from rpc scanswift.EntitiesUsersService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const EntitiesUsersService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.EntitiesUsersService.Count
+         * @generated from rpc scanswift.EntitiesUsersService.Count
          */
         readonly count: {
             readonly name: "Count";

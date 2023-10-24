@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ZONE\_TYPE
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ZONE\_TYPE
 
 # Enumeration: ZONE\_TYPE
 
@@ -6,7 +6,7 @@ Describes the available zone types
 
 **`Generated`**
 
-from enum tcube.ZONE_TYPE
+from enum scanswift.ZONE_TYPE
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ from enum value: ZONE_TYPE_ANY_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/zones_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_pb.ts#L22)
+[src/zones_pb.ts:22](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/zones_pb.ts#L22)
 
 ___
 
@@ -47,7 +47,7 @@ from enum value: ZONE_TYPE_MANUFACTURING = 1;
 
 #### Defined in
 
-[src/zones_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_pb.ts#L29)
+[src/zones_pb.ts:29](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/zones_pb.ts#L29)
 
 ___
 
@@ -63,7 +63,7 @@ from enum value: ZONE_TYPE_PACKAGING = 2;
 
 #### Defined in
 
-[src/zones_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_pb.ts#L36)
+[src/zones_pb.ts:36](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/zones_pb.ts#L36)
 
 ___
 
@@ -79,4 +79,4 @@ from enum value: ZONE_TYPE_SHIPPING = 3;
 
 #### Defined in
 
-[src/zones_pb.ts:43](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/zones_pb.ts#L43)
+[src/zones_pb.ts:43](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/zones_pb.ts#L43)

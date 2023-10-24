@@ -6,7 +6,7 @@ import { INFERRED_FROM } from "./scans_pb.js";
  *
  * Describes the available sort keys for retrieving serials reviews
  *
- * @generated from enum tcube.SERIAL_REVIEW_SORT_KEY
+ * @generated from enum scanswift.SERIAL_REVIEW_SORT_KEY
  */
 export declare enum SERIAL_REVIEW_SORT_KEY {
     /**
@@ -44,7 +44,7 @@ export declare enum SERIAL_REVIEW_SORT_KEY {
  *
  * Describes the necessary data structure during creation of a serial review
  *
- * @generated from message tcube.SerialsReviewsServiceCreateRequest
+ * @generated from message scanswift.SerialsReviewsServiceCreateRequest
  */
 export declare class SerialsReviewsServiceCreateRequest extends Message<SerialsReviewsServiceCreateRequest> {
     /**
@@ -79,7 +79,7 @@ export declare class SerialsReviewsServiceCreateRequest extends Message<SerialsR
     content: string;
     constructor(data?: PartialMessage<SerialsReviewsServiceCreateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsServiceCreateRequest";
+    static readonly typeName = "scanswift.SerialsReviewsServiceCreateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsServiceCreateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsServiceCreateRequest;
@@ -90,7 +90,7 @@ export declare class SerialsReviewsServiceCreateRequest extends Message<SerialsR
  *
  * Describes the data structure to perform the update (draft/revision) operation on a serial review
  *
- * @generated from message tcube.SerialsReviewsServiceUpdateRequest
+ * @generated from message scanswift.SerialsReviewsServiceUpdateRequest
  */
 export declare class SerialsReviewsServiceUpdateRequest extends Message<SerialsReviewsServiceUpdateRequest> {
     /**
@@ -125,7 +125,7 @@ export declare class SerialsReviewsServiceUpdateRequest extends Message<SerialsR
     content: string;
     constructor(data?: PartialMessage<SerialsReviewsServiceUpdateRequest>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsServiceUpdateRequest";
+    static readonly typeName = "scanswift.SerialsReviewsServiceUpdateRequest";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsServiceUpdateRequest;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsServiceUpdateRequest;
@@ -136,13 +136,13 @@ export declare class SerialsReviewsServiceUpdateRequest extends Message<SerialsR
  *
  * Describes the data structure of each serial review on the platform
  *
- * @generated from message tcube.SerialReview
+ * @generated from message scanswift.SerialReview
  */
 export declare class SerialReview extends Message<SerialReview> {
     /**
      * Stores the metadata of this resource
      *
-     * @generated from field: tcube.Metadata metadata = 1;
+     * @generated from field: scanswift.Metadata metadata = 1;
      */
     metadata?: Metadata;
     /**
@@ -196,12 +196,12 @@ export declare class SerialReview extends Message<SerialReview> {
     /**
      * Stores if the location has been inferred from IP or from user provided geocoordinates
      *
-     * @generated from field: tcube.INFERRED_FROM inferred_from = 23;
+     * @generated from field: scanswift.INFERRED_FROM inferred_from = 23;
      */
     inferredFrom: INFERRED_FROM;
     constructor(data?: PartialMessage<SerialReview>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialReview";
+    static readonly typeName = "scanswift.SerialReview";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialReview;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialReview;
@@ -212,18 +212,18 @@ export declare class SerialReview extends Message<SerialReview> {
  *
  * Describes the data structure that stores a list of serials reviews
  *
- * @generated from message tcube.SerialsReviewsList
+ * @generated from message scanswift.SerialsReviewsList
  */
 export declare class SerialsReviewsList extends Message<SerialsReviewsList> {
     /**
      * List of serials reviews
      *
-     * @generated from field: repeated tcube.SerialReview list = 1;
+     * @generated from field: repeated scanswift.SerialReview list = 1;
      */
     list: SerialReview[];
     constructor(data?: PartialMessage<SerialsReviewsList>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsList";
+    static readonly typeName = "scanswift.SerialsReviewsList";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsList;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsList;
@@ -234,7 +234,7 @@ export declare class SerialsReviewsList extends Message<SerialsReviewsList> {
  *
  * Describes a pagination request to retrieve records
  *
- * @generated from message tcube.SerialsReviewsServicePaginationReq
+ * @generated from message scanswift.SerialsReviewsServicePaginationReq
  */
 export declare class SerialsReviewsServicePaginationReq extends Message<SerialsReviewsServicePaginationReq> {
     /**
@@ -258,13 +258,13 @@ export declare class SerialsReviewsServicePaginationReq extends Message<SerialsR
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_REVIEW_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_REVIEW_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_REVIEW_SORT_KEY;
     /**
@@ -281,7 +281,7 @@ export declare class SerialsReviewsServicePaginationReq extends Message<SerialsR
     productUuid: string;
     constructor(data?: PartialMessage<SerialsReviewsServicePaginationReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsServicePaginationReq";
+    static readonly typeName = "scanswift.SerialsReviewsServicePaginationReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsServicePaginationReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsServicePaginationReq;
@@ -292,7 +292,7 @@ export declare class SerialsReviewsServicePaginationReq extends Message<SerialsR
  *
  * Describes the data structure that responds to a pagination request
  *
- * @generated from message tcube.SerialReviewPaginationResp
+ * @generated from message scanswift.SerialReviewPaginationResp
  */
 export declare class SerialReviewPaginationResp extends Message<SerialReviewPaginationResp> {
     /**
@@ -310,12 +310,12 @@ export declare class SerialReviewPaginationResp extends Message<SerialReviewPagi
     /**
      * The list of records
      *
-     * @generated from field: repeated tcube.SerialReview payload = 3;
+     * @generated from field: repeated scanswift.SerialReview payload = 3;
      */
     payload: SerialReview[];
     constructor(data?: PartialMessage<SerialReviewPaginationResp>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialReviewPaginationResp";
+    static readonly typeName = "scanswift.SerialReviewPaginationResp";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialReviewPaginationResp;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialReviewPaginationResp;
@@ -326,7 +326,7 @@ export declare class SerialReviewPaginationResp extends Message<SerialReviewPagi
  *
  * Describes the base request payload of a filter search
  *
- * @generated from message tcube.SerialsReviewsServiceFilterReq
+ * @generated from message scanswift.SerialsReviewsServiceFilterReq
  */
 export declare class SerialsReviewsServiceFilterReq extends Message<SerialsReviewsServiceFilterReq> {
     /**
@@ -350,13 +350,13 @@ export declare class SerialsReviewsServiceFilterReq extends Message<SerialsRevie
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_REVIEW_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_REVIEW_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_REVIEW_SORT_KEY;
     /**
@@ -397,7 +397,7 @@ export declare class SerialsReviewsServiceFilterReq extends Message<SerialsRevie
     name: string;
     constructor(data?: PartialMessage<SerialsReviewsServiceFilterReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsServiceFilterReq";
+    static readonly typeName = "scanswift.SerialsReviewsServiceFilterReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsServiceFilterReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsServiceFilterReq;
@@ -408,7 +408,7 @@ export declare class SerialsReviewsServiceFilterReq extends Message<SerialsRevie
  *
  * Describes the request payload for performing a generic search operation on records
  *
- * @generated from message tcube.SerialsReviewsServiceSearchAllReq
+ * @generated from message scanswift.SerialsReviewsServiceSearchAllReq
  */
 export declare class SerialsReviewsServiceSearchAllReq extends Message<SerialsReviewsServiceSearchAllReq> {
     /**
@@ -432,13 +432,13 @@ export declare class SerialsReviewsServiceSearchAllReq extends Message<SerialsRe
     /**
      * The sort order that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SORT_ORDER sort_order = 4;
+     * @generated from field: scanswift.SORT_ORDER sort_order = 4;
      */
     sortOrder: SORT_ORDER;
     /**
      * The sort key that is to be used to fetch the pagination response
      *
-     * @generated from field: tcube.SERIAL_REVIEW_SORT_KEY sort_key = 5;
+     * @generated from field: scanswift.SERIAL_REVIEW_SORT_KEY sort_key = 5;
      */
     sortKey: SERIAL_REVIEW_SORT_KEY;
     /**
@@ -467,7 +467,7 @@ export declare class SerialsReviewsServiceSearchAllReq extends Message<SerialsRe
     searchKey: string;
     constructor(data?: PartialMessage<SerialsReviewsServiceSearchAllReq>);
     static readonly runtime: typeof proto3;
-    static readonly typeName = "tcube.SerialsReviewsServiceSearchAllReq";
+    static readonly typeName = "scanswift.SerialsReviewsServiceSearchAllReq";
     static readonly fields: FieldList;
     static fromBinary(bytes: Uint8Array, options?: Partial<BinaryReadOptions>): SerialsReviewsServiceSearchAllReq;
     static fromJson(jsonValue: JsonValue, options?: Partial<JsonReadOptions>): SerialsReviewsServiceSearchAllReq;

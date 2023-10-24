@@ -5,15 +5,15 @@ import { ActiveForProductRequest, CountForProductRequest, CountResponse, Identif
  *
  * Describes the methods applicable on each serial review
  *
- * @generated from service tcube.SerialsReviewsService
+ * @generated from service scanswift.SerialsReviewsService
  */
 export declare const SerialsReviewsService: {
-    readonly typeName: "tcube.SerialsReviewsService";
+    readonly typeName: "scanswift.SerialsReviewsService";
     readonly methods: {
         /**
          * Create a serial review
          *
-         * @generated from rpc tcube.SerialsReviewsService.Create
+         * @generated from rpc scanswift.SerialsReviewsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const SerialsReviewsService: {
         /**
          * Update a serial review
          *
-         * @generated from rpc tcube.SerialsReviewsService.Update
+         * @generated from rpc scanswift.SerialsReviewsService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const SerialsReviewsService: {
         /**
          * Archive the serial review
          *
-         * @generated from rpc tcube.SerialsReviewsService.Archive
+         * @generated from rpc scanswift.SerialsReviewsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const SerialsReviewsService: {
         /**
          * Restore the serial review
          *
-         * @generated from rpc tcube.SerialsReviewsService.Restore
+         * @generated from rpc scanswift.SerialsReviewsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const SerialsReviewsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.SerialsReviewsService.ViewByUUID
+         * @generated from rpc scanswift.SerialsReviewsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const SerialsReviewsService: {
         /**
          * View all serials reviews
          *
-         * @generated from rpc tcube.SerialsReviewsService.ViewAll
+         * @generated from rpc scanswift.SerialsReviewsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const SerialsReviewsService: {
         /**
          * View serials reviews with pagination
          *
-         * @generated from rpc tcube.SerialsReviewsService.ViewWithPagination
+         * @generated from rpc scanswift.SerialsReviewsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const SerialsReviewsService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.SerialsReviewsService.SearchAll
+         * @generated from rpc scanswift.SerialsReviewsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const SerialsReviewsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.SerialsReviewsService.Filter
+         * @generated from rpc scanswift.SerialsReviewsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const SerialsReviewsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.SerialsReviewsService.Count
+         * @generated from rpc scanswift.SerialsReviewsService.Count
          */
         readonly count: {
             readonly name: "Count";

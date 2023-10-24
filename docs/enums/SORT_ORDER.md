@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SORT\_ORDER
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SORT\_ORDER
 
 # Enumeration: SORT\_ORDER
 
@@ -6,7 +6,7 @@ Describes the order in which the records need to be returned
 
 **`Generated`**
 
-from enum tcube.SORT_ORDER
+from enum scanswift.SORT_ORDER
 
 ## Table of contents
 
@@ -29,7 +29,7 @@ from enum value: ASCENDING_UNSPECIFIED = 0;
 
 #### Defined in
 
-[src/base_pb.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L21)
+[src/base_pb.ts:21](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L21)
 
 ___
 
@@ -45,4 +45,4 @@ from enum value: DESCENDING = 1;
 
 #### Defined in
 
-[src/base_pb.ts:28](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/base_pb.ts#L28)
+[src/base_pb.ts:28](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/base_pb.ts#L28)

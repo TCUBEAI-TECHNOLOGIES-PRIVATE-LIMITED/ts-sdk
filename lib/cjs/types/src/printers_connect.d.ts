@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInLocationRequest, CountResponse, Identifie
  *
  * Describes the methods applicable on each printer
  *
- * @generated from service tcube.PrintersService
+ * @generated from service scanswift.PrintersService
  */
 export declare const PrintersService: {
-    readonly typeName: "tcube.PrintersService";
+    readonly typeName: "scanswift.PrintersService";
     readonly methods: {
         /**
          * Create a printer
          *
-         * @generated from rpc tcube.PrintersService.Create
+         * @generated from rpc scanswift.PrintersService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const PrintersService: {
         /**
          * Update a printer
          *
-         * @generated from rpc tcube.PrintersService.Update
+         * @generated from rpc scanswift.PrintersService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const PrintersService: {
         /**
          * Archive the printer
          *
-         * @generated from rpc tcube.PrintersService.Archive
+         * @generated from rpc scanswift.PrintersService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const PrintersService: {
         /**
          * Restore the printer
          *
-         * @generated from rpc tcube.PrintersService.Restore
+         * @generated from rpc scanswift.PrintersService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const PrintersService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.PrintersService.ViewByUUID
+         * @generated from rpc scanswift.PrintersService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const PrintersService: {
         /**
          * View all printers
          *
-         * @generated from rpc tcube.PrintersService.ViewAll
+         * @generated from rpc scanswift.PrintersService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const PrintersService: {
         /**
          * View printers with pagination
          *
-         * @generated from rpc tcube.PrintersService.ViewWithPagination
+         * @generated from rpc scanswift.PrintersService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const PrintersService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.PrintersService.SearchAll
+         * @generated from rpc scanswift.PrintersService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const PrintersService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.PrintersService.Filter
+         * @generated from rpc scanswift.PrintersService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const PrintersService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.PrintersService.Count
+         * @generated from rpc scanswift.PrintersService.Count
          */
         readonly count: {
             readonly name: "Count";

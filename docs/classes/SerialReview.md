@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / SerialReview
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / SerialReview
 
 # Class: SerialReview
 
@@ -6,7 +6,7 @@ Describes the data structure of each serial review on the platform
 
 **`Generated`**
 
-from message tcube.SerialReview
+from message scanswift.SerialReview
 
 ## Hierarchy
 
@@ -71,7 +71,7 @@ Message&lt;SerialReview\&gt;.constructor
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:287](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L287)
+[src/serials_reviews_pb.ts:287](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L287)
 
 ## Properties
 
@@ -87,7 +87,7 @@ from field: string content = 14;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:264](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L264)
+[src/serials_reviews_pb.ts:264](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L264)
 
 ___
 
@@ -103,7 +103,7 @@ from field: string entity_uuid = 2;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:229](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L229)
+[src/serials_reviews_pb.ts:229](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L229)
 
 ___
 
@@ -115,11 +115,11 @@ Stores if the location has been inferred from IP or from user provided geocoordi
 
 **`Generated`**
 
-from field: tcube.INFERRED_FROM inferred_from = 23;
+from field: scanswift.INFERRED_FROM inferred_from = 23;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:285](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L285)
+[src/serials_reviews_pb.ts:285](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L285)
 
 ___
 
@@ -135,7 +135,7 @@ from field: double latitude = 21;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:271](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L271)
+[src/serials_reviews_pb.ts:271](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L271)
 
 ___
 
@@ -151,7 +151,7 @@ from field: double longitude = 22;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:278](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L278)
+[src/serials_reviews_pb.ts:278](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L278)
 
 ___
 
@@ -163,11 +163,11 @@ Stores the metadata of this resource
 
 **`Generated`**
 
-from field: tcube.Metadata metadata = 1;
+from field: scanswift.Metadata metadata = 1;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:222](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L222)
+[src/serials_reviews_pb.ts:222](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L222)
 
 ___
 
@@ -183,7 +183,7 @@ from field: string name = 12;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:250](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L250)
+[src/serials_reviews_pb.ts:250](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L250)
 
 ___
 
@@ -199,7 +199,7 @@ from field: string product_uuid = 11;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:243](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L243)
+[src/serials_reviews_pb.ts:243](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L243)
 
 ___
 
@@ -215,7 +215,7 @@ from field: int64 rating = 13;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:257](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L257)
+[src/serials_reviews_pb.ts:257](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L257)
 
 ___
 
@@ -231,7 +231,7 @@ from field: string serial_uuid = 10;
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:236](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L236)
+[src/serials_reviews_pb.ts:236](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L236)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:294](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L294)
+[src/serials_reviews_pb.ts:294](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L294)
 
 ___
 
@@ -251,17 +251,17 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:292](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L292)
+[src/serials_reviews_pb.ts:292](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L292)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.SerialReview"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.SerialReview"``
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:293](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L293)
+[src/serials_reviews_pb.ts:293](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L293)
 
 ## Methods
 
@@ -548,7 +548,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:319](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L319)
+[src/serials_reviews_pb.ts:319](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L319)
 
 ___
 
@@ -569,7 +569,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:307](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L307)
+[src/serials_reviews_pb.ts:307](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L307)
 
 ___
 
@@ -590,7 +590,7 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:311](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L311)
+[src/serials_reviews_pb.ts:311](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L311)
 
 ___
 
@@ -611,4 +611,4 @@ ___
 
 #### Defined in
 
-[src/serials_reviews_pb.ts:315](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/serials_reviews_pb.ts#L315)
+[src/serials_reviews_pb.ts:315](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/serials_reviews_pb.ts#L315)

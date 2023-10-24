@@ -1,14 +1,14 @@
-import { Shipping, ShippingPaginationResp, ShippingsList, ShippingsPackagingsList, ShippingsServiceAddPackagingsRequest, ShippingsServiceCreateRequest, ShippingsServiceFilterReq, ShippingsServicePaginationReq, ShippingsServiceSearchAllReq } from "./shippings_pb.js";
+import { Shipping, ShippingMetadata, ShippingPaginationResp, ShippingsList, ShippingsPackagingsList, ShippingsServiceAddPackagingsRequest, ShippingsServiceCreateRequest, ShippingsServiceFilterReq, ShippingsServicePaginationReq, ShippingsServiceSearchAllReq } from "./shippings_pb.js";
 import { MethodKind } from "@bufbuild/protobuf";
 import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, FileResponse, Identifier, IdentifierWithUserComment, ImageResponse, SearchKeyRequest, StringResponse, URLResponse } from "./base_pb.js";
 /**
  *
  * Describes the methods applicable on each shipping
  *
- * @generated from service tcube.ShippingsService
+ * @generated from service scanswift.ShippingsService
  */
 export declare const ShippingsService: {
-    readonly typeName: "tcube.ShippingsService";
+    readonly typeName: "scanswift.ShippingsService";
     readonly methods: {
         /**
          * Create a shipping
@@ -16,7 +16,7 @@ export declare const ShippingsService: {
          * // Update a shipping
          * rpc Update (ShippingsServiceUpdateRequest) returns (Shipping);
          *
-         * @generated from rpc tcube.ShippingsService.Create
+         * @generated from rpc scanswift.ShippingsService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -27,7 +27,7 @@ export declare const ShippingsService: {
         /**
          * Close the shipping
          *
-         * @generated from rpc tcube.ShippingsService.Close
+         * @generated from rpc scanswift.ShippingsService.Close
          */
         readonly close: {
             readonly name: "Close";
@@ -38,7 +38,7 @@ export declare const ShippingsService: {
         /**
          * Archive the shipping
          *
-         * @generated from rpc tcube.ShippingsService.Archive
+         * @generated from rpc scanswift.ShippingsService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -49,7 +49,7 @@ export declare const ShippingsService: {
         /**
          * Restore the shipping
          *
-         * @generated from rpc tcube.ShippingsService.Restore
+         * @generated from rpc scanswift.ShippingsService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -60,7 +60,7 @@ export declare const ShippingsService: {
         /**
          * Recall the shipping
          *
-         * @generated from rpc tcube.ShippingsService.Recall
+         * @generated from rpc scanswift.ShippingsService.Recall
          */
         readonly recall: {
             readonly name: "Recall";
@@ -71,7 +71,7 @@ export declare const ShippingsService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.ShippingsService.ViewByUUID
+         * @generated from rpc scanswift.ShippingsService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -82,7 +82,7 @@ export declare const ShippingsService: {
         /**
          * View by Code
          *
-         * @generated from rpc tcube.ShippingsService.ViewByCode
+         * @generated from rpc scanswift.ShippingsService.ViewByCode
          */
         readonly viewByCode: {
             readonly name: "ViewByCode";
@@ -91,9 +91,20 @@ export declare const ShippingsService: {
             readonly kind: MethodKind.Unary;
         };
         /**
+         * View the metadata using the shipping code
+         *
+         * @generated from rpc scanswift.ShippingsService.ViewMetadataByCode
+         */
+        readonly viewMetadataByCode: {
+            readonly name: "ViewMetadataByCode";
+            readonly I: typeof SearchKeyRequest;
+            readonly O: typeof ShippingMetadata;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
          * View all shippings
          *
-         * @generated from rpc tcube.ShippingsService.ViewAll
+         * @generated from rpc scanswift.ShippingsService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -104,7 +115,7 @@ export declare const ShippingsService: {
         /**
          * View shippings with pagination
          *
-         * @generated from rpc tcube.ShippingsService.ViewWithPagination
+         * @generated from rpc scanswift.ShippingsService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -115,7 +126,7 @@ export declare const ShippingsService: {
         /**
          * View as QR code
          *
-         * @generated from rpc tcube.ShippingsService.ViewAsQR
+         * @generated from rpc scanswift.ShippingsService.ViewAsQR
          */
         readonly viewAsQR: {
             readonly name: "ViewAsQR";
@@ -126,7 +137,7 @@ export declare const ShippingsService: {
         /**
          * View as DataMatrix
          *
-         * @generated from rpc tcube.ShippingsService.ViewAsDataMatrix
+         * @generated from rpc scanswift.ShippingsService.ViewAsDataMatrix
          */
         readonly viewAsDataMatrix: {
             readonly name: "ViewAsDataMatrix";
@@ -137,7 +148,7 @@ export declare const ShippingsService: {
         /**
          * View as Image on the basis of the product's configuration
          *
-         * @generated from rpc tcube.ShippingsService.ViewAsImage
+         * @generated from rpc scanswift.ShippingsService.ViewAsImage
          */
         readonly viewAsImage: {
             readonly name: "ViewAsImage";
@@ -148,7 +159,7 @@ export declare const ShippingsService: {
         /**
          * View the shipping's URI
          *
-         * @generated from rpc tcube.ShippingsService.ViewAsURI
+         * @generated from rpc scanswift.ShippingsService.ViewAsURI
          */
         readonly viewAsURI: {
             readonly name: "ViewAsURI";
@@ -159,7 +170,7 @@ export declare const ShippingsService: {
         /**
          * View the string that can be used to render the QR code on POS machines
          *
-         * @generated from rpc tcube.ShippingsService.ViewPrintableString
+         * @generated from rpc scanswift.ShippingsService.ViewPrintableString
          */
         readonly viewPrintableString: {
             readonly name: "ViewPrintableString";
@@ -170,7 +181,7 @@ export declare const ShippingsService: {
         /**
          * Download the shipping as a PDF
          *
-         * @generated from rpc tcube.ShippingsService.DownloadAsPDF
+         * @generated from rpc scanswift.ShippingsService.DownloadAsPDF
          */
         readonly downloadAsPDF: {
             readonly name: "DownloadAsPDF";
@@ -179,9 +190,20 @@ export declare const ShippingsService: {
             readonly kind: MethodKind.Unary;
         };
         /**
+         * Download the shipping as an image
+         *
+         * @generated from rpc scanswift.ShippingsService.DownloadAsImage
+         */
+        readonly downloadAsImage: {
+            readonly name: "DownloadAsImage";
+            readonly I: typeof Identifier;
+            readonly O: typeof FileResponse;
+            readonly kind: MethodKind.Unary;
+        };
+        /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.ShippingsService.SearchAll
+         * @generated from rpc scanswift.ShippingsService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -192,7 +214,7 @@ export declare const ShippingsService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.ShippingsService.Filter
+         * @generated from rpc scanswift.ShippingsService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -203,7 +225,7 @@ export declare const ShippingsService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.ShippingsService.Count
+         * @generated from rpc scanswift.ShippingsService.Count
          */
         readonly count: {
             readonly name: "Count";
@@ -214,7 +236,7 @@ export declare const ShippingsService: {
         /**
          * Add list of packagings to a shipping
          *
-         * @generated from rpc tcube.ShippingsService.AddPackagings
+         * @generated from rpc scanswift.ShippingsService.AddPackagings
          */
         readonly addPackagings: {
             readonly name: "AddPackagings";
@@ -225,7 +247,7 @@ export declare const ShippingsService: {
         /**
          * Remove packaging (represented by the UUID of the associated shipping packaging) from shipping and return the removed identifier
          *
-         * @generated from rpc tcube.ShippingsService.RemovePackaging
+         * @generated from rpc scanswift.ShippingsService.RemovePackaging
          */
         readonly removePackaging: {
             readonly name: "RemovePackaging";
@@ -236,7 +258,7 @@ export declare const ShippingsService: {
         /**
          * View all packagings associated with the shipping represented by the Identifier
          *
-         * @generated from rpc tcube.ShippingsService.ViewPackagings
+         * @generated from rpc scanswift.ShippingsService.ViewPackagings
          */
         readonly viewPackagings: {
             readonly name: "ViewPackagings";
@@ -247,7 +269,7 @@ export declare const ShippingsService: {
         /**
          * Count all packagings within a shipping
          *
-         * @generated from rpc tcube.ShippingsService.CountPackagings
+         * @generated from rpc scanswift.ShippingsService.CountPackagings
          */
         readonly countPackagings: {
             readonly name: "CountPackagings";

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / BatchesServiceFilterReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / BatchesServiceFilterReq
 
 # Class: BatchesServiceFilterReq
 
@@ -6,7 +6,7 @@ Describes the base request payload of a filter search
 
 **`Generated`**
 
-from message tcube.BatchesServiceFilterReq
+from message scanswift.BatchesServiceFilterReq
 
 ## Hierarchy
 
@@ -29,6 +29,7 @@ from message tcube.BatchesServiceFilterReq
 - [entityUuid](BatchesServiceFilterReq.md#entityuuid)
 - [internalCode](BatchesServiceFilterReq.md#internalcode)
 - [isActive](BatchesServiceFilterReq.md#isactive)
+- [isDownloaded](BatchesServiceFilterReq.md#isdownloaded)
 - [locationUuid](BatchesServiceFilterReq.md#locationuuid)
 - [name](BatchesServiceFilterReq.md#name)
 - [offset](BatchesServiceFilterReq.md#offset)
@@ -74,7 +75,7 @@ Message&lt;BatchesServiceFilterReq\&gt;.constructor
 
 #### Defined in
 
-[src/batches_pb.ts:540](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L540)
+[src/batches_pb.ts:563](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L563)
 
 ## Properties
 
@@ -90,7 +91,7 @@ from field: string code = 21;
 
 #### Defined in
 
-[src/batches_pb.ts:531](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L531)
+[src/batches_pb.ts:547](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L547)
 
 ___
 
@@ -106,7 +107,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/batches_pb.ts:461](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L461)
+[src/batches_pb.ts:477](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L477)
 
 ___
 
@@ -122,7 +123,7 @@ from field: int64 creation_timestamp_end = 7;
 
 #### Defined in
 
-[src/batches_pb.ts:496](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L496)
+[src/batches_pb.ts:512](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L512)
 
 ___
 
@@ -138,7 +139,7 @@ from field: int64 creation_timestamp_start = 6;
 
 #### Defined in
 
-[src/batches_pb.ts:489](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L489)
+[src/batches_pb.ts:505](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L505)
 
 ___
 
@@ -154,7 +155,7 @@ from field: string entity_uuid = 8;
 
 #### Defined in
 
-[src/batches_pb.ts:503](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L503)
+[src/batches_pb.ts:519](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L519)
 
 ___
 
@@ -170,7 +171,7 @@ from field: string internal_code = 22;
 
 #### Defined in
 
-[src/batches_pb.ts:538](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L538)
+[src/batches_pb.ts:554](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L554)
 
 ___
 
@@ -186,7 +187,23 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/batches_pb.ts:454](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L454)
+[src/batches_pb.ts:470](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L470)
+
+___
+
+### isDownloaded
+
+• **isDownloaded**: [`DOWNLOADED_STATUS`](../enums/DOWNLOADED_STATUS.md) = `DOWNLOADED_STATUS.DOWNLOADED_STATUS_ANY_UNSPECIFIED`
+
+The downloaded status
+
+**`Generated`**
+
+from field: scanswift.DOWNLOADED_STATUS is_downloaded = 40;
+
+#### Defined in
+
+[src/batches_pb.ts:561](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L561)
 
 ___
 
@@ -202,7 +219,7 @@ from field: string location_uuid = 9;
 
 #### Defined in
 
-[src/batches_pb.ts:510](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L510)
+[src/batches_pb.ts:526](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L526)
 
 ___
 
@@ -218,7 +235,7 @@ from field: string name = 20;
 
 #### Defined in
 
-[src/batches_pb.ts:524](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L524)
+[src/batches_pb.ts:540](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L540)
 
 ___
 
@@ -234,7 +251,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/batches_pb.ts:468](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L468)
+[src/batches_pb.ts:484](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L484)
 
 ___
 
@@ -250,7 +267,7 @@ from field: string product_uuid = 10;
 
 #### Defined in
 
-[src/batches_pb.ts:517](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L517)
+[src/batches_pb.ts:533](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L533)
 
 ___
 
@@ -262,11 +279,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.BATCH_SORT_KEY sort_key = 5;
+from field: scanswift.BATCH_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/batches_pb.ts:482](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L482)
+[src/batches_pb.ts:498](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L498)
 
 ___
 
@@ -278,11 +295,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/batches_pb.ts:475](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L475)
+[src/batches_pb.ts:491](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L491)
 
 ___
 
@@ -292,7 +309,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:547](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L547)
+[src/batches_pb.ts:570](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L570)
 
 ___
 
@@ -302,17 +319,17 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:545](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L545)
+[src/batches_pb.ts:568](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L568)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.BatchesServiceFilterReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.BatchesServiceFilterReq"``
 
 #### Defined in
 
-[src/batches_pb.ts:546](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L546)
+[src/batches_pb.ts:569](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L569)
 
 ## Methods
 
@@ -599,7 +616,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:575](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L575)
+[src/batches_pb.ts:599](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L599)
 
 ___
 
@@ -620,7 +637,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:563](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L563)
+[src/batches_pb.ts:587](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L587)
 
 ___
 
@@ -641,7 +658,7 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:567](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L567)
+[src/batches_pb.ts:591](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L591)
 
 ___
 
@@ -662,4 +679,4 @@ ___
 
 #### Defined in
 
-[src/batches_pb.ts:571](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/batches_pb.ts#L571)
+[src/batches_pb.ts:595](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/batches_pb.ts#L595)

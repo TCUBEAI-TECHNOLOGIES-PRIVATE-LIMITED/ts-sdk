@@ -1,7 +1,7 @@
 {
-  "name": "tcubesa-sdk",
-  "version": "1.0.3",
-  "description": "NPM module that provides access to the Track and Trace API",
+  "name": "scanswift-sdk",
+  "version": "1.0.0",
+  "description": "NPM module that provides access to the ScanSwift API",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
   "files": [
@@ -23,7 +23,7 @@
   },
   "keywords": [
     "TrackAndTrace",
-    "TCube",
+    "ScanSwift",
     "API"
   ],
   "author": "Pratheek Adidela <apratheek@unaxiom.com>",

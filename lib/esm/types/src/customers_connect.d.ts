@@ -5,15 +5,15 @@ import { ActiveInEntityRequest, CountInEntityRequest, CountResponse, Identifier,
  *
  * Describes the methods applicable on each customer
  *
- * @generated from service tcube.CustomersService
+ * @generated from service scanswift.CustomersService
  */
 export declare const CustomersService: {
-    readonly typeName: "tcube.CustomersService";
+    readonly typeName: "scanswift.CustomersService";
     readonly methods: {
         /**
          * Create a customer
          *
-         * @generated from rpc tcube.CustomersService.Create
+         * @generated from rpc scanswift.CustomersService.Create
          */
         readonly create: {
             readonly name: "Create";
@@ -24,7 +24,7 @@ export declare const CustomersService: {
         /**
          * Update a customer
          *
-         * @generated from rpc tcube.CustomersService.Update
+         * @generated from rpc scanswift.CustomersService.Update
          */
         readonly update: {
             readonly name: "Update";
@@ -35,7 +35,7 @@ export declare const CustomersService: {
         /**
          * Archive the customer
          *
-         * @generated from rpc tcube.CustomersService.Archive
+         * @generated from rpc scanswift.CustomersService.Archive
          */
         readonly archive: {
             readonly name: "Archive";
@@ -46,7 +46,7 @@ export declare const CustomersService: {
         /**
          * Restore the customer
          *
-         * @generated from rpc tcube.CustomersService.Restore
+         * @generated from rpc scanswift.CustomersService.Restore
          */
         readonly restore: {
             readonly name: "Restore";
@@ -57,7 +57,7 @@ export declare const CustomersService: {
         /**
          * View by UUID
          *
-         * @generated from rpc tcube.CustomersService.ViewByUUID
+         * @generated from rpc scanswift.CustomersService.ViewByUUID
          */
         readonly viewByUUID: {
             readonly name: "ViewByUUID";
@@ -68,7 +68,7 @@ export declare const CustomersService: {
         /**
          * View all customers
          *
-         * @generated from rpc tcube.CustomersService.ViewAll
+         * @generated from rpc scanswift.CustomersService.ViewAll
          */
         readonly viewAll: {
             readonly name: "ViewAll";
@@ -79,7 +79,7 @@ export declare const CustomersService: {
         /**
          * View customers with pagination
          *
-         * @generated from rpc tcube.CustomersService.ViewWithPagination
+         * @generated from rpc scanswift.CustomersService.ViewWithPagination
          */
         readonly viewWithPagination: {
             readonly name: "ViewWithPagination";
@@ -90,7 +90,7 @@ export declare const CustomersService: {
         /**
          * View all that match the given search key
          *
-         * @generated from rpc tcube.CustomersService.SearchAll
+         * @generated from rpc scanswift.CustomersService.SearchAll
          */
         readonly searchAll: {
             readonly name: "SearchAll";
@@ -101,7 +101,7 @@ export declare const CustomersService: {
         /**
          * View all that match the given filter criteria
          *
-         * @generated from rpc tcube.CustomersService.Filter
+         * @generated from rpc scanswift.CustomersService.Filter
          */
         readonly filter: {
             readonly name: "Filter";
@@ -112,7 +112,7 @@ export declare const CustomersService: {
         /**
          * Count
          *
-         * @generated from rpc tcube.CustomersService.Count
+         * @generated from rpc scanswift.CustomersService.Count
          */
         readonly count: {
             readonly name: "Count";

@@ -1,4 +1,4 @@
-[tcubesa-sdk](../README.md) / [Exports](../modules.md) / ProductsServiceSearchAllReq
+[scanswift-sdk](../README.md) / [Exports](../modules.md) / ProductsServiceSearchAllReq
 
 # Class: ProductsServiceSearchAllReq
 
@@ -6,7 +6,7 @@ Describes the request payload for performing a generic search operation on recor
 
 **`Generated`**
 
-from message tcube.ProductsServiceSearchAllReq
+from message scanswift.ProductsServiceSearchAllReq
 
 ## Hierarchy
 
@@ -68,7 +68,7 @@ Message&lt;ProductsServiceSearchAllReq\&gt;.constructor
 
 #### Defined in
 
-[src/products_pb.ts:983](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L983)
+[src/products_pb.ts:900](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L900)
 
 ## Properties
 
@@ -84,7 +84,7 @@ from field: int64 count = 2;
 
 #### Defined in
 
-[src/products_pb.ts:943](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L943)
+[src/products_pb.ts:860](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L860)
 
 ___
 
@@ -103,7 +103,7 @@ from field: string entity_uuid = 6;
 
 #### Defined in
 
-[src/products_pb.ts:974](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L974)
+[src/products_pb.ts:891](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L891)
 
 ___
 
@@ -119,7 +119,7 @@ from field: bool is_active = 1;
 
 #### Defined in
 
-[src/products_pb.ts:936](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L936)
+[src/products_pb.ts:853](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L853)
 
 ___
 
@@ -135,7 +135,7 @@ from field: int64 offset = 3;
 
 #### Defined in
 
-[src/products_pb.ts:950](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L950)
+[src/products_pb.ts:867](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L867)
 
 ___
 
@@ -151,7 +151,7 @@ from field: string search_key = 11;
 
 #### Defined in
 
-[src/products_pb.ts:981](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L981)
+[src/products_pb.ts:898](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L898)
 
 ___
 
@@ -163,11 +163,11 @@ The sort key that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.PRODUCT_SORT_KEY sort_key = 5;
+from field: scanswift.PRODUCT_SORT_KEY sort_key = 5;
 
 #### Defined in
 
-[src/products_pb.ts:964](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L964)
+[src/products_pb.ts:881](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L881)
 
 ___
 
@@ -179,11 +179,11 @@ The sort order that is to be used to fetch the pagination response
 
 **`Generated`**
 
-from field: tcube.SORT_ORDER sort_order = 4;
+from field: scanswift.SORT_ORDER sort_order = 4;
 
 #### Defined in
 
-[src/products_pb.ts:957](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L957)
+[src/products_pb.ts:874](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L874)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:990](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L990)
+[src/products_pb.ts:907](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L907)
 
 ___
 
@@ -203,17 +203,17 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:988](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L988)
+[src/products_pb.ts:905](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L905)
 
 ___
 
 ### typeName
 
-▪ `Static` `Readonly` **typeName**: ``"tcube.ProductsServiceSearchAllReq"``
+▪ `Static` `Readonly` **typeName**: ``"scanswift.ProductsServiceSearchAllReq"``
 
 #### Defined in
 
-[src/products_pb.ts:989](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L989)
+[src/products_pb.ts:906](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L906)
 
 ## Methods
 
@@ -500,7 +500,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:1012](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L1012)
+[src/products_pb.ts:929](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L929)
 
 ___
 
@@ -521,7 +521,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:1000](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L1000)
+[src/products_pb.ts:917](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L917)
 
 ___
 
@@ -542,7 +542,7 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:1004](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L1004)
+[src/products_pb.ts:921](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L921)
 
 ___
 
@@ -563,4 +563,4 @@ ___
 
 #### Defined in
 
-[src/products_pb.ts:1008](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/d89536e/src/products_pb.ts#L1008)
+[src/products_pb.ts:925](https://github.com/TCUBEAI-TECHNOLOGIES-PRIVATE-LIMITED/ts-sdk/blob/85a94f2/src/products_pb.ts#L925)
